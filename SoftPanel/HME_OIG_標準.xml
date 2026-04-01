@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<SoftPanel Width="936" Height="272">
+  <Panel Title="Axis" Top="8" Left="8" Width="224" Height="256">
+    <Button Title="Btn_A0101" Top="40" Left="8" Width="64" Height="64" Image="W_X_64x48.png" Singal="E2520.2" Lamp="E2820.2" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_A0102" Top="40" Left="80" Width="64" Height="64" Image="W_Z_64x48.png" Singal="E2520.3" Lamp="E2820.3" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_A0103" Top="40" Left="152" Width="64" Height="64" Image="W_Y_64x48.png" Singal="E2520.4" Lamp="E2820.4" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_A0201" Top="112" Left="8" Width="64" Height="64" Image="W_C_64x48.png" Singal="E2520.5" Lamp="E2820.5" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_A0202" Top="112" Left="80" Width="64" Height="64" Image="W_SP_CW_64x48.png" Singal="E2520.6" Lamp="E2820.6" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_A0203" Top="112" Left="152" Width="64" Height="64" Image="W_SP_CCW_64x48.png" Singal="E2520.7" Lamp="E2820.7" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_A0301" Top="184" Left="8" Width="64" Height="64" Image="W_JOGN_64x48.png" Singal="E2524.3" Lamp="E2822.0" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_A0302" Top="184" Left="80" Width="64" Height="64" Image="W_RAPID_64x48.png" Singal="E2524.2" Lamp="E2822.1" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_A0303" Top="184" Left="152" Width="64" Height="64" Image="W_JOGP_64x48.png" Singal="E2524.1" Lamp="E2822.2" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+  </Panel>
+  <Panel Title="Standard" Top="8" Left="248" Width="368" Height="256">
+    <Button Title="Btn_S0101" Top="40" Left="8" Width="64" Height="64" Image="W_SBK_64x48.png" Singal="E2524.4" Lamp="E2822.4" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_S0102" Top="40" Left="80" Width="64" Height="64" Image="W_BDT_64x48.png" Singal="E2524.5" Lamp="E2822.5" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_S0103" Top="40" Left="152" Width="64" Height="64" Image="W_DRN_64x48.png" Singal="E2524.6" Lamp="E2822.6" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_S0104" Top="40" Left="224" Width="64" Height="64" Image="W_M01_64x48.png" Singal="E2524.7" Lamp="E2822.7" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_S0105" Top="40" Left="296" Width="64" Height="64" Image="" Singal="" Lamp="" MouseDown="" MouseUp="" Click="" />
+    <Button Title="Btn_S0201" Top="112" Left="8" Width="64" Height="64" Image="W_GW_64x48.png" Singal="E2525.0" Lamp="E2823.0" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_S0202" Top="112" Left="80" Width="64" Height="64" Image="" Singal="" Lamp="" MouseDown="" MouseUp="" Click="" />
+    <Button Title="Btn_S0203" Top="112" Left="152" Width="64" Height="64" Image="W_LIGHT_64x48.png" Singal="E2525.2" Lamp="E2823.2" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_S0204" Top="112" Left="224" Width="64" Height="64" Image="W_COOLT_64x48.png" Singal="E2525.3" Lamp="E2823.3" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_S0205" Top="112" Left="296" Width="64" Height="64" Image="COOLT_GUN_64x48.png" Singal="E2524.0" Lamp="Y5.2" MouseDown="" MouseUp="" Click="PB_SwitchClick" />
+    <Button Title="Btn_S0301" Top="184" Left="8" Width="64" Height="64" Image="W_F1_64x48.png" Singal="E2525.4" Lamp="E2823.4" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_S0302" Top="184" Left="80" Width="64" Height="64" Image="W_F2_64x48.png" Singal="E2525.5" Lamp="E2823.5" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_S0303" Top="184" Left="152" Width="64" Height="64" Image="W_F3_64x48.png" Singal="E2525.6" Lamp="E2823.6" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_S0304" Top="184" Left="224" Width="64" Height="64" Image="W_SVO_64x48.png" Singal="E2525.7" Lamp="E2823.7" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="btn_SVO_Click" />
+    <Button Title="Btn_S0305" Top="184" Left="296" Width="64" Height="64" Image="" Singal="" Lamp="" MouseDown="" MouseUp="" Click="" />
+  </Panel>
+  <Panel Title="Options" Top="8" Left="632" Width="296" Height="256">
+    <Button Title="Btn_O0101" Top="40" Left="8" Width="64" Height="64" Image="W_SAFETY_64x48.png" Singal="E2511.7" Lamp="E2807.7" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_O0102" Top="40" Left="80" Width="64" Height="64" Image="W_DOOR_OPEN_64x48.png" Singal="E2511.6" Lamp="E2807.6" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_O0103" Top="40" Left="152" Width="64" Height="64" Image="W_DOOR_CLOSE_64x48.png" Singal="E2511.5" Lamp="E2807.5" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_O0104" Top="40" Left="224" Width="64" Height="64" Image="W_OILMIST_C_64x48.png" Singal="E2511.4" Lamp="E2807.4" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_O0201" Top="112" Left="8" Width="64" Height="64" Image="W_GAUGE_64x48.png" Singal="E2511.3" Lamp="E2807.3" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_O0202" Top="112" Left="80" Width="64" Height="64" Image="W_CHUCK_64x48.png" Singal="E2511.2" Lamp="E2807.2" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_O0203" Top="112" Left="152" Width="64" Height="64" Image="W_CW_64x48.png" Singal="E2511.1" Lamp="E2807.1" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_O0204" Top="112" Left="224" Width="64" Height="64" Image="W_CCW_64x48.png" Singal="E2511.0" Lamp="E2807.0" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_O0301" Top="184" Left="8" Width="64" Height="64" Image="W_PROBE_64x48.png" Singal="E2510.7" Lamp="E2806.7" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_O0302" Top="184" Left="80" Width="64" Height="64" Image="W_F4_64x48.png" Singal="E2510.6" Lamp="E2806.6" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_O0303" Top="184" Left="152" Width="64" Height="64" Image="W_F5_64x48.png" Singal="E2510.5" Lamp="E2806.5" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+    <Button Title="Btn_O0304" Top="184" Left="224" Width="64" Height="64" Image="W_BZOFF_64x48.png" Singal="E2510.4" Lamp="E2806.4" MouseDown="PB_MouseDown" MouseUp="PB_MouseUp" Click="" />
+  </Panel>
+</SoftPanel>

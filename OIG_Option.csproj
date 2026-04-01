@@ -1,0 +1,1514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B9BFCE91-0AB0-4BD9-9987-235209D27352}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OIG_Option</RootNamespace>
+    <AssemblyName>OIG Integration</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>palmary2 670x670.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BitComputeLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\BitComputeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\ComponentLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetFwlib64, Version=1.25.218.1656, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\DotNetFwlib64.dll</HintPath>
+    </Reference>
+    <Reference Include="DrawRotor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\DrawRotor.dll</HintPath>
+    </Reference>
+    <Reference Include="InifileLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\InifileLib.dll</HintPath>
+    </Reference>
+    <Reference Include="LanguageManagerLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\LanguageManagerLib.dll</HintPath>
+    </Reference>
+    <Reference Include="NumFormLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\NumFormLib.dll</HintPath>
+    </Reference>
+    <Reference Include="pmcMessagadll, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\pmcMessagadll.dll</HintPath>
+    </Reference>
+    <Reference Include="RoundButtonLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\RoundButtonLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SerialLib, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\SerialLib.dll</HintPath>
+    </Reference>
+    <Reference Include="StdMachineLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\StdMachineLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\..\..\07. 函式庫開發\Lib\SQLite\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="USBDetectorLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\USBDetectorLib.dll</HintPath>
+    </Reference>
+    <Reference Include="UserNumLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\UserNumLib.dll</HintPath>
+    </Reference>
+    <Reference Include="WinApiLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\WinApiLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes.cs" />
+    <Compile Include="Fo_CncConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fo_CncConnect.designer.cs">
+      <DependentUpon>Fo_CncConnect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fo_Keyboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fo_Keyboard.designer.cs">
+      <DependentUpon>Fo_Keyboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fo_MultLangEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fo_MultLangEdit.Designer.cs">
+      <DependentUpon>Fo_MultLangEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fo_Num.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fo_Num.designer.cs">
+      <DependentUpon>Fo_Num.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fo_Permission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fo_Permission.designer.cs">
+      <DependentUpon>Fo_Permission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fo_Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fo_Register.Designer.cs">
+      <DependentUpon>Fo_Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fo_SetSerial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fo_SetSerial.designer.cs">
+      <DependentUpon>Fo_SetSerial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fo_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fo_Main.Designer.cs">
+      <DependentUpon>Fo_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fo_Logo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fo_Logo.designer.cs">
+      <DependentUpon>Fo_Logo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fo_Msg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fo_Msg.designer.cs">
+      <DependentUpon>Fo_Msg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinkSQLite.cs" />
+    <Compile Include="MyStyleControl.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SerialDevice.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Units.cs" />
+    <Compile Include="URegister.cs" />
+    <EmbeddedResource Include="Fo_CncConnect.resx">
+      <DependentUpon>Fo_CncConnect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fo_Keyboard.resx">
+      <DependentUpon>Fo_Keyboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fo_Main.resx">
+      <DependentUpon>Fo_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fo_Logo.resx">
+      <DependentUpon>Fo_Logo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fo_Msg.resx">
+      <DependentUpon>Fo_Msg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fo_MultLangEdit.resx">
+      <DependentUpon>Fo_MultLangEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fo_Num.resx">
+      <DependentUpon>Fo_Num.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fo_Permission.resx">
+      <DependentUpon>Fo_Permission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fo_Register.resx">
+      <DependentUpon>Fo_Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fo_SetSerial.resx">
+      <DependentUpon>Fo_SetSerial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="image\OIG\Param\Shape2\0.pdn" />
+    <None Include="image\Process\150x150\Process201.pdn" />
+    <None Include="image\Process\150x150\Process202.pdn" />
+    <None Include="image\Process\150x150\Process203.pdn" />
+    <None Include="image\ProcImage\ID202\19908.pdn" />
+    <None Include="image\ProcImage\ID202\19909.pdn" />
+    <None Include="image\ProcImage\ID202\19910.pdn" />
+    <None Include="image\ProcImage\ID203\19908.pdn" />
+    <None Include="image\ProcImage\ID203\19909.pdn" />
+    <None Include="image\ProcImage\ID203\19910.pdn" />
+    <None Include="image\SoftPanel\W_DSP_CCW_64x48.pdn" />
+    <None Include="Language\CHT\font.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Language\ENG\font.ini" />
+    <None Include="Language\POL\font.ini" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SwitchOff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SwitchOn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GW1G55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GW1G57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GW1G58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GW3G55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GW3G57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn_S3_60x60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn_S3_60x60_L %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn_S3_60x60_LG2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnOff.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnOn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="image\Btn_S3_60x60.png" />
+    <Content Include="image\Btn_S3_60x60_GrayL3.png" />
+    <Content Include="image\Btn_S3_60x60_L.png" />
+    <Content Include="image\ex1.png" />
+    <Content Include="image\ex2.png" />
+    <Content Include="image\ex3.png" />
+    <Content Include="image\ex4.png" />
+    <Content Include="image\Field_112x40.png" />
+    <Content Include="image\icon\Error.ico" />
+    <Content Include="image\icon\Information.ico" />
+    <Content Include="image\icon\Question.ico" />
+    <Content Include="image\icon\Warning.ico" />
+    <Content Include="image\OCD\DressGW\G55.png" />
+    <Content Include="image\OCD\DressGW\G57.png" />
+    <Content Include="image\OCD\DressGW\G58.png" />
+    <Content Include="image\OCD\DressWorkpiece\G54G59X.png" />
+    <Content Include="image\OCD\DressWorkpiece\G54X.png" />
+    <Content Include="image\OCD\DressWorkpiece\G54Z.png" />
+    <Content Include="image\OCD\DressWorkpiece\G59Z.png" />
+    <Content Include="image\OCD\DressWorkpiece\G59Z_Length.png" />
+    <Content Include="image\OCD\DressWorkpiece\GG5459X_Diam.png" />
+    <Content Include="image\OCD\Param\Shape1\1.png" />
+    <Content Include="image\OCD\Param\Shape1\2.png" />
+    <Content Include="image\OCD\Param\Shape1\3.png" />
+    <Content Include="image\OCD\Param\Shape1\4.png" />
+    <Content Include="image\OCD\Param\Shape2\0.png" />
+    <Content Include="image\OCD\Param\Shape2\1.png" />
+    <Content Include="image\OCD\Param\Shape2\2.png" />
+    <Content Include="image\OCD\Param\Shape2\3.png" />
+    <Content Include="image\OCD\Param\Shape2\4.png" />
+    <Content Include="image\OCD\Param\Shape2\5.png" />
+    <Content Include="image\OCD\Param\Shape2\6.png" />
+    <Content Include="image\OCD\Param\Shape2\7.png" />
+    <Content Include="image\OCD\Param\Shape2\8.png" />
+    <Content Include="image\OCD\Param\Shape3\0.png" />
+    <Content Include="image\OCD\Param\Shape3\1.png" />
+    <Content Include="image\OCD\Param\Shape3\2.png" />
+    <Content Include="image\OCD\Param\Shape3\3.png" />
+    <Content Include="image\OCD\Param\Shape3\4.png" />
+    <Content Include="image\OCD\Param\Shape3\5.png" />
+    <Content Include="image\OCD\Param\Shape3\6.png" />
+    <Content Include="image\OCD\Param\Shape3\7.png" />
+    <Content Include="image\OCD\Param\Shape3\8.png" />
+    <Content Include="image\OCD\Param\Shape4\0.png" />
+    <Content Include="image\OCD\Param\Shape4\1.png" />
+    <Content Include="image\OCD\Param\Shape4\10.png" />
+    <Content Include="image\OCD\Param\Shape4\11.png" />
+    <Content Include="image\OCD\Param\Shape4\12.png" />
+    <Content Include="image\OCD\Param\Shape4\2.png" />
+    <Content Include="image\OCD\Param\Shape4\3.png" />
+    <Content Include="image\OCD\Param\Shape4\4.png" />
+    <Content Include="image\OCD\Param\Shape4\5.png" />
+    <Content Include="image\OCD\Param\Shape4\6.png" />
+    <Content Include="image\OCD\Param\Shape4\7.png" />
+    <Content Include="image\OCD\Param\Shape4\8.png" />
+    <Content Include="image\OCD\Param\Shape4\9.png" />
+    <Content Include="image\OCD\Param\Shape5\0.png" />
+    <Content Include="image\OCD\Param\Shape5\1.png" />
+    <Content Include="image\OCD\Param\Shape5\2.png" />
+    <Content Include="image\OCD\Param\Shape5\3.png" />
+    <Content Include="image\OCD\Param\Shape5\4.png" />
+    <Content Include="image\OCD\Param\Shape5\5.png" />
+    <Content Include="image\OCD\Param\Shape5\6.png" />
+    <Content Include="image\OCD\Param\Shape6\0.png" />
+    <Content Include="image\OCD\Param\Shape6\1.png" />
+    <Content Include="image\OCD\Param\Shape6\2.png" />
+    <Content Include="image\OCD\Param\Shape6\3.png" />
+    <Content Include="image\OCD\Param\Shape6\4.png" />
+    <Content Include="image\OCD\Param\Shape6\5.png" />
+    <Content Include="image\OCD\Param\Shape6\6.png" />
+    <Content Include="image\OIG\DressGW\G55.png" />
+    <Content Include="image\OIG\DressGW\G57.png" />
+    <Content Include="image\OIG\DressGW\G58.png" />
+    <Content Include="image\OIG\DressWorkpiece\G54G59X.png" />
+    <Content Include="image\OIG\DressWorkpiece\G54X.png" />
+    <Content Include="image\OIG\DressWorkpiece\G54Z.png" />
+    <Content Include="image\OIG\Param\Shape1\1.png" />
+    <Content Include="image\OIG\Param\Shape1\2.png" />
+    <Content Include="image\OIG\Param\Shape1\3.png" />
+    <Content Include="image\OIG\Param\Shape1\4.png" />
+    <Content Include="image\OIG\Param\Shape2\0.png" />
+    <Content Include="image\OIG\Param\Shape2\1.png" />
+    <Content Include="image\OIG\Param\Shape2\2.png" />
+    <Content Include="image\OIG\Param\Shape2\3.png" />
+    <Content Include="image\OIG\Param\Shape2\4.png" />
+    <Content Include="image\OIG\Param\Shape2\5.png" />
+    <Content Include="image\OIG\Param\Shape2\6.png" />
+    <Content Include="image\OIG\Param\Shape2\8.png" />
+    <Content Include="image\OIG\Param\Shape3\1.png" />
+    <Content Include="image\OIG\Param\Shape3\2.png" />
+    <Content Include="image\OIG\Param\Shape3\3.png" />
+    <Content Include="image\OIG\Param\Shape3\4.png" />
+    <Content Include="image\OIG\Param\Shape3\5.png" />
+    <Content Include="image\OIG\Param\Shape3\6.png" />
+    <Content Include="image\OIG\Param\Shape3\7.png" />
+    <Content Include="image\OIG\Param\Shape4\1.png" />
+    <Content Include="image\OIG\Param\Shape4\10.png" />
+    <Content Include="image\OIG\Param\Shape4\2.png" />
+    <Content Include="image\OIG\Param\Shape4\3.png" />
+    <Content Include="image\OIG\Param\Shape4\4.png" />
+    <Content Include="image\OIG\Param\Shape4\5.png" />
+    <Content Include="image\OIG\Param\Shape4\6.png" />
+    <Content Include="image\OIG\Param\Shape4\7.png" />
+    <Content Include="image\OIG\Param\Shape4\8.png" />
+    <Content Include="image\OIG\Param\Shape4\9.png" />
+    <Content Include="image\OIG\Param\Shape5\1.png" />
+    <Content Include="image\OIG\Param\Shape5\2.png" />
+    <Content Include="image\OIG\Param\Shape5\3.png" />
+    <Content Include="image\OIG\Param\Shape5\4.png" />
+    <Content Include="image\OIG\Param\Shape5\5.png" />
+    <Content Include="image\OIG\Shape\100x100\Shape1.png" />
+    <Content Include="image\OIG\Shape\100x100\Shape2.png" />
+    <Content Include="image\OIG\Shape\100x100\Shape3.png" />
+    <Content Include="image\OIG\Shape\100x100\Shape4.png" />
+    <Content Include="image\OIG\Shape\100x100\Shape5.png" />
+    <Content Include="image\OIG\Shape\100x100\Shape8.png" />
+    <Content Include="image\OIG\Shape\150x150\Shape1.png" />
+    <Content Include="image\OIG\Shape\150x150\Shape2.png" />
+    <Content Include="image\OIG\Shape\150x150\Shape3.png" />
+    <Content Include="image\OIG\Shape\150x150\Shape4.png" />
+    <Content Include="image\OIG\Shape\150x150\Shape5.png" />
+    <Content Include="image\OIG\Shape\150x150\Shape8.png" />
+    <Content Include="image\OIG\Shape\50x50\Shape1.png" />
+    <Content Include="image\OIG\Shape\50x50\Shape2.png" />
+    <Content Include="image\OIG\Shape\50x50\Shape3.png" />
+    <Content Include="image\OIG\Shape\50x50\Shape4.png" />
+    <Content Include="image\OIG\Shape\50x50\Shape5.png" />
+    <Content Include="image\OIG\Shape\50x50\Shape8.png" />
+    <Content Include="image\OIG\Shape\80x80\Shape1.png" />
+    <Content Include="image\OIG\Shape\80x80\Shape2.png" />
+    <Content Include="image\OIG\Shape\80x80\Shape3.png" />
+    <Content Include="image\OIG\Shape\80x80\Shape4.png" />
+    <Content Include="image\OIG\Shape\80x80\Shape5.png" />
+    <Content Include="image\OIG\Shape\80x80\Shape8.png" />
+    <Content Include="image\Process\100x100\Process01.bmp" />
+    <Content Include="image\Process\100x100\Process02.bmp" />
+    <Content Include="image\Process\100x100\Process03.bmp" />
+    <Content Include="image\Process\100x100\Process04.bmp" />
+    <Content Include="image\Process\100x100\Process05.bmp" />
+    <Content Include="image\Process\100x100\Process06.bmp" />
+    <Content Include="image\Process\100x100\Process07.bmp" />
+    <Content Include="image\Process\100x100\Process08.bmp" />
+    <Content Include="image\Process\100x100\Process09.bmp" />
+    <Content Include="image\Process\100x100\Process10.bmp" />
+    <Content Include="image\Process\100x100\Process101.bmp" />
+    <Content Include="image\Process\100x100\Process102.bmp" />
+    <Content Include="image\Process\100x100\Process103.bmp" />
+    <Content Include="image\Process\100x100\Process104.bmp" />
+    <Content Include="image\Process\100x100\Process105.bmp" />
+    <Content Include="image\Process\100x100\Process106.bmp" />
+    <Content Include="image\Process\100x100\Process11.bmp" />
+    <Content Include="image\Process\100x100\Process201.bmp" />
+    <Content Include="image\Process\100x100\Process202.bmp" />
+    <Content Include="image\Process\100x100\Process203.bmp" />
+    <Content Include="image\Process\100x100\Process999.bmp" />
+    <Content Include="image\Process\150x150\Process01.bmp" />
+    <Content Include="image\Process\150x150\Process02.bmp" />
+    <Content Include="image\Process\150x150\Process03.bmp" />
+    <Content Include="image\Process\150x150\Process04.bmp" />
+    <Content Include="image\Process\150x150\Process05.bmp" />
+    <Content Include="image\Process\150x150\Process06.bmp" />
+    <Content Include="image\Process\150x150\Process07.bmp" />
+    <Content Include="image\Process\150x150\Process08.bmp" />
+    <Content Include="image\Process\150x150\Process09.bmp" />
+    <Content Include="image\Process\150x150\Process10.bmp" />
+    <Content Include="image\Process\150x150\Process101.bmp" />
+    <Content Include="image\Process\150x150\Process102.bmp" />
+    <Content Include="image\Process\150x150\Process103.bmp" />
+    <Content Include="image\Process\150x150\Process104.bmp" />
+    <Content Include="image\Process\150x150\Process105.bmp" />
+    <Content Include="image\Process\150x150\Process106.bmp" />
+    <Content Include="image\Process\150x150\Process11.bmp" />
+    <Content Include="image\Process\150x150\Process201.bmp" />
+    <Content Include="image\Process\150x150\Process202.bmp" />
+    <Content Include="image\Process\150x150\Process203.bmp" />
+    <Content Include="image\Process\150x150\Process999.bmp" />
+    <Content Include="image\Process\40x40\Process01.bmp" />
+    <Content Include="image\Process\40x40\Process02.bmp" />
+    <Content Include="image\Process\40x40\Process03.bmp" />
+    <Content Include="image\Process\40x40\Process04.bmp" />
+    <Content Include="image\Process\40x40\Process05.bmp" />
+    <Content Include="image\Process\40x40\Process06.bmp" />
+    <Content Include="image\Process\40x40\Process07.bmp" />
+    <Content Include="image\Process\40x40\Process08.bmp" />
+    <Content Include="image\Process\40x40\Process09.bmp" />
+    <Content Include="image\Process\40x40\Process10.bmp" />
+    <Content Include="image\Process\40x40\Process101.bmp" />
+    <Content Include="image\Process\40x40\Process102.bmp" />
+    <Content Include="image\Process\40x40\Process103.bmp" />
+    <Content Include="image\Process\40x40\Process104.bmp" />
+    <Content Include="image\Process\40x40\Process105.bmp" />
+    <Content Include="image\Process\40x40\Process106.bmp" />
+    <Content Include="image\Process\40x40\Process11.bmp" />
+    <Content Include="image\Process\40x40\Process201.bmp" />
+    <Content Include="image\Process\40x40\Process999.bmp" />
+    <Content Include="image\Process\50x50\Process01.bmp" />
+    <Content Include="image\Process\50x50\Process02.bmp" />
+    <Content Include="image\Process\50x50\Process03.bmp" />
+    <Content Include="image\Process\50x50\Process04.bmp" />
+    <Content Include="image\Process\50x50\Process05.bmp" />
+    <Content Include="image\Process\50x50\Process06.bmp" />
+    <Content Include="image\Process\50x50\Process07.bmp" />
+    <Content Include="image\Process\50x50\Process08.bmp" />
+    <Content Include="image\Process\50x50\Process09.bmp" />
+    <Content Include="image\Process\50x50\Process10.bmp" />
+    <Content Include="image\Process\50x50\Process101.bmp" />
+    <Content Include="image\Process\50x50\Process102.bmp" />
+    <Content Include="image\Process\50x50\Process103.bmp" />
+    <Content Include="image\Process\50x50\Process104.bmp" />
+    <Content Include="image\Process\50x50\Process105.bmp" />
+    <Content Include="image\Process\50x50\Process106.bmp" />
+    <Content Include="image\Process\50x50\Process11.bmp" />
+    <Content Include="image\Process\50x50\Process201.bmp" />
+    <Content Include="image\Process\50x50\Process999.bmp" />
+    <Content Include="image\ProcImage\ID10\19810.png" />
+    <Content Include="image\ProcImage\ID10\19811.png" />
+    <Content Include="image\ProcImage\ID10\19812.png" />
+    <Content Include="image\ProcImage\ID10\19813.png" />
+    <Content Include="image\ProcImage\ID10\19819.png" />
+    <Content Include="image\ProcImage\ID10\19820.png" />
+    <Content Include="image\ProcImage\ID10\19821.png" />
+    <Content Include="image\ProcImage\ID10\19822.png" />
+    <Content Include="image\ProcImage\ID10\19824.png" />
+    <Content Include="image\ProcImage\ID10\19827.png" />
+    <Content Include="image\ProcImage\ID10\19828.png" />
+    <Content Include="image\ProcImage\ID10\19830.png" />
+    <Content Include="image\ProcImage\ID10\19831.png" />
+    <Content Include="image\ProcImage\ID10\19833.png" />
+    <Content Include="image\ProcImage\ID10\19834.png" />
+    <Content Include="image\ProcImage\ID10\19836.png" />
+    <Content Include="image\ProcImage\ID10\19837.png" />
+    <Content Include="image\ProcImage\ID10\19839.png" />
+    <Content Include="image\ProcImage\ID10\19842.png" />
+    <Content Include="image\ProcImage\ID10\19843.png" />
+    <Content Include="image\ProcImage\ID10\19844.png" />
+    <Content Include="image\ProcImage\ID10\19845.png" />
+    <Content Include="image\ProcImage\ID10\19848.png" />
+    <Content Include="image\ProcImage\ID10\19849.png" />
+    <Content Include="image\ProcImage\ID1\19810.png" />
+    <Content Include="image\ProcImage\ID1\19812.png" />
+    <Content Include="image\ProcImage\ID1\19816.png" />
+    <Content Include="image\ProcImage\ID1\19819.png" />
+    <Content Include="image\ProcImage\ID1\19821.png" />
+    <Content Include="image\ProcImage\ID1\19822.png" />
+    <Content Include="image\ProcImage\ID1\19823.png" />
+    <Content Include="image\ProcImage\ID1\19824.png" />
+    <Content Include="image\ProcImage\ID1\19830.png" />
+    <Content Include="image\ProcImage\ID1\19831.png" />
+    <Content Include="image\ProcImage\ID1\19832.png" />
+    <Content Include="image\ProcImage\ID1\19838.png" />
+    <Content Include="image\ProcImage\ID1\19841.png" />
+    <Content Include="image\ProcImage\ID1\19853.png" />
+    <Content Include="image\ProcImage\ID1\19854.png" />
+    <Content Include="image\ProcImage\ID1\19855.png" />
+    <Content Include="image\ProcImage\ID1\19859.png" />
+    <Content Include="image\ProcImage\ID1\19870.png" />
+    <Content Include="image\ProcImage\ID1\19871.png" />
+    <Content Include="image\ProcImage\ID1\19872.png" />
+    <Content Include="image\ProcImage\ID202\19908.png" />
+    <Content Include="image\ProcImage\ID202\19909.png" />
+    <Content Include="image\ProcImage\ID202\19910.png" />
+    <Content Include="image\ProcImage\ID203\19908.png" />
+    <Content Include="image\ProcImage\ID203\19909.png" />
+    <Content Include="image\ProcImage\ID203\19910.png" />
+    <Content Include="image\ProcImage\ID21\19810.png" />
+    <Content Include="image\ProcImage\ID21\19812.png" />
+    <Content Include="image\ProcImage\ID21\19821.png" />
+    <Content Include="image\ProcImage\ID21\19822.png" />
+    <Content Include="image\ProcImage\ID21\19823.png" />
+    <Content Include="image\ProcImage\ID21\19824.png" />
+    <Content Include="image\ProcImage\ID21\19825.png" />
+    <Content Include="image\ProcImage\ID21\19830.png" />
+    <Content Include="image\ProcImage\ID21\19831.png" />
+    <Content Include="image\ProcImage\ID21\19832.png" />
+    <Content Include="image\ProcImage\ID21\19838.png" />
+    <Content Include="image\ProcImage\ID21\19856.png" />
+    <Content Include="image\ProcImage\ID22\19810.png" />
+    <Content Include="image\ProcImage\ID22\19811.png" />
+    <Content Include="image\ProcImage\ID22\19812.png" />
+    <Content Include="image\ProcImage\ID22\19813.png" />
+    <Content Include="image\ProcImage\ID22\19814.png" />
+    <Content Include="image\ProcImage\ID22\19821.png" />
+    <Content Include="image\ProcImage\ID22\19822.png" />
+    <Content Include="image\ProcImage\ID22\19823.png" />
+    <Content Include="image\ProcImage\ID22\19824.png" />
+    <Content Include="image\ProcImage\ID22\19825.png" />
+    <Content Include="image\ProcImage\ID22\19827.png" />
+    <Content Include="image\ProcImage\ID22\19828.png" />
+    <Content Include="image\ProcImage\ID22\19829.png" />
+    <Content Include="image\ProcImage\ID22\19833.png" />
+    <Content Include="image\ProcImage\ID22\19834.png" />
+    <Content Include="image\ProcImage\ID22\19835.png" />
+    <Content Include="image\ProcImage\ID22\19836.png" />
+    <Content Include="image\ProcImage\ID22\19837.png" />
+    <Content Include="image\ProcImage\ID22\19839.png" />
+    <Content Include="image\ProcImage\ID22\19842.png" />
+    <Content Include="image\ProcImage\ID22\19843.png" />
+    <Content Include="image\ProcImage\ID22\19844.png" />
+    <Content Include="image\ProcImage\ID22\19845.png" />
+    <Content Include="image\ProcImage\ID22\19846.png" />
+    <Content Include="image\ProcImage\ID22\19847.png" />
+    <Content Include="image\ProcImage\ID22\19848.png" />
+    <Content Include="image\ProcImage\ID22\19849.png" />
+    <Content Include="image\ProcImage\ID22\19856.png" />
+    <Content Include="image\ProcImage\ID22\橫進刀模式-終點進刀.png" />
+    <Content Include="image\ProcImage\ID22\橫進刀模式-起點進刀.png" />
+    <Content Include="image\ProcImage\ID22\橫進刀模式-雙邊進刀.png" />
+    <Content Include="image\ProcImage\ID22\終點偏移量.png" />
+    <Content Include="image\ProcImage\ID23\19810.png" />
+    <Content Include="image\ProcImage\ID23\19812.png" />
+    <Content Include="image\ProcImage\ID23\19821.png" />
+    <Content Include="image\ProcImage\ID23\19822.png" />
+    <Content Include="image\ProcImage\ID23\19824.png" />
+    <Content Include="image\ProcImage\ID23\19825.png" />
+    <Content Include="image\ProcImage\ID23\19830.png" />
+    <Content Include="image\ProcImage\ID23\19831.png" />
+    <Content Include="image\ProcImage\ID23\19838.png" />
+    <Content Include="image\ProcImage\ID24\19810.png" />
+    <Content Include="image\ProcImage\ID24\19812.png" />
+    <Content Include="image\ProcImage\ID24\19815.png" />
+    <Content Include="image\ProcImage\ID24\19821.png" />
+    <Content Include="image\ProcImage\ID24\19822.png" />
+    <Content Include="image\ProcImage\ID24\19823.png" />
+    <Content Include="image\ProcImage\ID24\19824.png" />
+    <Content Include="image\ProcImage\ID24\19825.png" />
+    <Content Include="image\ProcImage\ID24\19830.png" />
+    <Content Include="image\ProcImage\ID24\19831.png" />
+    <Content Include="image\ProcImage\ID24\19832.png" />
+    <Content Include="image\ProcImage\ID24\19836.png" />
+    <Content Include="image\ProcImage\ID24\19838.png" />
+    <Content Include="image\ProcImage\ID24\19848.png" />
+    <Content Include="image\ProcImage\ID24\19849.png" />
+    <Content Include="image\ProcImage\ID24\19856.png" />
+    <Content Include="image\ProcImage\ID25\19810.png" />
+    <Content Include="image\ProcImage\ID25\19812.png" />
+    <Content Include="image\ProcImage\ID25\19821.png" />
+    <Content Include="image\ProcImage\ID25\19822.png" />
+    <Content Include="image\ProcImage\ID25\19823.png" />
+    <Content Include="image\ProcImage\ID25\19824.png" />
+    <Content Include="image\ProcImage\ID25\19825.png" />
+    <Content Include="image\ProcImage\ID25\19830.png" />
+    <Content Include="image\ProcImage\ID25\19831.png" />
+    <Content Include="image\ProcImage\ID25\19832.png" />
+    <Content Include="image\ProcImage\ID25\19838.png" />
+    <Content Include="image\ProcImage\ID26\19810.png" />
+    <Content Include="image\ProcImage\ID26\19812.png" />
+    <Content Include="image\ProcImage\ID26\19813.png" />
+    <Content Include="image\ProcImage\ID26\19821.png" />
+    <Content Include="image\ProcImage\ID26\19822.png" />
+    <Content Include="image\ProcImage\ID26\19823.png" />
+    <Content Include="image\ProcImage\ID26\19824.png" />
+    <Content Include="image\ProcImage\ID26\19825.png" />
+    <Content Include="image\ProcImage\ID26\19827.png" />
+    <Content Include="image\ProcImage\ID26\19828.png" />
+    <Content Include="image\ProcImage\ID26\19829.png" />
+    <Content Include="image\ProcImage\ID26\19833.png" />
+    <Content Include="image\ProcImage\ID26\19834.png" />
+    <Content Include="image\ProcImage\ID26\19835.png" />
+    <Content Include="image\ProcImage\ID26\19836.png" />
+    <Content Include="image\ProcImage\ID26\19837.png" />
+    <Content Include="image\ProcImage\ID26\19839.png" />
+    <Content Include="image\ProcImage\ID26\19842.png" />
+    <Content Include="image\ProcImage\ID26\19843.png" />
+    <Content Include="image\ProcImage\ID26\19844.png" />
+    <Content Include="image\ProcImage\ID26\19845.png" />
+    <Content Include="image\ProcImage\ID26\19846.png" />
+    <Content Include="image\ProcImage\ID26\19847.png" />
+    <Content Include="image\ProcImage\ID26\19848.png" />
+    <Content Include="image\ProcImage\ID26\19849.png" />
+    <Content Include="image\ProcImage\ID26\19873.png" />
+    <Content Include="image\ProcImage\ID26\19874.png" />
+    <Content Include="image\ProcImage\ID26\橫進刀模式-終點進刀.png" />
+    <Content Include="image\ProcImage\ID26\橫進刀模式-起點進刀.png" />
+    <Content Include="image\ProcImage\ID26\橫進刀模式-雙邊進刀.png" />
+    <Content Include="image\ProcImage\ID2\19810.png" />
+    <Content Include="image\ProcImage\ID2\19811.png" />
+    <Content Include="image\ProcImage\ID2\19812.png" />
+    <Content Include="image\ProcImage\ID2\19813.png" />
+    <Content Include="image\ProcImage\ID2\19816.png" />
+    <Content Include="image\ProcImage\ID2\19817.png" />
+    <Content Include="image\ProcImage\ID2\19818.png" />
+    <Content Include="image\ProcImage\ID2\19819.png" />
+    <Content Include="image\ProcImage\ID2\19821.png" />
+    <Content Include="image\ProcImage\ID2\19822.png" />
+    <Content Include="image\ProcImage\ID2\19823.png" />
+    <Content Include="image\ProcImage\ID2\19824.png" />
+    <Content Include="image\ProcImage\ID2\19826.png" />
+    <Content Include="image\ProcImage\ID2\19827.png" />
+    <Content Include="image\ProcImage\ID2\19828.png" />
+    <Content Include="image\ProcImage\ID2\19829.png" />
+    <Content Include="image\ProcImage\ID2\19830.png" />
+    <Content Include="image\ProcImage\ID2\19831.png" />
+    <Content Include="image\ProcImage\ID2\19832.png" />
+    <Content Include="image\ProcImage\ID2\19833.png" />
+    <Content Include="image\ProcImage\ID2\19834.png" />
+    <Content Include="image\ProcImage\ID2\19835.png" />
+    <Content Include="image\ProcImage\ID2\19836.png" />
+    <Content Include="image\ProcImage\ID2\19837.png" />
+    <Content Include="image\ProcImage\ID2\19839.png" />
+    <Content Include="image\ProcImage\ID2\19842.png" />
+    <Content Include="image\ProcImage\ID2\19843.png" />
+    <Content Include="image\ProcImage\ID2\19844.png" />
+    <Content Include="image\ProcImage\ID2\19845.png" />
+    <Content Include="image\ProcImage\ID2\19846.png" />
+    <Content Include="image\ProcImage\ID2\19847.png" />
+    <Content Include="image\ProcImage\ID2\19848.png" />
+    <Content Include="image\ProcImage\ID2\19849.png" />
+    <Content Include="image\ProcImage\ID2\19855.png" />
+    <Content Include="image\ProcImage\ID2\19877.png" />
+    <Content Include="image\ProcImage\ID3\19810.png" />
+    <Content Include="image\ProcImage\ID3\19812.png" />
+    <Content Include="image\ProcImage\ID3\19819.png" />
+    <Content Include="image\ProcImage\ID3\19820.png" />
+    <Content Include="image\ProcImage\ID3\19821.png" />
+    <Content Include="image\ProcImage\ID3\19822.png" />
+    <Content Include="image\ProcImage\ID3\19824.png" />
+    <Content Include="image\ProcImage\ID3\19825.png" />
+    <Content Include="image\ProcImage\ID3\19830.png" />
+    <Content Include="image\ProcImage\ID3\19831.png" />
+    <Content Include="image\ProcImage\ID3\19838.png" />
+    <Content Include="image\ProcImage\ID41\19810.png" />
+    <Content Include="image\ProcImage\ID41\19812.png" />
+    <Content Include="image\ProcImage\ID41\19816.png" />
+    <Content Include="image\ProcImage\ID41\19819.png" />
+    <Content Include="image\ProcImage\ID41\19821.png" />
+    <Content Include="image\ProcImage\ID41\19822.png" />
+    <Content Include="image\ProcImage\ID41\19823.png" />
+    <Content Include="image\ProcImage\ID41\19824.png" />
+    <Content Include="image\ProcImage\ID41\19825.png" />
+    <Content Include="image\ProcImage\ID41\19826.png" />
+    <Content Include="image\ProcImage\ID41\19830.png" />
+    <Content Include="image\ProcImage\ID41\19831.png" />
+    <Content Include="image\ProcImage\ID41\19832.png" />
+    <Content Include="image\ProcImage\ID41\19838.png" />
+    <Content Include="image\ProcImage\ID41\19841.png" />
+    <Content Include="image\ProcImage\ID41\19853.png" />
+    <Content Include="image\ProcImage\ID41\19854.png" />
+    <Content Include="image\ProcImage\ID41\19855.png" />
+    <Content Include="image\ProcImage\ID41\19870.png" />
+    <Content Include="image\ProcImage\ID41\19871.png" />
+    <Content Include="image\ProcImage\ID41\19872.png" />
+    <Content Include="image\ProcImage\ID42\19810.png" />
+    <Content Include="image\ProcImage\ID42\19811.png" />
+    <Content Include="image\ProcImage\ID42\19812.png" />
+    <Content Include="image\ProcImage\ID42\19813.png" />
+    <Content Include="image\ProcImage\ID42\19816.png" />
+    <Content Include="image\ProcImage\ID42\19817.png" />
+    <Content Include="image\ProcImage\ID42\19818.png" />
+    <Content Include="image\ProcImage\ID42\19819.png" />
+    <Content Include="image\ProcImage\ID42\19821.png" />
+    <Content Include="image\ProcImage\ID42\19822.png" />
+    <Content Include="image\ProcImage\ID42\19823.png" />
+    <Content Include="image\ProcImage\ID42\19824.png" />
+    <Content Include="image\ProcImage\ID42\19825.png" />
+    <Content Include="image\ProcImage\ID42\19826.png" />
+    <Content Include="image\ProcImage\ID42\19827.png" />
+    <Content Include="image\ProcImage\ID42\19828.png" />
+    <Content Include="image\ProcImage\ID42\19829.png" />
+    <Content Include="image\ProcImage\ID42\19830.png" />
+    <Content Include="image\ProcImage\ID42\19831.png" />
+    <Content Include="image\ProcImage\ID42\19832.png" />
+    <Content Include="image\ProcImage\ID42\19833.png" />
+    <Content Include="image\ProcImage\ID42\19834.png" />
+    <Content Include="image\ProcImage\ID42\19835.png" />
+    <Content Include="image\ProcImage\ID42\19836.png" />
+    <Content Include="image\ProcImage\ID42\19837.png" />
+    <Content Include="image\ProcImage\ID42\19839.png" />
+    <Content Include="image\ProcImage\ID42\19842.png" />
+    <Content Include="image\ProcImage\ID42\19843.png" />
+    <Content Include="image\ProcImage\ID42\19844.png" />
+    <Content Include="image\ProcImage\ID42\19845.png" />
+    <Content Include="image\ProcImage\ID42\19846.png" />
+    <Content Include="image\ProcImage\ID42\19847.png" />
+    <Content Include="image\ProcImage\ID42\19848.png" />
+    <Content Include="image\ProcImage\ID42\19849.png" />
+    <Content Include="image\ProcImage\ID42\19855.png" />
+    <Content Include="image\ProcImage\ID42\19877.png" />
+    <Content Include="image\ProcImage\ID43\19810.png" />
+    <Content Include="image\ProcImage\ID43\19812.png" />
+    <Content Include="image\ProcImage\ID43\19819.png" />
+    <Content Include="image\ProcImage\ID43\19820.png" />
+    <Content Include="image\ProcImage\ID43\19821.png" />
+    <Content Include="image\ProcImage\ID43\19822.png" />
+    <Content Include="image\ProcImage\ID43\19824.png" />
+    <Content Include="image\ProcImage\ID43\19825.png" />
+    <Content Include="image\ProcImage\ID43\19830.png" />
+    <Content Include="image\ProcImage\ID43\19831.png" />
+    <Content Include="image\ProcImage\ID43\19838.png" />
+    <Content Include="image\ProcImage\ID44\19810.png" />
+    <Content Include="image\ProcImage\ID44\19812.png" />
+    <Content Include="image\ProcImage\ID44\19815.png" />
+    <Content Include="image\ProcImage\ID44\19816.png" />
+    <Content Include="image\ProcImage\ID44\19819.png" />
+    <Content Include="image\ProcImage\ID44\19821.png" />
+    <Content Include="image\ProcImage\ID44\19822.png" />
+    <Content Include="image\ProcImage\ID44\19823.png" />
+    <Content Include="image\ProcImage\ID44\19824.png" />
+    <Content Include="image\ProcImage\ID44\19825.png" />
+    <Content Include="image\ProcImage\ID44\19826.png" />
+    <Content Include="image\ProcImage\ID44\19830.png" />
+    <Content Include="image\ProcImage\ID44\19831.png" />
+    <Content Include="image\ProcImage\ID44\19832.png" />
+    <Content Include="image\ProcImage\ID44\19836.png" />
+    <Content Include="image\ProcImage\ID44\19838.png" />
+    <Content Include="image\ProcImage\ID44\19848.png" />
+    <Content Include="image\ProcImage\ID44\19849.png" />
+    <Content Include="image\ProcImage\ID44\19856.png" />
+    <Content Include="image\ProcImage\ID45\19810.png" />
+    <Content Include="image\ProcImage\ID45\19812.png" />
+    <Content Include="image\ProcImage\ID45\19819.png" />
+    <Content Include="image\ProcImage\ID45\19820.png" />
+    <Content Include="image\ProcImage\ID45\19821.png" />
+    <Content Include="image\ProcImage\ID45\19822.png" />
+    <Content Include="image\ProcImage\ID45\19823.png" />
+    <Content Include="image\ProcImage\ID45\19824.png" />
+    <Content Include="image\ProcImage\ID45\19825.png" />
+    <Content Include="image\ProcImage\ID45\19826.png" />
+    <Content Include="image\ProcImage\ID45\19830.png" />
+    <Content Include="image\ProcImage\ID45\19831.png" />
+    <Content Include="image\ProcImage\ID45\19832.png" />
+    <Content Include="image\ProcImage\ID45\19838.png" />
+    <Content Include="image\ProcImage\ID46\19810.png" />
+    <Content Include="image\ProcImage\ID46\19812.png" />
+    <Content Include="image\ProcImage\ID46\19813.png" />
+    <Content Include="image\ProcImage\ID46\19819.png" />
+    <Content Include="image\ProcImage\ID46\19821.png" />
+    <Content Include="image\ProcImage\ID46\19822.png" />
+    <Content Include="image\ProcImage\ID46\19823.png" />
+    <Content Include="image\ProcImage\ID46\19824.png" />
+    <Content Include="image\ProcImage\ID46\19825.png" />
+    <Content Include="image\ProcImage\ID46\19826.png" />
+    <Content Include="image\ProcImage\ID46\19827.png" />
+    <Content Include="image\ProcImage\ID46\19828.png" />
+    <Content Include="image\ProcImage\ID46\19829.png" />
+    <Content Include="image\ProcImage\ID46\19830.png" />
+    <Content Include="image\ProcImage\ID46\19831.png" />
+    <Content Include="image\ProcImage\ID46\19832.png" />
+    <Content Include="image\ProcImage\ID46\19833.png" />
+    <Content Include="image\ProcImage\ID46\19834.png" />
+    <Content Include="image\ProcImage\ID46\19835.png" />
+    <Content Include="image\ProcImage\ID46\19836.png" />
+    <Content Include="image\ProcImage\ID46\19837.png" />
+    <Content Include="image\ProcImage\ID46\19839.png" />
+    <Content Include="image\ProcImage\ID46\19842.png" />
+    <Content Include="image\ProcImage\ID46\19843.png" />
+    <Content Include="image\ProcImage\ID46\19844.png" />
+    <Content Include="image\ProcImage\ID46\19845.png" />
+    <Content Include="image\ProcImage\ID46\19846.png" />
+    <Content Include="image\ProcImage\ID46\19847.png" />
+    <Content Include="image\ProcImage\ID46\19848.png" />
+    <Content Include="image\ProcImage\ID46\19849.png" />
+    <Content Include="image\ProcImage\ID46\19873.png" />
+    <Content Include="image\ProcImage\ID46\19874.png" />
+    <Content Include="image\ProcImage\ID47\19810.png" />
+    <Content Include="image\ProcImage\ID47\19811.png" />
+    <Content Include="image\ProcImage\ID47\19812.png" />
+    <Content Include="image\ProcImage\ID47\19813.png" />
+    <Content Include="image\ProcImage\ID47\19814.png" />
+    <Content Include="image\ProcImage\ID47\19819.png" />
+    <Content Include="image\ProcImage\ID47\19820.png" />
+    <Content Include="image\ProcImage\ID47\19821.png" />
+    <Content Include="image\ProcImage\ID47\19822.png" />
+    <Content Include="image\ProcImage\ID47\19823.png" />
+    <Content Include="image\ProcImage\ID47\19824.png" />
+    <Content Include="image\ProcImage\ID47\19825.png" />
+    <Content Include="image\ProcImage\ID47\19826.png" />
+    <Content Include="image\ProcImage\ID47\19827.png" />
+    <Content Include="image\ProcImage\ID47\19828.png" />
+    <Content Include="image\ProcImage\ID47\19829.png" />
+    <Content Include="image\ProcImage\ID47\19830.png" />
+    <Content Include="image\ProcImage\ID47\19831.png" />
+    <Content Include="image\ProcImage\ID47\19832.png" />
+    <Content Include="image\ProcImage\ID47\19833.png" />
+    <Content Include="image\ProcImage\ID47\19834.png" />
+    <Content Include="image\ProcImage\ID47\19835.png" />
+    <Content Include="image\ProcImage\ID47\19836.png" />
+    <Content Include="image\ProcImage\ID47\19837.png" />
+    <Content Include="image\ProcImage\ID47\19842.png" />
+    <Content Include="image\ProcImage\ID47\19843.png" />
+    <Content Include="image\ProcImage\ID47\19844.png" />
+    <Content Include="image\ProcImage\ID47\19845.png" />
+    <Content Include="image\ProcImage\ID47\19846.png" />
+    <Content Include="image\ProcImage\ID47\19847.png" />
+    <Content Include="image\ProcImage\ID47\19848.png" />
+    <Content Include="image\ProcImage\ID47\19849.png" />
+    <Content Include="image\ProcImage\ID47\19873.png" />
+    <Content Include="image\ProcImage\ID47\19874.png" />
+    <Content Include="image\ProcImage\ID47\19887.png" />
+    <Content Include="image\ProcImage\ID4\19810.png" />
+    <Content Include="image\ProcImage\ID4\19812.png" />
+    <Content Include="image\ProcImage\ID4\19819.png" />
+    <Content Include="image\ProcImage\ID4\19820.png" />
+    <Content Include="image\ProcImage\ID4\19821.png" />
+    <Content Include="image\ProcImage\ID4\19822.png" />
+    <Content Include="image\ProcImage\ID4\19824.png" />
+    <Content Include="image\ProcImage\ID4\19825.png" />
+    <Content Include="image\ProcImage\ID4\19830.png" />
+    <Content Include="image\ProcImage\ID4\19831.png" />
+    <Content Include="image\ProcImage\ID4\19838.png" />
+    <Content Include="image\ProcImage\ID50\19810.png" />
+    <Content Include="image\ProcImage\ID50\19812.png" />
+    <Content Include="image\ProcImage\ID50\19821.png" />
+    <Content Include="image\ProcImage\ID50\19822.png" />
+    <Content Include="image\ProcImage\ID50\19823.png" />
+    <Content Include="image\ProcImage\ID50\19824.png" />
+    <Content Include="image\ProcImage\ID50\19825.png" />
+    <Content Include="image\ProcImage\ID50\19830.png" />
+    <Content Include="image\ProcImage\ID50\19831.png" />
+    <Content Include="image\ProcImage\ID50\19832.png" />
+    <Content Include="image\ProcImage\ID50\19838.png" />
+    <Content Include="image\ProcImage\ID50\19856.png" />
+    <Content Include="image\ProcImage\ID51\19810.png" />
+    <Content Include="image\ProcImage\ID51\19811.png" />
+    <Content Include="image\ProcImage\ID51\19812.png" />
+    <Content Include="image\ProcImage\ID51\19813.png" />
+    <Content Include="image\ProcImage\ID51\19814.png" />
+    <Content Include="image\ProcImage\ID51\19821.png" />
+    <Content Include="image\ProcImage\ID51\19822.png" />
+    <Content Include="image\ProcImage\ID51\19823.png" />
+    <Content Include="image\ProcImage\ID51\19824.png" />
+    <Content Include="image\ProcImage\ID51\19825.png" />
+    <Content Include="image\ProcImage\ID51\19827.png" />
+    <Content Include="image\ProcImage\ID51\19828.png" />
+    <Content Include="image\ProcImage\ID51\19829.png" />
+    <Content Include="image\ProcImage\ID51\19833.png" />
+    <Content Include="image\ProcImage\ID51\19834.png" />
+    <Content Include="image\ProcImage\ID51\19835.png" />
+    <Content Include="image\ProcImage\ID51\19836.png" />
+    <Content Include="image\ProcImage\ID51\19837.png" />
+    <Content Include="image\ProcImage\ID51\19839.png" />
+    <Content Include="image\ProcImage\ID51\19842.png" />
+    <Content Include="image\ProcImage\ID51\19843.png" />
+    <Content Include="image\ProcImage\ID51\19844.png" />
+    <Content Include="image\ProcImage\ID51\19845.png" />
+    <Content Include="image\ProcImage\ID51\19846.png" />
+    <Content Include="image\ProcImage\ID51\19847.png" />
+    <Content Include="image\ProcImage\ID51\19848.png" />
+    <Content Include="image\ProcImage\ID51\19849.png" />
+    <Content Include="image\ProcImage\ID51\19856.png" />
+    <Content Include="image\ProcImage\ID51\橫進刀模式-終點進刀.png" />
+    <Content Include="image\ProcImage\ID51\橫進刀模式-起點進刀.png" />
+    <Content Include="image\ProcImage\ID51\橫進刀模式-雙邊進刀.png" />
+    <Content Include="image\ProcImage\ID51\終點偏移量.png" />
+    <Content Include="image\ProcImage\ID52\19810.png" />
+    <Content Include="image\ProcImage\ID52\19812.png" />
+    <Content Include="image\ProcImage\ID52\19821.png" />
+    <Content Include="image\ProcImage\ID52\19822.png" />
+    <Content Include="image\ProcImage\ID52\19824.png" />
+    <Content Include="image\ProcImage\ID52\19825.png" />
+    <Content Include="image\ProcImage\ID52\19830.png" />
+    <Content Include="image\ProcImage\ID52\19831.png" />
+    <Content Include="image\ProcImage\ID52\19838.png" />
+    <Content Include="image\ProcImage\ID53\19810.png" />
+    <Content Include="image\ProcImage\ID53\19812.png" />
+    <Content Include="image\ProcImage\ID53\19815.png" />
+    <Content Include="image\ProcImage\ID53\19821.png" />
+    <Content Include="image\ProcImage\ID53\19822.png" />
+    <Content Include="image\ProcImage\ID53\19823.png" />
+    <Content Include="image\ProcImage\ID53\19824.png" />
+    <Content Include="image\ProcImage\ID53\19825.png" />
+    <Content Include="image\ProcImage\ID53\19830.png" />
+    <Content Include="image\ProcImage\ID53\19831.png" />
+    <Content Include="image\ProcImage\ID53\19832.png" />
+    <Content Include="image\ProcImage\ID53\19836.png" />
+    <Content Include="image\ProcImage\ID53\19838.png" />
+    <Content Include="image\ProcImage\ID53\19848.png" />
+    <Content Include="image\ProcImage\ID53\19849.png" />
+    <Content Include="image\ProcImage\ID53\19856.png" />
+    <Content Include="image\ProcImage\ID54\19810.png" />
+    <Content Include="image\ProcImage\ID54\19812.png" />
+    <Content Include="image\ProcImage\ID54\19821.png" />
+    <Content Include="image\ProcImage\ID54\19822.png" />
+    <Content Include="image\ProcImage\ID54\19823.png" />
+    <Content Include="image\ProcImage\ID54\19824.png" />
+    <Content Include="image\ProcImage\ID54\19825.png" />
+    <Content Include="image\ProcImage\ID54\19830.png" />
+    <Content Include="image\ProcImage\ID54\19831.png" />
+    <Content Include="image\ProcImage\ID54\19832.png" />
+    <Content Include="image\ProcImage\ID54\19838.png" />
+    <Content Include="image\ProcImage\ID55\19803.png" />
+    <Content Include="image\ProcImage\ID55\19810.png" />
+    <Content Include="image\ProcImage\ID55\19812.png" />
+    <Content Include="image\ProcImage\ID55\19821.png" />
+    <Content Include="image\ProcImage\ID55\19822.png" />
+    <Content Include="image\ProcImage\ID55\19823.png" />
+    <Content Include="image\ProcImage\ID55\19824.png" />
+    <Content Include="image\ProcImage\ID55\19825.png" />
+    <Content Include="image\ProcImage\ID55\19830.png" />
+    <Content Include="image\ProcImage\ID55\19831.png" />
+    <Content Include="image\ProcImage\ID55\19832.png" />
+    <Content Include="image\ProcImage\ID55\19838.png" />
+    <Content Include="image\ProcImage\ID55\19856.png" />
+    <Content Include="image\ProcImage\ID56\19803.png" />
+    <Content Include="image\ProcImage\ID56\19810.png" />
+    <Content Include="image\ProcImage\ID56\19811.png" />
+    <Content Include="image\ProcImage\ID56\19812.png" />
+    <Content Include="image\ProcImage\ID56\19813.png" />
+    <Content Include="image\ProcImage\ID56\19821.png" />
+    <Content Include="image\ProcImage\ID56\19822.png" />
+    <Content Include="image\ProcImage\ID56\19823.png" />
+    <Content Include="image\ProcImage\ID56\19824.png" />
+    <Content Include="image\ProcImage\ID56\19825.png" />
+    <Content Include="image\ProcImage\ID56\19827.png" />
+    <Content Include="image\ProcImage\ID56\19828.png" />
+    <Content Include="image\ProcImage\ID56\19829.png" />
+    <Content Include="image\ProcImage\ID56\19833.png" />
+    <Content Include="image\ProcImage\ID56\19834.png" />
+    <Content Include="image\ProcImage\ID56\19835.png" />
+    <Content Include="image\ProcImage\ID56\19836.png" />
+    <Content Include="image\ProcImage\ID56\19837.png" />
+    <Content Include="image\ProcImage\ID56\19839.png" />
+    <Content Include="image\ProcImage\ID56\19842.png" />
+    <Content Include="image\ProcImage\ID56\19843.png" />
+    <Content Include="image\ProcImage\ID56\19844.png" />
+    <Content Include="image\ProcImage\ID56\19845.png" />
+    <Content Include="image\ProcImage\ID56\19846.png" />
+    <Content Include="image\ProcImage\ID56\19847.png" />
+    <Content Include="image\ProcImage\ID56\19848.png" />
+    <Content Include="image\ProcImage\ID56\19849.png" />
+    <Content Include="image\ProcImage\ID56\19856.png" />
+    <Content Include="image\ProcImage\ID56\橫進刀模式-終點進刀.png" />
+    <Content Include="image\ProcImage\ID56\橫進刀模式-起點進刀.png" />
+    <Content Include="image\ProcImage\ID56\橫進刀模式-雙邊進刀.png" />
+    <Content Include="image\ProcImage\ID56\終點偏移量.png" />
+    <Content Include="image\ProcImage\ID57\19803.png" />
+    <Content Include="image\ProcImage\ID57\19810.png" />
+    <Content Include="image\ProcImage\ID57\19812.png" />
+    <Content Include="image\ProcImage\ID57\19821.png" />
+    <Content Include="image\ProcImage\ID57\19822.png" />
+    <Content Include="image\ProcImage\ID57\19824.png" />
+    <Content Include="image\ProcImage\ID57\19825.png" />
+    <Content Include="image\ProcImage\ID57\19830.png" />
+    <Content Include="image\ProcImage\ID57\19831.png" />
+    <Content Include="image\ProcImage\ID57\19838.png" />
+    <Content Include="image\ProcImage\ID58\19810.png" />
+    <Content Include="image\ProcImage\ID58\19812.png" />
+    <Content Include="image\ProcImage\ID58\19815.png" />
+    <Content Include="image\ProcImage\ID58\19821.png" />
+    <Content Include="image\ProcImage\ID58\19822.png" />
+    <Content Include="image\ProcImage\ID58\19823.png" />
+    <Content Include="image\ProcImage\ID58\19824.png" />
+    <Content Include="image\ProcImage\ID58\19825.png" />
+    <Content Include="image\ProcImage\ID58\19827.png" />
+    <Content Include="image\ProcImage\ID58\19828.png" />
+    <Content Include="image\ProcImage\ID58\19829.png" />
+    <Content Include="image\ProcImage\ID58\19830.png" />
+    <Content Include="image\ProcImage\ID58\19831.png" />
+    <Content Include="image\ProcImage\ID58\19832.png" />
+    <Content Include="image\ProcImage\ID58\19836.png" />
+    <Content Include="image\ProcImage\ID58\19837.png" />
+    <Content Include="image\ProcImage\ID58\19839.png" />
+    <Content Include="image\ProcImage\ID58\19842.png" />
+    <Content Include="image\ProcImage\ID58\19843.png" />
+    <Content Include="image\ProcImage\ID58\19844.png" />
+    <Content Include="image\ProcImage\ID58\19845.png" />
+    <Content Include="image\ProcImage\ID58\19846.png" />
+    <Content Include="image\ProcImage\ID58\19847.png" />
+    <Content Include="image\ProcImage\ID58\19848.png" />
+    <Content Include="image\ProcImage\ID58\19849.png" />
+    <Content Include="image\ProcImage\ID58\19881.png" />
+    <Content Include="image\ProcImage\ID58\19883.png" />
+    <Content Include="image\ProcImage\ID58\19884.png" />
+    <Content Include="image\ProcImage\ID58\19885.png" />
+    <Content Include="image\ProcImage\ID58\19886.png" />
+    <Content Include="image\ProcImage\ID58\19887.png" />
+    <Content Include="image\ProcImage\ID58\19888.png" />
+    <Content Include="image\ProcImage\ID58\19889.png" />
+    <Content Include="image\ProcImage\ID58\19890.png" />
+    <Content Include="image\ProcImage\ID59\19803.png" />
+    <Content Include="image\ProcImage\ID59\19810.png" />
+    <Content Include="image\ProcImage\ID59\19812.png" />
+    <Content Include="image\ProcImage\ID59\19815.png" />
+    <Content Include="image\ProcImage\ID59\19821.png" />
+    <Content Include="image\ProcImage\ID59\19822.png" />
+    <Content Include="image\ProcImage\ID59\19823.png" />
+    <Content Include="image\ProcImage\ID59\19824.png" />
+    <Content Include="image\ProcImage\ID59\19825.png" />
+    <Content Include="image\ProcImage\ID59\19827.png" />
+    <Content Include="image\ProcImage\ID59\19828.png" />
+    <Content Include="image\ProcImage\ID59\19829.png" />
+    <Content Include="image\ProcImage\ID59\19830.png" />
+    <Content Include="image\ProcImage\ID59\19831.png" />
+    <Content Include="image\ProcImage\ID59\19832.png" />
+    <Content Include="image\ProcImage\ID59\19836.png" />
+    <Content Include="image\ProcImage\ID59\19837.png" />
+    <Content Include="image\ProcImage\ID59\19839.png" />
+    <Content Include="image\ProcImage\ID59\19842.png" />
+    <Content Include="image\ProcImage\ID59\19843.png" />
+    <Content Include="image\ProcImage\ID59\19844.png" />
+    <Content Include="image\ProcImage\ID59\19845.png" />
+    <Content Include="image\ProcImage\ID59\19846.png" />
+    <Content Include="image\ProcImage\ID59\19847.png" />
+    <Content Include="image\ProcImage\ID59\19848.png" />
+    <Content Include="image\ProcImage\ID59\19849.png" />
+    <Content Include="image\ProcImage\ID59\19881.png" />
+    <Content Include="image\ProcImage\ID59\19883.png" />
+    <Content Include="image\ProcImage\ID59\19884.png" />
+    <Content Include="image\ProcImage\ID59\19885.png" />
+    <Content Include="image\ProcImage\ID59\19886.png" />
+    <Content Include="image\ProcImage\ID59\19887.png" />
+    <Content Include="image\ProcImage\ID59\19888.png" />
+    <Content Include="image\ProcImage\ID59\19889.png" />
+    <Content Include="image\ProcImage\ID59\19890.png" />
+    <Content Include="image\ProcImage\ID5\19810.png" />
+    <Content Include="image\ProcImage\ID5\19811.png" />
+    <Content Include="image\ProcImage\ID5\19812.png" />
+    <Content Include="image\ProcImage\ID5\19813.png" />
+    <Content Include="image\ProcImage\ID5\19816.png" />
+    <Content Include="image\ProcImage\ID5\19819.png" />
+    <Content Include="image\ProcImage\ID5\19821.png" />
+    <Content Include="image\ProcImage\ID5\19822.png" />
+    <Content Include="image\ProcImage\ID5\19823.png" />
+    <Content Include="image\ProcImage\ID5\19824.png" />
+    <Content Include="image\ProcImage\ID5\19826.png" />
+    <Content Include="image\ProcImage\ID5\19829.png" />
+    <Content Include="image\ProcImage\ID5\19830.png" />
+    <Content Include="image\ProcImage\ID5\19831.png" />
+    <Content Include="image\ProcImage\ID5\19832.png" />
+    <Content Include="image\ProcImage\ID5\19835.png" />
+    <Content Include="image\ProcImage\ID5\19836.png" />
+    <Content Include="image\ProcImage\ID5\19837.png" />
+    <Content Include="image\ProcImage\ID5\19839.png" />
+    <Content Include="image\ProcImage\ID5\19840.png" />
+    <Content Include="image\ProcImage\ID5\19846.png" />
+    <Content Include="image\ProcImage\ID5\19847.png" />
+    <Content Include="image\ProcImage\ID5\19848.png" />
+    <Content Include="image\ProcImage\ID5\19849.png" />
+    <Content Include="image\ProcImage\ID5\19850.png" />
+    <Content Include="image\ProcImage\ID5\19855.png" />
+    <Content Include="image\ProcImage\ID5\19857.png" />
+    <Content Include="image\ProcImage\ID5\19858.png" />
+    <Content Include="image\ProcImage\ID5\19877.png" />
+    <Content Include="image\ProcImage\ID6\19810.png" />
+    <Content Include="image\ProcImage\ID6\19812.png" />
+    <Content Include="image\ProcImage\ID6\19815.png" />
+    <Content Include="image\ProcImage\ID6\19816.png" />
+    <Content Include="image\ProcImage\ID6\19819.png" />
+    <Content Include="image\ProcImage\ID6\19821.png" />
+    <Content Include="image\ProcImage\ID6\19822.png" />
+    <Content Include="image\ProcImage\ID6\19823.png" />
+    <Content Include="image\ProcImage\ID6\19824.png" />
+    <Content Include="image\ProcImage\ID6\19830.png" />
+    <Content Include="image\ProcImage\ID6\19831.png" />
+    <Content Include="image\ProcImage\ID6\19832.png" />
+    <Content Include="image\ProcImage\ID6\19833.png" />
+    <Content Include="image\ProcImage\ID6\19838.png" />
+    <Content Include="image\ProcImage\ID6\19848.png" />
+    <Content Include="image\ProcImage\ID6\19849.png" />
+    <Content Include="image\ProcImage\ID6\19855.png" />
+    <Content Include="image\ProcImage\ID7\19810.png" />
+    <Content Include="image\ProcImage\ID7\19812.png" />
+    <Content Include="image\ProcImage\ID7\19819.png" />
+    <Content Include="image\ProcImage\ID7\19820.png" />
+    <Content Include="image\ProcImage\ID7\19821.png" />
+    <Content Include="image\ProcImage\ID7\19822.png" />
+    <Content Include="image\ProcImage\ID7\19823.png" />
+    <Content Include="image\ProcImage\ID7\19824.png" />
+    <Content Include="image\ProcImage\ID7\19826.png" />
+    <Content Include="image\ProcImage\ID7\19830.png" />
+    <Content Include="image\ProcImage\ID7\19831.png" />
+    <Content Include="image\ProcImage\ID7\19832.png" />
+    <Content Include="image\ProcImage\ID7\19838.png" />
+    <Content Include="image\ProcImage\ID8\19810.png" />
+    <Content Include="image\ProcImage\ID8\19812.png" />
+    <Content Include="image\ProcImage\ID8\19819.png" />
+    <Content Include="image\ProcImage\ID8\19820.png" />
+    <Content Include="image\ProcImage\ID8\19821.png" />
+    <Content Include="image\ProcImage\ID8\19822.png" />
+    <Content Include="image\ProcImage\ID8\19823.png" />
+    <Content Include="image\ProcImage\ID8\19824.png" />
+    <Content Include="image\ProcImage\ID8\19826.png" />
+    <Content Include="image\ProcImage\ID8\19830.png" />
+    <Content Include="image\ProcImage\ID8\19831.png" />
+    <Content Include="image\ProcImage\ID8\19832.png" />
+    <Content Include="image\ProcImage\ID8\19838.png" />
+    <Content Include="image\ProcImage\ID9\19810.png" />
+    <Content Include="image\ProcImage\ID9\19812.png" />
+    <Content Include="image\ProcImage\ID9\19813.png" />
+    <Content Include="image\ProcImage\ID9\19819.png" />
+    <Content Include="image\ProcImage\ID9\19821.png" />
+    <Content Include="image\ProcImage\ID9\19822.png" />
+    <Content Include="image\ProcImage\ID9\19823.png" />
+    <Content Include="image\ProcImage\ID9\19824.png" />
+    <Content Include="image\ProcImage\ID9\19826.png" />
+    <Content Include="image\ProcImage\ID9\19827.png" />
+    <Content Include="image\ProcImage\ID9\19828.png" />
+    <Content Include="image\ProcImage\ID9\19829.png" />
+    <Content Include="image\ProcImage\ID9\19830.png" />
+    <Content Include="image\ProcImage\ID9\19831.png" />
+    <Content Include="image\ProcImage\ID9\19832.png" />
+    <Content Include="image\ProcImage\ID9\19833.png" />
+    <Content Include="image\ProcImage\ID9\19834.png" />
+    <Content Include="image\ProcImage\ID9\19835.png" />
+    <Content Include="image\ProcImage\ID9\19836.png" />
+    <Content Include="image\ProcImage\ID9\19837.png" />
+    <Content Include="image\ProcImage\ID9\19839.png" />
+    <Content Include="image\ProcImage\ID9\19842.png" />
+    <Content Include="image\ProcImage\ID9\19843.png" />
+    <Content Include="image\ProcImage\ID9\19844.png" />
+    <Content Include="image\ProcImage\ID9\19845.png" />
+    <Content Include="image\ProcImage\ID9\19846.png" />
+    <Content Include="image\ProcImage\ID9\19847.png" />
+    <Content Include="image\ProcImage\ID9\19848.png" />
+    <Content Include="image\ProcImage\ID9\19849.png" />
+    <Content Include="image\ProcImage\ID9\19873.png" />
+    <Content Include="image\ProcImage\ID9\19874.png" />
+    <Content Include="image\R\DressGW\G55.png" />
+    <Content Include="image\R\DressGW\G57.png" />
+    <Content Include="image\R\DressGW\G57Horizon.png" />
+    <Content Include="image\R\DressGW\G58.png" />
+    <Content Include="image\R\DressWorkpiece\G54G59X.png" />
+    <Content Include="image\R\DressWorkpiece\G54X.png" />
+    <Content Include="image\R\DressWorkpiece\G54Z.png" />
+    <Content Include="image\R\Param\Shape1\1.png" />
+    <Content Include="image\R\Param\Shape1\2.png" />
+    <Content Include="image\R\Param\Shape1\3.png" />
+    <Content Include="image\R\Param\Shape1\4.png" />
+    <Content Include="image\R\Param\Shape2\0.png" />
+    <Content Include="image\R\Param\Shape2\1.png" />
+    <Content Include="image\R\Param\Shape2\2.png" />
+    <Content Include="image\R\Param\Shape2\3.png" />
+    <Content Include="image\R\Param\Shape2\4.png" />
+    <Content Include="image\R\Param\Shape2\5.png" />
+    <Content Include="image\R\Param\Shape2\6.png" />
+    <Content Include="image\R\Param\Shape2\7.png" />
+    <Content Include="image\R\Param\Shape3\1.png" />
+    <Content Include="image\R\Param\Shape3\2.png" />
+    <Content Include="image\R\Param\Shape3\3.png" />
+    <Content Include="image\R\Param\Shape3\4.png" />
+    <Content Include="image\R\Param\Shape3\5.png" />
+    <Content Include="image\R\Param\Shape3\6.png" />
+    <Content Include="image\R\Param\Shape3\7.png" />
+    <Content Include="image\R\Param\Shape4\1.png" />
+    <Content Include="image\R\Param\Shape4\10.png" />
+    <Content Include="image\R\Param\Shape4\2.png" />
+    <Content Include="image\R\Param\Shape4\3.png" />
+    <Content Include="image\R\Param\Shape4\4.png" />
+    <Content Include="image\R\Param\Shape4\5.png" />
+    <Content Include="image\R\Param\Shape4\6.png" />
+    <Content Include="image\R\Param\Shape4\7.png" />
+    <Content Include="image\R\Param\Shape4\8.png" />
+    <Content Include="image\R\Param\Shape4\9.png" />
+    <Content Include="image\R\Param\Shape5\1.png" />
+    <Content Include="image\R\Param\Shape5\2.png" />
+    <Content Include="image\R\Param\Shape5\3.png" />
+    <Content Include="image\R\Param\Shape5\4.png" />
+    <Content Include="image\R\Param\Shape5\5.png" />
+    <Content Include="image\R\Param\Shape6\1.png" />
+    <Content Include="image\R\Param\Shape6\2.png" />
+    <Content Include="image\R\Param\Shape6\3.png" />
+    <Content Include="image\R\Param\Shape6\4.png" />
+    <Content Include="image\R\Shape\100x100\Shape1.png" />
+    <Content Include="image\R\Shape\100x100\Shape2.png" />
+    <Content Include="image\R\Shape\100x100\Shape3.png" />
+    <Content Include="image\R\Shape\100x100\Shape4.png" />
+    <Content Include="image\R\Shape\100x100\Shape5.png" />
+    <Content Include="image\R\Shape\100x100\Shape6.png" />
+    <Content Include="image\R\Shape\100x100\Shape8.png" />
+    <Content Include="image\R\Shape\150x150\Shape1.png" />
+    <Content Include="image\R\Shape\150x150\Shape2.png" />
+    <Content Include="image\R\Shape\150x150\Shape3.png" />
+    <Content Include="image\R\Shape\150x150\Shape4.png" />
+    <Content Include="image\R\Shape\150x150\Shape5.png" />
+    <Content Include="image\R\Shape\150x150\Shape6.png" />
+    <Content Include="image\R\Shape\150x150\Shape8.png" />
+    <Content Include="image\R\Shape\50x50\Shape1.png" />
+    <Content Include="image\R\Shape\50x50\Shape2.png" />
+    <Content Include="image\R\Shape\50x50\Shape3.png" />
+    <Content Include="image\R\Shape\50x50\Shape4.png" />
+    <Content Include="image\R\Shape\50x50\Shape5.png" />
+    <Content Include="image\R\Shape\50x50\Shape6.png" />
+    <Content Include="image\R\Shape\50x50\Shape8.png" />
+    <Content Include="image\R\Shape\80x80\Shape1.png" />
+    <Content Include="image\R\Shape\80x80\Shape2.png" />
+    <Content Include="image\R\Shape\80x80\Shape3.png" />
+    <Content Include="image\R\Shape\80x80\Shape4.png" />
+    <Content Include="image\R\Shape\80x80\Shape5.png" />
+    <Content Include="image\R\Shape\80x80\Shape6.png" />
+    <Content Include="image\R\Shape\80x80\Shape8.png" />
+    <Content Include="image\SoftPanel\COOLT_GUN_64x48.png" />
+    <Content Include="image\SoftPanel\TurnHead1_64x48.png" />
+    <Content Include="image\SoftPanel\TurnHead2_64x48.png" />
+    <Content Include="image\SoftPanel\TurnHead3_64x48.png" />
+    <Content Include="image\SoftPanel\TurnProbe_64x48.png" />
+    <Content Include="image\SoftPanel\W_A_64x48.png" />
+    <Content Include="image\SoftPanel\W_A_AXIS_A_64x48.png" />
+    <Content Include="image\SoftPanel\W_A_AXIS_B_64x48.png" />
+    <Content Include="image\SoftPanel\W_A_AXIS_C_64x48.png" />
+    <Content Include="image\SoftPanel\W_A_AXIS_X_64x48.png" />
+    <Content Include="image\SoftPanel\W_A_AXIS_Y_64x48.png" />
+    <Content Include="image\SoftPanel\W_A_AXIS_Z_64x48.png" />
+    <Content Include="image\SoftPanel\W_A_JOGN_64x48.png" />
+    <Content Include="image\SoftPanel\W_A_JOGP_64x48.png" />
+    <Content Include="image\SoftPanel\W_A_RAPID_64x48.png" />
+    <Content Include="image\SoftPanel\W_BDT_64x48.png" />
+    <Content Include="image\SoftPanel\W_BZOFF_64x48.png" />
+    <Content Include="image\SoftPanel\W_B_64x48.png" />
+    <Content Include="image\SoftPanel\W_CCW_64x48.png" />
+    <Content Include="image\SoftPanel\W_CHUCK_64x48.png" />
+    <Content Include="image\SoftPanel\W_COOLT_64x48.png" />
+    <Content Include="image\SoftPanel\W_CW_64x48.png" />
+    <Content Include="image\SoftPanel\W_C_64x48.png" />
+    <Content Include="image\SoftPanel\W_DOOR_64x48.png" />
+    <Content Include="image\SoftPanel\W_DOOR_CLOSE_64x48.png" />
+    <Content Include="image\SoftPanel\W_DOOR_OPEN_64x48.png" />
+    <Content Include="image\SoftPanel\W_DRECOL_64x48.png" />
+    <Content Include="image\SoftPanel\W_DRN_64x48.png" />
+    <Content Include="image\SoftPanel\W_DSP_CCW_64x48.png" />
+    <Content Include="image\SoftPanel\W_DSP_CW_64x48.png" />
+    <Content Include="image\SoftPanel\W_F1_64x48.png" />
+    <Content Include="image\SoftPanel\W_F2_64x48.png" />
+    <Content Include="image\SoftPanel\W_F3_64x48.png" />
+    <Content Include="image\SoftPanel\W_F4_64x48.png" />
+    <Content Include="image\SoftPanel\W_F5_64x48.png" />
+    <Content Include="image\SoftPanel\W_F6_64x48.png" />
+    <Content Include="image\SoftPanel\W_F7_64x48.png" />
+    <Content Include="image\SoftPanel\W_FCL_GW_64x48.png" />
+    <Content Include="image\SoftPanel\W_GAUGE_64x48.png" />
+    <Content Include="image\SoftPanel\W_GRIND_64x48.png" />
+    <Content Include="image\SoftPanel\W_GW%28OCD%29_64x48.png" />
+    <Content Include="image\SoftPanel\W_GW-DRE_64x48.png" />
+    <Content Include="image\SoftPanel\W_GW1FB_64x48.png" />
+    <Content Include="image\SoftPanel\W_GW1_64x48.png" />
+    <Content Include="image\SoftPanel\W_GW2FB_64x48.png" />
+    <Content Include="image\SoftPanel\W_GW2_64x48.png" />
+    <Content Include="image\SoftPanel\W_GW3_64x48.png" />
+    <Content Include="image\SoftPanel\W_GW_64x48.png" />
+    <Content Include="image\SoftPanel\W_JOGN_64x48.png" />
+    <Content Include="image\SoftPanel\W_JOGP_64x48.png" />
+    <Content Include="image\SoftPanel\W_LIGHT_64x48.png" />
+    <Content Include="image\SoftPanel\W_LOFFSET_64x48.png" />
+    <Content Include="image\SoftPanel\W_LUBE_64x48.png" />
+    <Content Include="image\SoftPanel\W_M01_64x48.png" />
+    <Content Include="image\SoftPanel\W_OFFSET_64x48.png" />
+    <Content Include="image\SoftPanel\W_OIG_GW1_64x48.png" />
+    <Content Include="image\SoftPanel\W_OIG_GW2_64x48.png" />
+    <Content Include="image\SoftPanel\W_OILMIST_64x48.png" />
+    <Content Include="image\SoftPanel\W_OILMIST_C_64x48.png" />
+    <Content Include="image\SoftPanel\W_OVC_64x48.png" />
+    <Content Include="image\SoftPanel\W_PROBE_64x48.png" />
+    <Content Include="image\SoftPanel\W_RAPID_64x48.png" />
+    <Content Include="image\SoftPanel\W_ROFFSET_64x48.png" />
+    <Content Include="image\SoftPanel\W_RW-DRE_64x48.png" />
+    <Content Include="image\SoftPanel\W_RW_64x48.png" />
+    <Content Include="image\SoftPanel\W_SAFETY_64x48.png" />
+    <Content Include="image\SoftPanel\W_SBK_64x48.png" />
+    <Content Include="image\SoftPanel\W_SP_CCW_64x48.png" />
+    <Content Include="image\SoftPanel\W_SP_CW_64x48.png" />
+    <Content Include="image\SoftPanel\W_SVO_64x48.png" />
+    <Content Include="image\SoftPanel\W_S_BDT_64x48.png" />
+    <Content Include="image\SoftPanel\W_S_COOLT_64x48.png" />
+    <Content Include="image\SoftPanel\W_S_GW1_64x48.png" />
+    <Content Include="image\SoftPanel\W_S_GW2_64x48.png" />
+    <Content Include="image\SoftPanel\W_S_GW3_64x48.png" />
+    <Content Include="image\SoftPanel\W_S_M01_64x48.png" />
+    <Content Include="image\SoftPanel\W_S_OVC_64x48.png" />
+    <Content Include="image\SoftPanel\W_S_SBK_64x48.png" />
+    <Content Include="image\SoftPanel\W_Tail_64x48.png" />
+    <Content Include="image\SoftPanel\W_WARMUP_64x48.png" />
+    <Content Include="image\SoftPanel\W_X_64x48.png" />
+    <Content Include="image\SoftPanel\W_Y_64x48.png" />
+    <Content Include="image\SoftPanel\W_Z_64x48.png" />
+    <Content Include="Language\CHT\Alarm.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\CHT\CHT.txt" />
+    <Content Include="Language\CHT\img.png" />
+    <Content Include="Language\CHT\PmcMessageLang.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\ENG\Alarm.txt" />
+    <Content Include="Language\ENG\ENG.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\ENG\img.png" />
+    <Content Include="Language\ENG\PmcMessageLang.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\POL\Alarm.txt" />
+    <Content Include="Language\POL\img.png" />
+    <Content Include="Language\POL\PmcMessageLang.txt" />
+    <Content Include="Language\POL\POL.txt" />
+    <Content Include="library\BitComputeLib.dll" />
+    <Content Include="library\ComponentLib.dll" />
+    <Content Include="library\DotNetFwlib64.dll" />
+    <Content Include="library\DrawRotor.dll" />
+    <Content Include="library\fwlib0DN64.dll" />
+    <Content Include="library\fwlib0iD64.dll" />
+    <Content Include="library\fwlib30i64.dll" />
+    <Content Include="library\Fwlib64.dll" />
+    <Content Include="library\fwlibe64.dll" />
+    <Content Include="library\fwlibNCG64.dll" />
+    <Content Include="library\InifileLib.dll" />
+    <Content Include="library\LanguageManagerLib.dll" />
+    <Content Include="library\NumFormLib.dll" />
+    <Content Include="library\pmcMessagadll.dll" />
+    <Content Include="library\USBDetectorLib.dll" />
+    <Content Include="library\UserNumLib.dll" />
+    <Content Include="MachineType\OIG-NDE\OptionParam.xml" />
+    <Content Include="MachineType\OIG-ND\OptionParam.xml" />
+    <Content Include="MachineType\OIG-NR\OptionParam.xml" />
+    <Content Include="MachineType\OIG-N\OptionParam.xml" />
+    <Content Include="palmary2 670x670.ico" />
+    <Content Include="library\RoundButtonLib.dll" />
+    <Content Include="library\SerialLib.dll" />
+    <Content Include="library\SQLite.Interop.dll" />
+    <Content Include="library\sqlite3.dll" />
+    <Content Include="library\StdMachineLib.dll" />
+    <Content Include="library\System.Data.SQLite.dll" />
+    <Content Include="library\WinApiLib.dll" />
+    <Content Include="PmcMessage.txt" />
+    <None Include="Resources\Btn_S4_136x60_B.png" />
+    <None Include="Resources\Btn_S4_136x60_BL.png" />
+    <None Include="Resources\Btn_S4_136x60_G.png" />
+    <None Include="Resources\DiamOffset.png" />
+    <None Include="Resources\DiamOffset２.png" />
+    <None Include="Resources\X_Dir.png" />
+    <None Include="Resources\Y_Dir.png" />
+    <None Include="Resources\Z_Dir.png" />
+    <None Include="Resources\Btn_S4_136x60_Gray.png" />
+    <None Include="Resources\Btn_S4_136x60_Y.png" />
+    <None Include="Resources\Btn_S4_136x60_YL.png" />
+    <None Include="Resources\Btn_S4_136x60_Gray3.png" />
+    <None Include="Resources\checkmark.png" />
+    <None Include="Resources\BtnLeft.png" />
+    <None Include="Resources\BtnRight.png" />
+    <Content Include="SoftPanel\附內磨+HME+滾輪.xml" />
+    <None Include="Resources\White.png" />
+    <None Include="Resources\RegisDGW.png" />
+    <None Include="Resources\RegisDGWSet.png" />
+    <None Include="Resources\RegisWorkpieceSet.png" />
+    <None Include="Resources\pic_Parts2.Image.png" />
+    <None Include="Resources\pic_DressGW2.Image.png" />
+    <None Include="Resources\pic_GW2.Image.png" />
+    <None Include="Resources\Step2.5.png" />
+    <None Include="Resources\pic_DressToLeft.Image.png" />
+    <None Include="Resources\pic_DressToRight.Image.png" />
+    <None Include="Resources\OCDCoor.png" />
+    <None Include="Resources\OIGCoorDown.png" />
+    <None Include="Resources\OIGCoorUp.png" />
+    <None Include="Resources\Door.png" />
+    <None Include="Resources\Door1.png" />
+    <None Include="Resources\Door2.png" />
+    <None Include="Resources\pic_fanuc.Image2.png" />
+    <None Include="Resources\user1s.png" />
+    <None Include="Resources\user99.png" />
+    <None Include="Resources\Btn_S3_60x60_R.png" />
+    <None Include="Resources\Btn_S3_60x60_RL.png" />
+    <None Include="Resources\Btn_S3_128x60_GrayL3.png" />
+    <None Include="Resources\Btn_S3_128x60_L.png" />
+    <None Include="Resources\Btn_S3_128x60.png" />
+    <None Include="Resources\Btn_S3_60x60_GrayL3.png" />
+    <None Include="Resources\W_CCW2_64x48.png" />
+    <None Include="Resources\W_CW2_64x48.png" />
+    <None Include="Resources\W_F3_64x48.png" />
+    <None Include="Resources\W_DOOR_OPEN_64x48.png" />
+    <None Include="Resources\W_DOOR_64x48.png" />
+    <None Include="Resources\W_F5_64x48.png" />
+    <None Include="Resources\W_DOOR_CLOSE_64x48.png" />
+    <None Include="Resources\W_OILMIST2_64x48.png" />
+    <None Include="Resources\W_GW3_64x48.png" />
+    <None Include="Resources\COOLT_GUN_64x48.png" />
+    <None Include="Resources\Btn_S3_60x60_YL.png" />
+    <None Include="Resources\Btn_S3_60x60_Y.png" />
+    <None Include="Resources\M2_GW2_斜頭對點_104x1041.png" />
+    <None Include="Resources\M2_GW1_斜頭對點_104x1041.png" />
+    <None Include="Resources\M2_GW2_斜頭對點_104x104.png" />
+    <None Include="Resources\M2_GW1_斜頭對點_104x104.png" />
+    <None Include="Resources\Field_112x40.png" />
+    <None Include="Resources\G59_Z_Length.png" />
+    <None Include="Resources\G54_Z_Length.png" />
+    <None Include="Resources\DP_Diam.png" />
+    <None Include="Resources\G59.png" />
+    <None Include="Resources\G54.png" />
+    <None Include="Resources\DP_Step4.png" />
+    <None Include="Resources\DP_Step3.png" />
+    <None Include="Resources\DP_Step2.png" />
+    <None Include="Resources\DP_Step1.png" />
+    <None Include="Resources\Step8.png" />
+    <None Include="Resources\Step7.png" />
+    <None Include="Resources\Step5.png" />
+    <None Include="Resources\Step4.png" />
+    <None Include="Resources\Step2.png" />
+    <None Include="Resources\Step1.png" />
+    <None Include="Resources\unlock.png" />
+    <None Include="Resources\lock.png" />
+    <None Include="Resources\Lamp_E_On.png" />
+    <None Include="Resources\Lamp_E_Off.png" />
+    <None Include="Resources\Btn_S3_60x60_G.png" />
+    <None Include="Resources\disconnects.png" />
+    <None Include="Resources\connects.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="image\OCD\Shape\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>echo === Robocopy Start ===
+robocopy "$(ProjectDir)library" "$(ProjectDir)bin" "*.dll" /NFL /NDL /NJH /NJS /NC /NS /R:2 /W:5
+if %2525ERRORLEVEL%2525 GEQ 8 exit %2525ERRORLEVEL%2525
+robocopy "$(ProjectDir)image" "$(ProjectDir)bin\image" *.* /E /NFL /NDL /NJH /NJS /NC /NS /R:2 /W:5
+if %2525ERRORLEVEL%2525 GEQ 8 exit %2525ERRORLEVEL%2525
+robocopy "$(ProjectDir)Language" "$(ProjectDir)bin\Language" *.* /E /NFL /NDL /NJH /NJS /NC /NS /R:2 /W:5
+if %2525ERRORLEVEL%2525 GEQ 8 exit %2525ERRORLEVEL%2525
+robocopy "$(ProjectDir)SoftPanel" "$(ProjectDir)bin\SoftPanel" *.* /E /NFL /NDL /NJH /NJS /NC /NS /R:2 /W:5
+if %2525ERRORLEVEL%2525 GEQ 8 exit %2525ERRORLEVEL%2525
+echo === Robocopy End ===
+exit 0</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
