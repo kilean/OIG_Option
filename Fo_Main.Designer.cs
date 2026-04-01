@@ -12286,7 +12286,7 @@
             this.la_Time.Name = "la_Time";
             this.la_Time.Size = new System.Drawing.Size(144, 20);
             this.la_Time.TabIndex = 12;
-            this.la_Time.Text = "2026/03/17 15:32";
+            this.la_Time.Text = "2026/04/01 13:56";
             this.la_Time.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // la_Version
@@ -12299,7 +12299,7 @@
             this.la_Version.Name = "la_Version";
             this.la_Version.Size = new System.Drawing.Size(205, 25);
             this.la_Version.TabIndex = 10;
-            this.la_Version.Text = "Ver : 1.26.0317.1532";
+            this.la_Version.Text = "Ver : 1.26.0401.1356";
             // 
             // pa_Alarm
             // 

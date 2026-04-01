@@ -1393,10 +1393,6 @@
     <Content Include="library\pmcMessagadll.dll" />
     <Content Include="library\USBDetectorLib.dll" />
     <Content Include="library\UserNumLib.dll" />
-    <Content Include="MachineType\OIG-NDE\OptionParam.xml" />
-    <Content Include="MachineType\OIG-ND\OptionParam.xml" />
-    <Content Include="MachineType\OIG-NR\OptionParam.xml" />
-    <Content Include="MachineType\OIG-N\OptionParam.xml" />
     <Content Include="palmary2 670x670.ico" />
     <Content Include="library\RoundButtonLib.dll" />
     <Content Include="library\SerialLib.dll" />
