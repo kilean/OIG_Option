@@ -31,6 +31,23 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Fo_Main));
             this.pa_Top = new System.Windows.Forms.Panel();
+            this.pic_User = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.la_SBK = new System.Windows.Forms.Label();
+            this.pa_AlarmTip = new System.Windows.Forms.Panel();
+            this.la_AlarmTip = new System.Windows.Forms.Label();
+            this.pa_Tip = new System.Windows.Forms.Panel();
+            this.la_Tip = new System.Windows.Forms.Label();
+            this.pa_EMG = new System.Windows.Forms.Panel();
+            this.la_EMG = new System.Windows.Forms.Label();
+            this.la_Time = new System.Windows.Forms.Label();
+            this.la_Version = new System.Windows.Forms.Label();
+            this.pa_Alarm = new System.Windows.Forms.Panel();
+            this.la_Alarm = new System.Windows.Forms.Label();
+            this.pic_Logo = new System.Windows.Forms.PictureBox();
+            this.pic_RS485error = new System.Windows.Forms.PictureBox();
+            this.pic_RS422error = new System.Windows.Forms.PictureBox();
+            this.pic_ConnectStatus = new System.Windows.Forms.PictureBox();
             this.TC_Main = new System.Windows.Forms.TabControl();
             this.tab_FuntionOverView = new System.Windows.Forms.TabPage();
             this.ucBtn_AirTight = new Uc_RoundBtn();
@@ -770,23 +787,6 @@
             this.ucBtn_NextPage = new Uc_RoundBtn();
             this.tb_ProgramTest = new System.Windows.Forms.TextBox();
             this.uc_UserNumInput = new UserNumLib.Uc_UserNum();
-            this.pic_User = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.la_SBK = new System.Windows.Forms.Label();
-            this.pa_AlarmTip = new System.Windows.Forms.Panel();
-            this.la_AlarmTip = new System.Windows.Forms.Label();
-            this.pa_Tip = new System.Windows.Forms.Panel();
-            this.la_Tip = new System.Windows.Forms.Label();
-            this.pa_EMG = new System.Windows.Forms.Panel();
-            this.la_EMG = new System.Windows.Forms.Label();
-            this.la_Time = new System.Windows.Forms.Label();
-            this.la_Version = new System.Windows.Forms.Label();
-            this.pa_Alarm = new System.Windows.Forms.Panel();
-            this.la_Alarm = new System.Windows.Forms.Label();
-            this.pic_Logo = new System.Windows.Forms.PictureBox();
-            this.pic_RS485error = new System.Windows.Forms.PictureBox();
-            this.pic_RS422error = new System.Windows.Forms.PictureBox();
-            this.pic_ConnectStatus = new System.Windows.Forms.PictureBox();
             this.pa_Bottom = new System.Windows.Forms.Panel();
             this.ucBtn_KeyBoard = new Uc_RoundBtn();
             this.ucBtn_FunProgramTest = new Uc_RoundBtn();
@@ -810,6 +810,16 @@
             this.btn_MDI = new Uc_RoundBtn();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.pa_Top.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_User)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.pa_AlarmTip.SuspendLayout();
+            this.pa_Tip.SuspendLayout();
+            this.pa_EMG.SuspendLayout();
+            this.pa_Alarm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Logo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_RS485error)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_RS422error)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_ConnectStatus)).BeginInit();
             this.TC_Main.SuspendLayout();
             this.tab_FuntionOverView.SuspendLayout();
             this.tab_Probe.SuspendLayout();
@@ -984,16 +994,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Language)).BeginInit();
             this.pa_Current_Language.SuspendLayout();
             this.tab_UseUI.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_User)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.pa_AlarmTip.SuspendLayout();
-            this.pa_Tip.SuspendLayout();
-            this.pa_EMG.SuspendLayout();
-            this.pa_Alarm.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_Logo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_RS485error)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_RS422error)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_ConnectStatus)).BeginInit();
             this.pa_Bottom.SuspendLayout();
             this.pa_ModeSelect.SuspendLayout();
             this.SuspendLayout();
@@ -1019,6 +1019,217 @@
             this.pa_Top.Name = "pa_Top";
             this.pa_Top.Size = new System.Drawing.Size(1024, 88);
             this.pa_Top.TabIndex = 18;
+            // 
+            // pic_User
+            // 
+            this.pic_User.Image = global::OIG_Option.Properties.Resources.user1s;
+            this.pic_User.Location = new System.Drawing.Point(952, 24);
+            this.pic_User.Name = "pic_User";
+            this.pic_User.Size = new System.Drawing.Size(64, 56);
+            this.pic_User.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_User.TabIndex = 87;
+            this.pic_User.TabStop = false;
+            this.pic_User.Click += new System.EventHandler(this.pic_User_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::OIG_Option.Properties.Resources.pic_fanuc_Image2;
+            this.pictureBox5.Location = new System.Drawing.Point(640, 0);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(384, 24);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 19;
+            this.pictureBox5.TabStop = false;
+            // 
+            // la_SBK
+            // 
+            this.la_SBK.BackColor = System.Drawing.Color.Lime;
+            this.la_SBK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.la_SBK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.la_SBK.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.la_SBK.ForeColor = System.Drawing.Color.White;
+            this.la_SBK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_SBK.Location = new System.Drawing.Point(464, 56);
+            this.la_SBK.Name = "la_SBK";
+            this.la_SBK.Size = new System.Drawing.Size(72, 32);
+            this.la_SBK.TabIndex = 18;
+            this.la_SBK.Text = "SBK";
+            this.la_SBK.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.la_SBK.Visible = false;
+            // 
+            // pa_AlarmTip
+            // 
+            this.pa_AlarmTip.BackColor = System.Drawing.Color.Red;
+            this.pa_AlarmTip.Controls.Add(this.la_AlarmTip);
+            this.pa_AlarmTip.Location = new System.Drawing.Point(368, 34);
+            this.pa_AlarmTip.Name = "pa_AlarmTip";
+            this.pa_AlarmTip.Size = new System.Drawing.Size(96, 22);
+            this.pa_AlarmTip.TabIndex = 15;
+            this.pa_AlarmTip.Visible = false;
+            // 
+            // la_AlarmTip
+            // 
+            this.la_AlarmTip.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.la_AlarmTip.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_AlarmTip.ForeColor = System.Drawing.Color.Yellow;
+            this.la_AlarmTip.Location = new System.Drawing.Point(8, 0);
+            this.la_AlarmTip.Name = "la_AlarmTip";
+            this.la_AlarmTip.Size = new System.Drawing.Size(80, 22);
+            this.la_AlarmTip.TabIndex = 0;
+            this.la_AlarmTip.Text = "-";
+            this.la_AlarmTip.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.la_AlarmTip.MouseDown += new System.Windows.Forms.MouseEventHandler(this.la_AlarmTip_MouseDown);
+            this.la_AlarmTip.MouseUp += new System.Windows.Forms.MouseEventHandler(this.la_AlarmTip_MouseUp);
+            // 
+            // pa_Tip
+            // 
+            this.pa_Tip.BackColor = System.Drawing.Color.Yellow;
+            this.pa_Tip.Controls.Add(this.la_Tip);
+            this.pa_Tip.Location = new System.Drawing.Point(368, 57);
+            this.pa_Tip.Name = "pa_Tip";
+            this.pa_Tip.Size = new System.Drawing.Size(96, 22);
+            this.pa_Tip.TabIndex = 14;
+            this.pa_Tip.Visible = false;
+            // 
+            // la_Tip
+            // 
+            this.la_Tip.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.la_Tip.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Tip.Location = new System.Drawing.Point(8, 0);
+            this.la_Tip.Name = "la_Tip";
+            this.la_Tip.Size = new System.Drawing.Size(80, 22);
+            this.la_Tip.TabIndex = 0;
+            this.la_Tip.Text = "-";
+            this.la_Tip.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.la_Tip.MouseDown += new System.Windows.Forms.MouseEventHandler(this.la_Tip_MouseDown);
+            this.la_Tip.MouseUp += new System.Windows.Forms.MouseEventHandler(this.la_Tip_MouseUp);
+            // 
+            // pa_EMG
+            // 
+            this.pa_EMG.Controls.Add(this.la_EMG);
+            this.pa_EMG.Location = new System.Drawing.Point(536, 16);
+            this.pa_EMG.Name = "pa_EMG";
+            this.pa_EMG.Size = new System.Drawing.Size(88, 48);
+            this.pa_EMG.TabIndex = 13;
+            this.pa_EMG.Visible = false;
+            // 
+            // la_EMG
+            // 
+            this.la_EMG.BackColor = System.Drawing.Color.Red;
+            this.la_EMG.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.la_EMG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.la_EMG.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold);
+            this.la_EMG.ForeColor = System.Drawing.Color.Yellow;
+            this.la_EMG.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_EMG.Location = new System.Drawing.Point(8, 8);
+            this.la_EMG.Name = "la_EMG";
+            this.la_EMG.Size = new System.Drawing.Size(72, 32);
+            this.la_EMG.TabIndex = 6;
+            this.la_EMG.Text = "EMG";
+            this.la_EMG.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.la_EMG.Visible = false;
+            // 
+            // la_Time
+            // 
+            this.la_Time.Font = new System.Drawing.Font("微軟正黑體", 12F);
+            this.la_Time.ForeColor = System.Drawing.Color.White;
+            this.la_Time.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Time.Location = new System.Drawing.Point(784, 40);
+            this.la_Time.Name = "la_Time";
+            this.la_Time.Size = new System.Drawing.Size(144, 20);
+            this.la_Time.TabIndex = 12;
+            this.la_Time.Text = "2026/04/07 08:55";
+            this.la_Time.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // la_Version
+            // 
+            this.la_Version.AutoSize = true;
+            this.la_Version.Font = new System.Drawing.Font("微軟正黑體", 12F);
+            this.la_Version.ForeColor = System.Drawing.Color.White;
+            this.la_Version.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Version.Location = new System.Drawing.Point(776, 24);
+            this.la_Version.Name = "la_Version";
+            this.la_Version.Size = new System.Drawing.Size(205, 25);
+            this.la_Version.TabIndex = 10;
+            this.la_Version.Text = "Ver : 1.26.0407.0855";
+            // 
+            // pa_Alarm
+            // 
+            this.pa_Alarm.Controls.Add(this.la_Alarm);
+            this.pa_Alarm.Location = new System.Drawing.Point(456, 16);
+            this.pa_Alarm.Name = "pa_Alarm";
+            this.pa_Alarm.Size = new System.Drawing.Size(88, 40);
+            this.pa_Alarm.TabIndex = 9;
+            this.pa_Alarm.Visible = false;
+            // 
+            // la_Alarm
+            // 
+            this.la_Alarm.BackColor = System.Drawing.Color.Red;
+            this.la_Alarm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.la_Alarm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.la_Alarm.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold);
+            this.la_Alarm.ForeColor = System.Drawing.Color.Yellow;
+            this.la_Alarm.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Alarm.Location = new System.Drawing.Point(8, 8);
+            this.la_Alarm.Name = "la_Alarm";
+            this.la_Alarm.Size = new System.Drawing.Size(72, 32);
+            this.la_Alarm.TabIndex = 5;
+            this.la_Alarm.Text = "Alarm";
+            this.la_Alarm.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.la_Alarm.Visible = false;
+            // 
+            // pic_Logo
+            // 
+            this.pic_Logo.BackColor = System.Drawing.Color.White;
+            this.pic_Logo.Image = ((System.Drawing.Image)(resources.GetObject("pic_Logo.Image")));
+            this.pic_Logo.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pic_Logo.Location = new System.Drawing.Point(-8, 12);
+            this.pic_Logo.Name = "pic_Logo";
+            this.pic_Logo.Size = new System.Drawing.Size(280, 56);
+            this.pic_Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_Logo.TabIndex = 8;
+            this.pic_Logo.TabStop = false;
+            this.pic_Logo.DoubleClick += new System.EventHandler(this.pic_Logo_DoubleClick);
+            // 
+            // pic_RS485error
+            // 
+            this.pic_RS485error.Image = ((System.Drawing.Image)(resources.GetObject("pic_RS485error.Image")));
+            this.pic_RS485error.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pic_RS485error.Location = new System.Drawing.Point(336, 8);
+            this.pic_RS485error.Name = "pic_RS485error";
+            this.pic_RS485error.Size = new System.Drawing.Size(28, 28);
+            this.pic_RS485error.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_RS485error.TabIndex = 1;
+            this.pic_RS485error.TabStop = false;
+            this.pic_RS485error.Visible = false;
+            // 
+            // pic_RS422error
+            // 
+            this.pic_RS422error.Image = ((System.Drawing.Image)(resources.GetObject("pic_RS422error.Image")));
+            this.pic_RS422error.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pic_RS422error.Location = new System.Drawing.Point(336, 40);
+            this.pic_RS422error.Name = "pic_RS422error";
+            this.pic_RS422error.Size = new System.Drawing.Size(28, 28);
+            this.pic_RS422error.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_RS422error.TabIndex = 1;
+            this.pic_RS422error.TabStop = false;
+            this.pic_RS422error.Visible = false;
+            // 
+            // pic_ConnectStatus
+            // 
+            this.pic_ConnectStatus.Image = ((System.Drawing.Image)(resources.GetObject("pic_ConnectStatus.Image")));
+            this.pic_ConnectStatus.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pic_ConnectStatus.Location = new System.Drawing.Point(272, 8);
+            this.pic_ConnectStatus.Name = "pic_ConnectStatus";
+            this.pic_ConnectStatus.Size = new System.Drawing.Size(64, 64);
+            this.pic_ConnectStatus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_ConnectStatus.TabIndex = 1;
+            this.pic_ConnectStatus.TabStop = false;
+            this.pic_ConnectStatus.Click += new System.EventHandler(this.pic_ConnectStatus_Click);
             // 
             // TC_Main
             // 
@@ -12164,217 +12375,6 @@
             this.uc_UserNumInput.TabIndex = 180;
             this.uc_UserNumInput.OnBtnOkClick += new System.EventHandler(this.uc_UserNumInput_OnBtnOkClick);
             // 
-            // pic_User
-            // 
-            this.pic_User.Image = global::OIG_Option.Properties.Resources.user1s;
-            this.pic_User.Location = new System.Drawing.Point(952, 24);
-            this.pic_User.Name = "pic_User";
-            this.pic_User.Size = new System.Drawing.Size(64, 56);
-            this.pic_User.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pic_User.TabIndex = 87;
-            this.pic_User.TabStop = false;
-            this.pic_User.Click += new System.EventHandler(this.pic_User_Click);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::OIG_Option.Properties.Resources.pic_fanuc_Image2;
-            this.pictureBox5.Location = new System.Drawing.Point(640, 0);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(384, 24);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 19;
-            this.pictureBox5.TabStop = false;
-            // 
-            // la_SBK
-            // 
-            this.la_SBK.BackColor = System.Drawing.Color.Lime;
-            this.la_SBK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.la_SBK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.la_SBK.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.la_SBK.ForeColor = System.Drawing.Color.White;
-            this.la_SBK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_SBK.Location = new System.Drawing.Point(464, 56);
-            this.la_SBK.Name = "la_SBK";
-            this.la_SBK.Size = new System.Drawing.Size(72, 32);
-            this.la_SBK.TabIndex = 18;
-            this.la_SBK.Text = "SBK";
-            this.la_SBK.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.la_SBK.Visible = false;
-            // 
-            // pa_AlarmTip
-            // 
-            this.pa_AlarmTip.BackColor = System.Drawing.Color.Red;
-            this.pa_AlarmTip.Controls.Add(this.la_AlarmTip);
-            this.pa_AlarmTip.Location = new System.Drawing.Point(368, 34);
-            this.pa_AlarmTip.Name = "pa_AlarmTip";
-            this.pa_AlarmTip.Size = new System.Drawing.Size(96, 22);
-            this.pa_AlarmTip.TabIndex = 15;
-            this.pa_AlarmTip.Visible = false;
-            // 
-            // la_AlarmTip
-            // 
-            this.la_AlarmTip.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.la_AlarmTip.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_AlarmTip.ForeColor = System.Drawing.Color.Yellow;
-            this.la_AlarmTip.Location = new System.Drawing.Point(8, 0);
-            this.la_AlarmTip.Name = "la_AlarmTip";
-            this.la_AlarmTip.Size = new System.Drawing.Size(80, 22);
-            this.la_AlarmTip.TabIndex = 0;
-            this.la_AlarmTip.Text = "-";
-            this.la_AlarmTip.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.la_AlarmTip.MouseDown += new System.Windows.Forms.MouseEventHandler(this.la_AlarmTip_MouseDown);
-            this.la_AlarmTip.MouseUp += new System.Windows.Forms.MouseEventHandler(this.la_AlarmTip_MouseUp);
-            // 
-            // pa_Tip
-            // 
-            this.pa_Tip.BackColor = System.Drawing.Color.Yellow;
-            this.pa_Tip.Controls.Add(this.la_Tip);
-            this.pa_Tip.Location = new System.Drawing.Point(368, 57);
-            this.pa_Tip.Name = "pa_Tip";
-            this.pa_Tip.Size = new System.Drawing.Size(96, 22);
-            this.pa_Tip.TabIndex = 14;
-            this.pa_Tip.Visible = false;
-            // 
-            // la_Tip
-            // 
-            this.la_Tip.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.la_Tip.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_Tip.Location = new System.Drawing.Point(8, 0);
-            this.la_Tip.Name = "la_Tip";
-            this.la_Tip.Size = new System.Drawing.Size(80, 22);
-            this.la_Tip.TabIndex = 0;
-            this.la_Tip.Text = "-";
-            this.la_Tip.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.la_Tip.MouseDown += new System.Windows.Forms.MouseEventHandler(this.la_Tip_MouseDown);
-            this.la_Tip.MouseUp += new System.Windows.Forms.MouseEventHandler(this.la_Tip_MouseUp);
-            // 
-            // pa_EMG
-            // 
-            this.pa_EMG.Controls.Add(this.la_EMG);
-            this.pa_EMG.Location = new System.Drawing.Point(536, 16);
-            this.pa_EMG.Name = "pa_EMG";
-            this.pa_EMG.Size = new System.Drawing.Size(88, 48);
-            this.pa_EMG.TabIndex = 13;
-            this.pa_EMG.Visible = false;
-            // 
-            // la_EMG
-            // 
-            this.la_EMG.BackColor = System.Drawing.Color.Red;
-            this.la_EMG.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.la_EMG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.la_EMG.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold);
-            this.la_EMG.ForeColor = System.Drawing.Color.Yellow;
-            this.la_EMG.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_EMG.Location = new System.Drawing.Point(8, 8);
-            this.la_EMG.Name = "la_EMG";
-            this.la_EMG.Size = new System.Drawing.Size(72, 32);
-            this.la_EMG.TabIndex = 6;
-            this.la_EMG.Text = "EMG";
-            this.la_EMG.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.la_EMG.Visible = false;
-            // 
-            // la_Time
-            // 
-            this.la_Time.Font = new System.Drawing.Font("微軟正黑體", 12F);
-            this.la_Time.ForeColor = System.Drawing.Color.White;
-            this.la_Time.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_Time.Location = new System.Drawing.Point(784, 40);
-            this.la_Time.Name = "la_Time";
-            this.la_Time.Size = new System.Drawing.Size(144, 20);
-            this.la_Time.TabIndex = 12;
-            this.la_Time.Text = "2026/04/01 13:56";
-            this.la_Time.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // la_Version
-            // 
-            this.la_Version.AutoSize = true;
-            this.la_Version.Font = new System.Drawing.Font("微軟正黑體", 12F);
-            this.la_Version.ForeColor = System.Drawing.Color.White;
-            this.la_Version.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_Version.Location = new System.Drawing.Point(776, 24);
-            this.la_Version.Name = "la_Version";
-            this.la_Version.Size = new System.Drawing.Size(205, 25);
-            this.la_Version.TabIndex = 10;
-            this.la_Version.Text = "Ver : 1.26.0401.1356";
-            // 
-            // pa_Alarm
-            // 
-            this.pa_Alarm.Controls.Add(this.la_Alarm);
-            this.pa_Alarm.Location = new System.Drawing.Point(456, 16);
-            this.pa_Alarm.Name = "pa_Alarm";
-            this.pa_Alarm.Size = new System.Drawing.Size(88, 40);
-            this.pa_Alarm.TabIndex = 9;
-            this.pa_Alarm.Visible = false;
-            // 
-            // la_Alarm
-            // 
-            this.la_Alarm.BackColor = System.Drawing.Color.Red;
-            this.la_Alarm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.la_Alarm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.la_Alarm.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold);
-            this.la_Alarm.ForeColor = System.Drawing.Color.Yellow;
-            this.la_Alarm.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_Alarm.Location = new System.Drawing.Point(8, 8);
-            this.la_Alarm.Name = "la_Alarm";
-            this.la_Alarm.Size = new System.Drawing.Size(72, 32);
-            this.la_Alarm.TabIndex = 5;
-            this.la_Alarm.Text = "Alarm";
-            this.la_Alarm.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.la_Alarm.Visible = false;
-            // 
-            // pic_Logo
-            // 
-            this.pic_Logo.BackColor = System.Drawing.Color.White;
-            this.pic_Logo.Image = ((System.Drawing.Image)(resources.GetObject("pic_Logo.Image")));
-            this.pic_Logo.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pic_Logo.Location = new System.Drawing.Point(-8, 12);
-            this.pic_Logo.Name = "pic_Logo";
-            this.pic_Logo.Size = new System.Drawing.Size(280, 56);
-            this.pic_Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pic_Logo.TabIndex = 8;
-            this.pic_Logo.TabStop = false;
-            this.pic_Logo.DoubleClick += new System.EventHandler(this.pic_Logo_DoubleClick);
-            // 
-            // pic_RS485error
-            // 
-            this.pic_RS485error.Image = ((System.Drawing.Image)(resources.GetObject("pic_RS485error.Image")));
-            this.pic_RS485error.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pic_RS485error.Location = new System.Drawing.Point(336, 8);
-            this.pic_RS485error.Name = "pic_RS485error";
-            this.pic_RS485error.Size = new System.Drawing.Size(28, 28);
-            this.pic_RS485error.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pic_RS485error.TabIndex = 1;
-            this.pic_RS485error.TabStop = false;
-            this.pic_RS485error.Visible = false;
-            // 
-            // pic_RS422error
-            // 
-            this.pic_RS422error.Image = ((System.Drawing.Image)(resources.GetObject("pic_RS422error.Image")));
-            this.pic_RS422error.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pic_RS422error.Location = new System.Drawing.Point(336, 40);
-            this.pic_RS422error.Name = "pic_RS422error";
-            this.pic_RS422error.Size = new System.Drawing.Size(28, 28);
-            this.pic_RS422error.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pic_RS422error.TabIndex = 1;
-            this.pic_RS422error.TabStop = false;
-            this.pic_RS422error.Visible = false;
-            // 
-            // pic_ConnectStatus
-            // 
-            this.pic_ConnectStatus.Image = ((System.Drawing.Image)(resources.GetObject("pic_ConnectStatus.Image")));
-            this.pic_ConnectStatus.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pic_ConnectStatus.Location = new System.Drawing.Point(272, 8);
-            this.pic_ConnectStatus.Name = "pic_ConnectStatus";
-            this.pic_ConnectStatus.Size = new System.Drawing.Size(64, 64);
-            this.pic_ConnectStatus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pic_ConnectStatus.TabIndex = 1;
-            this.pic_ConnectStatus.TabStop = false;
-            this.pic_ConnectStatus.Click += new System.EventHandler(this.pic_ConnectStatus_Click);
-            // 
             // pa_Bottom
             // 
             this.pa_Bottom.BackColor = System.Drawing.Color.Black;
@@ -12808,13 +12808,22 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Fo_Main";
-            this.Opacity = 0D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OIG Integration";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Fo_Main_FormClosing);
             this.Load += new System.EventHandler(this.Fo_Main_Load);
             this.pa_Top.ResumeLayout(false);
             this.pa_Top.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_User)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.pa_AlarmTip.ResumeLayout(false);
+            this.pa_Tip.ResumeLayout(false);
+            this.pa_EMG.ResumeLayout(false);
+            this.pa_Alarm.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Logo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_RS485error)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_RS422error)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_ConnectStatus)).EndInit();
             this.TC_Main.ResumeLayout(false);
             this.tab_FuntionOverView.ResumeLayout(false);
             this.tab_Probe.ResumeLayout(false);
@@ -12991,16 +13000,6 @@
             this.pa_Current_Language.ResumeLayout(false);
             this.tab_UseUI.ResumeLayout(false);
             this.tab_UseUI.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_User)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.pa_AlarmTip.ResumeLayout(false);
-            this.pa_Tip.ResumeLayout(false);
-            this.pa_EMG.ResumeLayout(false);
-            this.pa_Alarm.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pic_Logo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_RS485error)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_RS422error)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_ConnectStatus)).EndInit();
             this.pa_Bottom.ResumeLayout(false);
             this.pa_ModeSelect.ResumeLayout(false);
             this.ResumeLayout(false);
