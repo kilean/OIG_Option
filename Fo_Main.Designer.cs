@@ -32,7 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Fo_Main));
             this.pa_Top = new System.Windows.Forms.Panel();
             this.pic_User = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pic_FANUC = new System.Windows.Forms.PictureBox();
             this.la_SBK = new System.Windows.Forms.Label();
             this.pa_AlarmTip = new System.Windows.Forms.Panel();
             this.la_AlarmTip = new System.Windows.Forms.Label();
@@ -104,6 +104,15 @@
             this.ucBtn_Probe = new Uc_RoundBtn();
             this.la_Fun1 = new System.Windows.Forms.Label();
             this.tab_Probe = new System.Windows.Forms.TabPage();
+            this.pa_ProbeIO = new System.Windows.Forms.Panel();
+            this.la_Y2_2 = new System.Windows.Forms.Label();
+            this.pic_Y2_2 = new System.Windows.Forms.PictureBox();
+            this.la_Y2_1 = new System.Windows.Forms.Label();
+            this.pic_Y2_1 = new System.Windows.Forms.PictureBox();
+            this.la_X1_4 = new System.Windows.Forms.Label();
+            this.pic_X1_4 = new System.Windows.Forms.PictureBox();
+            this.la_X1_3 = new System.Windows.Forms.Label();
+            this.pic_X1_3 = new System.Windows.Forms.PictureBox();
             this.la_K5_3Desc = new System.Windows.Forms.Label();
             this.la_T56Desc = new System.Windows.Forms.Label();
             this.la_T0056s = new System.Windows.Forms.Label();
@@ -124,6 +133,19 @@
             this.ucBtn_T22 = new Uc_RoundBtn();
             this.pic_K5_3 = new System.Windows.Forms.PictureBox();
             this.tab_Chuck = new System.Windows.Forms.TabPage();
+            this.pa_ChuckIO = new System.Windows.Forms.Panel();
+            this.la_X1_0 = new System.Windows.Forms.Label();
+            this.pic_X1_0 = new System.Windows.Forms.PictureBox();
+            this.la_Y0_4 = new System.Windows.Forms.Label();
+            this.pic_Y0_4 = new System.Windows.Forms.PictureBox();
+            this.la_Y0_3 = new System.Windows.Forms.Label();
+            this.pic_Y0_3 = new System.Windows.Forms.PictureBox();
+            this.la_X0_0 = new System.Windows.Forms.Label();
+            this.pic_X0_0 = new System.Windows.Forms.PictureBox();
+            this.la_X0_2 = new System.Windows.Forms.Label();
+            this.pic_X0_2 = new System.Windows.Forms.PictureBox();
+            this.la_X0_1 = new System.Windows.Forms.Label();
+            this.pic_X0_1 = new System.Windows.Forms.PictureBox();
             this.la_K30_1Type = new System.Windows.Forms.Label();
             this.la_K30_1Desc = new System.Windows.Forms.Label();
             this.la_K30_1_1 = new System.Windows.Forms.Label();
@@ -171,6 +193,19 @@
             this.pic_K22_2_1 = new System.Windows.Forms.PictureBox();
             this.pic_K22_2_0 = new System.Windows.Forms.PictureBox();
             this.tab_WorkSpindle = new System.Windows.Forms.TabPage();
+            this.pa_WorkSpindleIO = new System.Windows.Forms.Panel();
+            this.la_X5_6 = new System.Windows.Forms.Label();
+            this.pic_X5_6 = new System.Windows.Forms.PictureBox();
+            this.la_Y4_0 = new System.Windows.Forms.Label();
+            this.pic_Y4_0 = new System.Windows.Forms.PictureBox();
+            this.la_Y4_7 = new System.Windows.Forms.Label();
+            this.pic_Y4_7 = new System.Windows.Forms.PictureBox();
+            this.la_Y4_6 = new System.Windows.Forms.Label();
+            this.pic_Y4_6 = new System.Windows.Forms.PictureBox();
+            this.la_X4_1 = new System.Windows.Forms.Label();
+            this.pic_X4_1 = new System.Windows.Forms.PictureBox();
+            this.la_X4_0 = new System.Windows.Forms.Label();
+            this.pic_X4_0 = new System.Windows.Forms.PictureBox();
             this.pic_K9_7 = new System.Windows.Forms.PictureBox();
             this.la_D200Desc = new System.Windows.Forms.Label();
             this.la_D200RPM = new System.Windows.Forms.Label();
@@ -221,6 +256,8 @@
             this.pic_K8_6_1 = new System.Windows.Forms.PictureBox();
             this.pic_K8_6_0 = new System.Windows.Forms.PictureBox();
             this.tab_Orientation = new System.Windows.Forms.TabPage();
+            this.la_X1_2 = new System.Windows.Forms.Label();
+            this.pic_X1_2 = new System.Windows.Forms.PictureBox();
             this.la_T38Desc = new System.Windows.Forms.Label();
             this.la_T38s = new System.Windows.Forms.Label();
             this.la_T38 = new System.Windows.Forms.Label();
@@ -238,6 +275,15 @@
             this.ucBtn_D62 = new Uc_RoundBtn();
             this.pic_K1_2 = new System.Windows.Forms.PictureBox();
             this.tab_GW1 = new System.Windows.Forms.TabPage();
+            this.pa_GW1IO = new System.Windows.Forms.Panel();
+            this.la_X5_7 = new System.Windows.Forms.Label();
+            this.pic_X5_7 = new System.Windows.Forms.PictureBox();
+            this.la_Y5_7 = new System.Windows.Forms.Label();
+            this.pic_Y5_7 = new System.Windows.Forms.PictureBox();
+            this.la_X4_3 = new System.Windows.Forms.Label();
+            this.pic_X4_3 = new System.Windows.Forms.PictureBox();
+            this.la_X4_2 = new System.Windows.Forms.Label();
+            this.pic_X4_2 = new System.Windows.Forms.PictureBox();
             this.la_K11_6_1 = new System.Windows.Forms.Label();
             this.la_K11_6_0 = new System.Windows.Forms.Label();
             this.la_K11_6Desc = new System.Windows.Forms.Label();
@@ -275,6 +321,15 @@
             this.pic_K3_1_1 = new System.Windows.Forms.PictureBox();
             this.pic_K3_1_0 = new System.Windows.Forms.PictureBox();
             this.tab_GW2 = new System.Windows.Forms.TabPage();
+            this.pa_GW2IO = new System.Windows.Forms.Panel();
+            this.la_X5_5 = new System.Windows.Forms.Label();
+            this.pic_X5_5 = new System.Windows.Forms.PictureBox();
+            this.la_Y3_5 = new System.Windows.Forms.Label();
+            this.pic_Y3_5 = new System.Windows.Forms.PictureBox();
+            this.la_X6_1 = new System.Windows.Forms.Label();
+            this.pic_X6_1 = new System.Windows.Forms.PictureBox();
+            this.la_X6_0 = new System.Windows.Forms.Label();
+            this.pic_X6_0 = new System.Windows.Forms.PictureBox();
             this.pic_K13_6_0 = new System.Windows.Forms.PictureBox();
             this.la_K13_6_1 = new System.Windows.Forms.Label();
             this.la_K13_6_0 = new System.Windows.Forms.Label();
@@ -315,6 +370,24 @@
             this.pic_K13_1_1 = new System.Windows.Forms.PictureBox();
             this.pic_K13_1_0 = new System.Windows.Forms.PictureBox();
             this.tab_Gauge = new System.Windows.Forms.TabPage();
+            this.pa_GaugeIO2 = new System.Windows.Forms.Panel();
+            this.la_Y2_3 = new System.Windows.Forms.Label();
+            this.pic_Y2_3 = new System.Windows.Forms.PictureBox();
+            this.la_Y3_1 = new System.Windows.Forms.Label();
+            this.pic_Y3_1 = new System.Windows.Forms.PictureBox();
+            this.la_Y2_7 = new System.Windows.Forms.Label();
+            this.pic_Y2_7 = new System.Windows.Forms.PictureBox();
+            this.la_Y4_4 = new System.Windows.Forms.Label();
+            this.pic_Y4_4 = new System.Windows.Forms.PictureBox();
+            this.pa_GaugeIO = new System.Windows.Forms.Panel();
+            this.la_X9_0 = new System.Windows.Forms.Label();
+            this.pic_X9_0 = new System.Windows.Forms.PictureBox();
+            this.la_X9_1 = new System.Windows.Forms.Label();
+            this.pic_X9_1 = new System.Windows.Forms.PictureBox();
+            this.la_X4_4 = new System.Windows.Forms.Label();
+            this.pic_X4_4 = new System.Windows.Forms.PictureBox();
+            this.la_X4_7 = new System.Windows.Forms.Label();
+            this.pic_X4_7 = new System.Windows.Forms.PictureBox();
             this.la_T60Desc = new System.Windows.Forms.Label();
             this.la_T60s = new System.Windows.Forms.Label();
             this.la_T60 = new System.Windows.Forms.Label();
@@ -326,7 +399,6 @@
             this.la_T64s = new System.Windows.Forms.Label();
             this.la_T64 = new System.Windows.Forms.Label();
             this.cb_D68Select = new System.Windows.Forms.ComboBox();
-            this.la_D68 = new System.Windows.Forms.Label();
             this.la_GaugeTitle = new System.Windows.Forms.Label();
             this.la_K9_5Desc = new System.Windows.Forms.Label();
             this.la_K13_7Desc = new System.Windows.Forms.Label();
@@ -348,6 +420,7 @@
             this.pic_K13_3 = new System.Windows.Forms.PictureBox();
             this.pic_K9_5 = new System.Windows.Forms.PictureBox();
             this.pic_K13_7 = new System.Windows.Forms.PictureBox();
+            this.la_D68 = new System.Windows.Forms.Label();
             this.tab_SafetyDoor = new System.Windows.Forms.TabPage();
             this.la_Y2_4Desc = new System.Windows.Forms.Label();
             this.la_X3_7Desc = new System.Windows.Forms.Label();
@@ -362,6 +435,20 @@
             this.pic_X3_7 = new System.Windows.Forms.PictureBox();
             this.pic_K12_2 = new System.Windows.Forms.PictureBox();
             this.tab_AutoDoor = new System.Windows.Forms.TabPage();
+            this.pa_AutoDoorIO2 = new System.Windows.Forms.Panel();
+            this.la_Y0_5 = new System.Windows.Forms.Label();
+            this.pic_Y0_5 = new System.Windows.Forms.PictureBox();
+            this.la_Y4_2 = new System.Windows.Forms.Label();
+            this.pic_Y4_2 = new System.Windows.Forms.PictureBox();
+            this.la_Y4_1 = new System.Windows.Forms.Label();
+            this.pic_Y4_1 = new System.Windows.Forms.PictureBox();
+            this.la_Y0_6 = new System.Windows.Forms.Label();
+            this.pic_Y0_6 = new System.Windows.Forms.PictureBox();
+            this.pa_AutoDoorIO = new System.Windows.Forms.Panel();
+            this.la_X8_1 = new System.Windows.Forms.Label();
+            this.pic_X8_1 = new System.Windows.Forms.PictureBox();
+            this.la_X8_0 = new System.Windows.Forms.Label();
+            this.pic_X8_0 = new System.Windows.Forms.PictureBox();
             this.la_K14_2Desc = new System.Windows.Forms.Label();
             this.la_K14_2 = new System.Windows.Forms.Label();
             this.pic_K14_2 = new System.Windows.Forms.PictureBox();
@@ -419,7 +506,7 @@
             this.la_T14s = new System.Windows.Forms.Label();
             this.la_T14 = new System.Windows.Forms.Label();
             this.cb_D52Select = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
+            this.la_D52Desc = new System.Windows.Forms.Label();
             this.la_D52 = new System.Windows.Forms.Label();
             this.ucBtn_T20 = new Uc_RoundBtn();
             this.ucBtn_T14 = new Uc_RoundBtn();
@@ -478,7 +565,7 @@
             this.pic_K9_4 = new System.Windows.Forms.PictureBox();
             this.la_K9_4Desc = new System.Windows.Forms.Label();
             this.la_K9_4 = new System.Windows.Forms.Label();
-            this.la_X2_1Desc = new System.Windows.Forms.Label();
+            this.la_X2_1 = new System.Windows.Forms.Label();
             this.la_CoolantCoolerTitle = new System.Windows.Forms.Label();
             this.pic_X2_1 = new System.Windows.Forms.PictureBox();
             this.tab_CoolantSystem = new System.Windows.Forms.TabPage();
@@ -501,21 +588,19 @@
             this.pic_K5_6 = new System.Windows.Forms.PictureBox();
             this.pic_K0_2 = new System.Windows.Forms.PictureBox();
             this.tab_CoolantGun = new System.Windows.Forms.TabPage();
-            this.la_Y5_1Desc = new System.Windows.Forms.Label();
-            this.la_Y0_0Desc = new System.Windows.Forms.Label();
+            this.la_Y5_2 = new System.Windows.Forms.Label();
             this.la_K31_7Desc = new System.Windows.Forms.Label();
             this.la_K31_7 = new System.Windows.Forms.Label();
-            this.la_E2524_0Desc = new System.Windows.Forms.Label();
+            this.la_E2524_0 = new System.Windows.Forms.Label();
             this.la_CoolantGunTitle = new System.Windows.Forms.Label();
             this.pic_Y5_2 = new System.Windows.Forms.PictureBox();
-            this.pic_Y0_0 = new System.Windows.Forms.PictureBox();
             this.pic_K31_7 = new System.Windows.Forms.PictureBox();
             this.pic_E2524_0 = new System.Windows.Forms.PictureBox();
             this.tab_LightCurtain = new System.Windows.Forms.TabPage();
             this.pic_K12_1 = new System.Windows.Forms.PictureBox();
             this.la_K12_1Desc = new System.Windows.Forms.Label();
             this.la_K12_1 = new System.Windows.Forms.Label();
-            this.la_X3_0Desc = new System.Windows.Forms.Label();
+            this.la_X3_0 = new System.Windows.Forms.Label();
             this.la_LightCurtainTitle = new System.Windows.Forms.Label();
             this.pic_X3_0 = new System.Windows.Forms.PictureBox();
             this.tab_WheelCover = new System.Windows.Forms.TabPage();
@@ -550,10 +635,10 @@
             this.la_K2_0Desc = new System.Windows.Forms.Label();
             this.la_K2_0 = new System.Windows.Forms.Label();
             this.pic_K2_0 = new System.Windows.Forms.PictureBox();
-            this.la_X40_4Desc = new System.Windows.Forms.Label();
-            this.la_X40_3Desc = new System.Windows.Forms.Label();
-            this.la_X40_2Desc = new System.Windows.Forms.Label();
-            this.la_X40_1Desc = new System.Windows.Forms.Label();
+            this.la_X40_4 = new System.Windows.Forms.Label();
+            this.la_X40_3 = new System.Windows.Forms.Label();
+            this.la_X40_2 = new System.Windows.Forms.Label();
+            this.la_X40_1 = new System.Windows.Forms.Label();
             this.la_K2_3Desc = new System.Windows.Forms.Label();
             this.la_K2_3 = new System.Windows.Forms.Label();
             this.la_K2_2Desc = new System.Windows.Forms.Label();
@@ -576,11 +661,11 @@
             this.la_K3_5Desc = new System.Windows.Forms.Label();
             this.la_K3_5 = new System.Windows.Forms.Label();
             this.pic_K3_5 = new System.Windows.Forms.PictureBox();
-            this.la_Y1_7Desc = new System.Windows.Forms.Label();
-            this.la_X9_3Desc = new System.Windows.Forms.Label();
+            this.la_Y1_7 = new System.Windows.Forms.Label();
+            this.la_X9_3 = new System.Windows.Forms.Label();
             this.la_K30_0Desc = new System.Windows.Forms.Label();
             this.la_K30_0 = new System.Windows.Forms.Label();
-            this.la_X2_7Desc = new System.Windows.Forms.Label();
+            this.la_X2_7 = new System.Windows.Forms.Label();
             this.la_HydraulicOptTitle = new System.Windows.Forms.Label();
             this.pic_Y1_7 = new System.Windows.Forms.PictureBox();
             this.pic_X9_3 = new System.Windows.Forms.PictureBox();
@@ -588,14 +673,14 @@
             this.pic_X2_7 = new System.Windows.Forms.PictureBox();
             this.tab_GWOilMistLube = new System.Windows.Forms.TabPage();
             this.pa_GWOilMistLubeIO = new System.Windows.Forms.Panel();
-            this.la_Y1_1Desc = new System.Windows.Forms.Label();
-            this.la_Y2_1Desc = new System.Windows.Forms.Label();
+            this.la_Y1_1 = new System.Windows.Forms.Label();
+            this.la_Y0_2 = new System.Windows.Forms.Label();
             this.pic_Y1_1 = new System.Windows.Forms.PictureBox();
-            this.pic_Y2_1 = new System.Windows.Forms.PictureBox();
-            this.la_X3_4Desc = new System.Windows.Forms.Label();
-            this.la_X3_3Desc = new System.Windows.Forms.Label();
-            this.la_X8_7Desc = new System.Windows.Forms.Label();
-            this.la_X8_6Desc = new System.Windows.Forms.Label();
+            this.pic_Y0_2 = new System.Windows.Forms.PictureBox();
+            this.la_X3_4 = new System.Windows.Forms.Label();
+            this.la_X3_3 = new System.Windows.Forms.Label();
+            this.la_X8_7 = new System.Windows.Forms.Label();
+            this.la_X8_6 = new System.Windows.Forms.Label();
             this.pic_X3_4 = new System.Windows.Forms.PictureBox();
             this.pic_X3_3 = new System.Windows.Forms.PictureBox();
             this.pic_X8_7 = new System.Windows.Forms.PictureBox();
@@ -706,10 +791,10 @@
             this.la_T4s = new System.Windows.Forms.Label();
             this.la_T4 = new System.Windows.Forms.Label();
             this.ucBtn_T4 = new Uc_RoundBtn();
-            this.la_Y1_0Desc = new System.Windows.Forms.Label();
+            this.la_Y1_0 = new System.Windows.Forms.Label();
             this.la_K0_0Desc = new System.Windows.Forms.Label();
             this.la_K0_0 = new System.Windows.Forms.Label();
-            this.la_X9_5Desc = new System.Windows.Forms.Label();
+            this.la_X9_5 = new System.Windows.Forms.Label();
             this.pic_Y1_0 = new System.Windows.Forms.PictureBox();
             this.pic_K0_0 = new System.Windows.Forms.PictureBox();
             this.pic_X9_5 = new System.Windows.Forms.PictureBox();
@@ -718,11 +803,11 @@
             this.pic_K10_3 = new System.Windows.Forms.PictureBox();
             this.la_K10_3Desc = new System.Windows.Forms.Label();
             this.la_K10_3 = new System.Windows.Forms.Label();
-            this.la_X8_5Desc = new System.Windows.Forms.Label();
+            this.la_X8_5 = new System.Windows.Forms.Label();
             this.la_AirPressureTitle = new System.Windows.Forms.Label();
             this.pic_X8_5 = new System.Windows.Forms.PictureBox();
             this.tab_LinearScale = new System.Windows.Forms.TabPage();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pa_LinearScaleAxis = new System.Windows.Forms.Panel();
             this.la_LinearScaleZ = new System.Windows.Forms.Label();
             this.la_LinearScaleX = new System.Windows.Forms.Label();
             this.pic_LinearScaleAxis = new System.Windows.Forms.PictureBox();
@@ -809,9 +894,85 @@
             this.btn_EDIT = new Uc_RoundBtn();
             this.btn_MDI = new Uc_RoundBtn();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.la_Y5_4 = new System.Windows.Forms.Label();
+            this.la_X4_5 = new System.Windows.Forms.Label();
+            this.pic_Y5_4 = new System.Windows.Forms.PictureBox();
+            this.pic_X4_5 = new System.Windows.Forms.PictureBox();
+            this.la_Y3_7 = new System.Windows.Forms.Label();
+            this.la_F122_1 = new System.Windows.Forms.Label();
+            this.pic_Y3_7 = new System.Windows.Forms.PictureBox();
+            this.pic_F122_1 = new System.Windows.Forms.PictureBox();
+            this.la_Y3_6 = new System.Windows.Forms.Label();
+            this.pic_Y3_6 = new System.Windows.Forms.PictureBox();
+            this.la_E7_1 = new System.Windows.Forms.Label();
+            this.pic_E7_1 = new System.Windows.Forms.PictureBox();
+            this.la_E6_1 = new System.Windows.Forms.Label();
+            this.pic_E6_1 = new System.Windows.Forms.PictureBox();
+            this.la_E7_3 = new System.Windows.Forms.Label();
+            this.pic_E7_3 = new System.Windows.Forms.PictureBox();
+            this.la_E6_2 = new System.Windows.Forms.Label();
+            this.pic_E6_2 = new System.Windows.Forms.PictureBox();
+            this.la_Y1_4 = new System.Windows.Forms.Label();
+            this.pic_Y1_4 = new System.Windows.Forms.PictureBox();
+            this.la_X2_6 = new System.Windows.Forms.Label();
+            this.pic_X2_6 = new System.Windows.Forms.PictureBox();
+            this.la_X1_6 = new System.Windows.Forms.Label();
+            this.pic_X1_6 = new System.Windows.Forms.PictureBox();
+            this.la_Y0_7 = new System.Windows.Forms.Label();
+            this.pic_Y0_7 = new System.Windows.Forms.PictureBox();
+            this.la_X1_5 = new System.Windows.Forms.Label();
+            this.pic_X1_5 = new System.Windows.Forms.PictureBox();
+            this.pa_CoolantSystemIO = new System.Windows.Forms.Panel();
+            this.la_X6_6 = new System.Windows.Forms.Label();
+            this.pic_X6_6 = new System.Windows.Forms.PictureBox();
+            this.la_X8_3 = new System.Windows.Forms.Label();
+            this.pic_X8_3 = new System.Windows.Forms.PictureBox();
+            this.la_Y1_5 = new System.Windows.Forms.Label();
+            this.pic_Y1_5 = new System.Windows.Forms.PictureBox();
+            this.la_Y0_0 = new System.Windows.Forms.Label();
+            this.pic_Y0_0 = new System.Windows.Forms.PictureBox();
+            this.la_X2_5 = new System.Windows.Forms.Label();
+            this.pic_X2_5 = new System.Windows.Forms.PictureBox();
+            this.la_X2_2 = new System.Windows.Forms.Label();
+            this.pic_X2_2 = new System.Windows.Forms.PictureBox();
+            this.la_X2_0 = new System.Windows.Forms.Label();
+            this.pic_X2_0 = new System.Windows.Forms.PictureBox();
+            this.pa_WheelCoverIO = new System.Windows.Forms.Panel();
+            this.la_Y1_3 = new System.Windows.Forms.Label();
+            this.pic_Y1_3 = new System.Windows.Forms.PictureBox();
+            this.la_Y2_0 = new System.Windows.Forms.Label();
+            this.pic_Y2_0 = new System.Windows.Forms.PictureBox();
+            this.la_X0_6 = new System.Windows.Forms.Label();
+            this.pic_X0_6 = new System.Windows.Forms.PictureBox();
+            this.la_X2_4 = new System.Windows.Forms.Label();
+            this.pic_X2_4 = new System.Windows.Forms.PictureBox();
+            this.la_X2_3 = new System.Windows.Forms.Label();
+            this.pic_X2_3 = new System.Windows.Forms.PictureBox();
+            this.la_E8_1 = new System.Windows.Forms.Label();
+            this.pic_E8_1 = new System.Windows.Forms.PictureBox();
+            this.la_E8_0 = new System.Windows.Forms.Label();
+            this.pic_E8_0 = new System.Windows.Forms.PictureBox();
+            this.la_X0_7 = new System.Windows.Forms.Label();
+            this.pic_X0_7 = new System.Windows.Forms.PictureBox();
+            this.la_X0_5 = new System.Windows.Forms.Label();
+            this.pic_X0_5 = new System.Windows.Forms.PictureBox();
+            this.la_Y5_0 = new System.Windows.Forms.Label();
+            this.pic_Y5_0 = new System.Windows.Forms.PictureBox();
+            this.la_X1_7 = new System.Windows.Forms.Label();
+            this.pic_X1_7 = new System.Windows.Forms.PictureBox();
+            this.la_Y5_1 = new System.Windows.Forms.Label();
+            this.pic_Y5_1 = new System.Windows.Forms.PictureBox();
+            this.la__Y5_6 = new System.Windows.Forms.Label();
+            this.pic_Y5_6 = new System.Windows.Forms.PictureBox();
+            this.pic_X6_3 = new System.Windows.Forms.PictureBox();
+            this.pic_X6_2 = new System.Windows.Forms.PictureBox();
+            this.la_Y5_5 = new System.Windows.Forms.Label();
+            this.la_X6_3 = new System.Windows.Forms.Label();
+            this.la_X6_2 = new System.Windows.Forms.Label();
+            this.pic_Y5_5 = new System.Windows.Forms.PictureBox();
             this.pa_Top.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_User)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_FANUC)).BeginInit();
             this.pa_AlarmTip.SuspendLayout();
             this.pa_Tip.SuspendLayout();
             this.pa_EMG.SuspendLayout();
@@ -823,8 +984,20 @@
             this.TC_Main.SuspendLayout();
             this.tab_FuntionOverView.SuspendLayout();
             this.tab_Probe.SuspendLayout();
+            this.pa_ProbeIO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y2_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y2_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X1_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X1_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K5_3)).BeginInit();
             this.tab_Chuck.SuspendLayout();
+            this.pa_ChuckIO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X1_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y0_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y0_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X0_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X0_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X0_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K30_1_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K30_1_0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K30_2_1)).BeginInit();
@@ -836,6 +1009,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_K22_2_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K22_2_0)).BeginInit();
             this.tab_WorkSpindle.SuspendLayout();
+            this.pa_WorkSpindleIO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X5_6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y4_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y4_7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y4_6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X4_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X4_0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K9_7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K22_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K2_4)).BeginInit();
@@ -849,8 +1029,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_K8_6_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K8_6_0)).BeginInit();
             this.tab_Orientation.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X1_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K1_2)).BeginInit();
             this.tab_GW1.SuspendLayout();
+            this.pa_GW1IO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X5_7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y5_7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X4_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X4_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K11_6_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K11_6_0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K2_6)).BeginInit();
@@ -861,6 +1047,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_K3_1_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K3_1_0)).BeginInit();
             this.tab_GW2.SuspendLayout();
+            this.pa_GW2IO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X5_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y3_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X6_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X6_0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K13_6_0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K13_6_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K13_0)).BeginInit();
@@ -872,6 +1063,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_K13_1_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K13_1_0)).BeginInit();
             this.tab_Gauge.SuspendLayout();
+            this.pa_GaugeIO2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y2_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y3_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y2_7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y4_4)).BeginInit();
+            this.pa_GaugeIO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X9_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X9_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X4_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X4_7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K39_0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K13_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K9_5)).BeginInit();
@@ -881,6 +1082,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_X3_7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K12_2)).BeginInit();
             this.tab_AutoDoor.SuspendLayout();
+            this.pa_AutoDoorIO2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y0_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y4_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y4_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y0_6)).BeginInit();
+            this.pa_AutoDoorIO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X8_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X8_0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K14_2)).BeginInit();
             this.pa_PSW04.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K12_3)).BeginInit();
@@ -911,7 +1120,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_K0_2)).BeginInit();
             this.tab_CoolantGun.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Y5_2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_Y0_0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K31_7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_E2524_0)).BeginInit();
             this.tab_LightCurtain.SuspendLayout();
@@ -940,7 +1148,7 @@
             this.tab_GWOilMistLube.SuspendLayout();
             this.pa_GWOilMistLubeIO.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Y1_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_Y2_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y0_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X3_4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X3_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X8_7)).BeginInit();
@@ -974,7 +1182,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_K10_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X8_5)).BeginInit();
             this.tab_LinearScale.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.pa_LinearScaleAxis.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_LinearScaleAxis)).BeginInit();
             this.tab_Message.SuspendLayout();
             this.GB_DEV_MsgHis.SuspendLayout();
@@ -996,13 +1204,52 @@
             this.tab_UseUI.SuspendLayout();
             this.pa_Bottom.SuspendLayout();
             this.pa_ModeSelect.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y5_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X4_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y3_7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_F122_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y3_6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E7_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E6_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E7_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E6_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y1_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X2_6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X1_6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y0_7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X1_5)).BeginInit();
+            this.pa_CoolantSystemIO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X6_6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X8_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y1_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y0_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X2_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X2_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X2_0)).BeginInit();
+            this.pa_WheelCoverIO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y1_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y2_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X0_6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X2_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X2_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E8_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E8_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X0_7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X0_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y5_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X1_7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y5_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y5_6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X6_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X6_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y5_5)).BeginInit();
             this.SuspendLayout();
             // 
             // pa_Top
             // 
             this.pa_Top.BackColor = System.Drawing.Color.Black;
             this.pa_Top.Controls.Add(this.pic_User);
-            this.pa_Top.Controls.Add(this.pictureBox5);
+            this.pa_Top.Controls.Add(this.pic_FANUC);
             this.pa_Top.Controls.Add(this.la_SBK);
             this.pa_Top.Controls.Add(this.pa_AlarmTip);
             this.pa_Top.Controls.Add(this.pa_Tip);
@@ -1017,7 +1264,7 @@
             this.pa_Top.Dock = System.Windows.Forms.DockStyle.Top;
             this.pa_Top.Location = new System.Drawing.Point(0, 0);
             this.pa_Top.Name = "pa_Top";
-            this.pa_Top.Size = new System.Drawing.Size(1024, 88);
+            this.pa_Top.Size = new System.Drawing.Size(1024, 80);
             this.pa_Top.TabIndex = 18;
             // 
             // pic_User
@@ -1031,15 +1278,15 @@
             this.pic_User.TabStop = false;
             this.pic_User.Click += new System.EventHandler(this.pic_User_Click);
             // 
-            // pictureBox5
+            // pic_FANUC
             // 
-            this.pictureBox5.Image = global::OIG_Option.Properties.Resources.pic_fanuc_Image2;
-            this.pictureBox5.Location = new System.Drawing.Point(640, 0);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(384, 24);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 19;
-            this.pictureBox5.TabStop = false;
+            this.pic_FANUC.Image = global::OIG_Option.Properties.Resources.pic_fanuc_Image2;
+            this.pic_FANUC.Location = new System.Drawing.Point(640, 0);
+            this.pic_FANUC.Name = "pic_FANUC";
+            this.pic_FANUC.Size = new System.Drawing.Size(384, 24);
+            this.pic_FANUC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_FANUC.TabIndex = 19;
+            this.pic_FANUC.TabStop = false;
             // 
             // la_SBK
             // 
@@ -1142,7 +1389,7 @@
             this.la_Time.Name = "la_Time";
             this.la_Time.Size = new System.Drawing.Size(144, 20);
             this.la_Time.TabIndex = 12;
-            this.la_Time.Text = "2026/04/07 08:55";
+            this.la_Time.Text = "2026/04/09 15:15";
             this.la_Time.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // la_Version
@@ -1155,7 +1402,7 @@
             this.la_Version.Name = "la_Version";
             this.la_Version.Size = new System.Drawing.Size(205, 25);
             this.la_Version.TabIndex = 10;
-            this.la_Version.Text = "Ver : 1.26.0407.0855";
+            this.la_Version.Text = "Ver : 1.26.0409.1515";
             // 
             // pa_Alarm
             // 
@@ -2262,6 +2509,7 @@
             // 
             // tab_Probe
             // 
+            this.tab_Probe.Controls.Add(this.pa_ProbeIO);
             this.tab_Probe.Controls.Add(this.la_K5_3Desc);
             this.tab_Probe.Controls.Add(this.la_T56Desc);
             this.tab_Probe.Controls.Add(this.la_T0056s);
@@ -2289,18 +2537,126 @@
             this.tab_Probe.UseVisualStyleBackColor = true;
             this.tab_Probe.Paint += new System.Windows.Forms.PaintEventHandler(this.tab_Paint);
             // 
+            // pa_ProbeIO
+            // 
+            this.pa_ProbeIO.BackColor = System.Drawing.Color.Transparent;
+            this.pa_ProbeIO.Controls.Add(this.la_Y2_2);
+            this.pa_ProbeIO.Controls.Add(this.pic_Y2_2);
+            this.pa_ProbeIO.Controls.Add(this.la_Y2_1);
+            this.pa_ProbeIO.Controls.Add(this.pic_Y2_1);
+            this.pa_ProbeIO.Controls.Add(this.la_X1_4);
+            this.pa_ProbeIO.Controls.Add(this.pic_X1_4);
+            this.pa_ProbeIO.Controls.Add(this.la_X1_3);
+            this.pa_ProbeIO.Controls.Add(this.pic_X1_3);
+            this.pa_ProbeIO.Location = new System.Drawing.Point(8, 312);
+            this.pa_ProbeIO.Name = "pa_ProbeIO";
+            this.pa_ProbeIO.Size = new System.Drawing.Size(576, 112);
+            this.pa_ProbeIO.TabIndex = 188;
+            // 
+            // la_Y2_2
+            // 
+            this.la_Y2_2.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y2_2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y2_2.ForeColor = System.Drawing.Color.Black;
+            this.la_Y2_2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y2_2.Location = new System.Drawing.Point(296, 72);
+            this.la_Y2_2.Name = "la_Y2_2";
+            this.la_Y2_2.Size = new System.Drawing.Size(264, 24);
+            this.la_Y2_2.TabIndex = 380;
+            this.la_Y2_2.Tag = "";
+            this.la_Y2_2.Text = "Y02.2(端測縮回電磁閥訊號)";
+            this.la_Y2_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y2_2
+            // 
+            this.pic_Y2_2.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y2_2.Image")));
+            this.pic_Y2_2.Location = new System.Drawing.Point(256, 64);
+            this.pic_Y2_2.Name = "pic_Y2_2";
+            this.pic_Y2_2.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y2_2.TabIndex = 379;
+            this.pic_Y2_2.TabStop = false;
+            // 
+            // la_Y2_1
+            // 
+            this.la_Y2_1.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y2_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y2_1.ForeColor = System.Drawing.Color.Black;
+            this.la_Y2_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y2_1.Location = new System.Drawing.Point(296, 24);
+            this.la_Y2_1.Name = "la_Y2_1";
+            this.la_Y2_1.Size = new System.Drawing.Size(264, 24);
+            this.la_Y2_1.TabIndex = 378;
+            this.la_Y2_1.Tag = "";
+            this.la_Y2_1.Text = "Y02.1(端測伸出電磁閥訊號)";
+            this.la_Y2_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y2_1
+            // 
+            this.pic_Y2_1.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y2_1.Image")));
+            this.pic_Y2_1.Location = new System.Drawing.Point(256, 16);
+            this.pic_Y2_1.Name = "pic_Y2_1";
+            this.pic_Y2_1.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y2_1.TabIndex = 377;
+            this.pic_Y2_1.TabStop = false;
+            // 
+            // la_X1_4
+            // 
+            this.la_X1_4.BackColor = System.Drawing.Color.Transparent;
+            this.la_X1_4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X1_4.ForeColor = System.Drawing.Color.Black;
+            this.la_X1_4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X1_4.Location = new System.Drawing.Point(48, 72);
+            this.la_X1_4.Name = "la_X1_4";
+            this.la_X1_4.Size = new System.Drawing.Size(200, 24);
+            this.la_X1_4.TabIndex = 376;
+            this.la_X1_4.Tag = "";
+            this.la_X1_4.Text = "X01.4(端測縮回訊號)";
+            this.la_X1_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X1_4
+            // 
+            this.pic_X1_4.Image = ((System.Drawing.Image)(resources.GetObject("pic_X1_4.Image")));
+            this.pic_X1_4.Location = new System.Drawing.Point(8, 64);
+            this.pic_X1_4.Name = "pic_X1_4";
+            this.pic_X1_4.Size = new System.Drawing.Size(32, 32);
+            this.pic_X1_4.TabIndex = 375;
+            this.pic_X1_4.TabStop = false;
+            // 
+            // la_X1_3
+            // 
+            this.la_X1_3.BackColor = System.Drawing.Color.Transparent;
+            this.la_X1_3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X1_3.ForeColor = System.Drawing.Color.Black;
+            this.la_X1_3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X1_3.Location = new System.Drawing.Point(48, 24);
+            this.la_X1_3.Name = "la_X1_3";
+            this.la_X1_3.Size = new System.Drawing.Size(208, 24);
+            this.la_X1_3.TabIndex = 374;
+            this.la_X1_3.Tag = "";
+            this.la_X1_3.Text = "X01.3(端測伸出訊號)";
+            this.la_X1_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X1_3
+            // 
+            this.pic_X1_3.Image = global::OIG_Option.Properties.Resources.Lamp_E_Off;
+            this.pic_X1_3.Location = new System.Drawing.Point(8, 16);
+            this.pic_X1_3.Name = "pic_X1_3";
+            this.pic_X1_3.Size = new System.Drawing.Size(32, 32);
+            this.pic_X1_3.TabIndex = 373;
+            this.pic_X1_3.TabStop = false;
+            // 
             // la_K5_3Desc
             // 
             this.la_K5_3Desc.BackColor = System.Drawing.Color.Transparent;
             this.la_K5_3Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_K5_3Desc.ForeColor = System.Drawing.Color.Black;
+            this.la_K5_3Desc.ForeColor = System.Drawing.Color.Red;
             this.la_K5_3Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.la_K5_3Desc.Location = new System.Drawing.Point(128, 96);
             this.la_K5_3Desc.Name = "la_K5_3Desc";
-            this.la_K5_3Desc.Size = new System.Drawing.Size(288, 24);
+            this.la_K5_3Desc.Size = new System.Drawing.Size(384, 24);
             this.la_K5_3Desc.TabIndex = 179;
             this.la_K5_3Desc.Tag = "";
-            this.la_K5_3Desc.Text = "端測伸出/縮回檢知訊號有效";
+            this.la_K5_3Desc.Text = "端測伸出/縮回檢知訊號 =0有效,=1無效";
             this.la_K5_3Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_T56Desc
@@ -2578,6 +2934,7 @@
             // 
             // tab_Chuck
             // 
+            this.tab_Chuck.Controls.Add(this.pa_ChuckIO);
             this.tab_Chuck.Controls.Add(this.la_K30_1Type);
             this.tab_Chuck.Controls.Add(this.la_K30_1Desc);
             this.tab_Chuck.Controls.Add(this.la_K30_1_1);
@@ -2631,6 +2988,164 @@
             this.tab_Chuck.Text = "主軸夾頭";
             this.tab_Chuck.UseVisualStyleBackColor = true;
             this.tab_Chuck.Paint += new System.Windows.Forms.PaintEventHandler(this.tab_Paint);
+            // 
+            // pa_ChuckIO
+            // 
+            this.pa_ChuckIO.BackColor = System.Drawing.Color.Transparent;
+            this.pa_ChuckIO.Controls.Add(this.la_X1_0);
+            this.pa_ChuckIO.Controls.Add(this.pic_X1_0);
+            this.pa_ChuckIO.Controls.Add(this.la_Y0_4);
+            this.pa_ChuckIO.Controls.Add(this.pic_Y0_4);
+            this.pa_ChuckIO.Controls.Add(this.la_Y0_3);
+            this.pa_ChuckIO.Controls.Add(this.pic_Y0_3);
+            this.pa_ChuckIO.Controls.Add(this.la_X0_0);
+            this.pa_ChuckIO.Controls.Add(this.pic_X0_0);
+            this.pa_ChuckIO.Controls.Add(this.la_X0_2);
+            this.pa_ChuckIO.Controls.Add(this.pic_X0_2);
+            this.pa_ChuckIO.Controls.Add(this.la_X0_1);
+            this.pa_ChuckIO.Controls.Add(this.pic_X0_1);
+            this.pa_ChuckIO.Location = new System.Drawing.Point(0, 440);
+            this.pa_ChuckIO.Name = "pa_ChuckIO";
+            this.pa_ChuckIO.Size = new System.Drawing.Size(576, 152);
+            this.pa_ChuckIO.TabIndex = 274;
+            // 
+            // la_X1_0
+            // 
+            this.la_X1_0.BackColor = System.Drawing.Color.Transparent;
+            this.la_X1_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X1_0.ForeColor = System.Drawing.Color.Black;
+            this.la_X1_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X1_0.Location = new System.Drawing.Point(48, 128);
+            this.la_X1_0.Name = "la_X1_0";
+            this.la_X1_0.Size = new System.Drawing.Size(352, 24);
+            this.la_X1_0.TabIndex = 382;
+            this.la_X1_0.Tag = "";
+            this.la_X1_0.Text = "X01.0(夾頭鬆外部按鍵訊號)";
+            this.la_X1_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X1_0
+            // 
+            this.pic_X1_0.Image = ((System.Drawing.Image)(resources.GetObject("pic_X1_0.Image")));
+            this.pic_X1_0.Location = new System.Drawing.Point(8, 120);
+            this.pic_X1_0.Name = "pic_X1_0";
+            this.pic_X1_0.Size = new System.Drawing.Size(32, 32);
+            this.pic_X1_0.TabIndex = 381;
+            this.pic_X1_0.TabStop = false;
+            // 
+            // la_Y0_4
+            // 
+            this.la_Y0_4.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y0_4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y0_4.ForeColor = System.Drawing.Color.Black;
+            this.la_Y0_4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y0_4.Location = new System.Drawing.Point(344, 48);
+            this.la_Y0_4.Name = "la_Y0_4";
+            this.la_Y0_4.Size = new System.Drawing.Size(224, 24);
+            this.la_Y0_4.TabIndex = 380;
+            this.la_Y0_4.Tag = "";
+            this.la_Y0_4.Text = "Y00.4(夾頭夾電磁閥)";
+            this.la_Y0_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y0_4
+            // 
+            this.pic_Y0_4.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y0_4.Image")));
+            this.pic_Y0_4.Location = new System.Drawing.Point(304, 40);
+            this.pic_Y0_4.Name = "pic_Y0_4";
+            this.pic_Y0_4.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y0_4.TabIndex = 379;
+            this.pic_Y0_4.TabStop = false;
+            // 
+            // la_Y0_3
+            // 
+            this.la_Y0_3.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y0_3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y0_3.ForeColor = System.Drawing.Color.Black;
+            this.la_Y0_3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y0_3.Location = new System.Drawing.Point(344, 8);
+            this.la_Y0_3.Name = "la_Y0_3";
+            this.la_Y0_3.Size = new System.Drawing.Size(224, 24);
+            this.la_Y0_3.TabIndex = 378;
+            this.la_Y0_3.Tag = "";
+            this.la_Y0_3.Text = "Y00.3(夾頭鬆電磁閥)";
+            this.la_Y0_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y0_3
+            // 
+            this.pic_Y0_3.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y0_3.Image")));
+            this.pic_Y0_3.Location = new System.Drawing.Point(304, 0);
+            this.pic_Y0_3.Name = "pic_Y0_3";
+            this.pic_Y0_3.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y0_3.TabIndex = 377;
+            this.pic_Y0_3.TabStop = false;
+            // 
+            // la_X0_0
+            // 
+            this.la_X0_0.BackColor = System.Drawing.Color.Transparent;
+            this.la_X0_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X0_0.ForeColor = System.Drawing.Color.Black;
+            this.la_X0_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X0_0.Location = new System.Drawing.Point(48, 88);
+            this.la_X0_0.Name = "la_X0_0";
+            this.la_X0_0.Size = new System.Drawing.Size(352, 24);
+            this.la_X0_0.TabIndex = 376;
+            this.la_X0_0.Tag = "";
+            this.la_X0_0.Text = "X00.0(夾頭腳踏開關/外部按鍵訊號)";
+            this.la_X0_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X0_0
+            // 
+            this.pic_X0_0.Image = ((System.Drawing.Image)(resources.GetObject("pic_X0_0.Image")));
+            this.pic_X0_0.Location = new System.Drawing.Point(8, 80);
+            this.pic_X0_0.Name = "pic_X0_0";
+            this.pic_X0_0.Size = new System.Drawing.Size(32, 32);
+            this.pic_X0_0.TabIndex = 375;
+            this.pic_X0_0.TabStop = false;
+            // 
+            // la_X0_2
+            // 
+            this.la_X0_2.BackColor = System.Drawing.Color.Transparent;
+            this.la_X0_2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X0_2.ForeColor = System.Drawing.Color.Black;
+            this.la_X0_2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X0_2.Location = new System.Drawing.Point(48, 48);
+            this.la_X0_2.Name = "la_X0_2";
+            this.la_X0_2.Size = new System.Drawing.Size(208, 24);
+            this.la_X0_2.TabIndex = 374;
+            this.la_X0_2.Tag = "";
+            this.la_X0_2.Text = "X00.2(夾頭鬆訊號)";
+            this.la_X0_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X0_2
+            // 
+            this.pic_X0_2.Image = ((System.Drawing.Image)(resources.GetObject("pic_X0_2.Image")));
+            this.pic_X0_2.Location = new System.Drawing.Point(8, 40);
+            this.pic_X0_2.Name = "pic_X0_2";
+            this.pic_X0_2.Size = new System.Drawing.Size(32, 32);
+            this.pic_X0_2.TabIndex = 373;
+            this.pic_X0_2.TabStop = false;
+            // 
+            // la_X0_1
+            // 
+            this.la_X0_1.BackColor = System.Drawing.Color.Transparent;
+            this.la_X0_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X0_1.ForeColor = System.Drawing.Color.Black;
+            this.la_X0_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X0_1.Location = new System.Drawing.Point(48, 8);
+            this.la_X0_1.Name = "la_X0_1";
+            this.la_X0_1.Size = new System.Drawing.Size(200, 24);
+            this.la_X0_1.TabIndex = 372;
+            this.la_X0_1.Tag = "";
+            this.la_X0_1.Text = "X00.1(夾頭夾訊號)";
+            this.la_X0_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X0_1
+            // 
+            this.pic_X0_1.Image = ((System.Drawing.Image)(resources.GetObject("pic_X0_1.Image")));
+            this.pic_X0_1.Location = new System.Drawing.Point(8, 0);
+            this.pic_X0_1.Name = "pic_X0_1";
+            this.pic_X0_1.Size = new System.Drawing.Size(32, 32);
+            this.pic_X0_1.TabIndex = 371;
+            this.pic_X0_1.TabStop = false;
             // 
             // la_K30_1Type
             // 
@@ -2826,7 +3341,7 @@
             this.la_T72Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T72Desc.ForeColor = System.Drawing.Color.Black;
             this.la_T72Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T72Desc.Location = new System.Drawing.Point(328, 408);
+            this.la_T72Desc.Location = new System.Drawing.Point(328, 400);
             this.la_T72Desc.Name = "la_T72Desc";
             this.la_T72Desc.Size = new System.Drawing.Size(272, 24);
             this.la_T72Desc.TabIndex = 257;
@@ -2840,7 +3355,7 @@
             this.la_T72s.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T72s.ForeColor = System.Drawing.Color.Black;
             this.la_T72s.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T72s.Location = new System.Drawing.Point(272, 408);
+            this.la_T72s.Location = new System.Drawing.Point(272, 400);
             this.la_T72s.Name = "la_T72s";
             this.la_T72s.Size = new System.Drawing.Size(56, 24);
             this.la_T72s.TabIndex = 256;
@@ -2854,7 +3369,7 @@
             this.la_T72.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T72.ForeColor = System.Drawing.Color.Black;
             this.la_T72.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T72.Location = new System.Drawing.Point(8, 408);
+            this.la_T72.Location = new System.Drawing.Point(8, 400);
             this.la_T72.Name = "la_T72";
             this.la_T72.Size = new System.Drawing.Size(80, 24);
             this.la_T72.TabIndex = 254;
@@ -2868,7 +3383,7 @@
             this.la_T0Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T0Desc.ForeColor = System.Drawing.Color.Black;
             this.la_T0Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T0Desc.Location = new System.Drawing.Point(328, 352);
+            this.la_T0Desc.Location = new System.Drawing.Point(328, 344);
             this.la_T0Desc.Name = "la_T0Desc";
             this.la_T0Desc.Size = new System.Drawing.Size(248, 24);
             this.la_T0Desc.TabIndex = 253;
@@ -2882,7 +3397,7 @@
             this.la_T0s.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T0s.ForeColor = System.Drawing.Color.Black;
             this.la_T0s.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T0s.Location = new System.Drawing.Point(272, 352);
+            this.la_T0s.Location = new System.Drawing.Point(272, 344);
             this.la_T0s.Name = "la_T0s";
             this.la_T0s.Size = new System.Drawing.Size(56, 24);
             this.la_T0s.TabIndex = 252;
@@ -2896,7 +3411,7 @@
             this.la_T0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T0.ForeColor = System.Drawing.Color.Black;
             this.la_T0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T0.Location = new System.Drawing.Point(8, 352);
+            this.la_T0.Location = new System.Drawing.Point(8, 344);
             this.la_T0.Name = "la_T0";
             this.la_T0.Size = new System.Drawing.Size(80, 24);
             this.la_T0.TabIndex = 250;
@@ -2910,7 +3425,7 @@
             this.la_T2Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T2Desc.ForeColor = System.Drawing.Color.Black;
             this.la_T2Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T2Desc.Location = new System.Drawing.Point(328, 296);
+            this.la_T2Desc.Location = new System.Drawing.Point(328, 288);
             this.la_T2Desc.Name = "la_T2Desc";
             this.la_T2Desc.Size = new System.Drawing.Size(256, 24);
             this.la_T2Desc.TabIndex = 249;
@@ -2924,7 +3439,7 @@
             this.la_T2s.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T2s.ForeColor = System.Drawing.Color.Black;
             this.la_T2s.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T2s.Location = new System.Drawing.Point(272, 296);
+            this.la_T2s.Location = new System.Drawing.Point(272, 288);
             this.la_T2s.Name = "la_T2s";
             this.la_T2s.Size = new System.Drawing.Size(56, 24);
             this.la_T2s.TabIndex = 248;
@@ -2938,7 +3453,7 @@
             this.la_T2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T2.ForeColor = System.Drawing.Color.Black;
             this.la_T2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T2.Location = new System.Drawing.Point(8, 296);
+            this.la_T2.Location = new System.Drawing.Point(8, 288);
             this.la_T2.Name = "la_T2";
             this.la_T2.Size = new System.Drawing.Size(80, 24);
             this.la_T2.TabIndex = 246;
@@ -2950,14 +3465,14 @@
             // 
             this.la_K1_0Desc.BackColor = System.Drawing.Color.Transparent;
             this.la_K1_0Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_K1_0Desc.ForeColor = System.Drawing.Color.Black;
+            this.la_K1_0Desc.ForeColor = System.Drawing.Color.Red;
             this.la_K1_0Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.la_K1_0Desc.Location = new System.Drawing.Point(128, 216);
             this.la_K1_0Desc.Name = "la_K1_0Desc";
-            this.la_K1_0Desc.Size = new System.Drawing.Size(184, 24);
+            this.la_K1_0Desc.Size = new System.Drawing.Size(400, 24);
             this.la_K1_0Desc.TabIndex = 244;
             this.la_K1_0Desc.Tag = "";
-            this.la_K1_0Desc.Text = "夾頭異常判斷開啓";
+            this.la_K1_0Desc.Text = "K01.0(夾頭異常警示功能 =0有效,=1無效)";
             this.la_K1_0Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_1_0
@@ -3111,7 +3626,7 @@
             this.la_K22_2Use.Size = new System.Drawing.Size(112, 24);
             this.la_K22_2Use.TabIndex = 218;
             this.la_K22_2Use.Tag = "";
-            this.la_K22_2Use.Text = "夾頭功使";
+            this.la_K22_2Use.Text = "夾頭功使用";
             this.la_K22_2Use.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_K22_2
@@ -3150,7 +3665,7 @@
             this.ucBtn_T72.Image = null;
             this.ucBtn_T72.Lamp = false;
             this.ucBtn_T72.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T72.LampOnImage")));
-            this.ucBtn_T72.Location = new System.Drawing.Point(104, 400);
+            this.ucBtn_T72.Location = new System.Drawing.Point(104, 392);
             this.ucBtn_T72.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T72.MouseDownImage")));
             this.ucBtn_T72.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T72.MouseUpImage")));
             this.ucBtn_T72.Name = "ucBtn_T72";
@@ -3172,7 +3687,7 @@
             this.ucBtn_T0.Image = null;
             this.ucBtn_T0.Lamp = false;
             this.ucBtn_T0.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T0.LampOnImage")));
-            this.ucBtn_T0.Location = new System.Drawing.Point(104, 344);
+            this.ucBtn_T0.Location = new System.Drawing.Point(104, 336);
             this.ucBtn_T0.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T0.MouseDownImage")));
             this.ucBtn_T0.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T0.MouseUpImage")));
             this.ucBtn_T0.Name = "ucBtn_T0";
@@ -3194,7 +3709,7 @@
             this.ucBtn_T2.Image = null;
             this.ucBtn_T2.Lamp = false;
             this.ucBtn_T2.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T2.LampOnImage")));
-            this.ucBtn_T2.Location = new System.Drawing.Point(104, 288);
+            this.ucBtn_T2.Location = new System.Drawing.Point(104, 280);
             this.ucBtn_T2.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T2.MouseDownImage")));
             this.ucBtn_T2.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T2.MouseUpImage")));
             this.ucBtn_T2.Name = "ucBtn_T2";
@@ -3281,6 +3796,7 @@
             // 
             // tab_WorkSpindle
             // 
+            this.tab_WorkSpindle.Controls.Add(this.pa_WorkSpindleIO);
             this.tab_WorkSpindle.Controls.Add(this.pic_K9_7);
             this.tab_WorkSpindle.Controls.Add(this.la_D200Desc);
             this.tab_WorkSpindle.Controls.Add(this.la_D200RPM);
@@ -3338,6 +3854,164 @@
             this.tab_WorkSpindle.UseVisualStyleBackColor = true;
             this.tab_WorkSpindle.Paint += new System.Windows.Forms.PaintEventHandler(this.tab_Paint);
             // 
+            // pa_WorkSpindleIO
+            // 
+            this.pa_WorkSpindleIO.BackColor = System.Drawing.Color.Transparent;
+            this.pa_WorkSpindleIO.Controls.Add(this.la_X5_6);
+            this.pa_WorkSpindleIO.Controls.Add(this.pic_X5_6);
+            this.pa_WorkSpindleIO.Controls.Add(this.la_Y4_0);
+            this.pa_WorkSpindleIO.Controls.Add(this.pic_Y4_0);
+            this.pa_WorkSpindleIO.Controls.Add(this.la_Y4_7);
+            this.pa_WorkSpindleIO.Controls.Add(this.pic_Y4_7);
+            this.pa_WorkSpindleIO.Controls.Add(this.la_Y4_6);
+            this.pa_WorkSpindleIO.Controls.Add(this.pic_Y4_6);
+            this.pa_WorkSpindleIO.Controls.Add(this.la_X4_1);
+            this.pa_WorkSpindleIO.Controls.Add(this.pic_X4_1);
+            this.pa_WorkSpindleIO.Controls.Add(this.la_X4_0);
+            this.pa_WorkSpindleIO.Controls.Add(this.pic_X4_0);
+            this.pa_WorkSpindleIO.Location = new System.Drawing.Point(352, 312);
+            this.pa_WorkSpindleIO.Name = "pa_WorkSpindleIO";
+            this.pa_WorkSpindleIO.Size = new System.Drawing.Size(312, 264);
+            this.pa_WorkSpindleIO.TabIndex = 304;
+            // 
+            // la_X5_6
+            // 
+            this.la_X5_6.BackColor = System.Drawing.Color.Transparent;
+            this.la_X5_6.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X5_6.ForeColor = System.Drawing.Color.Black;
+            this.la_X5_6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X5_6.Location = new System.Drawing.Point(48, 88);
+            this.la_X5_6.Name = "la_X5_6";
+            this.la_X5_6.Size = new System.Drawing.Size(232, 24);
+            this.la_X5_6.TabIndex = 384;
+            this.la_X5_6.Tag = "";
+            this.la_X5_6.Text = "X05.6(工件主軸異警)";
+            this.la_X5_6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X5_6
+            // 
+            this.pic_X5_6.Image = ((System.Drawing.Image)(resources.GetObject("pic_X5_6.Image")));
+            this.pic_X5_6.Location = new System.Drawing.Point(8, 80);
+            this.pic_X5_6.Name = "pic_X5_6";
+            this.pic_X5_6.Size = new System.Drawing.Size(32, 32);
+            this.pic_X5_6.TabIndex = 383;
+            this.pic_X5_6.TabStop = false;
+            // 
+            // la_Y4_0
+            // 
+            this.la_Y4_0.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y4_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y4_0.ForeColor = System.Drawing.Color.Black;
+            this.la_Y4_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y4_0.Location = new System.Drawing.Point(48, 208);
+            this.la_Y4_0.Name = "la_Y4_0";
+            this.la_Y4_0.Size = new System.Drawing.Size(256, 48);
+            this.la_Y4_0.TabIndex = 382;
+            this.la_Y4_0.Tag = "";
+            this.la_Y4_0.Text = "Y04.0\r\n(工件主軸手/自動速度切換)";
+            this.la_Y4_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y4_0
+            // 
+            this.pic_Y4_0.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y4_0.Image")));
+            this.pic_Y4_0.Location = new System.Drawing.Point(8, 216);
+            this.pic_Y4_0.Name = "pic_Y4_0";
+            this.pic_Y4_0.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y4_0.TabIndex = 381;
+            this.pic_Y4_0.TabStop = false;
+            // 
+            // la_Y4_7
+            // 
+            this.la_Y4_7.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y4_7.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y4_7.ForeColor = System.Drawing.Color.Black;
+            this.la_Y4_7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y4_7.Location = new System.Drawing.Point(48, 168);
+            this.la_Y4_7.Name = "la_Y4_7";
+            this.la_Y4_7.Size = new System.Drawing.Size(224, 24);
+            this.la_Y4_7.TabIndex = 380;
+            this.la_Y4_7.Tag = "";
+            this.la_Y4_7.Text = "Y04.7(工件主軸正轉)";
+            this.la_Y4_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y4_7
+            // 
+            this.pic_Y4_7.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y4_7.Image")));
+            this.pic_Y4_7.Location = new System.Drawing.Point(8, 160);
+            this.pic_Y4_7.Name = "pic_Y4_7";
+            this.pic_Y4_7.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y4_7.TabIndex = 379;
+            this.pic_Y4_7.TabStop = false;
+            // 
+            // la_Y4_6
+            // 
+            this.la_Y4_6.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y4_6.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y4_6.ForeColor = System.Drawing.Color.Black;
+            this.la_Y4_6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y4_6.Location = new System.Drawing.Point(48, 128);
+            this.la_Y4_6.Name = "la_Y4_6";
+            this.la_Y4_6.Size = new System.Drawing.Size(256, 24);
+            this.la_Y4_6.TabIndex = 378;
+            this.la_Y4_6.Tag = "";
+            this.la_Y4_6.Text = "Y04.6(工件主軸反轉)";
+            this.la_Y4_6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y4_6
+            // 
+            this.pic_Y4_6.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y4_6.Image")));
+            this.pic_Y4_6.Location = new System.Drawing.Point(8, 120);
+            this.pic_Y4_6.Name = "pic_Y4_6";
+            this.pic_Y4_6.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y4_6.TabIndex = 377;
+            this.pic_Y4_6.TabStop = false;
+            // 
+            // la_X4_1
+            // 
+            this.la_X4_1.BackColor = System.Drawing.Color.Transparent;
+            this.la_X4_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X4_1.ForeColor = System.Drawing.Color.Black;
+            this.la_X4_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X4_1.Location = new System.Drawing.Point(48, 48);
+            this.la_X4_1.Name = "la_X4_1";
+            this.la_X4_1.Size = new System.Drawing.Size(240, 24);
+            this.la_X4_1.TabIndex = 376;
+            this.la_X4_1.Tag = "";
+            this.la_X4_1.Text = "X04.1(工件主軸零速)";
+            this.la_X4_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X4_1
+            // 
+            this.pic_X4_1.Image = ((System.Drawing.Image)(resources.GetObject("pic_X4_1.Image")));
+            this.pic_X4_1.Location = new System.Drawing.Point(8, 40);
+            this.pic_X4_1.Name = "pic_X4_1";
+            this.pic_X4_1.Size = new System.Drawing.Size(32, 32);
+            this.pic_X4_1.TabIndex = 375;
+            this.pic_X4_1.TabStop = false;
+            // 
+            // la_X4_0
+            // 
+            this.la_X4_0.BackColor = System.Drawing.Color.Transparent;
+            this.la_X4_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X4_0.ForeColor = System.Drawing.Color.Black;
+            this.la_X4_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X4_0.Location = new System.Drawing.Point(48, 8);
+            this.la_X4_0.Name = "la_X4_0";
+            this.la_X4_0.Size = new System.Drawing.Size(248, 24);
+            this.la_X4_0.TabIndex = 374;
+            this.la_X4_0.Tag = "";
+            this.la_X4_0.Text = "X04.0(工件主軸轉速到達)";
+            this.la_X4_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X4_0
+            // 
+            this.pic_X4_0.Image = ((System.Drawing.Image)(resources.GetObject("pic_X4_0.Image")));
+            this.pic_X4_0.Location = new System.Drawing.Point(8, 0);
+            this.pic_X4_0.Name = "pic_X4_0";
+            this.pic_X4_0.Size = new System.Drawing.Size(32, 32);
+            this.pic_X4_0.TabIndex = 373;
+            this.pic_X4_0.TabStop = false;
+            // 
             // pic_K9_7
             // 
             this.pic_K9_7.BackColor = System.Drawing.Color.Black;
@@ -3356,7 +4030,7 @@
             this.la_D200Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_D200Desc.ForeColor = System.Drawing.Color.Black;
             this.la_D200Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_D200Desc.Location = new System.Drawing.Point(360, 448);
+            this.la_D200Desc.Location = new System.Drawing.Point(96, 472);
             this.la_D200Desc.Name = "la_D200Desc";
             this.la_D200Desc.Size = new System.Drawing.Size(256, 24);
             this.la_D200Desc.TabIndex = 302;
@@ -3370,7 +4044,7 @@
             this.la_D200RPM.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_D200RPM.ForeColor = System.Drawing.Color.Black;
             this.la_D200RPM.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_D200RPM.Location = new System.Drawing.Point(272, 448);
+            this.la_D200RPM.Location = new System.Drawing.Point(272, 504);
             this.la_D200RPM.Name = "la_D200RPM";
             this.la_D200RPM.Size = new System.Drawing.Size(72, 24);
             this.la_D200RPM.TabIndex = 301;
@@ -3384,7 +4058,7 @@
             this.la_D200.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_D200.ForeColor = System.Drawing.Color.Black;
             this.la_D200.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_D200.Location = new System.Drawing.Point(8, 448);
+            this.la_D200.Location = new System.Drawing.Point(8, 504);
             this.la_D200.Name = "la_D200";
             this.la_D200.Size = new System.Drawing.Size(80, 24);
             this.la_D200.TabIndex = 299;
@@ -3398,7 +4072,7 @@
             this.la_D60Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_D60Desc.ForeColor = System.Drawing.Color.Black;
             this.la_D60Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_D60Desc.Location = new System.Drawing.Point(360, 392);
+            this.la_D60Desc.Location = new System.Drawing.Point(96, 392);
             this.la_D60Desc.Name = "la_D60Desc";
             this.la_D60Desc.Size = new System.Drawing.Size(256, 24);
             this.la_D60Desc.TabIndex = 298;
@@ -3412,7 +4086,7 @@
             this.la_D60RPM.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_D60RPM.ForeColor = System.Drawing.Color.Black;
             this.la_D60RPM.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_D60RPM.Location = new System.Drawing.Point(272, 392);
+            this.la_D60RPM.Location = new System.Drawing.Point(272, 424);
             this.la_D60RPM.Name = "la_D60RPM";
             this.la_D60RPM.Size = new System.Drawing.Size(72, 24);
             this.la_D60RPM.TabIndex = 297;
@@ -3426,7 +4100,7 @@
             this.la_D60.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_D60.ForeColor = System.Drawing.Color.Black;
             this.la_D60.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_D60.Location = new System.Drawing.Point(8, 392);
+            this.la_D60.Location = new System.Drawing.Point(8, 424);
             this.la_D60.Name = "la_D60";
             this.la_D60.Size = new System.Drawing.Size(80, 24);
             this.la_D60.TabIndex = 295;
@@ -3440,7 +4114,7 @@
             this.la_T28Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T28Desc.ForeColor = System.Drawing.Color.Black;
             this.la_T28Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T28Desc.Location = new System.Drawing.Point(328, 336);
+            this.la_T28Desc.Location = new System.Drawing.Point(96, 312);
             this.la_T28Desc.Name = "la_T28Desc";
             this.la_T28Desc.Size = new System.Drawing.Size(256, 24);
             this.la_T28Desc.TabIndex = 276;
@@ -3454,9 +4128,9 @@
             this.la_T28s.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T28s.ForeColor = System.Drawing.Color.Black;
             this.la_T28s.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T28s.Location = new System.Drawing.Point(272, 336);
+            this.la_T28s.Location = new System.Drawing.Point(272, 344);
             this.la_T28s.Name = "la_T28s";
-            this.la_T28s.Size = new System.Drawing.Size(56, 24);
+            this.la_T28s.Size = new System.Drawing.Size(40, 24);
             this.la_T28s.TabIndex = 275;
             this.la_T28s.Tag = "";
             this.la_T28s.Text = "(s)";
@@ -3468,7 +4142,7 @@
             this.la_T28.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T28.ForeColor = System.Drawing.Color.Black;
             this.la_T28.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T28.Location = new System.Drawing.Point(8, 336);
+            this.la_T28.Location = new System.Drawing.Point(8, 344);
             this.la_T28.Name = "la_T28";
             this.la_T28.Size = new System.Drawing.Size(80, 24);
             this.la_T28.TabIndex = 273;
@@ -3508,14 +4182,14 @@
             // 
             this.la_K2_4Desc.BackColor = System.Drawing.Color.Transparent;
             this.la_K2_4Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_K2_4Desc.ForeColor = System.Drawing.Color.Black;
+            this.la_K2_4Desc.ForeColor = System.Drawing.Color.Red;
             this.la_K2_4Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.la_K2_4Desc.Location = new System.Drawing.Point(128, 248);
             this.la_K2_4Desc.Name = "la_K2_4Desc";
-            this.la_K2_4Desc.Size = new System.Drawing.Size(240, 24);
+            this.la_K2_4Desc.Size = new System.Drawing.Size(336, 24);
             this.la_K2_4Desc.TabIndex = 265;
             this.la_K2_4Desc.Tag = "";
-            this.la_K2_4Desc.Text = "工件主軸反轉功能無效";
+            this.la_K2_4Desc.Text = "工件主軸反轉功能 =0有效,=1無效";
             this.la_K2_4Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_K2_4
@@ -3792,10 +4466,10 @@
             this.la_K9_7Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.la_K9_7Desc.Location = new System.Drawing.Point(128, 56);
             this.la_K9_7Desc.Name = "la_K9_7Desc";
-            this.la_K9_7Desc.Size = new System.Drawing.Size(272, 24);
+            this.la_K9_7Desc.Size = new System.Drawing.Size(376, 24);
             this.la_K9_7Desc.TabIndex = 227;
             this.la_K9_7Desc.Tag = "";
-            this.la_K9_7Desc.Text = "工件主軸規格型式為FANUC";
+            this.la_K9_7Desc.Text = "工件主軸規格型式為FAUNC伺服主軸";
             this.la_K9_7Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_K9_7
@@ -3834,7 +4508,7 @@
             this.ucBtn_D200.Image = null;
             this.ucBtn_D200.Lamp = false;
             this.ucBtn_D200.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_D200.LampOnImage")));
-            this.ucBtn_D200.Location = new System.Drawing.Point(104, 440);
+            this.ucBtn_D200.Location = new System.Drawing.Point(104, 496);
             this.ucBtn_D200.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_D200.MouseDownImage")));
             this.ucBtn_D200.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_D200.MouseUpImage")));
             this.ucBtn_D200.Name = "ucBtn_D200";
@@ -3856,7 +4530,7 @@
             this.ucBtn_D60.Image = null;
             this.ucBtn_D60.Lamp = false;
             this.ucBtn_D60.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_D60.LampOnImage")));
-            this.ucBtn_D60.Location = new System.Drawing.Point(104, 384);
+            this.ucBtn_D60.Location = new System.Drawing.Point(104, 416);
             this.ucBtn_D60.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_D60.MouseDownImage")));
             this.ucBtn_D60.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_D60.MouseUpImage")));
             this.ucBtn_D60.Name = "ucBtn_D60";
@@ -3878,7 +4552,7 @@
             this.ucBtn_T28.Image = null;
             this.ucBtn_T28.Lamp = false;
             this.ucBtn_T28.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T28.LampOnImage")));
-            this.ucBtn_T28.Location = new System.Drawing.Point(104, 328);
+            this.ucBtn_T28.Location = new System.Drawing.Point(104, 336);
             this.ucBtn_T28.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T28.MouseDownImage")));
             this.ucBtn_T28.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T28.MouseUpImage")));
             this.ucBtn_T28.Name = "ucBtn_T28";
@@ -4025,6 +4699,8 @@
             // 
             // tab_Orientation
             // 
+            this.tab_Orientation.Controls.Add(this.la_X1_2);
+            this.tab_Orientation.Controls.Add(this.pic_X1_2);
             this.tab_Orientation.Controls.Add(this.la_T38Desc);
             this.tab_Orientation.Controls.Add(this.la_T38s);
             this.tab_Orientation.Controls.Add(this.la_T38);
@@ -4049,18 +4725,42 @@
             this.tab_Orientation.UseVisualStyleBackColor = true;
             this.tab_Orientation.Paint += new System.Windows.Forms.PaintEventHandler(this.tab_Paint);
             // 
+            // la_X1_2
+            // 
+            this.la_X1_2.BackColor = System.Drawing.Color.Transparent;
+            this.la_X1_2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X1_2.ForeColor = System.Drawing.Color.Black;
+            this.la_X1_2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X1_2.Location = new System.Drawing.Point(56, 336);
+            this.la_X1_2.Name = "la_X1_2";
+            this.la_X1_2.Size = new System.Drawing.Size(248, 24);
+            this.la_X1_2.TabIndex = 378;
+            this.la_X1_2.Tag = "";
+            this.la_X1_2.Text = "X01.2(主軸定位訊號)";
+            this.la_X1_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X1_2
+            // 
+            this.pic_X1_2.BackColor = System.Drawing.Color.Transparent;
+            this.pic_X1_2.Image = global::OIG_Option.Properties.Resources.Lamp_E_Off;
+            this.pic_X1_2.Location = new System.Drawing.Point(16, 328);
+            this.pic_X1_2.Name = "pic_X1_2";
+            this.pic_X1_2.Size = new System.Drawing.Size(32, 32);
+            this.pic_X1_2.TabIndex = 377;
+            this.pic_X1_2.TabStop = false;
+            // 
             // la_T38Desc
             // 
             this.la_T38Desc.BackColor = System.Drawing.Color.Transparent;
             this.la_T38Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T38Desc.ForeColor = System.Drawing.Color.Black;
             this.la_T38Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T38Desc.Location = new System.Drawing.Point(328, 248);
+            this.la_T38Desc.Location = new System.Drawing.Point(320, 248);
             this.la_T38Desc.Name = "la_T38Desc";
-            this.la_T38Desc.Size = new System.Drawing.Size(272, 24);
+            this.la_T38Desc.Size = new System.Drawing.Size(296, 24);
             this.la_T38Desc.TabIndex = 302;
             this.la_T38Desc.Tag = "";
-            this.la_T38Desc.Text = "主軸定位完成延遲時間";
+            this.la_T38Desc.Text = "主軸定位完成延遲時間 K1.2=1";
             this.la_T38Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_T38s
@@ -4071,7 +4771,7 @@
             this.la_T38s.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.la_T38s.Location = new System.Drawing.Point(272, 248);
             this.la_T38s.Name = "la_T38s";
-            this.la_T38s.Size = new System.Drawing.Size(56, 24);
+            this.la_T38s.Size = new System.Drawing.Size(40, 24);
             this.la_T38s.TabIndex = 301;
             this.la_T38s.Tag = "";
             this.la_T38s.Text = "(s)";
@@ -4296,6 +4996,7 @@
             // 
             // tab_GW1
             // 
+            this.tab_GW1.Controls.Add(this.pa_GW1IO);
             this.tab_GW1.Controls.Add(this.la_K11_6_1);
             this.tab_GW1.Controls.Add(this.la_K11_6_0);
             this.tab_GW1.Controls.Add(this.la_K11_6Desc);
@@ -4339,6 +5040,114 @@
             this.tab_GW1.Text = "砂輪主軸 1";
             this.tab_GW1.UseVisualStyleBackColor = true;
             this.tab_GW1.Paint += new System.Windows.Forms.PaintEventHandler(this.tab_Paint);
+            // 
+            // pa_GW1IO
+            // 
+            this.pa_GW1IO.BackColor = System.Drawing.Color.Transparent;
+            this.pa_GW1IO.Controls.Add(this.la_X5_7);
+            this.pa_GW1IO.Controls.Add(this.pic_X5_7);
+            this.pa_GW1IO.Controls.Add(this.la_Y5_7);
+            this.pa_GW1IO.Controls.Add(this.pic_Y5_7);
+            this.pa_GW1IO.Controls.Add(this.la_X4_3);
+            this.pa_GW1IO.Controls.Add(this.pic_X4_3);
+            this.pa_GW1IO.Controls.Add(this.la_X4_2);
+            this.pa_GW1IO.Controls.Add(this.pic_X4_2);
+            this.pa_GW1IO.Location = new System.Drawing.Point(8, 360);
+            this.pa_GW1IO.Name = "pa_GW1IO";
+            this.pa_GW1IO.Size = new System.Drawing.Size(328, 152);
+            this.pa_GW1IO.TabIndex = 317;
+            // 
+            // la_X5_7
+            // 
+            this.la_X5_7.BackColor = System.Drawing.Color.Transparent;
+            this.la_X5_7.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X5_7.ForeColor = System.Drawing.Color.Black;
+            this.la_X5_7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X5_7.Location = new System.Drawing.Point(48, 88);
+            this.la_X5_7.Name = "la_X5_7";
+            this.la_X5_7.Size = new System.Drawing.Size(272, 24);
+            this.la_X5_7.TabIndex = 384;
+            this.la_X5_7.Tag = "";
+            this.la_X5_7.Text = "X05.7(砂輪1過載保護器異常)";
+            this.la_X5_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X5_7
+            // 
+            this.pic_X5_7.Image = ((System.Drawing.Image)(resources.GetObject("pic_X5_7.Image")));
+            this.pic_X5_7.Location = new System.Drawing.Point(8, 80);
+            this.pic_X5_7.Name = "pic_X5_7";
+            this.pic_X5_7.Size = new System.Drawing.Size(32, 32);
+            this.pic_X5_7.TabIndex = 383;
+            this.pic_X5_7.TabStop = false;
+            // 
+            // la_Y5_7
+            // 
+            this.la_Y5_7.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y5_7.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y5_7.ForeColor = System.Drawing.Color.Black;
+            this.la_Y5_7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y5_7.Location = new System.Drawing.Point(48, 128);
+            this.la_Y5_7.Name = "la_Y5_7";
+            this.la_Y5_7.Size = new System.Drawing.Size(224, 24);
+            this.la_Y5_7.TabIndex = 380;
+            this.la_Y5_7.Tag = "";
+            this.la_Y5_7.Text = "Y05.7(砂輪1運轉啟動)";
+            this.la_Y5_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y5_7
+            // 
+            this.pic_Y5_7.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y5_7.Image")));
+            this.pic_Y5_7.Location = new System.Drawing.Point(8, 120);
+            this.pic_Y5_7.Name = "pic_Y5_7";
+            this.pic_Y5_7.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y5_7.TabIndex = 379;
+            this.pic_Y5_7.TabStop = false;
+            // 
+            // la_X4_3
+            // 
+            this.la_X4_3.BackColor = System.Drawing.Color.Transparent;
+            this.la_X4_3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X4_3.ForeColor = System.Drawing.Color.Black;
+            this.la_X4_3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X4_3.Location = new System.Drawing.Point(48, 48);
+            this.la_X4_3.Name = "la_X4_3";
+            this.la_X4_3.Size = new System.Drawing.Size(240, 24);
+            this.la_X4_3.TabIndex = 376;
+            this.la_X4_3.Tag = "";
+            this.la_X4_3.Text = "X04.3(砂輪1主軸零速)";
+            this.la_X4_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X4_3
+            // 
+            this.pic_X4_3.Image = ((System.Drawing.Image)(resources.GetObject("pic_X4_3.Image")));
+            this.pic_X4_3.Location = new System.Drawing.Point(8, 40);
+            this.pic_X4_3.Name = "pic_X4_3";
+            this.pic_X4_3.Size = new System.Drawing.Size(32, 32);
+            this.pic_X4_3.TabIndex = 375;
+            this.pic_X4_3.TabStop = false;
+            // 
+            // la_X4_2
+            // 
+            this.la_X4_2.BackColor = System.Drawing.Color.Transparent;
+            this.la_X4_2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X4_2.ForeColor = System.Drawing.Color.Black;
+            this.la_X4_2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X4_2.Location = new System.Drawing.Point(48, 8);
+            this.la_X4_2.Name = "la_X4_2";
+            this.la_X4_2.Size = new System.Drawing.Size(264, 24);
+            this.la_X4_2.TabIndex = 374;
+            this.la_X4_2.Tag = "";
+            this.la_X4_2.Text = "X04.2(砂輪1主軸轉速到達)";
+            this.la_X4_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X4_2
+            // 
+            this.pic_X4_2.Image = ((System.Drawing.Image)(resources.GetObject("pic_X4_2.Image")));
+            this.pic_X4_2.Location = new System.Drawing.Point(8, 0);
+            this.pic_X4_2.Name = "pic_X4_2";
+            this.pic_X4_2.Size = new System.Drawing.Size(32, 32);
+            this.pic_X4_2.TabIndex = 373;
+            this.pic_X4_2.TabStop = false;
             // 
             // la_K11_6_1
             // 
@@ -4843,6 +5652,7 @@
             // 
             // tab_GW2
             // 
+            this.tab_GW2.Controls.Add(this.pa_GW2IO);
             this.tab_GW2.Controls.Add(this.pic_K13_6_0);
             this.tab_GW2.Controls.Add(this.la_K13_6_1);
             this.tab_GW2.Controls.Add(this.la_K13_6_0);
@@ -4889,6 +5699,114 @@
             this.tab_GW2.Text = "砂輪主軸 2";
             this.tab_GW2.UseVisualStyleBackColor = true;
             this.tab_GW2.Paint += new System.Windows.Forms.PaintEventHandler(this.tab_Paint);
+            // 
+            // pa_GW2IO
+            // 
+            this.pa_GW2IO.BackColor = System.Drawing.Color.Transparent;
+            this.pa_GW2IO.Controls.Add(this.la_X5_5);
+            this.pa_GW2IO.Controls.Add(this.pic_X5_5);
+            this.pa_GW2IO.Controls.Add(this.la_Y3_5);
+            this.pa_GW2IO.Controls.Add(this.pic_Y3_5);
+            this.pa_GW2IO.Controls.Add(this.la_X6_1);
+            this.pa_GW2IO.Controls.Add(this.pic_X6_1);
+            this.pa_GW2IO.Controls.Add(this.la_X6_0);
+            this.pa_GW2IO.Controls.Add(this.pic_X6_0);
+            this.pa_GW2IO.Location = new System.Drawing.Point(8, 400);
+            this.pa_GW2IO.Name = "pa_GW2IO";
+            this.pa_GW2IO.Size = new System.Drawing.Size(328, 160);
+            this.pa_GW2IO.TabIndex = 361;
+            // 
+            // la_X5_5
+            // 
+            this.la_X5_5.BackColor = System.Drawing.Color.Transparent;
+            this.la_X5_5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X5_5.ForeColor = System.Drawing.Color.Black;
+            this.la_X5_5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X5_5.Location = new System.Drawing.Point(48, 88);
+            this.la_X5_5.Name = "la_X5_5";
+            this.la_X5_5.Size = new System.Drawing.Size(272, 24);
+            this.la_X5_5.TabIndex = 384;
+            this.la_X5_5.Tag = "";
+            this.la_X5_5.Text = "X05.5(砂輪2變頻器異常)";
+            this.la_X5_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X5_5
+            // 
+            this.pic_X5_5.Image = ((System.Drawing.Image)(resources.GetObject("pic_X5_5.Image")));
+            this.pic_X5_5.Location = new System.Drawing.Point(8, 80);
+            this.pic_X5_5.Name = "pic_X5_5";
+            this.pic_X5_5.Size = new System.Drawing.Size(32, 32);
+            this.pic_X5_5.TabIndex = 383;
+            this.pic_X5_5.TabStop = false;
+            // 
+            // la_Y3_5
+            // 
+            this.la_Y3_5.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y3_5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y3_5.ForeColor = System.Drawing.Color.Black;
+            this.la_Y3_5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y3_5.Location = new System.Drawing.Point(48, 128);
+            this.la_Y3_5.Name = "la_Y3_5";
+            this.la_Y3_5.Size = new System.Drawing.Size(224, 24);
+            this.la_Y3_5.TabIndex = 380;
+            this.la_Y3_5.Tag = "";
+            this.la_Y3_5.Text = "Y03.5(砂輪2運轉啟動)";
+            this.la_Y3_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y3_5
+            // 
+            this.pic_Y3_5.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y3_5.Image")));
+            this.pic_Y3_5.Location = new System.Drawing.Point(8, 120);
+            this.pic_Y3_5.Name = "pic_Y3_5";
+            this.pic_Y3_5.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y3_5.TabIndex = 379;
+            this.pic_Y3_5.TabStop = false;
+            // 
+            // la_X6_1
+            // 
+            this.la_X6_1.BackColor = System.Drawing.Color.Transparent;
+            this.la_X6_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X6_1.ForeColor = System.Drawing.Color.Black;
+            this.la_X6_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X6_1.Location = new System.Drawing.Point(48, 48);
+            this.la_X6_1.Name = "la_X6_1";
+            this.la_X6_1.Size = new System.Drawing.Size(240, 24);
+            this.la_X6_1.TabIndex = 376;
+            this.la_X6_1.Tag = "";
+            this.la_X6_1.Text = "X06.1(砂輪2主軸零速)";
+            this.la_X6_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X6_1
+            // 
+            this.pic_X6_1.Image = ((System.Drawing.Image)(resources.GetObject("pic_X6_1.Image")));
+            this.pic_X6_1.Location = new System.Drawing.Point(8, 40);
+            this.pic_X6_1.Name = "pic_X6_1";
+            this.pic_X6_1.Size = new System.Drawing.Size(32, 32);
+            this.pic_X6_1.TabIndex = 375;
+            this.pic_X6_1.TabStop = false;
+            // 
+            // la_X6_0
+            // 
+            this.la_X6_0.BackColor = System.Drawing.Color.Transparent;
+            this.la_X6_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X6_0.ForeColor = System.Drawing.Color.Black;
+            this.la_X6_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X6_0.Location = new System.Drawing.Point(48, 8);
+            this.la_X6_0.Name = "la_X6_0";
+            this.la_X6_0.Size = new System.Drawing.Size(264, 24);
+            this.la_X6_0.TabIndex = 374;
+            this.la_X6_0.Tag = "";
+            this.la_X6_0.Text = "X06.0(砂輪2主軸轉速到達)";
+            this.la_X6_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X6_0
+            // 
+            this.pic_X6_0.Image = ((System.Drawing.Image)(resources.GetObject("pic_X6_0.Image")));
+            this.pic_X6_0.Location = new System.Drawing.Point(8, 0);
+            this.pic_X6_0.Name = "pic_X6_0";
+            this.pic_X6_0.Size = new System.Drawing.Size(32, 32);
+            this.pic_X6_0.TabIndex = 373;
+            this.pic_X6_0.TabStop = false;
             // 
             // pic_K13_6_0
             // 
@@ -4993,7 +5911,7 @@
             this.la_K13_0Desc.Size = new System.Drawing.Size(232, 24);
             this.la_K13_0Desc.TabIndex = 353;
             this.la_K13_0Desc.Tag = "";
-            this.la_K13_0Desc.Text = "附內磨砂輪功能使用";
+            this.la_K13_0Desc.Text = "砂輪2功能使用";
             this.la_K13_0Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_K13_0
@@ -5433,6 +6351,8 @@
             // 
             // tab_Gauge
             // 
+            this.tab_Gauge.Controls.Add(this.pa_GaugeIO2);
+            this.tab_Gauge.Controls.Add(this.pa_GaugeIO);
             this.tab_Gauge.Controls.Add(this.la_T60Desc);
             this.tab_Gauge.Controls.Add(this.la_T60s);
             this.tab_Gauge.Controls.Add(this.la_T60);
@@ -5444,7 +6364,6 @@
             this.tab_Gauge.Controls.Add(this.la_T64s);
             this.tab_Gauge.Controls.Add(this.la_T64);
             this.tab_Gauge.Controls.Add(this.cb_D68Select);
-            this.tab_Gauge.Controls.Add(this.la_D68);
             this.tab_Gauge.Controls.Add(this.la_GaugeTitle);
             this.tab_Gauge.Controls.Add(this.la_K9_5Desc);
             this.tab_Gauge.Controls.Add(this.la_K13_7Desc);
@@ -5466,6 +6385,7 @@
             this.tab_Gauge.Controls.Add(this.pic_K13_3);
             this.tab_Gauge.Controls.Add(this.pic_K9_5);
             this.tab_Gauge.Controls.Add(this.pic_K13_7);
+            this.tab_Gauge.Controls.Add(this.la_D68);
             this.tab_Gauge.Location = new System.Drawing.Point(4, 67);
             this.tab_Gauge.Name = "tab_Gauge";
             this.tab_Gauge.Size = new System.Drawing.Size(936, 561);
@@ -5474,13 +6394,229 @@
             this.tab_Gauge.UseVisualStyleBackColor = true;
             this.tab_Gauge.Paint += new System.Windows.Forms.PaintEventHandler(this.tab_Paint);
             // 
+            // pa_GaugeIO2
+            // 
+            this.pa_GaugeIO2.BackColor = System.Drawing.Color.Transparent;
+            this.pa_GaugeIO2.Controls.Add(this.la_Y2_3);
+            this.pa_GaugeIO2.Controls.Add(this.pic_Y2_3);
+            this.pa_GaugeIO2.Controls.Add(this.la_Y3_1);
+            this.pa_GaugeIO2.Controls.Add(this.pic_Y3_1);
+            this.pa_GaugeIO2.Controls.Add(this.la_Y2_7);
+            this.pa_GaugeIO2.Controls.Add(this.pic_Y2_7);
+            this.pa_GaugeIO2.Controls.Add(this.la_Y4_4);
+            this.pa_GaugeIO2.Controls.Add(this.pic_Y4_4);
+            this.pa_GaugeIO2.Location = new System.Drawing.Point(320, 432);
+            this.pa_GaugeIO2.Name = "pa_GaugeIO2";
+            this.pa_GaugeIO2.Size = new System.Drawing.Size(296, 152);
+            this.pa_GaugeIO2.TabIndex = 306;
+            // 
+            // la_Y2_3
+            // 
+            this.la_Y2_3.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y2_3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y2_3.ForeColor = System.Drawing.Color.Black;
+            this.la_Y2_3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y2_3.Location = new System.Drawing.Point(48, 8);
+            this.la_Y2_3.Name = "la_Y2_3";
+            this.la_Y2_3.Size = new System.Drawing.Size(232, 24);
+            this.la_Y2_3.TabIndex = 388;
+            this.la_Y2_3.Tag = "";
+            this.la_Y2_3.Text = "Y02.3(量測1伸出啟動)";
+            this.la_Y2_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y2_3
+            // 
+            this.pic_Y2_3.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y2_3.Image")));
+            this.pic_Y2_3.Location = new System.Drawing.Point(8, 0);
+            this.pic_Y2_3.Name = "pic_Y2_3";
+            this.pic_Y2_3.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y2_3.TabIndex = 387;
+            this.pic_Y2_3.TabStop = false;
+            // 
+            // la_Y3_1
+            // 
+            this.la_Y3_1.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y3_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y3_1.ForeColor = System.Drawing.Color.Black;
+            this.la_Y3_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y3_1.Location = new System.Drawing.Point(48, 128);
+            this.la_Y3_1.Name = "la_Y3_1";
+            this.la_Y3_1.Size = new System.Drawing.Size(280, 24);
+            this.la_Y3_1.TabIndex = 378;
+            this.la_Y3_1.Tag = "";
+            this.la_Y3_1.Text = "Y03.1(量測配件油箱啟動)";
+            this.la_Y3_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y3_1
+            // 
+            this.pic_Y3_1.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y3_1.Image")));
+            this.pic_Y3_1.Location = new System.Drawing.Point(8, 120);
+            this.pic_Y3_1.Name = "pic_Y3_1";
+            this.pic_Y3_1.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y3_1.TabIndex = 377;
+            this.pic_Y3_1.TabStop = false;
+            // 
+            // la_Y2_7
+            // 
+            this.la_Y2_7.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y2_7.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y2_7.ForeColor = System.Drawing.Color.Black;
+            this.la_Y2_7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y2_7.Location = new System.Drawing.Point(48, 88);
+            this.la_Y2_7.Name = "la_Y2_7";
+            this.la_Y2_7.Size = new System.Drawing.Size(232, 24);
+            this.la_Y2_7.TabIndex = 374;
+            this.la_Y2_7.Tag = "";
+            this.la_Y2_7.Text = "Y02.7(量測1開夾啟動)";
+            this.la_Y2_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y2_7
+            // 
+            this.pic_Y2_7.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y2_7.Image")));
+            this.pic_Y2_7.Location = new System.Drawing.Point(8, 80);
+            this.pic_Y2_7.Name = "pic_Y2_7";
+            this.pic_Y2_7.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y2_7.TabIndex = 373;
+            this.pic_Y2_7.TabStop = false;
+            // 
+            // la_Y4_4
+            // 
+            this.la_Y4_4.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y4_4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y4_4.ForeColor = System.Drawing.Color.Black;
+            this.la_Y4_4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y4_4.Location = new System.Drawing.Point(48, 48);
+            this.la_Y4_4.Name = "la_Y4_4";
+            this.la_Y4_4.Size = new System.Drawing.Size(200, 24);
+            this.la_Y4_4.TabIndex = 372;
+            this.la_Y4_4.Tag = "";
+            this.la_Y4_4.Text = "Y04.4(量測判定關係)";
+            this.la_Y4_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y4_4
+            // 
+            this.pic_Y4_4.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y4_4.Image")));
+            this.pic_Y4_4.Location = new System.Drawing.Point(8, 40);
+            this.pic_Y4_4.Name = "pic_Y4_4";
+            this.pic_Y4_4.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y4_4.TabIndex = 371;
+            this.pic_Y4_4.TabStop = false;
+            // 
+            // pa_GaugeIO
+            // 
+            this.pa_GaugeIO.BackColor = System.Drawing.Color.Transparent;
+            this.pa_GaugeIO.Controls.Add(this.la_X9_0);
+            this.pa_GaugeIO.Controls.Add(this.pic_X9_0);
+            this.pa_GaugeIO.Controls.Add(this.la_X9_1);
+            this.pa_GaugeIO.Controls.Add(this.pic_X9_1);
+            this.pa_GaugeIO.Controls.Add(this.la_X4_4);
+            this.pa_GaugeIO.Controls.Add(this.pic_X4_4);
+            this.pa_GaugeIO.Controls.Add(this.la_X4_7);
+            this.pa_GaugeIO.Controls.Add(this.pic_X4_7);
+            this.pa_GaugeIO.Location = new System.Drawing.Point(16, 432);
+            this.pa_GaugeIO.Name = "pa_GaugeIO";
+            this.pa_GaugeIO.Size = new System.Drawing.Size(296, 152);
+            this.pa_GaugeIO.TabIndex = 305;
+            // 
+            // la_X9_0
+            // 
+            this.la_X9_0.BackColor = System.Drawing.Color.Transparent;
+            this.la_X9_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X9_0.ForeColor = System.Drawing.Color.Black;
+            this.la_X9_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X9_0.Location = new System.Drawing.Point(40, 88);
+            this.la_X9_0.Name = "la_X9_0";
+            this.la_X9_0.Size = new System.Drawing.Size(256, 24);
+            this.la_X9_0.TabIndex = 384;
+            this.la_X9_0.Tag = "";
+            this.la_X9_0.Text = "X09.0(量測前進到位訊號)";
+            this.la_X9_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X9_0
+            // 
+            this.pic_X9_0.Image = ((System.Drawing.Image)(resources.GetObject("pic_X9_0.Image")));
+            this.pic_X9_0.Location = new System.Drawing.Point(0, 80);
+            this.pic_X9_0.Name = "pic_X9_0";
+            this.pic_X9_0.Size = new System.Drawing.Size(32, 32);
+            this.pic_X9_0.TabIndex = 383;
+            this.pic_X9_0.TabStop = false;
+            // 
+            // la_X9_1
+            // 
+            this.la_X9_1.BackColor = System.Drawing.Color.Transparent;
+            this.la_X9_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X9_1.ForeColor = System.Drawing.Color.Black;
+            this.la_X9_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X9_1.Location = new System.Drawing.Point(40, 128);
+            this.la_X9_1.Name = "la_X9_1";
+            this.la_X9_1.Size = new System.Drawing.Size(256, 24);
+            this.la_X9_1.TabIndex = 378;
+            this.la_X9_1.Tag = "";
+            this.la_X9_1.Text = "X09.1(量測後退到位訊號)";
+            this.la_X9_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X9_1
+            // 
+            this.pic_X9_1.Image = ((System.Drawing.Image)(resources.GetObject("pic_X9_1.Image")));
+            this.pic_X9_1.Location = new System.Drawing.Point(0, 120);
+            this.pic_X9_1.Name = "pic_X9_1";
+            this.pic_X9_1.Size = new System.Drawing.Size(32, 32);
+            this.pic_X9_1.TabIndex = 377;
+            this.pic_X9_1.TabStop = false;
+            // 
+            // la_X4_4
+            // 
+            this.la_X4_4.BackColor = System.Drawing.Color.Transparent;
+            this.la_X4_4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X4_4.ForeColor = System.Drawing.Color.Black;
+            this.la_X4_4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X4_4.Location = new System.Drawing.Point(40, 48);
+            this.la_X4_4.Name = "la_X4_4";
+            this.la_X4_4.Size = new System.Drawing.Size(240, 24);
+            this.la_X4_4.TabIndex = 376;
+            this.la_X4_4.Tag = "";
+            this.la_X4_4.Text = "X04.4(量測主機開夾完成)";
+            this.la_X4_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X4_4
+            // 
+            this.pic_X4_4.Image = ((System.Drawing.Image)(resources.GetObject("pic_X4_4.Image")));
+            this.pic_X4_4.Location = new System.Drawing.Point(0, 40);
+            this.pic_X4_4.Name = "pic_X4_4";
+            this.pic_X4_4.Size = new System.Drawing.Size(32, 32);
+            this.pic_X4_4.TabIndex = 375;
+            this.pic_X4_4.TabStop = false;
+            // 
+            // la_X4_7
+            // 
+            this.la_X4_7.BackColor = System.Drawing.Color.Transparent;
+            this.la_X4_7.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X4_7.ForeColor = System.Drawing.Color.Black;
+            this.la_X4_7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X4_7.Location = new System.Drawing.Point(40, 8);
+            this.la_X4_7.Name = "la_X4_7";
+            this.la_X4_7.Size = new System.Drawing.Size(248, 24);
+            this.la_X4_7.TabIndex = 374;
+            this.la_X4_7.Tag = "";
+            this.la_X4_7.Text = "X04.7(量測主機備妥)";
+            this.la_X4_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X4_7
+            // 
+            this.pic_X4_7.Image = ((System.Drawing.Image)(resources.GetObject("pic_X4_7.Image")));
+            this.pic_X4_7.Location = new System.Drawing.Point(0, 0);
+            this.pic_X4_7.Name = "pic_X4_7";
+            this.pic_X4_7.Size = new System.Drawing.Size(32, 32);
+            this.pic_X4_7.TabIndex = 373;
+            this.pic_X4_7.TabStop = false;
+            // 
             // la_T60Desc
             // 
             this.la_T60Desc.BackColor = System.Drawing.Color.Transparent;
             this.la_T60Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T60Desc.ForeColor = System.Drawing.Color.Black;
             this.la_T60Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T60Desc.Location = new System.Drawing.Point(328, 408);
+            this.la_T60Desc.Location = new System.Drawing.Point(328, 344);
             this.la_T60Desc.Name = "la_T60Desc";
             this.la_T60Desc.Size = new System.Drawing.Size(248, 24);
             this.la_T60Desc.TabIndex = 284;
@@ -5494,7 +6630,7 @@
             this.la_T60s.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T60s.ForeColor = System.Drawing.Color.Black;
             this.la_T60s.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T60s.Location = new System.Drawing.Point(272, 408);
+            this.la_T60s.Location = new System.Drawing.Point(272, 344);
             this.la_T60s.Name = "la_T60s";
             this.la_T60s.Size = new System.Drawing.Size(56, 24);
             this.la_T60s.TabIndex = 283;
@@ -5508,7 +6644,7 @@
             this.la_T60.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T60.ForeColor = System.Drawing.Color.Black;
             this.la_T60.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T60.Location = new System.Drawing.Point(8, 408);
+            this.la_T60.Location = new System.Drawing.Point(8, 344);
             this.la_T60.Name = "la_T60";
             this.la_T60.Size = new System.Drawing.Size(80, 24);
             this.la_T60.TabIndex = 281;
@@ -5522,7 +6658,7 @@
             this.la_K39_0Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_K39_0Desc.ForeColor = System.Drawing.Color.Black;
             this.la_K39_0Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_K39_0Desc.Location = new System.Drawing.Point(128, 256);
+            this.la_K39_0Desc.Location = new System.Drawing.Point(128, 200);
             this.la_K39_0Desc.Name = "la_K39_0Desc";
             this.la_K39_0Desc.Size = new System.Drawing.Size(240, 24);
             this.la_K39_0Desc.TabIndex = 235;
@@ -5536,7 +6672,7 @@
             this.la_K39_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_K39_0.ForeColor = System.Drawing.Color.Black;
             this.la_K39_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_K39_0.Location = new System.Drawing.Point(8, 256);
+            this.la_K39_0.Location = new System.Drawing.Point(8, 200);
             this.la_K39_0.Name = "la_K39_0";
             this.la_K39_0.Size = new System.Drawing.Size(80, 24);
             this.la_K39_0.TabIndex = 234;
@@ -5550,7 +6686,7 @@
             this.la_K13_3Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_K13_3Desc.ForeColor = System.Drawing.Color.Black;
             this.la_K13_3Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_K13_3Desc.Location = new System.Drawing.Point(128, 192);
+            this.la_K13_3Desc.Location = new System.Drawing.Point(128, 136);
             this.la_K13_3Desc.Name = "la_K13_3Desc";
             this.la_K13_3Desc.Size = new System.Drawing.Size(312, 24);
             this.la_K13_3Desc.TabIndex = 230;
@@ -5564,7 +6700,7 @@
             this.la_K13_3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_K13_3.ForeColor = System.Drawing.Color.Black;
             this.la_K13_3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_K13_3.Location = new System.Drawing.Point(8, 192);
+            this.la_K13_3.Location = new System.Drawing.Point(8, 136);
             this.la_K13_3.Name = "la_K13_3";
             this.la_K13_3.Size = new System.Drawing.Size(80, 24);
             this.la_K13_3.TabIndex = 224;
@@ -5578,7 +6714,7 @@
             this.la_T64Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T64Desc.ForeColor = System.Drawing.Color.Black;
             this.la_T64Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T64Desc.Location = new System.Drawing.Point(328, 456);
+            this.la_T64Desc.Location = new System.Drawing.Point(328, 392);
             this.la_T64Desc.Name = "la_T64Desc";
             this.la_T64Desc.Size = new System.Drawing.Size(288, 24);
             this.la_T64Desc.TabIndex = 221;
@@ -5592,7 +6728,7 @@
             this.la_T64s.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T64s.ForeColor = System.Drawing.Color.Black;
             this.la_T64s.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T64s.Location = new System.Drawing.Point(272, 456);
+            this.la_T64s.Location = new System.Drawing.Point(272, 392);
             this.la_T64s.Name = "la_T64s";
             this.la_T64s.Size = new System.Drawing.Size(56, 24);
             this.la_T64s.TabIndex = 220;
@@ -5606,7 +6742,7 @@
             this.la_T64.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T64.ForeColor = System.Drawing.Color.Black;
             this.la_T64.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T64.Location = new System.Drawing.Point(8, 456);
+            this.la_T64.Location = new System.Drawing.Point(8, 392);
             this.la_T64.Name = "la_T64";
             this.la_T64.Size = new System.Drawing.Size(80, 24);
             this.la_T64.TabIndex = 218;
@@ -5625,25 +6761,12 @@
             "1",
             "2",
             "3"});
-            this.cb_D68Select.Location = new System.Drawing.Point(256, 112);
+            this.cb_D68Select.Location = new System.Drawing.Point(496, 56);
             this.cb_D68Select.Name = "cb_D68Select";
             this.cb_D68Select.Size = new System.Drawing.Size(112, 33);
             this.cb_D68Select.TabIndex = 217;
             this.cb_D68Select.Tag = "68";
             this.cb_D68Select.SelectedIndexChanged += new System.EventHandler(this.cb_PMCTypeSelect_SelectedIndexChanged);
-            // 
-            // la_D68
-            // 
-            this.la_D68.BackColor = System.Drawing.Color.Transparent;
-            this.la_D68.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_D68.ForeColor = System.Drawing.Color.Black;
-            this.la_D68.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_D68.Location = new System.Drawing.Point(8, 112);
-            this.la_D68.Name = "la_D68";
-            this.la_D68.Size = new System.Drawing.Size(216, 24);
-            this.la_D68.TabIndex = 215;
-            this.la_D68.Text = "D0068 量測組數選擇";
-            this.la_D68.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_GaugeTitle
             // 
@@ -5662,14 +6785,14 @@
             // 
             this.la_K9_5Desc.BackColor = System.Drawing.Color.Transparent;
             this.la_K9_5Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_K9_5Desc.ForeColor = System.Drawing.Color.Black;
+            this.la_K9_5Desc.ForeColor = System.Drawing.Color.Red;
             this.la_K9_5Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_K9_5Desc.Location = new System.Drawing.Point(128, 160);
+            this.la_K9_5Desc.Location = new System.Drawing.Point(128, 104);
             this.la_K9_5Desc.Name = "la_K9_5Desc";
-            this.la_K9_5Desc.Size = new System.Drawing.Size(240, 24);
+            this.la_K9_5Desc.Size = new System.Drawing.Size(360, 24);
             this.la_K9_5Desc.TabIndex = 212;
             this.la_K9_5Desc.Tag = "";
-            this.la_K9_5Desc.Text = "量測動作確認氣壓&油壓";
+            this.la_K9_5Desc.Text = "量測動作確認氣壓&油壓 =0有效,=1無效";
             this.la_K9_5Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_K13_7Desc
@@ -5678,7 +6801,7 @@
             this.la_K13_7Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_K13_7Desc.ForeColor = System.Drawing.Color.Black;
             this.la_K13_7Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_K13_7Desc.Location = new System.Drawing.Point(128, 224);
+            this.la_K13_7Desc.Location = new System.Drawing.Point(128, 168);
             this.la_K13_7Desc.Name = "la_K13_7Desc";
             this.la_K13_7Desc.Size = new System.Drawing.Size(312, 24);
             this.la_K13_7Desc.TabIndex = 210;
@@ -5692,7 +6815,7 @@
             this.la_T58Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T58Desc.ForeColor = System.Drawing.Color.Black;
             this.la_T58Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T58Desc.Location = new System.Drawing.Point(328, 360);
+            this.la_T58Desc.Location = new System.Drawing.Point(328, 296);
             this.la_T58Desc.Name = "la_T58Desc";
             this.la_T58Desc.Size = new System.Drawing.Size(256, 24);
             this.la_T58Desc.TabIndex = 201;
@@ -5706,7 +6829,7 @@
             this.la_T58s.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T58s.ForeColor = System.Drawing.Color.Black;
             this.la_T58s.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T58s.Location = new System.Drawing.Point(272, 360);
+            this.la_T58s.Location = new System.Drawing.Point(272, 296);
             this.la_T58s.Name = "la_T58s";
             this.la_T58s.Size = new System.Drawing.Size(56, 24);
             this.la_T58s.TabIndex = 200;
@@ -5720,7 +6843,7 @@
             this.la_T58.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T58.ForeColor = System.Drawing.Color.Black;
             this.la_T58.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T58.Location = new System.Drawing.Point(8, 360);
+            this.la_T58.Location = new System.Drawing.Point(8, 296);
             this.la_T58.Name = "la_T58";
             this.la_T58.Size = new System.Drawing.Size(80, 24);
             this.la_T58.TabIndex = 198;
@@ -5734,7 +6857,7 @@
             this.la_T54Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T54Desc.ForeColor = System.Drawing.Color.Black;
             this.la_T54Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T54Desc.Location = new System.Drawing.Point(328, 312);
+            this.la_T54Desc.Location = new System.Drawing.Point(328, 248);
             this.la_T54Desc.Name = "la_T54Desc";
             this.la_T54Desc.Size = new System.Drawing.Size(256, 24);
             this.la_T54Desc.TabIndex = 197;
@@ -5748,7 +6871,7 @@
             this.la_T54s.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T54s.ForeColor = System.Drawing.Color.Black;
             this.la_T54s.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T54s.Location = new System.Drawing.Point(272, 312);
+            this.la_T54s.Location = new System.Drawing.Point(272, 248);
             this.la_T54s.Name = "la_T54s";
             this.la_T54s.Size = new System.Drawing.Size(56, 24);
             this.la_T54s.TabIndex = 196;
@@ -5762,7 +6885,7 @@
             this.la_T54.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T54.ForeColor = System.Drawing.Color.Black;
             this.la_T54.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T54.Location = new System.Drawing.Point(8, 312);
+            this.la_T54.Location = new System.Drawing.Point(8, 248);
             this.la_T54.Name = "la_T54";
             this.la_T54.Size = new System.Drawing.Size(80, 24);
             this.la_T54.TabIndex = 194;
@@ -5776,7 +6899,7 @@
             this.la_K9_5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_K9_5.ForeColor = System.Drawing.Color.Black;
             this.la_K9_5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_K9_5.Location = new System.Drawing.Point(8, 160);
+            this.la_K9_5.Location = new System.Drawing.Point(8, 104);
             this.la_K9_5.Name = "la_K9_5";
             this.la_K9_5.Size = new System.Drawing.Size(80, 24);
             this.la_K9_5.TabIndex = 193;
@@ -5790,7 +6913,7 @@
             this.la_K13_7.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_K13_7.ForeColor = System.Drawing.Color.Black;
             this.la_K13_7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_K13_7.Location = new System.Drawing.Point(8, 224);
+            this.la_K13_7.Location = new System.Drawing.Point(8, 168);
             this.la_K13_7.Name = "la_K13_7";
             this.la_K13_7.Size = new System.Drawing.Size(80, 24);
             this.la_K13_7.TabIndex = 192;
@@ -5811,7 +6934,7 @@
             "P7ME",
             "P3ME",
             "V10A"});
-            this.cb_D54Select.Location = new System.Drawing.Point(256, 64);
+            this.cb_D54Select.Location = new System.Drawing.Point(152, 56);
             this.cb_D54Select.Name = "cb_D54Select";
             this.cb_D54Select.Size = new System.Drawing.Size(192, 33);
             this.cb_D54Select.TabIndex = 189;
@@ -5824,12 +6947,12 @@
             this.la_D54.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_D54.ForeColor = System.Drawing.Color.Black;
             this.la_D54.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_D54.Location = new System.Drawing.Point(8, 64);
+            this.la_D54.Location = new System.Drawing.Point(8, 40);
             this.la_D54.Name = "la_D54";
-            this.la_D54.Size = new System.Drawing.Size(224, 24);
+            this.la_D54.Size = new System.Drawing.Size(136, 56);
             this.la_D54.TabIndex = 187;
-            this.la_D54.Text = "D0054 量測型式選擇";
-            this.la_D54.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_D54.Text = "D0054 \r\n量測型式選擇";
+            this.la_D54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ucBtn_T60
             // 
@@ -5840,7 +6963,7 @@
             this.ucBtn_T60.Image = null;
             this.ucBtn_T60.Lamp = false;
             this.ucBtn_T60.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T60.LampOnImage")));
-            this.ucBtn_T60.Location = new System.Drawing.Point(104, 400);
+            this.ucBtn_T60.Location = new System.Drawing.Point(104, 336);
             this.ucBtn_T60.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T60.MouseDownImage")));
             this.ucBtn_T60.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T60.MouseUpImage")));
             this.ucBtn_T60.Name = "ucBtn_T60";
@@ -5862,7 +6985,7 @@
             this.ucBtn_T64.Image = null;
             this.ucBtn_T64.Lamp = false;
             this.ucBtn_T64.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T64.LampOnImage")));
-            this.ucBtn_T64.Location = new System.Drawing.Point(104, 448);
+            this.ucBtn_T64.Location = new System.Drawing.Point(104, 384);
             this.ucBtn_T64.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T64.MouseDownImage")));
             this.ucBtn_T64.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T64.MouseUpImage")));
             this.ucBtn_T64.Name = "ucBtn_T64";
@@ -5884,7 +7007,7 @@
             this.ucBtn_T58.Image = null;
             this.ucBtn_T58.Lamp = false;
             this.ucBtn_T58.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T58.LampOnImage")));
-            this.ucBtn_T58.Location = new System.Drawing.Point(104, 352);
+            this.ucBtn_T58.Location = new System.Drawing.Point(104, 288);
             this.ucBtn_T58.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T58.MouseDownImage")));
             this.ucBtn_T58.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T58.MouseUpImage")));
             this.ucBtn_T58.Name = "ucBtn_T58";
@@ -5906,7 +7029,7 @@
             this.ucBtn_T54.Image = null;
             this.ucBtn_T54.Lamp = false;
             this.ucBtn_T54.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T54.LampOnImage")));
-            this.ucBtn_T54.Location = new System.Drawing.Point(104, 304);
+            this.ucBtn_T54.Location = new System.Drawing.Point(104, 240);
             this.ucBtn_T54.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T54.MouseDownImage")));
             this.ucBtn_T54.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T54.MouseUpImage")));
             this.ucBtn_T54.Name = "ucBtn_T54";
@@ -5922,7 +7045,7 @@
             // pic_K39_0
             // 
             this.pic_K39_0.BackColor = System.Drawing.Color.Black;
-            this.pic_K39_0.Location = new System.Drawing.Point(96, 256);
+            this.pic_K39_0.Location = new System.Drawing.Point(96, 200);
             this.pic_K39_0.Name = "pic_K39_0";
             this.pic_K39_0.Size = new System.Drawing.Size(24, 24);
             this.pic_K39_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -5934,7 +7057,7 @@
             // pic_K13_3
             // 
             this.pic_K13_3.BackColor = System.Drawing.Color.Black;
-            this.pic_K13_3.Location = new System.Drawing.Point(96, 192);
+            this.pic_K13_3.Location = new System.Drawing.Point(96, 136);
             this.pic_K13_3.Name = "pic_K13_3";
             this.pic_K13_3.Size = new System.Drawing.Size(24, 24);
             this.pic_K13_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -5946,7 +7069,7 @@
             // pic_K9_5
             // 
             this.pic_K9_5.BackColor = System.Drawing.Color.Black;
-            this.pic_K9_5.Location = new System.Drawing.Point(96, 160);
+            this.pic_K9_5.Location = new System.Drawing.Point(96, 104);
             this.pic_K9_5.Name = "pic_K9_5";
             this.pic_K9_5.Size = new System.Drawing.Size(24, 24);
             this.pic_K9_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -5958,7 +7081,7 @@
             // pic_K13_7
             // 
             this.pic_K13_7.BackColor = System.Drawing.Color.Black;
-            this.pic_K13_7.Location = new System.Drawing.Point(96, 224);
+            this.pic_K13_7.Location = new System.Drawing.Point(96, 168);
             this.pic_K13_7.Name = "pic_K13_7";
             this.pic_K13_7.Size = new System.Drawing.Size(24, 24);
             this.pic_K13_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -5966,6 +7089,19 @@
             this.pic_K13_7.TabStop = false;
             this.pic_K13_7.Tag = "K13.7";
             this.pic_K13_7.Click += new System.EventHandler(this.pic_PmcAddrTypeK_Click);
+            // 
+            // la_D68
+            // 
+            this.la_D68.BackColor = System.Drawing.Color.Transparent;
+            this.la_D68.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_D68.ForeColor = System.Drawing.Color.Black;
+            this.la_D68.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_D68.Location = new System.Drawing.Point(352, 40);
+            this.la_D68.Name = "la_D68";
+            this.la_D68.Size = new System.Drawing.Size(136, 56);
+            this.la_D68.TabIndex = 215;
+            this.la_D68.Text = "D0068 \r\n量測組數選擇";
+            this.la_D68.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tab_SafetyDoor
             // 
@@ -5995,9 +7131,9 @@
             this.la_Y2_4Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_Y2_4Desc.ForeColor = System.Drawing.Color.Black;
             this.la_Y2_4Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_Y2_4Desc.Location = new System.Drawing.Point(80, 504);
+            this.la_Y2_4Desc.Location = new System.Drawing.Point(56, 512);
             this.la_Y2_4Desc.Name = "la_Y2_4Desc";
-            this.la_Y2_4Desc.Size = new System.Drawing.Size(240, 24);
+            this.la_Y2_4Desc.Size = new System.Drawing.Size(176, 24);
             this.la_Y2_4Desc.TabIndex = 372;
             this.la_Y2_4Desc.Tag = "";
             this.la_Y2_4Desc.Text = "Y02.4 安全門解鎖";
@@ -6009,9 +7145,9 @@
             this.la_X3_7Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_X3_7Desc.ForeColor = System.Drawing.Color.Black;
             this.la_X3_7Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_X3_7Desc.Location = new System.Drawing.Point(80, 464);
+            this.la_X3_7Desc.Location = new System.Drawing.Point(56, 472);
             this.la_X3_7Desc.Name = "la_X3_7Desc";
-            this.la_X3_7Desc.Size = new System.Drawing.Size(240, 24);
+            this.la_X3_7Desc.Size = new System.Drawing.Size(224, 24);
             this.la_X3_7Desc.TabIndex = 370;
             this.la_X3_7Desc.Tag = "";
             this.la_X3_7Desc.Text = "X03.7 安全門開啓訊號";
@@ -6126,7 +7262,7 @@
             // 
             this.pic_Y2_4.BackColor = System.Drawing.Color.Transparent;
             this.pic_Y2_4.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y2_4.Image")));
-            this.pic_Y2_4.Location = new System.Drawing.Point(32, 504);
+            this.pic_Y2_4.Location = new System.Drawing.Point(16, 504);
             this.pic_Y2_4.Name = "pic_Y2_4";
             this.pic_Y2_4.Size = new System.Drawing.Size(32, 32);
             this.pic_Y2_4.TabIndex = 371;
@@ -6136,7 +7272,7 @@
             // 
             this.pic_X3_7.BackColor = System.Drawing.Color.Transparent;
             this.pic_X3_7.Image = ((System.Drawing.Image)(resources.GetObject("pic_X3_7.Image")));
-            this.pic_X3_7.Location = new System.Drawing.Point(32, 464);
+            this.pic_X3_7.Location = new System.Drawing.Point(16, 464);
             this.pic_X3_7.Name = "pic_X3_7";
             this.pic_X3_7.Size = new System.Drawing.Size(32, 32);
             this.pic_X3_7.TabIndex = 369;
@@ -6156,6 +7292,8 @@
             // 
             // tab_AutoDoor
             // 
+            this.tab_AutoDoor.Controls.Add(this.pa_AutoDoorIO2);
+            this.tab_AutoDoor.Controls.Add(this.pa_AutoDoorIO);
             this.tab_AutoDoor.Controls.Add(this.la_K14_2Desc);
             this.tab_AutoDoor.Controls.Add(this.la_K14_2);
             this.tab_AutoDoor.Controls.Add(this.pic_K14_2);
@@ -6193,6 +7331,172 @@
             this.tab_AutoDoor.Text = "自動門";
             this.tab_AutoDoor.UseVisualStyleBackColor = true;
             this.tab_AutoDoor.Paint += new System.Windows.Forms.PaintEventHandler(this.tab_Paint);
+            // 
+            // pa_AutoDoorIO2
+            // 
+            this.pa_AutoDoorIO2.BackColor = System.Drawing.Color.Transparent;
+            this.pa_AutoDoorIO2.Controls.Add(this.la_Y0_5);
+            this.pa_AutoDoorIO2.Controls.Add(this.pic_Y0_5);
+            this.pa_AutoDoorIO2.Controls.Add(this.la_Y4_2);
+            this.pa_AutoDoorIO2.Controls.Add(this.pic_Y4_2);
+            this.pa_AutoDoorIO2.Controls.Add(this.la_Y4_1);
+            this.pa_AutoDoorIO2.Controls.Add(this.pic_Y4_1);
+            this.pa_AutoDoorIO2.Controls.Add(this.la_Y0_6);
+            this.pa_AutoDoorIO2.Controls.Add(this.pic_Y0_6);
+            this.pa_AutoDoorIO2.Location = new System.Drawing.Point(496, 272);
+            this.pa_AutoDoorIO2.Name = "pa_AutoDoorIO2";
+            this.pa_AutoDoorIO2.Size = new System.Drawing.Size(152, 328);
+            this.pa_AutoDoorIO2.TabIndex = 416;
+            // 
+            // la_Y0_5
+            // 
+            this.la_Y0_5.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y0_5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y0_5.ForeColor = System.Drawing.Color.Black;
+            this.la_Y0_5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y0_5.Location = new System.Drawing.Point(8, 32);
+            this.la_Y0_5.Name = "la_Y0_5";
+            this.la_Y0_5.Size = new System.Drawing.Size(144, 24);
+            this.la_Y0_5.TabIndex = 388;
+            this.la_Y0_5.Tag = "";
+            this.la_Y0_5.Text = "Y00.5(開門)";
+            this.la_Y0_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y0_5
+            // 
+            this.pic_Y0_5.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y0_5.Image")));
+            this.pic_Y0_5.Location = new System.Drawing.Point(16, 0);
+            this.pic_Y0_5.Name = "pic_Y0_5";
+            this.pic_Y0_5.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y0_5.TabIndex = 387;
+            this.pic_Y0_5.TabStop = false;
+            // 
+            // la_Y4_2
+            // 
+            this.la_Y4_2.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y4_2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y4_2.ForeColor = System.Drawing.Color.Black;
+            this.la_Y4_2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y4_2.Location = new System.Drawing.Point(8, 248);
+            this.la_Y4_2.Name = "la_Y4_2";
+            this.la_Y4_2.Size = new System.Drawing.Size(104, 72);
+            this.la_Y4_2.TabIndex = 376;
+            this.la_Y4_2.Tag = "";
+            this.la_Y4_2.Text = "Y04.2\r\n(自動門關\r\n緩衝)";
+            this.la_Y4_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y4_2
+            // 
+            this.pic_Y4_2.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y4_2.Image")));
+            this.pic_Y4_2.Location = new System.Drawing.Point(16, 216);
+            this.pic_Y4_2.Name = "pic_Y4_2";
+            this.pic_Y4_2.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y4_2.TabIndex = 375;
+            this.pic_Y4_2.TabStop = false;
+            // 
+            // la_Y4_1
+            // 
+            this.la_Y4_1.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y4_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y4_1.ForeColor = System.Drawing.Color.Black;
+            this.la_Y4_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y4_1.Location = new System.Drawing.Point(8, 144);
+            this.la_Y4_1.Name = "la_Y4_1";
+            this.la_Y4_1.Size = new System.Drawing.Size(104, 72);
+            this.la_Y4_1.TabIndex = 374;
+            this.la_Y4_1.Tag = "";
+            this.la_Y4_1.Text = "Y04.1\r\n(自動門開\r\n緩衝)";
+            this.la_Y4_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y4_1
+            // 
+            this.pic_Y4_1.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y4_1.Image")));
+            this.pic_Y4_1.Location = new System.Drawing.Point(16, 112);
+            this.pic_Y4_1.Name = "pic_Y4_1";
+            this.pic_Y4_1.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y4_1.TabIndex = 373;
+            this.pic_Y4_1.TabStop = false;
+            // 
+            // la_Y0_6
+            // 
+            this.la_Y0_6.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y0_6.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y0_6.ForeColor = System.Drawing.Color.Black;
+            this.la_Y0_6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y0_6.Location = new System.Drawing.Point(8, 88);
+            this.la_Y0_6.Name = "la_Y0_6";
+            this.la_Y0_6.Size = new System.Drawing.Size(128, 24);
+            this.la_Y0_6.TabIndex = 372;
+            this.la_Y0_6.Tag = "";
+            this.la_Y0_6.Text = "Y00.6(關門)";
+            this.la_Y0_6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y0_6
+            // 
+            this.pic_Y0_6.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y0_6.Image")));
+            this.pic_Y0_6.Location = new System.Drawing.Point(16, 56);
+            this.pic_Y0_6.Name = "pic_Y0_6";
+            this.pic_Y0_6.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y0_6.TabIndex = 371;
+            this.pic_Y0_6.TabStop = false;
+            // 
+            // pa_AutoDoorIO
+            // 
+            this.pa_AutoDoorIO.BackColor = System.Drawing.Color.Transparent;
+            this.pa_AutoDoorIO.Controls.Add(this.la_X8_1);
+            this.pa_AutoDoorIO.Controls.Add(this.pic_X8_1);
+            this.pa_AutoDoorIO.Controls.Add(this.la_X8_0);
+            this.pa_AutoDoorIO.Controls.Add(this.pic_X8_0);
+            this.pa_AutoDoorIO.Location = new System.Drawing.Point(496, 48);
+            this.pa_AutoDoorIO.Name = "pa_AutoDoorIO";
+            this.pa_AutoDoorIO.Size = new System.Drawing.Size(152, 224);
+            this.pa_AutoDoorIO.TabIndex = 415;
+            // 
+            // la_X8_1
+            // 
+            this.la_X8_1.BackColor = System.Drawing.Color.Transparent;
+            this.la_X8_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X8_1.ForeColor = System.Drawing.Color.Black;
+            this.la_X8_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X8_1.Location = new System.Drawing.Point(8, 144);
+            this.la_X8_1.Name = "la_X8_1";
+            this.la_X8_1.Size = new System.Drawing.Size(144, 80);
+            this.la_X8_1.TabIndex = 384;
+            this.la_X8_1.Tag = "";
+            this.la_X8_1.Text = "X08.1\r\n(自動門\r\n右門關感測器)";
+            this.la_X8_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X8_1
+            // 
+            this.pic_X8_1.Image = ((System.Drawing.Image)(resources.GetObject("pic_X8_1.Image")));
+            this.pic_X8_1.Location = new System.Drawing.Point(16, 112);
+            this.pic_X8_1.Name = "pic_X8_1";
+            this.pic_X8_1.Size = new System.Drawing.Size(32, 32);
+            this.pic_X8_1.TabIndex = 383;
+            this.pic_X8_1.TabStop = false;
+            // 
+            // la_X8_0
+            // 
+            this.la_X8_0.BackColor = System.Drawing.Color.Transparent;
+            this.la_X8_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X8_0.ForeColor = System.Drawing.Color.Black;
+            this.la_X8_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X8_0.Location = new System.Drawing.Point(8, 32);
+            this.la_X8_0.Name = "la_X8_0";
+            this.la_X8_0.Size = new System.Drawing.Size(144, 80);
+            this.la_X8_0.TabIndex = 376;
+            this.la_X8_0.Tag = "";
+            this.la_X8_0.Text = "X08.0\r\n(自動門\r\n右門開感測器)";
+            this.la_X8_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X8_0
+            // 
+            this.pic_X8_0.Image = ((System.Drawing.Image)(resources.GetObject("pic_X8_0.Image")));
+            this.pic_X8_0.Location = new System.Drawing.Point(16, 0);
+            this.pic_X8_0.Name = "pic_X8_0";
+            this.pic_X8_0.Size = new System.Drawing.Size(32, 32);
+            this.pic_X8_0.TabIndex = 375;
+            this.pic_X8_0.TabStop = false;
             // 
             // la_K14_2Desc
             // 
@@ -6248,7 +7552,7 @@
             this.pa_PSW04.Controls.Add(this.la_N6913);
             this.pa_PSW04.Location = new System.Drawing.Point(0, 320);
             this.pa_PSW04.Name = "pa_PSW04";
-            this.pa_PSW04.Size = new System.Drawing.Size(600, 128);
+            this.pa_PSW04.Size = new System.Drawing.Size(496, 128);
             this.pa_PSW04.TabIndex = 411;
             // 
             // la_N6953Desc
@@ -6447,7 +7751,7 @@
             this.pa_PSW03.Controls.Add(this.la_N6912);
             this.pa_PSW03.Location = new System.Drawing.Point(0, 160);
             this.pa_PSW03.Name = "pa_PSW03";
-            this.pa_PSW03.Size = new System.Drawing.Size(600, 128);
+            this.pa_PSW03.Size = new System.Drawing.Size(496, 128);
             this.pa_PSW03.TabIndex = 407;
             // 
             // la_N6952Desc
@@ -6598,9 +7902,9 @@
             this.la_T100Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T100Desc.ForeColor = System.Drawing.Color.Black;
             this.la_T100Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T100Desc.Location = new System.Drawing.Point(328, 560);
+            this.la_T100Desc.Location = new System.Drawing.Point(312, 560);
             this.la_T100Desc.Name = "la_T100Desc";
-            this.la_T100Desc.Size = new System.Drawing.Size(248, 24);
+            this.la_T100Desc.Size = new System.Drawing.Size(224, 24);
             this.la_T100Desc.TabIndex = 405;
             this.la_T100Desc.Tag = "";
             this.la_T100Desc.Text = "自動門關緩衝延遲時間";
@@ -6614,7 +7918,7 @@
             this.la_T100s.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.la_T100s.Location = new System.Drawing.Point(272, 560);
             this.la_T100s.Name = "la_T100s";
-            this.la_T100s.Size = new System.Drawing.Size(56, 24);
+            this.la_T100s.Size = new System.Drawing.Size(40, 24);
             this.la_T100s.TabIndex = 404;
             this.la_T100s.Tag = "";
             this.la_T100s.Text = "(s)";
@@ -6640,12 +7944,12 @@
             this.la_T98Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T98Desc.ForeColor = System.Drawing.Color.Black;
             this.la_T98Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T98Desc.Location = new System.Drawing.Point(328, 512);
+            this.la_T98Desc.Location = new System.Drawing.Point(312, 504);
             this.la_T98Desc.Name = "la_T98Desc";
-            this.la_T98Desc.Size = new System.Drawing.Size(224, 24);
+            this.la_T98Desc.Size = new System.Drawing.Size(176, 48);
             this.la_T98Desc.TabIndex = 397;
             this.la_T98Desc.Tag = "";
-            this.la_T98Desc.Text = "自動門開緩衝延遲時間";
+            this.la_T98Desc.Text = "自動門開緩衝\r\n延遲時間";
             this.la_T98Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_T98s
@@ -6656,7 +7960,7 @@
             this.la_T98s.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.la_T98s.Location = new System.Drawing.Point(272, 512);
             this.la_T98s.Name = "la_T98s";
-            this.la_T98s.Size = new System.Drawing.Size(56, 24);
+            this.la_T98s.Size = new System.Drawing.Size(40, 24);
             this.la_T98s.TabIndex = 396;
             this.la_T98s.Tag = "";
             this.la_T98s.Text = "(s)";
@@ -6682,12 +7986,12 @@
             this.la_T40Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T40Desc.ForeColor = System.Drawing.Color.Black;
             this.la_T40Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T40Desc.Location = new System.Drawing.Point(328, 464);
+            this.la_T40Desc.Location = new System.Drawing.Point(312, 448);
             this.la_T40Desc.Name = "la_T40Desc";
-            this.la_T40Desc.Size = new System.Drawing.Size(344, 24);
+            this.la_T40Desc.Size = new System.Drawing.Size(192, 48);
             this.la_T40Desc.TabIndex = 393;
             this.la_T40Desc.Tag = "";
-            this.la_T40Desc.Text = "自動門感測器開/關異常判斷延遲時間";
+            this.la_T40Desc.Text = "自動門感測器開/\r\n關異常判斷延遲時間";
             this.la_T40Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_T40s
@@ -6698,7 +8002,7 @@
             this.la_T40s.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.la_T40s.Location = new System.Drawing.Point(272, 464);
             this.la_T40s.Name = "la_T40s";
-            this.la_T40s.Size = new System.Drawing.Size(56, 24);
+            this.la_T40s.Size = new System.Drawing.Size(40, 24);
             this.la_T40s.TabIndex = 392;
             this.la_T40s.Tag = "";
             this.la_T40s.Text = "(s)";
@@ -6724,7 +8028,7 @@
             this.la_D70_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_D70_1.ForeColor = System.Drawing.Color.DodgerBlue;
             this.la_D70_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_D70_1.Location = new System.Drawing.Point(400, 96);
+            this.la_D70_1.Location = new System.Drawing.Point(376, 96);
             this.la_D70_1.Name = "la_D70_1";
             this.la_D70_1.Size = new System.Drawing.Size(80, 24);
             this.la_D70_1.TabIndex = 368;
@@ -6738,7 +8042,7 @@
             this.la_D70_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_D70_0.ForeColor = System.Drawing.Color.DodgerBlue;
             this.la_D70_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_D70_0.Location = new System.Drawing.Point(272, 96);
+            this.la_D70_0.Location = new System.Drawing.Point(256, 96);
             this.la_D70_0.Name = "la_D70_0";
             this.la_D70_0.Size = new System.Drawing.Size(80, 24);
             this.la_D70_0.TabIndex = 366;
@@ -6754,7 +8058,7 @@
             this.la_D70Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.la_D70Desc.Location = new System.Drawing.Point(88, 96);
             this.la_D70Desc.Name = "la_D70Desc";
-            this.la_D70Desc.Size = new System.Drawing.Size(168, 24);
+            this.la_D70Desc.Size = new System.Drawing.Size(160, 24);
             this.la_D70Desc.TabIndex = 364;
             this.la_D70Desc.Tag = "";
             this.la_D70Desc.Text = "自動門位置選擇";
@@ -6778,14 +8082,14 @@
             // 
             this.la_K11_0Desc.BackColor = System.Drawing.Color.Transparent;
             this.la_K11_0Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_K11_0Desc.ForeColor = System.Drawing.Color.Black;
+            this.la_K11_0Desc.ForeColor = System.Drawing.Color.Red;
             this.la_K11_0Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.la_K11_0Desc.Location = new System.Drawing.Point(128, 56);
             this.la_K11_0Desc.Name = "la_K11_0Desc";
-            this.la_K11_0Desc.Size = new System.Drawing.Size(176, 24);
+            this.la_K11_0Desc.Size = new System.Drawing.Size(272, 24);
             this.la_K11_0Desc.TabIndex = 361;
             this.la_K11_0Desc.Tag = "";
-            this.la_K11_0Desc.Text = "自動門功能有效";
+            this.la_K11_0Desc.Text = "自動門功能 =0有效,=1無效";
             this.la_K11_0Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_K11_0
@@ -6884,7 +8188,7 @@
             // pic_D70_1
             // 
             this.pic_D70_1.BackColor = System.Drawing.Color.Black;
-            this.pic_D70_1.Location = new System.Drawing.Point(488, 96);
+            this.pic_D70_1.Location = new System.Drawing.Point(464, 96);
             this.pic_D70_1.Name = "pic_D70_1";
             this.pic_D70_1.Size = new System.Drawing.Size(24, 24);
             this.pic_D70_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -6896,7 +8200,7 @@
             // pic_D70_0
             // 
             this.pic_D70_0.BackColor = System.Drawing.Color.Black;
-            this.pic_D70_0.Location = new System.Drawing.Point(360, 96);
+            this.pic_D70_0.Location = new System.Drawing.Point(344, 96);
             this.pic_D70_0.Name = "pic_D70_0";
             this.pic_D70_0.Size = new System.Drawing.Size(24, 24);
             this.pic_D70_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -6919,6 +8223,24 @@
             // 
             // tab_Acoustic
             // 
+            this.tab_Acoustic.Controls.Add(this.la_E6_2);
+            this.tab_Acoustic.Controls.Add(this.pic_E6_2);
+            this.tab_Acoustic.Controls.Add(this.la_E7_3);
+            this.tab_Acoustic.Controls.Add(this.pic_E7_3);
+            this.tab_Acoustic.Controls.Add(this.la_E6_1);
+            this.tab_Acoustic.Controls.Add(this.pic_E6_1);
+            this.tab_Acoustic.Controls.Add(this.la_E7_1);
+            this.tab_Acoustic.Controls.Add(this.pic_E7_1);
+            this.tab_Acoustic.Controls.Add(this.la_Y3_6);
+            this.tab_Acoustic.Controls.Add(this.pic_Y3_6);
+            this.tab_Acoustic.Controls.Add(this.la_Y5_4);
+            this.tab_Acoustic.Controls.Add(this.la_X4_5);
+            this.tab_Acoustic.Controls.Add(this.pic_Y5_4);
+            this.tab_Acoustic.Controls.Add(this.pic_X4_5);
+            this.tab_Acoustic.Controls.Add(this.la_Y3_7);
+            this.tab_Acoustic.Controls.Add(this.la_F122_1);
+            this.tab_Acoustic.Controls.Add(this.pic_Y3_7);
+            this.tab_Acoustic.Controls.Add(this.pic_F122_1);
             this.tab_Acoustic.Controls.Add(this.la_AcousticTitle);
             this.tab_Acoustic.Controls.Add(this.la_T20Desc);
             this.tab_Acoustic.Controls.Add(this.la_T20s);
@@ -6927,7 +8249,7 @@
             this.tab_Acoustic.Controls.Add(this.la_T14s);
             this.tab_Acoustic.Controls.Add(this.la_T14);
             this.tab_Acoustic.Controls.Add(this.cb_D52Select);
-            this.tab_Acoustic.Controls.Add(this.label9);
+            this.tab_Acoustic.Controls.Add(this.la_D52Desc);
             this.tab_Acoustic.Controls.Add(this.la_D52);
             this.tab_Acoustic.Controls.Add(this.ucBtn_T20);
             this.tab_Acoustic.Controls.Add(this.ucBtn_T14);
@@ -7056,18 +8378,18 @@
             this.cb_D52Select.Tag = "52";
             this.cb_D52Select.SelectedIndexChanged += new System.EventHandler(this.cb_PMCTypeSelect_SelectedIndexChanged);
             // 
-            // label9
+            // la_D52Desc
             // 
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label9.Location = new System.Drawing.Point(88, 64);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(144, 24);
-            this.label9.TabIndex = 176;
-            this.label9.Text = "音頻型式選擇";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.la_D52Desc.BackColor = System.Drawing.Color.Transparent;
+            this.la_D52Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_D52Desc.ForeColor = System.Drawing.Color.Black;
+            this.la_D52Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_D52Desc.Location = new System.Drawing.Point(88, 64);
+            this.la_D52Desc.Name = "la_D52Desc";
+            this.la_D52Desc.Size = new System.Drawing.Size(144, 24);
+            this.la_D52Desc.TabIndex = 176;
+            this.la_D52Desc.Text = "音頻型式選擇";
+            this.la_D52Desc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // la_D52
             // 
@@ -7128,6 +8450,10 @@
             // 
             // tab_OilMistCollect
             // 
+            this.tab_OilMistCollect.Controls.Add(this.la_Y1_4);
+            this.tab_OilMistCollect.Controls.Add(this.pic_Y1_4);
+            this.tab_OilMistCollect.Controls.Add(this.la_X2_6);
+            this.tab_OilMistCollect.Controls.Add(this.pic_X2_6);
             this.tab_OilMistCollect.Controls.Add(this.pic_K25_6);
             this.tab_OilMistCollect.Controls.Add(this.la_K25_6Desc);
             this.tab_OilMistCollect.Controls.Add(this.la_K25_6);
@@ -7195,6 +8521,12 @@
             // 
             // tab_AxisLube
             // 
+            this.tab_AxisLube.Controls.Add(this.la_X1_6);
+            this.tab_AxisLube.Controls.Add(this.pic_X1_6);
+            this.tab_AxisLube.Controls.Add(this.la_Y0_7);
+            this.tab_AxisLube.Controls.Add(this.pic_Y0_7);
+            this.tab_AxisLube.Controls.Add(this.la_X1_5);
+            this.tab_AxisLube.Controls.Add(this.pic_X1_5);
             this.tab_AxisLube.Controls.Add(this.la_K16_1_1);
             this.tab_AxisLube.Controls.Add(this.la_K16_1_0);
             this.tab_AxisLube.Controls.Add(this.la_K16_1Desc);
@@ -7327,7 +8659,7 @@
             this.la_C2Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_C2Desc.ForeColor = System.Drawing.Color.Black;
             this.la_C2Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_C2Desc.Location = new System.Drawing.Point(328, 320);
+            this.la_C2Desc.Location = new System.Drawing.Point(328, 304);
             this.la_C2Desc.Name = "la_C2Desc";
             this.la_C2Desc.Size = new System.Drawing.Size(256, 24);
             this.la_C2Desc.TabIndex = 310;
@@ -7341,7 +8673,7 @@
             this.la_C2s.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_C2s.ForeColor = System.Drawing.Color.Black;
             this.la_C2s.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_C2s.Location = new System.Drawing.Point(272, 320);
+            this.la_C2s.Location = new System.Drawing.Point(272, 304);
             this.la_C2s.Name = "la_C2s";
             this.la_C2s.Size = new System.Drawing.Size(56, 24);
             this.la_C2s.TabIndex = 309;
@@ -7355,7 +8687,7 @@
             this.la_C2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_C2.ForeColor = System.Drawing.Color.Black;
             this.la_C2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_C2.Location = new System.Drawing.Point(8, 320);
+            this.la_C2.Location = new System.Drawing.Point(8, 304);
             this.la_C2.Name = "la_C2";
             this.la_C2.Size = new System.Drawing.Size(80, 24);
             this.la_C2.TabIndex = 307;
@@ -7369,7 +8701,7 @@
             this.la_C0Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_C0Desc.ForeColor = System.Drawing.Color.Black;
             this.la_C0Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_C0Desc.Location = new System.Drawing.Point(328, 264);
+            this.la_C0Desc.Location = new System.Drawing.Point(328, 248);
             this.la_C0Desc.Name = "la_C0Desc";
             this.la_C0Desc.Size = new System.Drawing.Size(256, 24);
             this.la_C0Desc.TabIndex = 306;
@@ -7383,7 +8715,7 @@
             this.la_C0s.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_C0s.ForeColor = System.Drawing.Color.Black;
             this.la_C0s.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_C0s.Location = new System.Drawing.Point(272, 264);
+            this.la_C0s.Location = new System.Drawing.Point(272, 248);
             this.la_C0s.Name = "la_C0s";
             this.la_C0s.Size = new System.Drawing.Size(56, 24);
             this.la_C0s.TabIndex = 305;
@@ -7397,7 +8729,7 @@
             this.la_C0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_C0.ForeColor = System.Drawing.Color.Black;
             this.la_C0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_C0.Location = new System.Drawing.Point(8, 264);
+            this.la_C0.Location = new System.Drawing.Point(8, 248);
             this.la_C0.Name = "la_C0";
             this.la_C0.Size = new System.Drawing.Size(80, 24);
             this.la_C0.TabIndex = 303;
@@ -7411,7 +8743,7 @@
             this.la_D850Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_D850Desc.ForeColor = System.Drawing.Color.Black;
             this.la_D850Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_D850Desc.Location = new System.Drawing.Point(328, 376);
+            this.la_D850Desc.Location = new System.Drawing.Point(328, 360);
             this.la_D850Desc.Name = "la_D850Desc";
             this.la_D850Desc.Size = new System.Drawing.Size(256, 24);
             this.la_D850Desc.TabIndex = 302;
@@ -7425,7 +8757,7 @@
             this.la_D850s.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_D850s.ForeColor = System.Drawing.Color.Black;
             this.la_D850s.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_D850s.Location = new System.Drawing.Point(272, 376);
+            this.la_D850s.Location = new System.Drawing.Point(272, 360);
             this.la_D850s.Name = "la_D850s";
             this.la_D850s.Size = new System.Drawing.Size(40, 24);
             this.la_D850s.TabIndex = 301;
@@ -7439,7 +8771,7 @@
             this.la_D850.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_D850.ForeColor = System.Drawing.Color.Black;
             this.la_D850.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_D850.Location = new System.Drawing.Point(8, 376);
+            this.la_D850.Location = new System.Drawing.Point(8, 360);
             this.la_D850.Name = "la_D850";
             this.la_D850.Size = new System.Drawing.Size(80, 24);
             this.la_D850.TabIndex = 299;
@@ -7453,7 +8785,7 @@
             this.la_T42Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T42Desc.ForeColor = System.Drawing.Color.Black;
             this.la_T42Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T42Desc.Location = new System.Drawing.Point(328, 208);
+            this.la_T42Desc.Location = new System.Drawing.Point(328, 192);
             this.la_T42Desc.Name = "la_T42Desc";
             this.la_T42Desc.Size = new System.Drawing.Size(256, 24);
             this.la_T42Desc.TabIndex = 295;
@@ -7467,7 +8799,7 @@
             this.la_T42s.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T42s.ForeColor = System.Drawing.Color.Black;
             this.la_T42s.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T42s.Location = new System.Drawing.Point(272, 208);
+            this.la_T42s.Location = new System.Drawing.Point(272, 192);
             this.la_T42s.Name = "la_T42s";
             this.la_T42s.Size = new System.Drawing.Size(56, 24);
             this.la_T42s.TabIndex = 294;
@@ -7481,7 +8813,7 @@
             this.la_T42.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_T42.ForeColor = System.Drawing.Color.Black;
             this.la_T42.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_T42.Location = new System.Drawing.Point(8, 208);
+            this.la_T42.Location = new System.Drawing.Point(8, 192);
             this.la_T42.Name = "la_T42";
             this.la_T42.Size = new System.Drawing.Size(80, 24);
             this.la_T42.TabIndex = 292;
@@ -7493,14 +8825,14 @@
             // 
             this.la_K20_0Desc.BackColor = System.Drawing.Color.Transparent;
             this.la_K20_0Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_K20_0Desc.ForeColor = System.Drawing.Color.Black;
+            this.la_K20_0Desc.ForeColor = System.Drawing.Color.Red;
             this.la_K20_0Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.la_K20_0Desc.Location = new System.Drawing.Point(128, 120);
             this.la_K20_0Desc.Name = "la_K20_0Desc";
-            this.la_K20_0Desc.Size = new System.Drawing.Size(328, 24);
+            this.la_K20_0Desc.Size = new System.Drawing.Size(424, 24);
             this.la_K20_0Desc.TabIndex = 290;
             this.la_K20_0Desc.Tag = "";
-            this.la_K20_0Desc.Text = "開機後注油機啓動潤滑一次有效";
+            this.la_K20_0Desc.Text = "開機後注油機啓動潤滑功能 =0有效,=1無效";
             this.la_K20_0Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_K20_0
@@ -7651,7 +8983,7 @@
             this.ucBtn_C2.Image = null;
             this.ucBtn_C2.Lamp = false;
             this.ucBtn_C2.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_C2.LampOnImage")));
-            this.ucBtn_C2.Location = new System.Drawing.Point(104, 312);
+            this.ucBtn_C2.Location = new System.Drawing.Point(104, 296);
             this.ucBtn_C2.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_C2.MouseDownImage")));
             this.ucBtn_C2.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_C2.MouseUpImage")));
             this.ucBtn_C2.Name = "ucBtn_C2";
@@ -7673,7 +9005,7 @@
             this.ucBtn_C0.Image = null;
             this.ucBtn_C0.Lamp = false;
             this.ucBtn_C0.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_C0.LampOnImage")));
-            this.ucBtn_C0.Location = new System.Drawing.Point(104, 256);
+            this.ucBtn_C0.Location = new System.Drawing.Point(104, 240);
             this.ucBtn_C0.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_C0.MouseDownImage")));
             this.ucBtn_C0.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_C0.MouseUpImage")));
             this.ucBtn_C0.Name = "ucBtn_C0";
@@ -7695,7 +9027,7 @@
             this.ucBtn_D850.Image = null;
             this.ucBtn_D850.Lamp = false;
             this.ucBtn_D850.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_D850.LampOnImage")));
-            this.ucBtn_D850.Location = new System.Drawing.Point(104, 368);
+            this.ucBtn_D850.Location = new System.Drawing.Point(104, 352);
             this.ucBtn_D850.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_D850.MouseDownImage")));
             this.ucBtn_D850.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_D850.MouseUpImage")));
             this.ucBtn_D850.Name = "ucBtn_D850";
@@ -7717,7 +9049,7 @@
             this.ucBtn_T42.Image = null;
             this.ucBtn_T42.Lamp = false;
             this.ucBtn_T42.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T42.LampOnImage")));
-            this.ucBtn_T42.Location = new System.Drawing.Point(104, 200);
+            this.ucBtn_T42.Location = new System.Drawing.Point(104, 184);
             this.ucBtn_T42.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T42.MouseDownImage")));
             this.ucBtn_T42.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_T42.MouseUpImage")));
             this.ucBtn_T42.Name = "ucBtn_T42";
@@ -7840,9 +9172,9 @@
             this.la_X9_4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_X9_4.ForeColor = System.Drawing.Color.Black;
             this.la_X9_4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_X9_4.Location = new System.Drawing.Point(72, 304);
+            this.la_X9_4.Location = new System.Drawing.Point(64, 312);
             this.la_X9_4.Name = "la_X9_4";
-            this.la_X9_4.Size = new System.Drawing.Size(344, 24);
+            this.la_X9_4.Size = new System.Drawing.Size(232, 24);
             this.la_X9_4.TabIndex = 372;
             this.la_X9_4.Tag = "";
             this.la_X9_4.Text = "X09.4 油冷機異常檢知";
@@ -7888,7 +9220,7 @@
             this.tab_CoolantCooler.Controls.Add(this.pic_K9_4);
             this.tab_CoolantCooler.Controls.Add(this.la_K9_4Desc);
             this.tab_CoolantCooler.Controls.Add(this.la_K9_4);
-            this.tab_CoolantCooler.Controls.Add(this.la_X2_1Desc);
+            this.tab_CoolantCooler.Controls.Add(this.la_X2_1);
             this.tab_CoolantCooler.Controls.Add(this.la_CoolantCoolerTitle);
             this.tab_CoolantCooler.Controls.Add(this.pic_X2_1);
             this.tab_CoolantCooler.Location = new System.Drawing.Point(4, 67);
@@ -7939,19 +9271,19 @@
             this.la_K9_4.Text = "K09.4";
             this.la_K9_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // la_X2_1Desc
+            // la_X2_1
             // 
-            this.la_X2_1Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_X2_1Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_X2_1Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_X2_1Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_X2_1Desc.Location = new System.Drawing.Point(72, 304);
-            this.la_X2_1Desc.Name = "la_X2_1Desc";
-            this.la_X2_1Desc.Size = new System.Drawing.Size(344, 24);
-            this.la_X2_1Desc.TabIndex = 380;
-            this.la_X2_1Desc.Tag = "";
-            this.la_X2_1Desc.Text = "X02.1 水冷機異常檢知";
-            this.la_X2_1Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_X2_1.BackColor = System.Drawing.Color.Transparent;
+            this.la_X2_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X2_1.ForeColor = System.Drawing.Color.Black;
+            this.la_X2_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X2_1.Location = new System.Drawing.Point(64, 312);
+            this.la_X2_1.Name = "la_X2_1";
+            this.la_X2_1.Size = new System.Drawing.Size(224, 24);
+            this.la_X2_1.TabIndex = 380;
+            this.la_X2_1.Tag = "";
+            this.la_X2_1.Text = "X02.1 水冷機異常檢知";
+            this.la_X2_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_CoolantCoolerTitle
             // 
@@ -7978,6 +9310,7 @@
             // 
             // tab_CoolantSystem
             // 
+            this.tab_CoolantSystem.Controls.Add(this.pa_CoolantSystemIO);
             this.tab_CoolantSystem.Controls.Add(this.pic_K5_7);
             this.tab_CoolantSystem.Controls.Add(this.la_K5_7Desc);
             this.tab_CoolantSystem.Controls.Add(this.la_K5_7);
@@ -8267,14 +9600,12 @@
             // 
             // tab_CoolantGun
             // 
-            this.tab_CoolantGun.Controls.Add(this.la_Y5_1Desc);
-            this.tab_CoolantGun.Controls.Add(this.la_Y0_0Desc);
+            this.tab_CoolantGun.Controls.Add(this.la_Y5_2);
             this.tab_CoolantGun.Controls.Add(this.la_K31_7Desc);
             this.tab_CoolantGun.Controls.Add(this.la_K31_7);
-            this.tab_CoolantGun.Controls.Add(this.la_E2524_0Desc);
+            this.tab_CoolantGun.Controls.Add(this.la_E2524_0);
             this.tab_CoolantGun.Controls.Add(this.la_CoolantGunTitle);
             this.tab_CoolantGun.Controls.Add(this.pic_Y5_2);
-            this.tab_CoolantGun.Controls.Add(this.pic_Y0_0);
             this.tab_CoolantGun.Controls.Add(this.pic_K31_7);
             this.tab_CoolantGun.Controls.Add(this.pic_E2524_0);
             this.tab_CoolantGun.Location = new System.Drawing.Point(4, 67);
@@ -8285,33 +9616,19 @@
             this.tab_CoolantGun.UseVisualStyleBackColor = true;
             this.tab_CoolantGun.Paint += new System.Windows.Forms.PaintEventHandler(this.tab_Paint);
             // 
-            // la_Y5_1Desc
+            // la_Y5_2
             // 
-            this.la_Y5_1Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_Y5_1Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_Y5_1Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_Y5_1Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_Y5_1Desc.Location = new System.Drawing.Point(368, 352);
-            this.la_Y5_1Desc.Name = "la_Y5_1Desc";
-            this.la_Y5_1Desc.Size = new System.Drawing.Size(240, 24);
-            this.la_Y5_1Desc.TabIndex = 393;
-            this.la_Y5_1Desc.Tag = "";
-            this.la_Y5_1Desc.Text = "Y05.2 水槍功能啓動";
-            this.la_Y5_1Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // la_Y0_0Desc
-            // 
-            this.la_Y0_0Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_Y0_0Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_Y0_0Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_Y0_0Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_Y0_0Desc.Location = new System.Drawing.Point(368, 304);
-            this.la_Y0_0Desc.Name = "la_Y0_0Desc";
-            this.la_Y0_0Desc.Size = new System.Drawing.Size(240, 24);
-            this.la_Y0_0Desc.TabIndex = 391;
-            this.la_Y0_0Desc.Tag = "";
-            this.la_Y0_0Desc.Text = "Y00.0 切削液馬達啓動";
-            this.la_Y0_0Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_Y5_2.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y5_2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y5_2.ForeColor = System.Drawing.Color.Black;
+            this.la_Y5_2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y5_2.Location = new System.Drawing.Point(360, 352);
+            this.la_Y5_2.Name = "la_Y5_2";
+            this.la_Y5_2.Size = new System.Drawing.Size(216, 24);
+            this.la_Y5_2.TabIndex = 393;
+            this.la_Y5_2.Tag = "";
+            this.la_Y5_2.Text = "Y05.2 水槍功能啓動";
+            this.la_Y5_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_K31_7Desc
             // 
@@ -8341,19 +9658,19 @@
             this.la_K31_7.Text = "K31.7";
             this.la_K31_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // la_E2524_0Desc
+            // la_E2524_0
             // 
-            this.la_E2524_0Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_E2524_0Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_E2524_0Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_E2524_0Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_E2524_0Desc.Location = new System.Drawing.Point(56, 304);
-            this.la_E2524_0Desc.Name = "la_E2524_0Desc";
-            this.la_E2524_0Desc.Size = new System.Drawing.Size(240, 24);
-            this.la_E2524_0Desc.TabIndex = 386;
-            this.la_E2524_0Desc.Tag = "";
-            this.la_E2524_0Desc.Text = "E2524.0 水槍按鍵";
-            this.la_E2524_0Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_E2524_0.BackColor = System.Drawing.Color.Transparent;
+            this.la_E2524_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_E2524_0.ForeColor = System.Drawing.Color.Black;
+            this.la_E2524_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_E2524_0.Location = new System.Drawing.Point(48, 312);
+            this.la_E2524_0.Name = "la_E2524_0";
+            this.la_E2524_0.Size = new System.Drawing.Size(240, 24);
+            this.la_E2524_0.TabIndex = 386;
+            this.la_E2524_0.Tag = "";
+            this.la_E2524_0.Text = "E2524.0 水槍按鍵";
+            this.la_E2524_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_CoolantGunTitle
             // 
@@ -8372,21 +9689,11 @@
             // 
             this.pic_Y5_2.BackColor = System.Drawing.Color.Transparent;
             this.pic_Y5_2.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y5_2.Image")));
-            this.pic_Y5_2.Location = new System.Drawing.Point(320, 352);
+            this.pic_Y5_2.Location = new System.Drawing.Point(320, 344);
             this.pic_Y5_2.Name = "pic_Y5_2";
             this.pic_Y5_2.Size = new System.Drawing.Size(32, 32);
             this.pic_Y5_2.TabIndex = 392;
             this.pic_Y5_2.TabStop = false;
-            // 
-            // pic_Y0_0
-            // 
-            this.pic_Y0_0.BackColor = System.Drawing.Color.Transparent;
-            this.pic_Y0_0.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y0_0.Image")));
-            this.pic_Y0_0.Location = new System.Drawing.Point(320, 304);
-            this.pic_Y0_0.Name = "pic_Y0_0";
-            this.pic_Y0_0.Size = new System.Drawing.Size(32, 32);
-            this.pic_Y0_0.TabIndex = 390;
-            this.pic_Y0_0.TabStop = false;
             // 
             // pic_K31_7
             // 
@@ -8415,7 +9722,7 @@
             this.tab_LightCurtain.Controls.Add(this.pic_K12_1);
             this.tab_LightCurtain.Controls.Add(this.la_K12_1Desc);
             this.tab_LightCurtain.Controls.Add(this.la_K12_1);
-            this.tab_LightCurtain.Controls.Add(this.la_X3_0Desc);
+            this.tab_LightCurtain.Controls.Add(this.la_X3_0);
             this.tab_LightCurtain.Controls.Add(this.la_LightCurtainTitle);
             this.tab_LightCurtain.Controls.Add(this.pic_X3_0);
             this.tab_LightCurtain.Location = new System.Drawing.Point(4, 67);
@@ -8466,19 +9773,19 @@
             this.la_K12_1.Text = "K12.1";
             this.la_K12_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // la_X3_0Desc
+            // la_X3_0
             // 
-            this.la_X3_0Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_X3_0Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_X3_0Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_X3_0Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_X3_0Desc.Location = new System.Drawing.Point(56, 304);
-            this.la_X3_0Desc.Name = "la_X3_0Desc";
-            this.la_X3_0Desc.Size = new System.Drawing.Size(240, 24);
-            this.la_X3_0Desc.TabIndex = 392;
-            this.la_X3_0Desc.Tag = "";
-            this.la_X3_0Desc.Text = "X03.0 安全光柵訊號";
-            this.la_X3_0Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_X3_0.BackColor = System.Drawing.Color.Transparent;
+            this.la_X3_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X3_0.ForeColor = System.Drawing.Color.Black;
+            this.la_X3_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X3_0.Location = new System.Drawing.Point(48, 312);
+            this.la_X3_0.Name = "la_X3_0";
+            this.la_X3_0.Size = new System.Drawing.Size(240, 24);
+            this.la_X3_0.TabIndex = 392;
+            this.la_X3_0.Tag = "";
+            this.la_X3_0.Text = "X03.0 安全光柵訊號";
+            this.la_X3_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_LightCurtainTitle
             // 
@@ -8505,6 +9812,7 @@
             // 
             // tab_WheelCover
             // 
+            this.tab_WheelCover.Controls.Add(this.pa_WheelCoverIO);
             this.tab_WheelCover.Controls.Add(this.pa_PSW02);
             this.tab_WheelCover.Controls.Add(this.pa_PSW01);
             this.tab_WheelCover.Controls.Add(this.la_K12_7Desc);
@@ -8938,10 +10246,10 @@
             this.tab_MaintainDoor.Controls.Add(this.la_K2_0Desc);
             this.tab_MaintainDoor.Controls.Add(this.la_K2_0);
             this.tab_MaintainDoor.Controls.Add(this.pic_K2_0);
-            this.tab_MaintainDoor.Controls.Add(this.la_X40_4Desc);
-            this.tab_MaintainDoor.Controls.Add(this.la_X40_3Desc);
-            this.tab_MaintainDoor.Controls.Add(this.la_X40_2Desc);
-            this.tab_MaintainDoor.Controls.Add(this.la_X40_1Desc);
+            this.tab_MaintainDoor.Controls.Add(this.la_X40_4);
+            this.tab_MaintainDoor.Controls.Add(this.la_X40_3);
+            this.tab_MaintainDoor.Controls.Add(this.la_X40_2);
+            this.tab_MaintainDoor.Controls.Add(this.la_X40_1);
             this.tab_MaintainDoor.Controls.Add(this.la_K2_3Desc);
             this.tab_MaintainDoor.Controls.Add(this.la_K2_3);
             this.tab_MaintainDoor.Controls.Add(this.la_K2_2Desc);
@@ -9004,61 +10312,61 @@
             this.pic_K2_0.Tag = "K2.0";
             this.pic_K2_0.Click += new System.EventHandler(this.pic_PmcAddrTypeK_Click);
             // 
-            // la_X40_4Desc
+            // la_X40_4
             // 
-            this.la_X40_4Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_X40_4Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_X40_4Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_X40_4Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_X40_4Desc.Location = new System.Drawing.Point(56, 432);
-            this.la_X40_4Desc.Name = "la_X40_4Desc";
-            this.la_X40_4Desc.Size = new System.Drawing.Size(256, 24);
-            this.la_X40_4Desc.TabIndex = 418;
-            this.la_X40_4Desc.Tag = "";
-            this.la_X40_4Desc.Text = "X40.4 砂輪後側維修門檢知";
-            this.la_X40_4Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_X40_4.BackColor = System.Drawing.Color.Transparent;
+            this.la_X40_4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X40_4.ForeColor = System.Drawing.Color.Black;
+            this.la_X40_4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X40_4.Location = new System.Drawing.Point(48, 440);
+            this.la_X40_4.Name = "la_X40_4";
+            this.la_X40_4.Size = new System.Drawing.Size(256, 24);
+            this.la_X40_4.TabIndex = 418;
+            this.la_X40_4.Tag = "";
+            this.la_X40_4.Text = "X40.4 砂輪後側維修門檢知";
+            this.la_X40_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // la_X40_3Desc
+            // la_X40_3
             // 
-            this.la_X40_3Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_X40_3Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_X40_3Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_X40_3Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_X40_3Desc.Location = new System.Drawing.Point(56, 392);
-            this.la_X40_3Desc.Name = "la_X40_3Desc";
-            this.la_X40_3Desc.Size = new System.Drawing.Size(256, 24);
-            this.la_X40_3Desc.TabIndex = 416;
-            this.la_X40_3Desc.Tag = "";
-            this.la_X40_3Desc.Text = "X40.3 砂輪右側維修門檢知";
-            this.la_X40_3Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_X40_3.BackColor = System.Drawing.Color.Transparent;
+            this.la_X40_3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X40_3.ForeColor = System.Drawing.Color.Black;
+            this.la_X40_3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X40_3.Location = new System.Drawing.Point(48, 400);
+            this.la_X40_3.Name = "la_X40_3";
+            this.la_X40_3.Size = new System.Drawing.Size(256, 24);
+            this.la_X40_3.TabIndex = 416;
+            this.la_X40_3.Tag = "";
+            this.la_X40_3.Text = "X40.3 砂輪右側維修門檢知";
+            this.la_X40_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // la_X40_2Desc
+            // la_X40_2
             // 
-            this.la_X40_2Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_X40_2Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_X40_2Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_X40_2Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_X40_2Desc.Location = new System.Drawing.Point(56, 352);
-            this.la_X40_2Desc.Name = "la_X40_2Desc";
-            this.la_X40_2Desc.Size = new System.Drawing.Size(296, 24);
-            this.la_X40_2Desc.TabIndex = 414;
-            this.la_X40_2Desc.Tag = "";
-            this.la_X40_2Desc.Text = "X40.2 工件主軸後側維修門檢知";
-            this.la_X40_2Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_X40_2.BackColor = System.Drawing.Color.Transparent;
+            this.la_X40_2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X40_2.ForeColor = System.Drawing.Color.Black;
+            this.la_X40_2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X40_2.Location = new System.Drawing.Point(48, 360);
+            this.la_X40_2.Name = "la_X40_2";
+            this.la_X40_2.Size = new System.Drawing.Size(296, 24);
+            this.la_X40_2.TabIndex = 414;
+            this.la_X40_2.Tag = "";
+            this.la_X40_2.Text = "X40.2 工件主軸後側維修門檢知";
+            this.la_X40_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // la_X40_1Desc
+            // la_X40_1
             // 
-            this.la_X40_1Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_X40_1Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_X40_1Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_X40_1Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_X40_1Desc.Location = new System.Drawing.Point(56, 312);
-            this.la_X40_1Desc.Name = "la_X40_1Desc";
-            this.la_X40_1Desc.Size = new System.Drawing.Size(304, 24);
-            this.la_X40_1Desc.TabIndex = 412;
-            this.la_X40_1Desc.Tag = "";
-            this.la_X40_1Desc.Text = "X40.1 工件主軸左側維修門檢知";
-            this.la_X40_1Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_X40_1.BackColor = System.Drawing.Color.Transparent;
+            this.la_X40_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X40_1.ForeColor = System.Drawing.Color.Black;
+            this.la_X40_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X40_1.Location = new System.Drawing.Point(48, 320);
+            this.la_X40_1.Name = "la_X40_1";
+            this.la_X40_1.Size = new System.Drawing.Size(304, 24);
+            this.la_X40_1.TabIndex = 412;
+            this.la_X40_1.Tag = "";
+            this.la_X40_1.Text = "X40.1 工件主軸左側維修門檢知";
+            this.la_X40_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_K2_3Desc
             // 
@@ -9242,11 +10550,11 @@
             this.tab_HydraulicOpt.Controls.Add(this.la_K3_5Desc);
             this.tab_HydraulicOpt.Controls.Add(this.la_K3_5);
             this.tab_HydraulicOpt.Controls.Add(this.pic_K3_5);
-            this.tab_HydraulicOpt.Controls.Add(this.la_Y1_7Desc);
-            this.tab_HydraulicOpt.Controls.Add(this.la_X9_3Desc);
+            this.tab_HydraulicOpt.Controls.Add(this.la_Y1_7);
+            this.tab_HydraulicOpt.Controls.Add(this.la_X9_3);
             this.tab_HydraulicOpt.Controls.Add(this.la_K30_0Desc);
             this.tab_HydraulicOpt.Controls.Add(this.la_K30_0);
-            this.tab_HydraulicOpt.Controls.Add(this.la_X2_7Desc);
+            this.tab_HydraulicOpt.Controls.Add(this.la_X2_7);
             this.tab_HydraulicOpt.Controls.Add(this.la_HydraulicOptTitle);
             this.tab_HydraulicOpt.Controls.Add(this.pic_Y1_7);
             this.tab_HydraulicOpt.Controls.Add(this.pic_X9_3);
@@ -9364,33 +10672,33 @@
             this.pic_K3_5.Tag = "K3.5";
             this.pic_K3_5.Click += new System.EventHandler(this.pic_PmcAddrTypeK_Click);
             // 
-            // la_Y1_7Desc
+            // la_Y1_7
             // 
-            this.la_Y1_7Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_Y1_7Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_Y1_7Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_Y1_7Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_Y1_7Desc.Location = new System.Drawing.Point(56, 384);
-            this.la_Y1_7Desc.Name = "la_Y1_7Desc";
-            this.la_Y1_7Desc.Size = new System.Drawing.Size(216, 24);
-            this.la_Y1_7Desc.TabIndex = 424;
-            this.la_Y1_7Desc.Tag = "";
-            this.la_Y1_7Desc.Text = "Y01.7 油壓馬達啓動";
-            this.la_Y1_7Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_Y1_7.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y1_7.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y1_7.ForeColor = System.Drawing.Color.Black;
+            this.la_Y1_7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y1_7.Location = new System.Drawing.Point(48, 392);
+            this.la_Y1_7.Name = "la_Y1_7";
+            this.la_Y1_7.Size = new System.Drawing.Size(216, 24);
+            this.la_Y1_7.TabIndex = 424;
+            this.la_Y1_7.Tag = "";
+            this.la_Y1_7.Text = "Y01.7 油壓馬達啓動";
+            this.la_Y1_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // la_X9_3Desc
+            // la_X9_3
             // 
-            this.la_X9_3Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_X9_3Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_X9_3Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_X9_3Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_X9_3Desc.Location = new System.Drawing.Point(56, 344);
-            this.la_X9_3Desc.Name = "la_X9_3Desc";
-            this.la_X9_3Desc.Size = new System.Drawing.Size(216, 24);
-            this.la_X9_3Desc.TabIndex = 422;
-            this.la_X9_3Desc.Tag = "";
-            this.la_X9_3Desc.Text = "X06.5 油壓壓力檢知";
-            this.la_X9_3Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_X9_3.BackColor = System.Drawing.Color.Transparent;
+            this.la_X9_3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X9_3.ForeColor = System.Drawing.Color.Black;
+            this.la_X9_3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X9_3.Location = new System.Drawing.Point(48, 352);
+            this.la_X9_3.Name = "la_X9_3";
+            this.la_X9_3.Size = new System.Drawing.Size(216, 24);
+            this.la_X9_3.TabIndex = 422;
+            this.la_X9_3.Tag = "";
+            this.la_X9_3.Text = "X09.3 油壓壓力檢知";
+            this.la_X9_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_K30_0Desc
             // 
@@ -9420,19 +10728,19 @@
             this.la_K30_0.Text = "K30.0";
             this.la_K30_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // la_X2_7Desc
+            // la_X2_7
             // 
-            this.la_X2_7Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_X2_7Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_X2_7Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_X2_7Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_X2_7Desc.Location = new System.Drawing.Point(56, 304);
-            this.la_X2_7Desc.Name = "la_X2_7Desc";
-            this.la_X2_7Desc.Size = new System.Drawing.Size(224, 24);
-            this.la_X2_7Desc.TabIndex = 417;
-            this.la_X2_7Desc.Tag = "";
-            this.la_X2_7Desc.Text = "X02.7 油壓馬達過載";
-            this.la_X2_7Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_X2_7.BackColor = System.Drawing.Color.Transparent;
+            this.la_X2_7.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X2_7.ForeColor = System.Drawing.Color.Black;
+            this.la_X2_7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X2_7.Location = new System.Drawing.Point(48, 312);
+            this.la_X2_7.Name = "la_X2_7";
+            this.la_X2_7.Size = new System.Drawing.Size(224, 24);
+            this.la_X2_7.TabIndex = 417;
+            this.la_X2_7.Tag = "";
+            this.la_X2_7.Text = "X02.7 油壓馬達過載";
+            this.la_X2_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_HydraulicOptTitle
             // 
@@ -9556,14 +10864,14 @@
             // pa_GWOilMistLubeIO
             // 
             this.pa_GWOilMistLubeIO.BackColor = System.Drawing.Color.Transparent;
-            this.pa_GWOilMistLubeIO.Controls.Add(this.la_Y1_1Desc);
-            this.pa_GWOilMistLubeIO.Controls.Add(this.la_Y2_1Desc);
+            this.pa_GWOilMistLubeIO.Controls.Add(this.la_Y1_1);
+            this.pa_GWOilMistLubeIO.Controls.Add(this.la_Y0_2);
             this.pa_GWOilMistLubeIO.Controls.Add(this.pic_Y1_1);
-            this.pa_GWOilMistLubeIO.Controls.Add(this.pic_Y2_1);
-            this.pa_GWOilMistLubeIO.Controls.Add(this.la_X3_4Desc);
-            this.pa_GWOilMistLubeIO.Controls.Add(this.la_X3_3Desc);
-            this.pa_GWOilMistLubeIO.Controls.Add(this.la_X8_7Desc);
-            this.pa_GWOilMistLubeIO.Controls.Add(this.la_X8_6Desc);
+            this.pa_GWOilMistLubeIO.Controls.Add(this.pic_Y0_2);
+            this.pa_GWOilMistLubeIO.Controls.Add(this.la_X3_4);
+            this.pa_GWOilMistLubeIO.Controls.Add(this.la_X3_3);
+            this.pa_GWOilMistLubeIO.Controls.Add(this.la_X8_7);
+            this.pa_GWOilMistLubeIO.Controls.Add(this.la_X8_6);
             this.pa_GWOilMistLubeIO.Controls.Add(this.pic_X3_4);
             this.pa_GWOilMistLubeIO.Controls.Add(this.pic_X3_3);
             this.pa_GWOilMistLubeIO.Controls.Add(this.pic_X8_7);
@@ -9573,33 +10881,33 @@
             this.pa_GWOilMistLubeIO.Size = new System.Drawing.Size(320, 264);
             this.pa_GWOilMistLubeIO.TabIndex = 532;
             // 
-            // la_Y1_1Desc
+            // la_Y1_1
             // 
-            this.la_Y1_1Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_Y1_1Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_Y1_1Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_Y1_1Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_Y1_1Desc.Location = new System.Drawing.Point(60, 224);
-            this.la_Y1_1Desc.Name = "la_Y1_1Desc";
-            this.la_Y1_1Desc.Size = new System.Drawing.Size(256, 24);
-            this.la_Y1_1Desc.TabIndex = 543;
-            this.la_Y1_1Desc.Tag = "";
-            this.la_Y1_1Desc.Text = "Y01.1 砂輪Z油霧潤滑啓動";
-            this.la_Y1_1Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_Y1_1.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y1_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y1_1.ForeColor = System.Drawing.Color.Black;
+            this.la_Y1_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y1_1.Location = new System.Drawing.Point(60, 224);
+            this.la_Y1_1.Name = "la_Y1_1";
+            this.la_Y1_1.Size = new System.Drawing.Size(256, 24);
+            this.la_Y1_1.TabIndex = 543;
+            this.la_Y1_1.Tag = "";
+            this.la_Y1_1.Text = "Y01.1 砂輪Z油霧潤滑啓動";
+            this.la_Y1_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // la_Y2_1Desc
+            // la_Y0_2
             // 
-            this.la_Y2_1Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_Y2_1Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_Y2_1Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_Y2_1Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_Y2_1Desc.Location = new System.Drawing.Point(60, 184);
-            this.la_Y2_1Desc.Name = "la_Y2_1Desc";
-            this.la_Y2_1Desc.Size = new System.Drawing.Size(256, 24);
-            this.la_Y2_1Desc.TabIndex = 541;
-            this.la_Y2_1Desc.Tag = "";
-            this.la_Y2_1Desc.Text = "Y02.1 砂輪Z油霧潤滑啓動";
-            this.la_Y2_1Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_Y0_2.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y0_2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y0_2.ForeColor = System.Drawing.Color.Black;
+            this.la_Y0_2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y0_2.Location = new System.Drawing.Point(60, 184);
+            this.la_Y0_2.Name = "la_Y0_2";
+            this.la_Y0_2.Size = new System.Drawing.Size(256, 24);
+            this.la_Y0_2.TabIndex = 541;
+            this.la_Y0_2.Tag = "";
+            this.la_Y0_2.Text = "Y00.2(砂輪Z油霧潤滑啟動)";
+            this.la_Y0_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pic_Y1_1
             // 
@@ -9611,71 +10919,71 @@
             this.pic_Y1_1.TabIndex = 542;
             this.pic_Y1_1.TabStop = false;
             // 
-            // pic_Y2_1
+            // pic_Y0_2
             // 
-            this.pic_Y2_1.BackColor = System.Drawing.Color.Transparent;
-            this.pic_Y2_1.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y2_1.Image")));
-            this.pic_Y2_1.Location = new System.Drawing.Point(12, 184);
-            this.pic_Y2_1.Name = "pic_Y2_1";
-            this.pic_Y2_1.Size = new System.Drawing.Size(32, 32);
-            this.pic_Y2_1.TabIndex = 540;
-            this.pic_Y2_1.TabStop = false;
+            this.pic_Y0_2.BackColor = System.Drawing.Color.Transparent;
+            this.pic_Y0_2.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y0_2.Image")));
+            this.pic_Y0_2.Location = new System.Drawing.Point(12, 184);
+            this.pic_Y0_2.Name = "pic_Y0_2";
+            this.pic_Y0_2.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y0_2.TabIndex = 540;
+            this.pic_Y0_2.TabStop = false;
             // 
-            // la_X3_4Desc
+            // la_X3_4
             // 
-            this.la_X3_4Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_X3_4Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_X3_4Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_X3_4Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_X3_4Desc.Location = new System.Drawing.Point(60, 128);
-            this.la_X3_4Desc.Name = "la_X3_4Desc";
-            this.la_X3_4Desc.Size = new System.Drawing.Size(256, 24);
-            this.la_X3_4Desc.TabIndex = 539;
-            this.la_X3_4Desc.Tag = "";
-            this.la_X3_4Desc.Text = "X03.4 砂輪Z油霧液位訊號";
-            this.la_X3_4Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_X3_4.BackColor = System.Drawing.Color.Transparent;
+            this.la_X3_4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X3_4.ForeColor = System.Drawing.Color.Black;
+            this.la_X3_4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X3_4.Location = new System.Drawing.Point(60, 128);
+            this.la_X3_4.Name = "la_X3_4";
+            this.la_X3_4.Size = new System.Drawing.Size(256, 24);
+            this.la_X3_4.TabIndex = 539;
+            this.la_X3_4.Tag = "";
+            this.la_X3_4.Text = "X03.4 砂輪Z油霧液位訊號";
+            this.la_X3_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // la_X3_3Desc
+            // la_X3_3
             // 
-            this.la_X3_3Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_X3_3Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_X3_3Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_X3_3Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_X3_3Desc.Location = new System.Drawing.Point(60, 88);
-            this.la_X3_3Desc.Name = "la_X3_3Desc";
-            this.la_X3_3Desc.Size = new System.Drawing.Size(256, 24);
-            this.la_X3_3Desc.TabIndex = 537;
-            this.la_X3_3Desc.Tag = "";
-            this.la_X3_3Desc.Text = "X03.3 砂輪Y油霧壓力訊號";
-            this.la_X3_3Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_X3_3.BackColor = System.Drawing.Color.Transparent;
+            this.la_X3_3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X3_3.ForeColor = System.Drawing.Color.Black;
+            this.la_X3_3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X3_3.Location = new System.Drawing.Point(60, 88);
+            this.la_X3_3.Name = "la_X3_3";
+            this.la_X3_3.Size = new System.Drawing.Size(256, 24);
+            this.la_X3_3.TabIndex = 537;
+            this.la_X3_3.Tag = "";
+            this.la_X3_3.Text = "X03.3 砂輪Y油霧壓力訊號";
+            this.la_X3_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // la_X8_7Desc
+            // la_X8_7
             // 
-            this.la_X8_7Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_X8_7Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_X8_7Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_X8_7Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_X8_7Desc.Location = new System.Drawing.Point(60, 48);
-            this.la_X8_7Desc.Name = "la_X8_7Desc";
-            this.la_X8_7Desc.Size = new System.Drawing.Size(256, 24);
-            this.la_X8_7Desc.TabIndex = 535;
-            this.la_X8_7Desc.Tag = "";
-            this.la_X8_7Desc.Text = "X08.7 砂輪Z油霧液位訊號";
-            this.la_X8_7Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_X8_7.BackColor = System.Drawing.Color.Transparent;
+            this.la_X8_7.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X8_7.ForeColor = System.Drawing.Color.Black;
+            this.la_X8_7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X8_7.Location = new System.Drawing.Point(60, 48);
+            this.la_X8_7.Name = "la_X8_7";
+            this.la_X8_7.Size = new System.Drawing.Size(256, 24);
+            this.la_X8_7.TabIndex = 535;
+            this.la_X8_7.Tag = "";
+            this.la_X8_7.Text = "X08.7 砂輪Z油霧液位訊號";
+            this.la_X8_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // la_X8_6Desc
+            // la_X8_6
             // 
-            this.la_X8_6Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_X8_6Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_X8_6Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_X8_6Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_X8_6Desc.Location = new System.Drawing.Point(60, 8);
-            this.la_X8_6Desc.Name = "la_X8_6Desc";
-            this.la_X8_6Desc.Size = new System.Drawing.Size(252, 24);
-            this.la_X8_6Desc.TabIndex = 533;
-            this.la_X8_6Desc.Tag = "";
-            this.la_X8_6Desc.Text = "X08.6 砂輪Z油霧壓力訊號";
-            this.la_X8_6Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_X8_6.BackColor = System.Drawing.Color.Transparent;
+            this.la_X8_6.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X8_6.ForeColor = System.Drawing.Color.Black;
+            this.la_X8_6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X8_6.Location = new System.Drawing.Point(60, 8);
+            this.la_X8_6.Name = "la_X8_6";
+            this.la_X8_6.Size = new System.Drawing.Size(252, 24);
+            this.la_X8_6.TabIndex = 533;
+            this.la_X8_6.Tag = "";
+            this.la_X8_6.Text = "X08.6 砂輪Z油霧壓力訊號";
+            this.la_X8_6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pic_X3_4
             // 
@@ -10017,14 +11325,14 @@
             // 
             this.la_K16_3Desc.BackColor = System.Drawing.Color.Transparent;
             this.la_K16_3Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_K16_3Desc.ForeColor = System.Drawing.Color.Black;
+            this.la_K16_3Desc.ForeColor = System.Drawing.Color.Red;
             this.la_K16_3Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.la_K16_3Desc.Location = new System.Drawing.Point(128, 248);
             this.la_K16_3Desc.Name = "la_K16_3Desc";
-            this.la_K16_3Desc.Size = new System.Drawing.Size(208, 24);
+            this.la_K16_3Desc.Size = new System.Drawing.Size(384, 24);
             this.la_K16_3Desc.TabIndex = 499;
             this.la_K16_3Desc.Tag = "";
-            this.la_K16_3Desc.Text = "砂輪Y油霧液位異常檢知有效";
+            this.la_K16_3Desc.Text = "砂輪Y油霧液位異常檢知 =0有效,=1無效";
             this.la_K16_3Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_K16_3
@@ -10050,7 +11358,7 @@
             this.pic_K16_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic_K16_3.TabIndex = 500;
             this.pic_K16_3.TabStop = false;
-            this.pic_K16_3.Tag = "K16.3";
+            this.pic_K16_3.Tag = "K16.3.R";
             this.pic_K16_3.Click += new System.EventHandler(this.pic_PmcAddrTypeK_Click);
             // 
             // la_K16_5Desc
@@ -10369,14 +11677,14 @@
             // 
             this.la_K0_6Desc.BackColor = System.Drawing.Color.Transparent;
             this.la_K0_6Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_K0_6Desc.ForeColor = System.Drawing.Color.Black;
+            this.la_K0_6Desc.ForeColor = System.Drawing.Color.Red;
             this.la_K0_6Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.la_K0_6Desc.Location = new System.Drawing.Point(128, 312);
             this.la_K0_6Desc.Name = "la_K0_6Desc";
             this.la_K0_6Desc.Size = new System.Drawing.Size(296, 24);
             this.la_K0_6Desc.TabIndex = 468;
             this.la_K0_6Desc.Tag = "";
-            this.la_K0_6Desc.Text = "砂輪油霧壓力異常檢知有效";
+            this.la_K0_6Desc.Text = "油霧壓力檢知 =0有效,=1無效";
             this.la_K0_6Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_K0_6
@@ -10468,6 +11776,14 @@
             // 
             // tab_OilDressDevice
             // 
+            this.tab_OilDressDevice.Controls.Add(this.la_Y5_1);
+            this.tab_OilDressDevice.Controls.Add(this.pic_Y5_1);
+            this.tab_OilDressDevice.Controls.Add(this.la_X0_5);
+            this.tab_OilDressDevice.Controls.Add(this.pic_X0_5);
+            this.tab_OilDressDevice.Controls.Add(this.la_Y5_0);
+            this.tab_OilDressDevice.Controls.Add(this.pic_Y5_0);
+            this.tab_OilDressDevice.Controls.Add(this.la_X1_7);
+            this.tab_OilDressDevice.Controls.Add(this.pic_X1_7);
             this.tab_OilDressDevice.Controls.Add(this.la_T108Desc);
             this.tab_OilDressDevice.Controls.Add(this.la_T108s);
             this.tab_OilDressDevice.Controls.Add(this.ucBtn_T108);
@@ -10691,14 +12007,14 @@
             // 
             this.la_K12_5Desc.BackColor = System.Drawing.Color.Transparent;
             this.la_K12_5Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_K12_5Desc.ForeColor = System.Drawing.Color.Black;
+            this.la_K12_5Desc.ForeColor = System.Drawing.Color.Red;
             this.la_K12_5Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.la_K12_5Desc.Location = new System.Drawing.Point(128, 88);
             this.la_K12_5Desc.Name = "la_K12_5Desc";
             this.la_K12_5Desc.Size = new System.Drawing.Size(360, 24);
             this.la_K12_5Desc.TabIndex = 520;
             this.la_K12_5Desc.Tag = "";
-            this.la_K12_5Desc.Text = "油壓修整座到位使用感測器檢知有效";
+            this.la_K12_5Desc.Text = "油壓修整座到位訊號 =0有效,=1無效";
             this.la_K12_5Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_K12_5
@@ -10782,6 +12098,14 @@
             // 
             // tab_Roller
             // 
+            this.tab_Roller.Controls.Add(this.la__Y5_6);
+            this.tab_Roller.Controls.Add(this.pic_Y5_6);
+            this.tab_Roller.Controls.Add(this.pic_X6_3);
+            this.tab_Roller.Controls.Add(this.pic_X6_2);
+            this.tab_Roller.Controls.Add(this.la_Y5_5);
+            this.tab_Roller.Controls.Add(this.la_X6_3);
+            this.tab_Roller.Controls.Add(this.la_X6_2);
+            this.tab_Roller.Controls.Add(this.pic_Y5_5);
             this.tab_Roller.Controls.Add(this.la_K8_5_1);
             this.tab_Roller.Controls.Add(this.la_K8_5_0);
             this.tab_Roller.Controls.Add(this.la_K8_5Desc);
@@ -11207,10 +12531,10 @@
             this.tab_AirTight.Controls.Add(this.la_T4s);
             this.tab_AirTight.Controls.Add(this.la_T4);
             this.tab_AirTight.Controls.Add(this.ucBtn_T4);
-            this.tab_AirTight.Controls.Add(this.la_Y1_0Desc);
+            this.tab_AirTight.Controls.Add(this.la_Y1_0);
             this.tab_AirTight.Controls.Add(this.la_K0_0Desc);
             this.tab_AirTight.Controls.Add(this.la_K0_0);
-            this.tab_AirTight.Controls.Add(this.la_X9_5Desc);
+            this.tab_AirTight.Controls.Add(this.la_X9_5);
             this.tab_AirTight.Controls.Add(this.pic_Y1_0);
             this.tab_AirTight.Controls.Add(this.pic_K0_0);
             this.tab_AirTight.Controls.Add(this.pic_X9_5);
@@ -11287,19 +12611,19 @@
             this.ucBtn_T4.Tag = "4";
             this.ucBtn_T4.Click += new System.EventHandler(this.ucBtn_InputData_Click);
             // 
-            // la_Y1_0Desc
+            // la_Y1_0
             // 
-            this.la_Y1_0Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_Y1_0Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_Y1_0Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_Y1_0Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_Y1_0Desc.Location = new System.Drawing.Point(368, 304);
-            this.la_Y1_0Desc.Name = "la_Y1_0Desc";
-            this.la_Y1_0Desc.Size = new System.Drawing.Size(240, 24);
-            this.la_Y1_0Desc.TabIndex = 398;
-            this.la_Y1_0Desc.Tag = "";
-            this.la_Y1_0Desc.Text = "Y01.0 氣密啓動";
-            this.la_Y1_0Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_Y1_0.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y1_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y1_0.ForeColor = System.Drawing.Color.Black;
+            this.la_Y1_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y1_0.Location = new System.Drawing.Point(360, 312);
+            this.la_Y1_0.Name = "la_Y1_0";
+            this.la_Y1_0.Size = new System.Drawing.Size(176, 24);
+            this.la_Y1_0.TabIndex = 398;
+            this.la_Y1_0.Tag = "";
+            this.la_Y1_0.Text = "Y01.0 氣密啓動";
+            this.la_Y1_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_K0_0Desc
             // 
@@ -11329,19 +12653,19 @@
             this.la_K0_0.Text = "K00.0";
             this.la_K0_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // la_X9_5Desc
+            // la_X9_5
             // 
-            this.la_X9_5Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_X9_5Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_X9_5Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_X9_5Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_X9_5Desc.Location = new System.Drawing.Point(56, 304);
-            this.la_X9_5Desc.Name = "la_X9_5Desc";
-            this.la_X9_5Desc.Size = new System.Drawing.Size(240, 24);
-            this.la_X9_5Desc.TabIndex = 393;
-            this.la_X9_5Desc.Tag = "";
-            this.la_X9_5Desc.Text = "X09.5 氣密檢知訊號";
-            this.la_X9_5Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_X9_5.BackColor = System.Drawing.Color.Transparent;
+            this.la_X9_5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X9_5.ForeColor = System.Drawing.Color.Black;
+            this.la_X9_5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X9_5.Location = new System.Drawing.Point(48, 312);
+            this.la_X9_5.Name = "la_X9_5";
+            this.la_X9_5.Size = new System.Drawing.Size(240, 24);
+            this.la_X9_5.TabIndex = 393;
+            this.la_X9_5.Tag = "";
+            this.la_X9_5.Text = "X09.5 氣密檢知訊號";
+            this.la_X9_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pic_Y1_0
             // 
@@ -11393,7 +12717,7 @@
             this.tab_AirPressure.Controls.Add(this.pic_K10_3);
             this.tab_AirPressure.Controls.Add(this.la_K10_3Desc);
             this.tab_AirPressure.Controls.Add(this.la_K10_3);
-            this.tab_AirPressure.Controls.Add(this.la_X8_5Desc);
+            this.tab_AirPressure.Controls.Add(this.la_X8_5);
             this.tab_AirPressure.Controls.Add(this.la_AirPressureTitle);
             this.tab_AirPressure.Controls.Add(this.pic_X8_5);
             this.tab_AirPressure.Location = new System.Drawing.Point(4, 67);
@@ -11444,19 +12768,19 @@
             this.la_K10_3.Text = "K10.3";
             this.la_K10_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // la_X8_5Desc
+            // la_X8_5
             // 
-            this.la_X8_5Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_X8_5Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_X8_5Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_X8_5Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_X8_5Desc.Location = new System.Drawing.Point(56, 304);
-            this.la_X8_5Desc.Name = "la_X8_5Desc";
-            this.la_X8_5Desc.Size = new System.Drawing.Size(288, 24);
-            this.la_X8_5Desc.TabIndex = 433;
-            this.la_X8_5Desc.Tag = "";
-            this.la_X8_5Desc.Text = "X08.5 氣壓壓力檢知";
-            this.la_X8_5Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.la_X8_5.BackColor = System.Drawing.Color.Transparent;
+            this.la_X8_5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X8_5.ForeColor = System.Drawing.Color.Black;
+            this.la_X8_5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X8_5.Location = new System.Drawing.Point(48, 312);
+            this.la_X8_5.Name = "la_X8_5";
+            this.la_X8_5.Size = new System.Drawing.Size(200, 24);
+            this.la_X8_5.TabIndex = 433;
+            this.la_X8_5.Tag = "";
+            this.la_X8_5.Text = "X08.5 氣壓壓力檢知";
+            this.la_X8_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_AirPressureTitle
             // 
@@ -11483,7 +12807,7 @@
             // 
             // tab_LinearScale
             // 
-            this.tab_LinearScale.Controls.Add(this.panel1);
+            this.tab_LinearScale.Controls.Add(this.pa_LinearScaleAxis);
             this.tab_LinearScale.Controls.Add(this.la_N1815On);
             this.tab_LinearScale.Controls.Add(this.la_N1815Off);
             this.tab_LinearScale.Controls.Add(this.la_N2185Desc);
@@ -11510,16 +12834,16 @@
             this.tab_LinearScale.UseVisualStyleBackColor = true;
             this.tab_LinearScale.Paint += new System.Windows.Forms.PaintEventHandler(this.tab_Paint);
             // 
-            // panel1
+            // pa_LinearScaleAxis
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.la_LinearScaleZ);
-            this.panel1.Controls.Add(this.la_LinearScaleX);
-            this.panel1.Controls.Add(this.pic_LinearScaleAxis);
-            this.panel1.Location = new System.Drawing.Point(568, 56);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(232, 40);
-            this.panel1.TabIndex = 431;
+            this.pa_LinearScaleAxis.BackColor = System.Drawing.Color.Transparent;
+            this.pa_LinearScaleAxis.Controls.Add(this.la_LinearScaleZ);
+            this.pa_LinearScaleAxis.Controls.Add(this.la_LinearScaleX);
+            this.pa_LinearScaleAxis.Controls.Add(this.pic_LinearScaleAxis);
+            this.pa_LinearScaleAxis.Location = new System.Drawing.Point(568, 56);
+            this.pa_LinearScaleAxis.Name = "pa_LinearScaleAxis";
+            this.pa_LinearScaleAxis.Size = new System.Drawing.Size(232, 40);
+            this.pa_LinearScaleAxis.TabIndex = 431;
             // 
             // la_LinearScaleZ
             // 
@@ -12644,9 +13968,9 @@
             this.pa_ModeSelect.Controls.Add(this.btn_EDIT);
             this.pa_ModeSelect.Controls.Add(this.btn_MDI);
             this.pa_ModeSelect.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pa_ModeSelect.Location = new System.Drawing.Point(944, 88);
+            this.pa_ModeSelect.Location = new System.Drawing.Point(944, 80);
             this.pa_ModeSelect.Name = "pa_ModeSelect";
-            this.pa_ModeSelect.Size = new System.Drawing.Size(80, 592);
+            this.pa_ModeSelect.Size = new System.Drawing.Size(80, 600);
             this.pa_ModeSelect.TabIndex = 47;
             // 
             // btn_RMT
@@ -12796,6 +14120,925 @@
             this.timer2.Interval = 250;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
+            // la_Y5_4
+            // 
+            this.la_Y5_4.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y5_4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y5_4.ForeColor = System.Drawing.Color.Black;
+            this.la_Y5_4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y5_4.Location = new System.Drawing.Point(360, 304);
+            this.la_Y5_4.Name = "la_Y5_4";
+            this.la_Y5_4.Size = new System.Drawing.Size(208, 24);
+            this.la_Y5_4.TabIndex = 388;
+            this.la_Y5_4.Tag = "";
+            this.la_Y5_4.Text = "Y05.4(音頻重置訊號)";
+            this.la_Y5_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // la_X4_5
+            // 
+            this.la_X4_5.BackColor = System.Drawing.Color.Transparent;
+            this.la_X4_5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X4_5.ForeColor = System.Drawing.Color.Black;
+            this.la_X4_5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X4_5.Location = new System.Drawing.Point(48, 272);
+            this.la_X4_5.Name = "la_X4_5";
+            this.la_X4_5.Size = new System.Drawing.Size(208, 24);
+            this.la_X4_5.TabIndex = 386;
+            this.la_X4_5.Tag = "";
+            this.la_X4_5.Text = "X04.5(CRASH訊號)";
+            this.la_X4_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y5_4
+            // 
+            this.pic_Y5_4.BackColor = System.Drawing.Color.Transparent;
+            this.pic_Y5_4.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y5_4.Image")));
+            this.pic_Y5_4.Location = new System.Drawing.Point(320, 296);
+            this.pic_Y5_4.Name = "pic_Y5_4";
+            this.pic_Y5_4.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y5_4.TabIndex = 387;
+            this.pic_Y5_4.TabStop = false;
+            // 
+            // pic_X4_5
+            // 
+            this.pic_X4_5.BackColor = System.Drawing.Color.Transparent;
+            this.pic_X4_5.Image = ((System.Drawing.Image)(resources.GetObject("pic_X4_5.Image")));
+            this.pic_X4_5.Location = new System.Drawing.Point(8, 264);
+            this.pic_X4_5.Name = "pic_X4_5";
+            this.pic_X4_5.Size = new System.Drawing.Size(32, 32);
+            this.pic_X4_5.TabIndex = 385;
+            this.pic_X4_5.TabStop = false;
+            // 
+            // la_Y3_7
+            // 
+            this.la_Y3_7.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y3_7.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y3_7.ForeColor = System.Drawing.Color.Black;
+            this.la_Y3_7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y3_7.Location = new System.Drawing.Point(360, 264);
+            this.la_Y3_7.Name = "la_Y3_7";
+            this.la_Y3_7.Size = new System.Drawing.Size(208, 24);
+            this.la_Y3_7.TabIndex = 384;
+            this.la_Y3_7.Tag = "";
+            this.la_Y3_7.Text = "Y03.7(偵測修整模式)";
+            this.la_Y3_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // la_F122_1
+            // 
+            this.la_F122_1.BackColor = System.Drawing.Color.Transparent;
+            this.la_F122_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_F122_1.ForeColor = System.Drawing.Color.Black;
+            this.la_F122_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_F122_1.Location = new System.Drawing.Point(48, 232);
+            this.la_F122_1.Name = "la_F122_1";
+            this.la_F122_1.Size = new System.Drawing.Size(192, 24);
+            this.la_F122_1.TabIndex = 382;
+            this.la_F122_1.Tag = "";
+            this.la_F122_1.Text = "F122.1(GAP訊號)";
+            this.la_F122_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y3_7
+            // 
+            this.pic_Y3_7.BackColor = System.Drawing.Color.Transparent;
+            this.pic_Y3_7.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y3_7.Image")));
+            this.pic_Y3_7.Location = new System.Drawing.Point(320, 256);
+            this.pic_Y3_7.Name = "pic_Y3_7";
+            this.pic_Y3_7.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y3_7.TabIndex = 383;
+            this.pic_Y3_7.TabStop = false;
+            // 
+            // pic_F122_1
+            // 
+            this.pic_F122_1.BackColor = System.Drawing.Color.Transparent;
+            this.pic_F122_1.Image = ((System.Drawing.Image)(resources.GetObject("pic_F122_1.Image")));
+            this.pic_F122_1.Location = new System.Drawing.Point(8, 224);
+            this.pic_F122_1.Name = "pic_F122_1";
+            this.pic_F122_1.Size = new System.Drawing.Size(32, 32);
+            this.pic_F122_1.TabIndex = 381;
+            this.pic_F122_1.TabStop = false;
+            // 
+            // la_Y3_6
+            // 
+            this.la_Y3_6.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y3_6.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y3_6.ForeColor = System.Drawing.Color.Black;
+            this.la_Y3_6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y3_6.Location = new System.Drawing.Point(360, 224);
+            this.la_Y3_6.Name = "la_Y3_6";
+            this.la_Y3_6.Size = new System.Drawing.Size(208, 24);
+            this.la_Y3_6.TabIndex = 390;
+            this.la_Y3_6.Tag = "";
+            this.la_Y3_6.Text = "Y03.6(自動模式)";
+            this.la_Y3_6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y3_6
+            // 
+            this.pic_Y3_6.BackColor = System.Drawing.Color.Transparent;
+            this.pic_Y3_6.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y3_6.Image")));
+            this.pic_Y3_6.Location = new System.Drawing.Point(320, 216);
+            this.pic_Y3_6.Name = "pic_Y3_6";
+            this.pic_Y3_6.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y3_6.TabIndex = 389;
+            this.pic_Y3_6.TabStop = false;
+            // 
+            // la_E7_1
+            // 
+            this.la_E7_1.BackColor = System.Drawing.Color.Transparent;
+            this.la_E7_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_E7_1.ForeColor = System.Drawing.Color.Black;
+            this.la_E7_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_E7_1.Location = new System.Drawing.Point(48, 312);
+            this.la_E7_1.Name = "la_E7_1";
+            this.la_E7_1.Size = new System.Drawing.Size(224, 24);
+            this.la_E7_1.TabIndex = 392;
+            this.la_E7_1.Tag = "";
+            this.la_E7_1.Text = "E07.1(Z電流GAP訊號)";
+            this.la_E7_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_E7_1
+            // 
+            this.pic_E7_1.BackColor = System.Drawing.Color.Transparent;
+            this.pic_E7_1.Image = ((System.Drawing.Image)(resources.GetObject("pic_E7_1.Image")));
+            this.pic_E7_1.Location = new System.Drawing.Point(8, 304);
+            this.pic_E7_1.Name = "pic_E7_1";
+            this.pic_E7_1.Size = new System.Drawing.Size(32, 32);
+            this.pic_E7_1.TabIndex = 391;
+            this.pic_E7_1.TabStop = false;
+            // 
+            // la_E6_1
+            // 
+            this.la_E6_1.BackColor = System.Drawing.Color.Transparent;
+            this.la_E6_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_E6_1.ForeColor = System.Drawing.Color.Black;
+            this.la_E6_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_E6_1.Location = new System.Drawing.Point(48, 352);
+            this.la_E6_1.Name = "la_E6_1";
+            this.la_E6_1.Size = new System.Drawing.Size(240, 24);
+            this.la_E6_1.TabIndex = 394;
+            this.la_E6_1.Tag = "";
+            this.la_E6_1.Text = "E06.1(Z電流CRASH訊號)";
+            this.la_E6_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_E6_1
+            // 
+            this.pic_E6_1.BackColor = System.Drawing.Color.Transparent;
+            this.pic_E6_1.Image = ((System.Drawing.Image)(resources.GetObject("pic_E6_1.Image")));
+            this.pic_E6_1.Location = new System.Drawing.Point(8, 344);
+            this.pic_E6_1.Name = "pic_E6_1";
+            this.pic_E6_1.Size = new System.Drawing.Size(32, 32);
+            this.pic_E6_1.TabIndex = 393;
+            this.pic_E6_1.TabStop = false;
+            // 
+            // la_E7_3
+            // 
+            this.la_E7_3.BackColor = System.Drawing.Color.Transparent;
+            this.la_E7_3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_E7_3.ForeColor = System.Drawing.Color.Black;
+            this.la_E7_3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_E7_3.Location = new System.Drawing.Point(48, 392);
+            this.la_E7_3.Name = "la_E7_3";
+            this.la_E7_3.Size = new System.Drawing.Size(224, 24);
+            this.la_E7_3.TabIndex = 396;
+            this.la_E7_3.Tag = "";
+            this.la_E7_3.Text = "E07.3(Y電流GAP訊號)";
+            this.la_E7_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_E7_3
+            // 
+            this.pic_E7_3.BackColor = System.Drawing.Color.Transparent;
+            this.pic_E7_3.Image = ((System.Drawing.Image)(resources.GetObject("pic_E7_3.Image")));
+            this.pic_E7_3.Location = new System.Drawing.Point(8, 384);
+            this.pic_E7_3.Name = "pic_E7_3";
+            this.pic_E7_3.Size = new System.Drawing.Size(32, 32);
+            this.pic_E7_3.TabIndex = 395;
+            this.pic_E7_3.TabStop = false;
+            // 
+            // la_E6_2
+            // 
+            this.la_E6_2.BackColor = System.Drawing.Color.Transparent;
+            this.la_E6_2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_E6_2.ForeColor = System.Drawing.Color.Black;
+            this.la_E6_2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_E6_2.Location = new System.Drawing.Point(48, 432);
+            this.la_E6_2.Name = "la_E6_2";
+            this.la_E6_2.Size = new System.Drawing.Size(240, 24);
+            this.la_E6_2.TabIndex = 398;
+            this.la_E6_2.Tag = "";
+            this.la_E6_2.Text = "E06.2(Y電流CRASH訊號)";
+            this.la_E6_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_E6_2
+            // 
+            this.pic_E6_2.BackColor = System.Drawing.Color.Transparent;
+            this.pic_E6_2.Image = ((System.Drawing.Image)(resources.GetObject("pic_E6_2.Image")));
+            this.pic_E6_2.Location = new System.Drawing.Point(8, 424);
+            this.pic_E6_2.Name = "pic_E6_2";
+            this.pic_E6_2.Size = new System.Drawing.Size(32, 32);
+            this.pic_E6_2.TabIndex = 397;
+            this.pic_E6_2.TabStop = false;
+            // 
+            // la_Y1_4
+            // 
+            this.la_Y1_4.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y1_4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y1_4.ForeColor = System.Drawing.Color.Black;
+            this.la_Y1_4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y1_4.Location = new System.Drawing.Point(352, 144);
+            this.la_Y1_4.Name = "la_Y1_4";
+            this.la_Y1_4.Size = new System.Drawing.Size(200, 24);
+            this.la_Y1_4.TabIndex = 394;
+            this.la_Y1_4.Tag = "";
+            this.la_Y1_4.Text = "Y01.4(啟動)";
+            this.la_Y1_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y1_4
+            // 
+            this.pic_Y1_4.BackColor = System.Drawing.Color.Transparent;
+            this.pic_Y1_4.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y1_4.Image")));
+            this.pic_Y1_4.Location = new System.Drawing.Point(312, 136);
+            this.pic_Y1_4.Name = "pic_Y1_4";
+            this.pic_Y1_4.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y1_4.TabIndex = 393;
+            this.pic_Y1_4.TabStop = false;
+            // 
+            // la_X2_6
+            // 
+            this.la_X2_6.BackColor = System.Drawing.Color.Transparent;
+            this.la_X2_6.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X2_6.ForeColor = System.Drawing.Color.Black;
+            this.la_X2_6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X2_6.Location = new System.Drawing.Point(56, 144);
+            this.la_X2_6.Name = "la_X2_6";
+            this.la_X2_6.Size = new System.Drawing.Size(232, 24);
+            this.la_X2_6.TabIndex = 392;
+            this.la_X2_6.Tag = "";
+            this.la_X2_6.Text = "X02.6(油霧回收機過載)";
+            this.la_X2_6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X2_6
+            // 
+            this.pic_X2_6.BackColor = System.Drawing.Color.Transparent;
+            this.pic_X2_6.Image = ((System.Drawing.Image)(resources.GetObject("pic_X2_6.Image")));
+            this.pic_X2_6.Location = new System.Drawing.Point(16, 136);
+            this.pic_X2_6.Name = "pic_X2_6";
+            this.pic_X2_6.Size = new System.Drawing.Size(32, 32);
+            this.pic_X2_6.TabIndex = 391;
+            this.pic_X2_6.TabStop = false;
+            // 
+            // la_X1_6
+            // 
+            this.la_X1_6.BackColor = System.Drawing.Color.Transparent;
+            this.la_X1_6.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X1_6.ForeColor = System.Drawing.Color.Black;
+            this.la_X1_6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X1_6.Location = new System.Drawing.Point(56, 448);
+            this.la_X1_6.Name = "la_X1_6";
+            this.la_X1_6.Size = new System.Drawing.Size(232, 24);
+            this.la_X1_6.TabIndex = 402;
+            this.la_X1_6.Tag = "";
+            this.la_X1_6.Text = "X01.6(注油器壓力開關)";
+            this.la_X1_6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X1_6
+            // 
+            this.pic_X1_6.BackColor = System.Drawing.Color.Transparent;
+            this.pic_X1_6.Image = ((System.Drawing.Image)(resources.GetObject("pic_X1_6.Image")));
+            this.pic_X1_6.Location = new System.Drawing.Point(16, 440);
+            this.pic_X1_6.Name = "pic_X1_6";
+            this.pic_X1_6.Size = new System.Drawing.Size(32, 32);
+            this.pic_X1_6.TabIndex = 401;
+            this.pic_X1_6.TabStop = false;
+            // 
+            // la_Y0_7
+            // 
+            this.la_Y0_7.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y0_7.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y0_7.ForeColor = System.Drawing.Color.Black;
+            this.la_Y0_7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y0_7.Location = new System.Drawing.Point(352, 408);
+            this.la_Y0_7.Name = "la_Y0_7";
+            this.la_Y0_7.Size = new System.Drawing.Size(200, 24);
+            this.la_Y0_7.TabIndex = 400;
+            this.la_Y0_7.Tag = "";
+            this.la_Y0_7.Text = "Y00.7(注油機啟動)";
+            this.la_Y0_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y0_7
+            // 
+            this.pic_Y0_7.BackColor = System.Drawing.Color.Transparent;
+            this.pic_Y0_7.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y0_7.Image")));
+            this.pic_Y0_7.Location = new System.Drawing.Point(312, 400);
+            this.pic_Y0_7.Name = "pic_Y0_7";
+            this.pic_Y0_7.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y0_7.TabIndex = 399;
+            this.pic_Y0_7.TabStop = false;
+            // 
+            // la_X1_5
+            // 
+            this.la_X1_5.BackColor = System.Drawing.Color.Transparent;
+            this.la_X1_5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X1_5.ForeColor = System.Drawing.Color.Black;
+            this.la_X1_5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X1_5.Location = new System.Drawing.Point(56, 408);
+            this.la_X1_5.Name = "la_X1_5";
+            this.la_X1_5.Size = new System.Drawing.Size(232, 24);
+            this.la_X1_5.TabIndex = 398;
+            this.la_X1_5.Tag = "";
+            this.la_X1_5.Text = "X01.5(注油器液位開關)";
+            this.la_X1_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X1_5
+            // 
+            this.pic_X1_5.BackColor = System.Drawing.Color.Transparent;
+            this.pic_X1_5.Image = ((System.Drawing.Image)(resources.GetObject("pic_X1_5.Image")));
+            this.pic_X1_5.Location = new System.Drawing.Point(16, 400);
+            this.pic_X1_5.Name = "pic_X1_5";
+            this.pic_X1_5.Size = new System.Drawing.Size(32, 32);
+            this.pic_X1_5.TabIndex = 397;
+            this.pic_X1_5.TabStop = false;
+            // 
+            // pa_CoolantSystemIO
+            // 
+            this.pa_CoolantSystemIO.BackColor = System.Drawing.Color.Transparent;
+            this.pa_CoolantSystemIO.Controls.Add(this.la_X6_6);
+            this.pa_CoolantSystemIO.Controls.Add(this.pic_X6_6);
+            this.pa_CoolantSystemIO.Controls.Add(this.la_X8_3);
+            this.pa_CoolantSystemIO.Controls.Add(this.pic_X8_3);
+            this.pa_CoolantSystemIO.Controls.Add(this.la_Y1_5);
+            this.pa_CoolantSystemIO.Controls.Add(this.pic_Y1_5);
+            this.pa_CoolantSystemIO.Controls.Add(this.la_Y0_0);
+            this.pa_CoolantSystemIO.Controls.Add(this.pic_Y0_0);
+            this.pa_CoolantSystemIO.Controls.Add(this.la_X2_5);
+            this.pa_CoolantSystemIO.Controls.Add(this.pic_X2_5);
+            this.pa_CoolantSystemIO.Controls.Add(this.la_X2_2);
+            this.pa_CoolantSystemIO.Controls.Add(this.pic_X2_2);
+            this.pa_CoolantSystemIO.Controls.Add(this.la_X2_0);
+            this.pa_CoolantSystemIO.Controls.Add(this.pic_X2_0);
+            this.pa_CoolantSystemIO.Location = new System.Drawing.Point(8, 264);
+            this.pa_CoolantSystemIO.Name = "pa_CoolantSystemIO";
+            this.pa_CoolantSystemIO.Size = new System.Drawing.Size(648, 200);
+            this.pa_CoolantSystemIO.TabIndex = 372;
+            // 
+            // la_X6_6
+            // 
+            this.la_X6_6.BackColor = System.Drawing.Color.Transparent;
+            this.la_X6_6.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X6_6.ForeColor = System.Drawing.Color.Black;
+            this.la_X6_6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X6_6.Location = new System.Drawing.Point(48, 128);
+            this.la_X6_6.Name = "la_X6_6";
+            this.la_X6_6.Size = new System.Drawing.Size(280, 24);
+            this.la_X6_6.TabIndex = 384;
+            this.la_X6_6.Tag = "";
+            this.la_X6_6.Text = "X06.6(切削液流量檢知異常)";
+            this.la_X6_6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X6_6
+            // 
+            this.pic_X6_6.Image = ((System.Drawing.Image)(resources.GetObject("pic_X6_6.Image")));
+            this.pic_X6_6.Location = new System.Drawing.Point(8, 120);
+            this.pic_X6_6.Name = "pic_X6_6";
+            this.pic_X6_6.Size = new System.Drawing.Size(32, 32);
+            this.pic_X6_6.TabIndex = 383;
+            this.pic_X6_6.TabStop = false;
+            // 
+            // la_X8_3
+            // 
+            this.la_X8_3.BackColor = System.Drawing.Color.Transparent;
+            this.la_X8_3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X8_3.ForeColor = System.Drawing.Color.Black;
+            this.la_X8_3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X8_3.Location = new System.Drawing.Point(48, 168);
+            this.la_X8_3.Name = "la_X8_3";
+            this.la_X8_3.Size = new System.Drawing.Size(240, 24);
+            this.la_X8_3.TabIndex = 382;
+            this.la_X8_3.Tag = "";
+            this.la_X8_3.Text = "X8.3(切削液液位檢知低)";
+            this.la_X8_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X8_3
+            // 
+            this.pic_X8_3.Image = ((System.Drawing.Image)(resources.GetObject("pic_X8_3.Image")));
+            this.pic_X8_3.Location = new System.Drawing.Point(8, 160);
+            this.pic_X8_3.Name = "pic_X8_3";
+            this.pic_X8_3.Size = new System.Drawing.Size(32, 32);
+            this.pic_X8_3.TabIndex = 381;
+            this.pic_X8_3.TabStop = false;
+            // 
+            // la_Y1_5
+            // 
+            this.la_Y1_5.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y1_5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y1_5.ForeColor = System.Drawing.Color.Black;
+            this.la_Y1_5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y1_5.Location = new System.Drawing.Point(400, 48);
+            this.la_Y1_5.Name = "la_Y1_5";
+            this.la_Y1_5.Size = new System.Drawing.Size(224, 24);
+            this.la_Y1_5.TabIndex = 380;
+            this.la_Y1_5.Tag = "";
+            this.la_Y1_5.Text = "Y01.5(加工切削液開啟)";
+            this.la_Y1_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y1_5
+            // 
+            this.pic_Y1_5.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y1_5.Image")));
+            this.pic_Y1_5.Location = new System.Drawing.Point(360, 40);
+            this.pic_Y1_5.Name = "pic_Y1_5";
+            this.pic_Y1_5.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y1_5.TabIndex = 379;
+            this.pic_Y1_5.TabStop = false;
+            // 
+            // la_Y0_0
+            // 
+            this.la_Y0_0.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y0_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y0_0.ForeColor = System.Drawing.Color.Black;
+            this.la_Y0_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y0_0.Location = new System.Drawing.Point(400, 8);
+            this.la_Y0_0.Name = "la_Y0_0";
+            this.la_Y0_0.Size = new System.Drawing.Size(224, 24);
+            this.la_Y0_0.TabIndex = 378;
+            this.la_Y0_0.Tag = "";
+            this.la_Y0_0.Text = "Y00.0(切削液馬達啟動)";
+            this.la_Y0_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y0_0
+            // 
+            this.pic_Y0_0.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y0_0.Image")));
+            this.pic_Y0_0.Location = new System.Drawing.Point(360, 0);
+            this.pic_Y0_0.Name = "pic_Y0_0";
+            this.pic_Y0_0.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y0_0.TabIndex = 377;
+            this.pic_Y0_0.TabStop = false;
+            // 
+            // la_X2_5
+            // 
+            this.la_X2_5.BackColor = System.Drawing.Color.Transparent;
+            this.la_X2_5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X2_5.ForeColor = System.Drawing.Color.Black;
+            this.la_X2_5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X2_5.Location = new System.Drawing.Point(48, 88);
+            this.la_X2_5.Name = "la_X2_5";
+            this.la_X2_5.Size = new System.Drawing.Size(272, 24);
+            this.la_X2_5.TabIndex = 376;
+            this.la_X2_5.Tag = "";
+            this.la_X2_5.Text = "X02.5(抽水馬達過載)";
+            this.la_X2_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X2_5
+            // 
+            this.pic_X2_5.Image = ((System.Drawing.Image)(resources.GetObject("pic_X2_5.Image")));
+            this.pic_X2_5.Location = new System.Drawing.Point(8, 80);
+            this.pic_X2_5.Name = "pic_X2_5";
+            this.pic_X2_5.Size = new System.Drawing.Size(32, 32);
+            this.pic_X2_5.TabIndex = 375;
+            this.pic_X2_5.TabStop = false;
+            // 
+            // la_X2_2
+            // 
+            this.la_X2_2.BackColor = System.Drawing.Color.Transparent;
+            this.la_X2_2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X2_2.ForeColor = System.Drawing.Color.Black;
+            this.la_X2_2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X2_2.Location = new System.Drawing.Point(48, 48);
+            this.la_X2_2.Name = "la_X2_2";
+            this.la_X2_2.Size = new System.Drawing.Size(296, 24);
+            this.la_X2_2.TabIndex = 374;
+            this.la_X2_2.Tag = "";
+            this.la_X2_2.Text = "X02.2(磁鐵除屑機機馬達過載)";
+            this.la_X2_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X2_2
+            // 
+            this.pic_X2_2.Image = ((System.Drawing.Image)(resources.GetObject("pic_X2_2.Image")));
+            this.pic_X2_2.Location = new System.Drawing.Point(8, 40);
+            this.pic_X2_2.Name = "pic_X2_2";
+            this.pic_X2_2.Size = new System.Drawing.Size(32, 32);
+            this.pic_X2_2.TabIndex = 373;
+            this.pic_X2_2.TabStop = false;
+            // 
+            // la_X2_0
+            // 
+            this.la_X2_0.BackColor = System.Drawing.Color.Transparent;
+            this.la_X2_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X2_0.ForeColor = System.Drawing.Color.Black;
+            this.la_X2_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X2_0.Location = new System.Drawing.Point(48, 8);
+            this.la_X2_0.Name = "la_X2_0";
+            this.la_X2_0.Size = new System.Drawing.Size(224, 24);
+            this.la_X2_0.TabIndex = 372;
+            this.la_X2_0.Tag = "";
+            this.la_X2_0.Text = "X02.0(切削液馬達過載)";
+            this.la_X2_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X2_0
+            // 
+            this.pic_X2_0.Image = ((System.Drawing.Image)(resources.GetObject("pic_X2_0.Image")));
+            this.pic_X2_0.Location = new System.Drawing.Point(8, 0);
+            this.pic_X2_0.Name = "pic_X2_0";
+            this.pic_X2_0.Size = new System.Drawing.Size(32, 32);
+            this.pic_X2_0.TabIndex = 371;
+            this.pic_X2_0.TabStop = false;
+            // 
+            // pa_WheelCoverIO
+            // 
+            this.pa_WheelCoverIO.BackColor = System.Drawing.Color.Transparent;
+            this.pa_WheelCoverIO.Controls.Add(this.la_E8_1);
+            this.pa_WheelCoverIO.Controls.Add(this.pic_E8_1);
+            this.pa_WheelCoverIO.Controls.Add(this.la_E8_0);
+            this.pa_WheelCoverIO.Controls.Add(this.pic_E8_0);
+            this.pa_WheelCoverIO.Controls.Add(this.la_X0_7);
+            this.pa_WheelCoverIO.Controls.Add(this.pic_X0_7);
+            this.pa_WheelCoverIO.Controls.Add(this.la_Y1_3);
+            this.pa_WheelCoverIO.Controls.Add(this.pic_Y1_3);
+            this.pa_WheelCoverIO.Controls.Add(this.la_Y2_0);
+            this.pa_WheelCoverIO.Controls.Add(this.pic_Y2_0);
+            this.pa_WheelCoverIO.Controls.Add(this.la_X0_6);
+            this.pa_WheelCoverIO.Controls.Add(this.pic_X0_6);
+            this.pa_WheelCoverIO.Controls.Add(this.la_X2_4);
+            this.pa_WheelCoverIO.Controls.Add(this.pic_X2_4);
+            this.pa_WheelCoverIO.Controls.Add(this.la_X2_3);
+            this.pa_WheelCoverIO.Controls.Add(this.pic_X2_3);
+            this.pa_WheelCoverIO.Location = new System.Drawing.Point(0, 400);
+            this.pa_WheelCoverIO.Name = "pa_WheelCoverIO";
+            this.pa_WheelCoverIO.Size = new System.Drawing.Size(632, 192);
+            this.pa_WheelCoverIO.TabIndex = 428;
+            // 
+            // la_Y1_3
+            // 
+            this.la_Y1_3.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y1_3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y1_3.ForeColor = System.Drawing.Color.Black;
+            this.la_Y1_3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y1_3.Location = new System.Drawing.Point(400, 40);
+            this.la_Y1_3.Name = "la_Y1_3";
+            this.la_Y1_3.Size = new System.Drawing.Size(224, 24);
+            this.la_Y1_3.TabIndex = 380;
+            this.la_Y1_3.Tag = "";
+            this.la_Y1_3.Text = "Y01.3(砂輪護罩Y開啟)";
+            this.la_Y1_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y1_3
+            // 
+            this.pic_Y1_3.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y1_3.Image")));
+            this.pic_Y1_3.Location = new System.Drawing.Point(360, 32);
+            this.pic_Y1_3.Name = "pic_Y1_3";
+            this.pic_Y1_3.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y1_3.TabIndex = 379;
+            this.pic_Y1_3.TabStop = false;
+            // 
+            // la_Y2_0
+            // 
+            this.la_Y2_0.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y2_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y2_0.ForeColor = System.Drawing.Color.Black;
+            this.la_Y2_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y2_0.Location = new System.Drawing.Point(400, 8);
+            this.la_Y2_0.Name = "la_Y2_0";
+            this.la_Y2_0.Size = new System.Drawing.Size(224, 24);
+            this.la_Y2_0.TabIndex = 378;
+            this.la_Y2_0.Tag = "";
+            this.la_Y2_0.Text = "Y02.0(砂輪護罩Z開啟)";
+            this.la_Y2_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y2_0
+            // 
+            this.pic_Y2_0.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y2_0.Image")));
+            this.pic_Y2_0.Location = new System.Drawing.Point(360, 0);
+            this.pic_Y2_0.Name = "pic_Y2_0";
+            this.pic_Y2_0.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y2_0.TabIndex = 377;
+            this.pic_Y2_0.TabStop = false;
+            // 
+            // la_X0_6
+            // 
+            this.la_X0_6.BackColor = System.Drawing.Color.Transparent;
+            this.la_X0_6.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X0_6.ForeColor = System.Drawing.Color.Black;
+            this.la_X0_6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X0_6.Location = new System.Drawing.Point(48, 72);
+            this.la_X0_6.Name = "la_X0_6";
+            this.la_X0_6.Size = new System.Drawing.Size(256, 24);
+            this.la_X0_6.TabIndex = 376;
+            this.la_X0_6.Tag = "";
+            this.la_X0_6.Text = "X00.6(砂輪護罩Y開啟)";
+            this.la_X0_6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X0_6
+            // 
+            this.pic_X0_6.Image = ((System.Drawing.Image)(resources.GetObject("pic_X0_6.Image")));
+            this.pic_X0_6.Location = new System.Drawing.Point(8, 64);
+            this.pic_X0_6.Name = "pic_X0_6";
+            this.pic_X0_6.Size = new System.Drawing.Size(32, 32);
+            this.pic_X0_6.TabIndex = 375;
+            this.pic_X0_6.TabStop = false;
+            // 
+            // la_X2_4
+            // 
+            this.la_X2_4.BackColor = System.Drawing.Color.Transparent;
+            this.la_X2_4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X2_4.ForeColor = System.Drawing.Color.Black;
+            this.la_X2_4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X2_4.Location = new System.Drawing.Point(48, 40);
+            this.la_X2_4.Name = "la_X2_4";
+            this.la_X2_4.Size = new System.Drawing.Size(208, 24);
+            this.la_X2_4.TabIndex = 374;
+            this.la_X2_4.Tag = "";
+            this.la_X2_4.Text = "X02.4(砂輪護罩Z關閉)";
+            this.la_X2_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X2_4
+            // 
+            this.pic_X2_4.Image = ((System.Drawing.Image)(resources.GetObject("pic_X2_4.Image")));
+            this.pic_X2_4.Location = new System.Drawing.Point(8, 32);
+            this.pic_X2_4.Name = "pic_X2_4";
+            this.pic_X2_4.Size = new System.Drawing.Size(32, 32);
+            this.pic_X2_4.TabIndex = 373;
+            this.pic_X2_4.TabStop = false;
+            // 
+            // la_X2_3
+            // 
+            this.la_X2_3.BackColor = System.Drawing.Color.Transparent;
+            this.la_X2_3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X2_3.ForeColor = System.Drawing.Color.Black;
+            this.la_X2_3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X2_3.Location = new System.Drawing.Point(48, 8);
+            this.la_X2_3.Name = "la_X2_3";
+            this.la_X2_3.Size = new System.Drawing.Size(224, 24);
+            this.la_X2_3.TabIndex = 372;
+            this.la_X2_3.Tag = "";
+            this.la_X2_3.Text = "X02.3(砂輪護罩Z開啟)";
+            this.la_X2_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X2_3
+            // 
+            this.pic_X2_3.Image = ((System.Drawing.Image)(resources.GetObject("pic_X2_3.Image")));
+            this.pic_X2_3.Location = new System.Drawing.Point(8, 0);
+            this.pic_X2_3.Name = "pic_X2_3";
+            this.pic_X2_3.Size = new System.Drawing.Size(32, 32);
+            this.pic_X2_3.TabIndex = 371;
+            this.pic_X2_3.TabStop = false;
+            // 
+            // la_E8_1
+            // 
+            this.la_E8_1.BackColor = System.Drawing.Color.Transparent;
+            this.la_E8_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_E8_1.ForeColor = System.Drawing.Color.Black;
+            this.la_E8_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_E8_1.Location = new System.Drawing.Point(48, 168);
+            this.la_E8_1.Name = "la_E8_1";
+            this.la_E8_1.Size = new System.Drawing.Size(256, 24);
+            this.la_E8_1.TabIndex = 386;
+            this.la_E8_1.Tag = "";
+            this.la_E8_1.Text = "E8.1(砂輪護罩Y人機按鍵)";
+            this.la_E8_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_E8_1
+            // 
+            this.pic_E8_1.Image = ((System.Drawing.Image)(resources.GetObject("pic_E8_1.Image")));
+            this.pic_E8_1.Location = new System.Drawing.Point(8, 160);
+            this.pic_E8_1.Name = "pic_E8_1";
+            this.pic_E8_1.Size = new System.Drawing.Size(32, 32);
+            this.pic_E8_1.TabIndex = 385;
+            this.pic_E8_1.TabStop = false;
+            // 
+            // la_E8_0
+            // 
+            this.la_E8_0.BackColor = System.Drawing.Color.Transparent;
+            this.la_E8_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_E8_0.ForeColor = System.Drawing.Color.Black;
+            this.la_E8_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_E8_0.Location = new System.Drawing.Point(48, 136);
+            this.la_E8_0.Name = "la_E8_0";
+            this.la_E8_0.Size = new System.Drawing.Size(248, 24);
+            this.la_E8_0.TabIndex = 384;
+            this.la_E8_0.Tag = "";
+            this.la_E8_0.Text = "E8.0(砂輪護罩Z人機按鍵)";
+            this.la_E8_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_E8_0
+            // 
+            this.pic_E8_0.Image = ((System.Drawing.Image)(resources.GetObject("pic_E8_0.Image")));
+            this.pic_E8_0.Location = new System.Drawing.Point(8, 128);
+            this.pic_E8_0.Name = "pic_E8_0";
+            this.pic_E8_0.Size = new System.Drawing.Size(32, 32);
+            this.pic_E8_0.TabIndex = 383;
+            this.pic_E8_0.TabStop = false;
+            // 
+            // la_X0_7
+            // 
+            this.la_X0_7.BackColor = System.Drawing.Color.Transparent;
+            this.la_X0_7.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X0_7.ForeColor = System.Drawing.Color.Black;
+            this.la_X0_7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X0_7.Location = new System.Drawing.Point(48, 104);
+            this.la_X0_7.Name = "la_X0_7";
+            this.la_X0_7.Size = new System.Drawing.Size(224, 24);
+            this.la_X0_7.TabIndex = 382;
+            this.la_X0_7.Tag = "";
+            this.la_X0_7.Text = "X00.7(砂輪護罩Y關閉)";
+            this.la_X0_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X0_7
+            // 
+            this.pic_X0_7.Image = ((System.Drawing.Image)(resources.GetObject("pic_X0_7.Image")));
+            this.pic_X0_7.Location = new System.Drawing.Point(8, 96);
+            this.pic_X0_7.Name = "pic_X0_7";
+            this.pic_X0_7.Size = new System.Drawing.Size(32, 32);
+            this.pic_X0_7.TabIndex = 381;
+            this.pic_X0_7.TabStop = false;
+            // 
+            // la_X0_5
+            // 
+            this.la_X0_5.BackColor = System.Drawing.Color.Transparent;
+            this.la_X0_5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X0_5.ForeColor = System.Drawing.Color.Black;
+            this.la_X0_5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X0_5.Location = new System.Drawing.Point(56, 336);
+            this.la_X0_5.Name = "la_X0_5";
+            this.la_X0_5.Size = new System.Drawing.Size(248, 24);
+            this.la_X0_5.TabIndex = 539;
+            this.la_X0_5.Tag = "";
+            this.la_X0_5.Text = "X00.5(修整座上到位訊號)";
+            this.la_X0_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X0_5
+            // 
+            this.pic_X0_5.BackColor = System.Drawing.Color.Transparent;
+            this.pic_X0_5.Image = ((System.Drawing.Image)(resources.GetObject("pic_X0_5.Image")));
+            this.pic_X0_5.Location = new System.Drawing.Point(16, 328);
+            this.pic_X0_5.Name = "pic_X0_5";
+            this.pic_X0_5.Size = new System.Drawing.Size(32, 32);
+            this.pic_X0_5.TabIndex = 538;
+            this.pic_X0_5.TabStop = false;
+            // 
+            // la_Y5_0
+            // 
+            this.la_Y5_0.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y5_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y5_0.ForeColor = System.Drawing.Color.Black;
+            this.la_Y5_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y5_0.Location = new System.Drawing.Point(352, 296);
+            this.la_Y5_0.Name = "la_Y5_0";
+            this.la_Y5_0.Size = new System.Drawing.Size(224, 24);
+            this.la_Y5_0.TabIndex = 537;
+            this.la_Y5_0.Tag = "";
+            this.la_Y5_0.Text = "Y05.0(修整座上電磁閥)";
+            this.la_Y5_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y5_0
+            // 
+            this.pic_Y5_0.BackColor = System.Drawing.Color.Transparent;
+            this.pic_Y5_0.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y5_0.Image")));
+            this.pic_Y5_0.Location = new System.Drawing.Point(312, 288);
+            this.pic_Y5_0.Name = "pic_Y5_0";
+            this.pic_Y5_0.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y5_0.TabIndex = 536;
+            this.pic_Y5_0.TabStop = false;
+            // 
+            // la_X1_7
+            // 
+            this.la_X1_7.BackColor = System.Drawing.Color.Transparent;
+            this.la_X1_7.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X1_7.ForeColor = System.Drawing.Color.Black;
+            this.la_X1_7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X1_7.Location = new System.Drawing.Point(56, 296);
+            this.la_X1_7.Name = "la_X1_7";
+            this.la_X1_7.Size = new System.Drawing.Size(240, 24);
+            this.la_X1_7.TabIndex = 535;
+            this.la_X1_7.Tag = "";
+            this.la_X1_7.Text = "X01.7(修整座下到位訊號)";
+            this.la_X1_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_X1_7
+            // 
+            this.pic_X1_7.BackColor = System.Drawing.Color.Transparent;
+            this.pic_X1_7.Image = ((System.Drawing.Image)(resources.GetObject("pic_X1_7.Image")));
+            this.pic_X1_7.Location = new System.Drawing.Point(16, 288);
+            this.pic_X1_7.Name = "pic_X1_7";
+            this.pic_X1_7.Size = new System.Drawing.Size(32, 32);
+            this.pic_X1_7.TabIndex = 534;
+            this.pic_X1_7.TabStop = false;
+            // 
+            // la_Y5_1
+            // 
+            this.la_Y5_1.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y5_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y5_1.ForeColor = System.Drawing.Color.Black;
+            this.la_Y5_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y5_1.Location = new System.Drawing.Point(352, 336);
+            this.la_Y5_1.Name = "la_Y5_1";
+            this.la_Y5_1.Size = new System.Drawing.Size(224, 24);
+            this.la_Y5_1.TabIndex = 541;
+            this.la_Y5_1.Tag = "";
+            this.la_Y5_1.Text = "Y05.1(修整座下電磁閥)";
+            this.la_Y5_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y5_1
+            // 
+            this.pic_Y5_1.BackColor = System.Drawing.Color.Transparent;
+            this.pic_Y5_1.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y5_1.Image")));
+            this.pic_Y5_1.Location = new System.Drawing.Point(312, 328);
+            this.pic_Y5_1.Name = "pic_Y5_1";
+            this.pic_Y5_1.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y5_1.TabIndex = 540;
+            this.pic_Y5_1.TabStop = false;
+            // 
+            // la__Y5_6
+            // 
+            this.la__Y5_6.BackColor = System.Drawing.Color.Transparent;
+            this.la__Y5_6.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la__Y5_6.ForeColor = System.Drawing.Color.Black;
+            this.la__Y5_6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la__Y5_6.Location = new System.Drawing.Point(360, 360);
+            this.la__Y5_6.Name = "la__Y5_6";
+            this.la__Y5_6.Size = new System.Drawing.Size(240, 24);
+            this.la__Y5_6.TabIndex = 506;
+            this.la__Y5_6.Tag = "";
+            this.la__Y5_6.Text = "Y05.6(修整滾輪主軸運轉)";
+            this.la__Y5_6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y5_6
+            // 
+            this.pic_Y5_6.BackColor = System.Drawing.Color.Transparent;
+            this.pic_Y5_6.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y5_6.Image")));
+            this.pic_Y5_6.Location = new System.Drawing.Point(320, 352);
+            this.pic_Y5_6.Name = "pic_Y5_6";
+            this.pic_Y5_6.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y5_6.TabIndex = 505;
+            this.pic_Y5_6.TabStop = false;
+            // 
+            // pic_X6_3
+            // 
+            this.pic_X6_3.BackColor = System.Drawing.Color.Transparent;
+            this.pic_X6_3.Image = ((System.Drawing.Image)(resources.GetObject("pic_X6_3.Image")));
+            this.pic_X6_3.Location = new System.Drawing.Point(16, 360);
+            this.pic_X6_3.Name = "pic_X6_3";
+            this.pic_X6_3.Size = new System.Drawing.Size(32, 32);
+            this.pic_X6_3.TabIndex = 504;
+            this.pic_X6_3.TabStop = false;
+            // 
+            // pic_X6_2
+            // 
+            this.pic_X6_2.BackColor = System.Drawing.Color.Transparent;
+            this.pic_X6_2.Image = ((System.Drawing.Image)(resources.GetObject("pic_X6_2.Image")));
+            this.pic_X6_2.Location = new System.Drawing.Point(16, 312);
+            this.pic_X6_2.Name = "pic_X6_2";
+            this.pic_X6_2.Size = new System.Drawing.Size(32, 32);
+            this.pic_X6_2.TabIndex = 503;
+            this.pic_X6_2.TabStop = false;
+            // 
+            // la_Y5_5
+            // 
+            this.la_Y5_5.BackColor = System.Drawing.Color.Transparent;
+            this.la_Y5_5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_Y5_5.ForeColor = System.Drawing.Color.Black;
+            this.la_Y5_5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_Y5_5.Location = new System.Drawing.Point(360, 320);
+            this.la_Y5_5.Name = "la_Y5_5";
+            this.la_Y5_5.Size = new System.Drawing.Size(240, 24);
+            this.la_Y5_5.TabIndex = 502;
+            this.la_Y5_5.Tag = "";
+            this.la_Y5_5.Text = "Y05.5(修整滾輪主軸反轉)";
+            this.la_Y5_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // la_X6_3
+            // 
+            this.la_X6_3.BackColor = System.Drawing.Color.Transparent;
+            this.la_X6_3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X6_3.ForeColor = System.Drawing.Color.Black;
+            this.la_X6_3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X6_3.Location = new System.Drawing.Point(56, 368);
+            this.la_X6_3.Name = "la_X6_3";
+            this.la_X6_3.Size = new System.Drawing.Size(216, 24);
+            this.la_X6_3.TabIndex = 500;
+            this.la_X6_3.Tag = "";
+            this.la_X6_3.Text = "X06.3(修整滾輪異常)";
+            this.la_X6_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // la_X6_2
+            // 
+            this.la_X6_2.BackColor = System.Drawing.Color.Transparent;
+            this.la_X6_2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_X6_2.ForeColor = System.Drawing.Color.Black;
+            this.la_X6_2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_X6_2.Location = new System.Drawing.Point(56, 320);
+            this.la_X6_2.Name = "la_X6_2";
+            this.la_X6_2.Size = new System.Drawing.Size(248, 24);
+            this.la_X6_2.TabIndex = 499;
+            this.la_X6_2.Tag = "";
+            this.la_X6_2.Text = "X06.2 (修整滾輪轉速到達)";
+            this.la_X6_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_Y5_5
+            // 
+            this.pic_Y5_5.BackColor = System.Drawing.Color.Transparent;
+            this.pic_Y5_5.Image = ((System.Drawing.Image)(resources.GetObject("pic_Y5_5.Image")));
+            this.pic_Y5_5.Location = new System.Drawing.Point(320, 312);
+            this.pic_Y5_5.Name = "pic_Y5_5";
+            this.pic_Y5_5.Size = new System.Drawing.Size(32, 32);
+            this.pic_Y5_5.TabIndex = 501;
+            this.pic_Y5_5.TabStop = false;
+            // 
             // Fo_Main
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -12815,7 +15058,7 @@
             this.pa_Top.ResumeLayout(false);
             this.pa_Top.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_User)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_FANUC)).EndInit();
             this.pa_AlarmTip.ResumeLayout(false);
             this.pa_Tip.ResumeLayout(false);
             this.pa_EMG.ResumeLayout(false);
@@ -12827,8 +15070,20 @@
             this.TC_Main.ResumeLayout(false);
             this.tab_FuntionOverView.ResumeLayout(false);
             this.tab_Probe.ResumeLayout(false);
+            this.pa_ProbeIO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y2_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y2_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X1_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X1_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K5_3)).EndInit();
             this.tab_Chuck.ResumeLayout(false);
+            this.pa_ChuckIO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X1_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y0_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y0_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X0_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X0_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X0_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K30_1_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K30_1_0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K30_2_1)).EndInit();
@@ -12840,6 +15095,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_K22_2_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K22_2_0)).EndInit();
             this.tab_WorkSpindle.ResumeLayout(false);
+            this.pa_WorkSpindleIO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X5_6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y4_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y4_7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y4_6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X4_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X4_0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K9_7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K22_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K2_4)).EndInit();
@@ -12853,8 +15115,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_K8_6_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K8_6_0)).EndInit();
             this.tab_Orientation.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X1_2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K1_2)).EndInit();
             this.tab_GW1.ResumeLayout(false);
+            this.pa_GW1IO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X5_7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y5_7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X4_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X4_2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K11_6_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K11_6_0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K2_6)).EndInit();
@@ -12865,6 +15133,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_K3_1_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K3_1_0)).EndInit();
             this.tab_GW2.ResumeLayout(false);
+            this.pa_GW2IO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X5_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y3_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X6_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X6_0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K13_6_0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K13_6_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K13_0)).EndInit();
@@ -12876,6 +15149,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_K13_1_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K13_1_0)).EndInit();
             this.tab_Gauge.ResumeLayout(false);
+            this.pa_GaugeIO2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y2_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y3_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y2_7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y4_4)).EndInit();
+            this.pa_GaugeIO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X9_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X9_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X4_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X4_7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K39_0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K13_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K9_5)).EndInit();
@@ -12885,6 +15168,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_X3_7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K12_2)).EndInit();
             this.tab_AutoDoor.ResumeLayout(false);
+            this.pa_AutoDoorIO2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y0_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y4_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y4_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y0_6)).EndInit();
+            this.pa_AutoDoorIO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X8_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X8_0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K14_2)).EndInit();
             this.pa_PSW04.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pic_K12_3)).EndInit();
@@ -12915,7 +15206,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_K0_2)).EndInit();
             this.tab_CoolantGun.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pic_Y5_2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_Y0_0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K31_7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_E2524_0)).EndInit();
             this.tab_LightCurtain.ResumeLayout(false);
@@ -12944,7 +15234,7 @@
             this.tab_GWOilMistLube.ResumeLayout(false);
             this.pa_GWOilMistLubeIO.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pic_Y1_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_Y2_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y0_2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X3_4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X3_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X8_7)).EndInit();
@@ -12978,7 +15268,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_K10_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X8_5)).EndInit();
             this.tab_LinearScale.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
+            this.pa_LinearScaleAxis.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pic_LinearScaleAxis)).EndInit();
             this.tab_Message.ResumeLayout(false);
             this.tab_Message.PerformLayout();
@@ -13002,6 +15292,45 @@
             this.tab_UseUI.PerformLayout();
             this.pa_Bottom.ResumeLayout(false);
             this.pa_ModeSelect.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y5_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X4_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y3_7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_F122_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y3_6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E7_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E6_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E7_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E6_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y1_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X2_6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X1_6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y0_7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X1_5)).EndInit();
+            this.pa_CoolantSystemIO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X6_6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X8_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y1_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y0_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X2_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X2_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X2_0)).EndInit();
+            this.pa_WheelCoverIO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y1_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y2_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X0_6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X2_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X2_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E8_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E8_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X0_7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X0_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y5_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X1_7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y5_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y5_6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X6_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_X6_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Y5_5)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -13041,7 +15370,7 @@
         private System.Windows.Forms.Label la_SBK;
         private System.Windows.Forms.PictureBox pic_RS485error;
         private System.Windows.Forms.PictureBox pic_RS422error;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pic_FANUC;
         private System.Windows.Forms.PictureBox pic_User;
         private Uc_RoundBtn ucBtn_FunOverView;
         private System.Windows.Forms.TabControl TC_Main;
@@ -13376,7 +15705,7 @@
         private System.Windows.Forms.Label la_T14s;
         private System.Windows.Forms.Label la_T14;
         private System.Windows.Forms.ComboBox cb_D52Select;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label la_D52Desc;
         private System.Windows.Forms.Label la_D52;
         private Uc_RoundBtn ucBtn_T20;
         private Uc_RoundBtn ucBtn_T14;
@@ -13429,7 +15758,7 @@
         private System.Windows.Forms.PictureBox pic_K9_4;
         private System.Windows.Forms.Label la_K9_4Desc;
         private System.Windows.Forms.Label la_K9_4;
-        private System.Windows.Forms.Label la_X2_1Desc;
+        private System.Windows.Forms.Label la_X2_1;
         public System.Windows.Forms.Label la_CoolantCoolerTitle;
         private System.Windows.Forms.PictureBox pic_X2_1;
         private System.Windows.Forms.TabPage tab_CoolantSystem;
@@ -13452,21 +15781,19 @@
         private Uc_RoundBtn ucBtn_T156;
         private Uc_RoundBtn ucBtn_T170;
         private System.Windows.Forms.TabPage tab_CoolantGun;
-        private System.Windows.Forms.Label la_Y5_1Desc;
-        private System.Windows.Forms.Label la_Y0_0Desc;
+        private System.Windows.Forms.Label la_Y5_2;
         private System.Windows.Forms.Label la_K31_7Desc;
         private System.Windows.Forms.Label la_K31_7;
-        private System.Windows.Forms.Label la_E2524_0Desc;
+        private System.Windows.Forms.Label la_E2524_0;
         public System.Windows.Forms.Label la_CoolantGunTitle;
         private System.Windows.Forms.PictureBox pic_Y5_2;
-        private System.Windows.Forms.PictureBox pic_Y0_0;
         private System.Windows.Forms.PictureBox pic_K31_7;
         private System.Windows.Forms.PictureBox pic_E2524_0;
         private System.Windows.Forms.TabPage tab_LightCurtain;
         private System.Windows.Forms.PictureBox pic_K12_1;
         private System.Windows.Forms.Label la_K12_1Desc;
         private System.Windows.Forms.Label la_K12_1;
-        private System.Windows.Forms.Label la_X3_0Desc;
+        private System.Windows.Forms.Label la_X3_0;
         public System.Windows.Forms.Label la_LightCurtainTitle;
         private System.Windows.Forms.PictureBox pic_X3_0;
         private System.Windows.Forms.TabPage tab_WheelCover;
@@ -13478,10 +15805,10 @@
         private System.Windows.Forms.PictureBox pic_K12_7;
         private System.Windows.Forms.PictureBox pic_K12_6;
         private System.Windows.Forms.TabPage tab_MaintainDoor;
-        private System.Windows.Forms.Label la_X40_4Desc;
-        private System.Windows.Forms.Label la_X40_3Desc;
-        private System.Windows.Forms.Label la_X40_2Desc;
-        private System.Windows.Forms.Label la_X40_1Desc;
+        private System.Windows.Forms.Label la_X40_4;
+        private System.Windows.Forms.Label la_X40_3;
+        private System.Windows.Forms.Label la_X40_2;
+        private System.Windows.Forms.Label la_X40_1;
         private System.Windows.Forms.Label la_K2_3Desc;
         private System.Windows.Forms.Label la_K2_3;
         private System.Windows.Forms.Label la_K2_2Desc;
@@ -13497,11 +15824,11 @@
         private System.Windows.Forms.PictureBox pic_K2_2;
         private System.Windows.Forms.PictureBox pic_K2_1;
         private System.Windows.Forms.TabPage tab_HydraulicOpt;
-        private System.Windows.Forms.Label la_Y1_7Desc;
-        private System.Windows.Forms.Label la_X9_3Desc;
+        private System.Windows.Forms.Label la_Y1_7;
+        private System.Windows.Forms.Label la_X9_3;
         private System.Windows.Forms.Label la_K30_0Desc;
         private System.Windows.Forms.Label la_K30_0;
-        private System.Windows.Forms.Label la_X2_7Desc;
+        private System.Windows.Forms.Label la_X2_7;
         public System.Windows.Forms.Label la_HydraulicOptTitle;
         private System.Windows.Forms.PictureBox pic_Y1_7;
         private System.Windows.Forms.PictureBox pic_X9_3;
@@ -13556,11 +15883,11 @@
         private System.Windows.Forms.PictureBox pic_K10_3;
         private System.Windows.Forms.Label la_K10_3Desc;
         private System.Windows.Forms.Label la_K10_3;
-        private System.Windows.Forms.Label la_X8_5Desc;
+        private System.Windows.Forms.Label la_X8_5;
         public System.Windows.Forms.Label la_AirPressureTitle;
         private System.Windows.Forms.PictureBox pic_X8_5;
         private System.Windows.Forms.TabPage tab_LinearScale;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pa_LinearScaleAxis;
         private System.Windows.Forms.Label la_LinearScaleZ;
         private System.Windows.Forms.Label la_LinearScaleX;
         private System.Windows.Forms.PictureBox pic_LinearScaleAxis;
@@ -13746,14 +16073,14 @@
         private System.Windows.Forms.Label la_K4_2;
         private System.Windows.Forms.PictureBox pic_K4_2;
         private System.Windows.Forms.Panel pa_GWOilMistLubeIO;
-        private System.Windows.Forms.Label la_Y1_1Desc;
-        private System.Windows.Forms.Label la_Y2_1Desc;
+        private System.Windows.Forms.Label la_Y1_1;
+        private System.Windows.Forms.Label la_Y0_2;
         private System.Windows.Forms.PictureBox pic_Y1_1;
-        private System.Windows.Forms.PictureBox pic_Y2_1;
-        private System.Windows.Forms.Label la_X3_4Desc;
-        private System.Windows.Forms.Label la_X3_3Desc;
-        private System.Windows.Forms.Label la_X8_7Desc;
-        private System.Windows.Forms.Label la_X8_6Desc;
+        private System.Windows.Forms.PictureBox pic_Y0_2;
+        private System.Windows.Forms.Label la_X3_4;
+        private System.Windows.Forms.Label la_X3_3;
+        private System.Windows.Forms.Label la_X8_7;
+        private System.Windows.Forms.Label la_X8_6;
         private System.Windows.Forms.PictureBox pic_X3_4;
         private System.Windows.Forms.PictureBox pic_X3_3;
         private System.Windows.Forms.PictureBox pic_X8_7;
@@ -13780,13 +16107,176 @@
         private System.Windows.Forms.Label la_T4s;
         private System.Windows.Forms.Label la_T4;
         private Uc_RoundBtn ucBtn_T4;
-        private System.Windows.Forms.Label la_Y1_0Desc;
+        private System.Windows.Forms.Label la_Y1_0;
         private System.Windows.Forms.Label la_K0_0Desc;
         private System.Windows.Forms.Label la_K0_0;
-        private System.Windows.Forms.Label la_X9_5Desc;
+        private System.Windows.Forms.Label la_X9_5;
         private System.Windows.Forms.PictureBox pic_Y1_0;
         private System.Windows.Forms.PictureBox pic_K0_0;
         private System.Windows.Forms.PictureBox pic_X9_5;
+        private System.Windows.Forms.Panel pa_ProbeIO;
+        private System.Windows.Forms.Label la_Y2_2;
+        private System.Windows.Forms.PictureBox pic_Y2_2;
+        private System.Windows.Forms.Label la_Y2_1;
+        private System.Windows.Forms.PictureBox pic_Y2_1;
+        private System.Windows.Forms.Label la_X1_4;
+        private System.Windows.Forms.PictureBox pic_X1_4;
+        private System.Windows.Forms.Label la_X1_3;
+        private System.Windows.Forms.PictureBox pic_X1_3;
+        private System.Windows.Forms.Panel pa_ChuckIO;
+        private System.Windows.Forms.Label la_X1_0;
+        private System.Windows.Forms.PictureBox pic_X1_0;
+        private System.Windows.Forms.Label la_Y0_4;
+        private System.Windows.Forms.PictureBox pic_Y0_4;
+        private System.Windows.Forms.Label la_Y0_3;
+        private System.Windows.Forms.PictureBox pic_Y0_3;
+        private System.Windows.Forms.Label la_X0_0;
+        private System.Windows.Forms.PictureBox pic_X0_0;
+        private System.Windows.Forms.Label la_X0_2;
+        private System.Windows.Forms.PictureBox pic_X0_2;
+        private System.Windows.Forms.Label la_X0_1;
+        private System.Windows.Forms.PictureBox pic_X0_1;
+        private System.Windows.Forms.Panel pa_WorkSpindleIO;
+        private System.Windows.Forms.Label la_X5_6;
+        private System.Windows.Forms.PictureBox pic_X5_6;
+        private System.Windows.Forms.Label la_Y4_0;
+        private System.Windows.Forms.PictureBox pic_Y4_0;
+        private System.Windows.Forms.Label la_Y4_7;
+        private System.Windows.Forms.PictureBox pic_Y4_7;
+        private System.Windows.Forms.Label la_Y4_6;
+        private System.Windows.Forms.PictureBox pic_Y4_6;
+        private System.Windows.Forms.Label la_X4_1;
+        private System.Windows.Forms.PictureBox pic_X4_1;
+        private System.Windows.Forms.Label la_X4_0;
+        private System.Windows.Forms.PictureBox pic_X4_0;
+        private System.Windows.Forms.Label la_X1_2;
+        private System.Windows.Forms.PictureBox pic_X1_2;
+        private System.Windows.Forms.Panel pa_GW1IO;
+        private System.Windows.Forms.Label la_X5_7;
+        private System.Windows.Forms.PictureBox pic_X5_7;
+        private System.Windows.Forms.Label la_Y5_7;
+        private System.Windows.Forms.PictureBox pic_Y5_7;
+        private System.Windows.Forms.Label la_X4_3;
+        private System.Windows.Forms.PictureBox pic_X4_3;
+        private System.Windows.Forms.Label la_X4_2;
+        private System.Windows.Forms.PictureBox pic_X4_2;
+        private System.Windows.Forms.Panel pa_GW2IO;
+        private System.Windows.Forms.Label la_X5_5;
+        private System.Windows.Forms.PictureBox pic_X5_5;
+        private System.Windows.Forms.Label la_Y3_5;
+        private System.Windows.Forms.PictureBox pic_Y3_5;
+        private System.Windows.Forms.Label la_X6_1;
+        private System.Windows.Forms.PictureBox pic_X6_1;
+        private System.Windows.Forms.Label la_X6_0;
+        private System.Windows.Forms.PictureBox pic_X6_0;
+        private System.Windows.Forms.Panel pa_GaugeIO;
+        private System.Windows.Forms.Label la_X9_0;
+        private System.Windows.Forms.PictureBox pic_X9_0;
+        private System.Windows.Forms.Label la_X9_1;
+        private System.Windows.Forms.PictureBox pic_X9_1;
+        private System.Windows.Forms.Label la_X4_4;
+        private System.Windows.Forms.PictureBox pic_X4_4;
+        private System.Windows.Forms.Label la_X4_7;
+        private System.Windows.Forms.PictureBox pic_X4_7;
+        private System.Windows.Forms.Panel pa_GaugeIO2;
+        private System.Windows.Forms.Label la_Y2_3;
+        private System.Windows.Forms.PictureBox pic_Y2_3;
+        private System.Windows.Forms.Label la_Y3_1;
+        private System.Windows.Forms.PictureBox pic_Y3_1;
+        private System.Windows.Forms.Label la_Y2_7;
+        private System.Windows.Forms.PictureBox pic_Y2_7;
+        private System.Windows.Forms.Label la_Y4_4;
+        private System.Windows.Forms.PictureBox pic_Y4_4;
+        private System.Windows.Forms.Panel pa_AutoDoorIO;
+        private System.Windows.Forms.Label la_X8_1;
+        private System.Windows.Forms.PictureBox pic_X8_1;
+        private System.Windows.Forms.Label la_X8_0;
+        private System.Windows.Forms.PictureBox pic_X8_0;
+        private System.Windows.Forms.Panel pa_AutoDoorIO2;
+        private System.Windows.Forms.Label la_Y0_5;
+        private System.Windows.Forms.PictureBox pic_Y0_5;
+        private System.Windows.Forms.Label la_Y4_2;
+        private System.Windows.Forms.PictureBox pic_Y4_2;
+        private System.Windows.Forms.Label la_Y4_1;
+        private System.Windows.Forms.PictureBox pic_Y4_1;
+        private System.Windows.Forms.Label la_Y0_6;
+        private System.Windows.Forms.PictureBox pic_Y0_6;
+        private System.Windows.Forms.Label la_Y5_4;
+        private System.Windows.Forms.Label la_X4_5;
+        private System.Windows.Forms.PictureBox pic_Y5_4;
+        private System.Windows.Forms.PictureBox pic_X4_5;
+        private System.Windows.Forms.Label la_Y3_7;
+        private System.Windows.Forms.Label la_F122_1;
+        private System.Windows.Forms.PictureBox pic_Y3_7;
+        private System.Windows.Forms.PictureBox pic_F122_1;
+        private System.Windows.Forms.Label la_E7_1;
+        private System.Windows.Forms.PictureBox pic_E7_1;
+        private System.Windows.Forms.Label la_Y3_6;
+        private System.Windows.Forms.PictureBox pic_Y3_6;
+        private System.Windows.Forms.Label la_E6_2;
+        private System.Windows.Forms.PictureBox pic_E6_2;
+        private System.Windows.Forms.Label la_E7_3;
+        private System.Windows.Forms.PictureBox pic_E7_3;
+        private System.Windows.Forms.Label la_E6_1;
+        private System.Windows.Forms.PictureBox pic_E6_1;
+        private System.Windows.Forms.Label la_Y1_4;
+        private System.Windows.Forms.PictureBox pic_Y1_4;
+        private System.Windows.Forms.Label la_X2_6;
+        private System.Windows.Forms.PictureBox pic_X2_6;
+        private System.Windows.Forms.Label la_X1_6;
+        private System.Windows.Forms.PictureBox pic_X1_6;
+        private System.Windows.Forms.Label la_Y0_7;
+        private System.Windows.Forms.PictureBox pic_Y0_7;
+        private System.Windows.Forms.Label la_X1_5;
+        private System.Windows.Forms.PictureBox pic_X1_5;
+        private System.Windows.Forms.Panel pa_CoolantSystemIO;
+        private System.Windows.Forms.Label la_X6_6;
+        private System.Windows.Forms.PictureBox pic_X6_6;
+        private System.Windows.Forms.Label la_X8_3;
+        private System.Windows.Forms.PictureBox pic_X8_3;
+        private System.Windows.Forms.Label la_Y1_5;
+        private System.Windows.Forms.PictureBox pic_Y1_5;
+        private System.Windows.Forms.Label la_Y0_0;
+        private System.Windows.Forms.PictureBox pic_Y0_0;
+        private System.Windows.Forms.Label la_X2_5;
+        private System.Windows.Forms.PictureBox pic_X2_5;
+        private System.Windows.Forms.Label la_X2_2;
+        private System.Windows.Forms.PictureBox pic_X2_2;
+        private System.Windows.Forms.Label la_X2_0;
+        private System.Windows.Forms.PictureBox pic_X2_0;
+        private System.Windows.Forms.Panel pa_WheelCoverIO;
+        private System.Windows.Forms.Label la_E8_1;
+        private System.Windows.Forms.PictureBox pic_E8_1;
+        private System.Windows.Forms.Label la_E8_0;
+        private System.Windows.Forms.PictureBox pic_E8_0;
+        private System.Windows.Forms.Label la_X0_7;
+        private System.Windows.Forms.PictureBox pic_X0_7;
+        private System.Windows.Forms.Label la_Y1_3;
+        private System.Windows.Forms.PictureBox pic_Y1_3;
+        private System.Windows.Forms.Label la_Y2_0;
+        private System.Windows.Forms.PictureBox pic_Y2_0;
+        private System.Windows.Forms.Label la_X0_6;
+        private System.Windows.Forms.PictureBox pic_X0_6;
+        private System.Windows.Forms.Label la_X2_4;
+        private System.Windows.Forms.PictureBox pic_X2_4;
+        private System.Windows.Forms.Label la_X2_3;
+        private System.Windows.Forms.PictureBox pic_X2_3;
+        private System.Windows.Forms.Label la_Y5_1;
+        private System.Windows.Forms.PictureBox pic_Y5_1;
+        private System.Windows.Forms.Label la_X0_5;
+        private System.Windows.Forms.PictureBox pic_X0_5;
+        private System.Windows.Forms.Label la_Y5_0;
+        private System.Windows.Forms.PictureBox pic_Y5_0;
+        private System.Windows.Forms.Label la_X1_7;
+        private System.Windows.Forms.PictureBox pic_X1_7;
+        private System.Windows.Forms.Label la__Y5_6;
+        private System.Windows.Forms.PictureBox pic_Y5_6;
+        private System.Windows.Forms.PictureBox pic_X6_3;
+        private System.Windows.Forms.PictureBox pic_X6_2;
+        private System.Windows.Forms.Label la_Y5_5;
+        private System.Windows.Forms.Label la_X6_3;
+        private System.Windows.Forms.Label la_X6_2;
+        private System.Windows.Forms.PictureBox pic_Y5_5;
     }
 }
 
