@@ -256,6 +256,8 @@
             this.pic_K8_6_1 = new System.Windows.Forms.PictureBox();
             this.pic_K8_6_0 = new System.Windows.Forms.PictureBox();
             this.tab_Orientation = new System.Windows.Forms.TabPage();
+            this.ucBtn_FANUCSpindle = new Uc_RoundBtn();
+            this.ucBtn_UseSensor = new Uc_RoundBtn();
             this.la_X1_2 = new System.Windows.Forms.Label();
             this.pic_X1_2 = new System.Windows.Forms.PictureBox();
             this.la_T38Desc = new System.Windows.Forms.Label();
@@ -970,6 +972,8 @@
             this.btn_EDIT = new Uc_RoundBtn();
             this.btn_MDI = new Uc_RoundBtn();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.ucBtn_CrashTest = new Uc_RoundBtn();
+            this.ucBtn_GapTest = new Uc_RoundBtn();
             this.pa_Top.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_User)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_FANUC)).BeginInit();
@@ -1402,7 +1406,7 @@
             this.la_Version.Name = "la_Version";
             this.la_Version.Size = new System.Drawing.Size(205, 25);
             this.la_Version.TabIndex = 10;
-            this.la_Version.Text = "Ver : 1.26.0424.1420";
+            this.la_Version.Text = "Ver : 1.26.0424.1530";
             // 
             // pa_Alarm
             // 
@@ -4699,6 +4703,8 @@
             // 
             // tab_Orientation
             // 
+            this.tab_Orientation.Controls.Add(this.ucBtn_FANUCSpindle);
+            this.tab_Orientation.Controls.Add(this.ucBtn_UseSensor);
             this.tab_Orientation.Controls.Add(this.la_X1_2);
             this.tab_Orientation.Controls.Add(this.pic_X1_2);
             this.tab_Orientation.Controls.Add(this.la_T38Desc);
@@ -4724,6 +4730,46 @@
             this.tab_Orientation.Text = "主軸定位";
             this.tab_Orientation.UseVisualStyleBackColor = true;
             this.tab_Orientation.Paint += new System.Windows.Forms.PaintEventHandler(this.tab_Paint);
+            // 
+            // ucBtn_FANUCSpindle
+            // 
+            this.ucBtn_FANUCSpindle.BackColor = System.Drawing.Color.Transparent;
+            this.ucBtn_FANUCSpindle.DisplayText = "FANUC\r\n伺服主軸";
+            this.ucBtn_FANUCSpindle.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold);
+            this.ucBtn_FANUCSpindle.ForeColor = System.Drawing.Color.White;
+            this.ucBtn_FANUCSpindle.Image = null;
+            this.ucBtn_FANUCSpindle.Lamp = false;
+            this.ucBtn_FANUCSpindle.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_FANUCSpindle.LampOnImage")));
+            this.ucBtn_FANUCSpindle.Location = new System.Drawing.Point(536, 88);
+            this.ucBtn_FANUCSpindle.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_FANUCSpindle.MouseDownImage")));
+            this.ucBtn_FANUCSpindle.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_FANUCSpindle.MouseUpImage")));
+            this.ucBtn_FANUCSpindle.Name = "ucBtn_FANUCSpindle";
+            this.ucBtn_FANUCSpindle.Size = new System.Drawing.Size(72, 72);
+            this.ucBtn_FANUCSpindle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.ucBtn_FANUCSpindle.Switch = false;
+            this.ucBtn_FANUCSpindle.TabIndex = 380;
+            this.ucBtn_FANUCSpindle.Tag = "2";
+            this.ucBtn_FANUCSpindle.Click += new System.EventHandler(this.ucBtn_Orientation_Click);
+            // 
+            // ucBtn_UseSensor
+            // 
+            this.ucBtn_UseSensor.BackColor = System.Drawing.Color.Transparent;
+            this.ucBtn_UseSensor.DisplayText = "感測器\r\n定位";
+            this.ucBtn_UseSensor.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold);
+            this.ucBtn_UseSensor.ForeColor = System.Drawing.Color.White;
+            this.ucBtn_UseSensor.Image = null;
+            this.ucBtn_UseSensor.Lamp = false;
+            this.ucBtn_UseSensor.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_UseSensor.LampOnImage")));
+            this.ucBtn_UseSensor.Location = new System.Drawing.Point(536, 8);
+            this.ucBtn_UseSensor.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_UseSensor.MouseDownImage")));
+            this.ucBtn_UseSensor.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_UseSensor.MouseUpImage")));
+            this.ucBtn_UseSensor.Name = "ucBtn_UseSensor";
+            this.ucBtn_UseSensor.Size = new System.Drawing.Size(72, 72);
+            this.ucBtn_UseSensor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.ucBtn_UseSensor.Switch = false;
+            this.ucBtn_UseSensor.TabIndex = 379;
+            this.ucBtn_UseSensor.Tag = "1";
+            this.ucBtn_UseSensor.Click += new System.EventHandler(this.ucBtn_Orientation_Click);
             // 
             // la_X1_2
             // 
@@ -8223,6 +8269,8 @@
             // 
             // tab_Acoustic
             // 
+            this.tab_Acoustic.Controls.Add(this.ucBtn_CrashTest);
+            this.tab_Acoustic.Controls.Add(this.ucBtn_GapTest);
             this.tab_Acoustic.Controls.Add(this.la_E6_2);
             this.tab_Acoustic.Controls.Add(this.pic_E6_2);
             this.tab_Acoustic.Controls.Add(this.la_E7_3);
@@ -15039,6 +15087,46 @@
             this.timer2.Interval = 250;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
+            // ucBtn_CrashTest
+            // 
+            this.ucBtn_CrashTest.BackColor = System.Drawing.Color.Transparent;
+            this.ucBtn_CrashTest.DisplayText = "CRASH\r\n測試";
+            this.ucBtn_CrashTest.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold);
+            this.ucBtn_CrashTest.ForeColor = System.Drawing.Color.White;
+            this.ucBtn_CrashTest.Image = null;
+            this.ucBtn_CrashTest.Lamp = false;
+            this.ucBtn_CrashTest.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_CrashTest.LampOnImage")));
+            this.ucBtn_CrashTest.Location = new System.Drawing.Point(536, 88);
+            this.ucBtn_CrashTest.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_CrashTest.MouseDownImage")));
+            this.ucBtn_CrashTest.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_CrashTest.MouseUpImage")));
+            this.ucBtn_CrashTest.Name = "ucBtn_CrashTest";
+            this.ucBtn_CrashTest.Size = new System.Drawing.Size(72, 72);
+            this.ucBtn_CrashTest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.ucBtn_CrashTest.Switch = false;
+            this.ucBtn_CrashTest.TabIndex = 400;
+            this.ucBtn_CrashTest.Tag = "2";
+            this.ucBtn_CrashTest.Click += new System.EventHandler(this.ucBtn_Acoustic_Click);
+            // 
+            // ucBtn_GapTest
+            // 
+            this.ucBtn_GapTest.BackColor = System.Drawing.Color.Transparent;
+            this.ucBtn_GapTest.DisplayText = "GAP\r\n測試";
+            this.ucBtn_GapTest.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold);
+            this.ucBtn_GapTest.ForeColor = System.Drawing.Color.White;
+            this.ucBtn_GapTest.Image = null;
+            this.ucBtn_GapTest.Lamp = false;
+            this.ucBtn_GapTest.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_GapTest.LampOnImage")));
+            this.ucBtn_GapTest.Location = new System.Drawing.Point(536, 8);
+            this.ucBtn_GapTest.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_GapTest.MouseDownImage")));
+            this.ucBtn_GapTest.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_GapTest.MouseUpImage")));
+            this.ucBtn_GapTest.Name = "ucBtn_GapTest";
+            this.ucBtn_GapTest.Size = new System.Drawing.Size(72, 72);
+            this.ucBtn_GapTest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.ucBtn_GapTest.Switch = false;
+            this.ucBtn_GapTest.TabIndex = 399;
+            this.ucBtn_GapTest.Tag = "1";
+            this.ucBtn_GapTest.Click += new System.EventHandler(this.ucBtn_Acoustic_Click);
+            // 
             // Fo_Main
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -16277,6 +16365,10 @@
         private System.Windows.Forms.Label la_X6_3;
         private System.Windows.Forms.Label la_X6_2;
         private System.Windows.Forms.PictureBox pic_Y5_5;
+        private Uc_RoundBtn ucBtn_UseSensor;
+        private Uc_RoundBtn ucBtn_FANUCSpindle;
+        private Uc_RoundBtn ucBtn_CrashTest;
+        private Uc_RoundBtn ucBtn_GapTest;
     }
 }
 

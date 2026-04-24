@@ -1452,9 +1452,7 @@ namespace OIG_Option
                     case "4":
                         TC_Main.SelectedTab = tab_Orientation;
                         OrientationData();
-                        tb_ProgramTest.Text = "(1. Use Sensor)" + "\r\n" + "M03S50;" + "\r\n" + "G4X3.;" + "\r\n" +
-                            "M19;" + "\r\n" + "M30;" + "\r\n" + "(2.Use FANUC Spindle )" + "\r\n" + "M19B10000; (Spindle C100 Position)" + "\r\n" + "M30;" + "\r\n";
-
+                        ucBtn_UseSensor.PerformClick();
                         ucBtn_Specific1.Visible = false;
                         ucBtn_Specific2.Visible = false;
                         break;
@@ -1542,9 +1540,8 @@ namespace OIG_Option
                     case "10":
                         TC_Main.SelectedTab = tab_Acoustic;
                         AcousticData();
-                        tb_ProgramTest.Text = "(GAP Test)" + "\r\n" + "M416;" + "\r\n" + "M61;" + "\r\n" + "M63;" + "\r\n" + "G31W1.F0.01P2;" +
-                            "\r\n" + "M417;" + "\r\n" + "M30;" + "\r\n" + "(CRASH Test)" + "\r\n" + "M96P2;" + "\r\n" + "M61;" + "\r\n" + "M63;" +
-                            "\r\n" + "G4X100.;" + "\r\n" + "M417;" + "\r\n" + "M30;";
+                        ucBtn_GapTest.PerformClick();
+                       
                         ucBtn_Specific1.DisplayText = langini.ReadString("Fo_Main", "StartStop", "Start\nStop");
                         ucBtn_Specific1.Tag = "2511.7";
                         ucBtn_Specific1.Visible = true;
@@ -3349,6 +3346,46 @@ namespace OIG_Option
                 ucBtn_N2185.DisplayText = N2185.ToString();
             }
 
+        }
+
+        private void ucBtn_Orientation_Click(object sender, EventArgs e)
+        {
+            Uc_RoundBtn btn = (Uc_RoundBtn)sender;
+            if(btn.Tag != null)
+            {
+                if(btn.Tag.ToString() == "1")
+                {
+                    tb_ProgramTest.Text = "M03S50;" + "\r\n" + "G4X3.;" + "\r\n" + "M19;" + "\r\n" + "M30;" + "\r\n";
+                    ucBtn_FANUCSpindle.Lamp = false;
+                }
+                if (btn.Tag.ToString() == "2")
+                {
+                    tb_ProgramTest.Text = "M19B10000; (Spindle C100 Position)" + "\r\n" + "M30;" + "\r\n";
+                    ucBtn_UseSensor.Lamp = false;
+                }
+                btn.Lamp = true;
+            }
+        }
+
+        private void ucBtn_Acoustic_Click(object sender, EventArgs e)
+        {
+            Uc_RoundBtn btn = (Uc_RoundBtn)sender;
+            if (btn.Tag != null)
+            {
+                if (btn.Tag.ToString() == "1")
+                {
+                    tb_ProgramTest.Text = "M416;" + "\r\n" + "M61;" + "\r\n" + "M63;" + "\r\n" + "G31W1.F0.01P2;" +
+                           "\r\n" + "M417;" + "\r\n" + "M30;" + "\r\n";
+                    ucBtn_CrashTest.Lamp = false;
+                }
+                if (btn.Tag.ToString() == "2")
+                {
+                    tb_ProgramTest.Text = "M96P2;" + "\r\n" + "M61;" + "\r\n" + "M63;" +
+                           "\r\n" + "G4X100.;" + "\r\n" + "M417;" + "\r\n" + "M30;";
+                    ucBtn_GapTest.Lamp = false;
+                }
+                btn.Lamp = true;
+            }
         }
         private void pic_LinearScaleAxis_Click(object sender, EventArgs e)
         {
