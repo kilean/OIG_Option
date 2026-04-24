@@ -1402,7 +1402,7 @@
             this.la_Version.Name = "la_Version";
             this.la_Version.Size = new System.Drawing.Size(205, 25);
             this.la_Version.TabIndex = 10;
-            this.la_Version.Text = "Ver : 1.26.0420.1700";
+            this.la_Version.Text = "Ver : 1.26.0424.1420";
             // 
             // pa_Alarm
             // 
@@ -9949,7 +9949,7 @@
             this.la_K0_2.Size = new System.Drawing.Size(80, 24);
             this.la_K0_2.TabIndex = 359;
             this.la_K0_2.Tag = "";
-            this.la_K0_2.Text = "K002";
+            this.la_K0_2.Text = "K00.2";
             this.la_K0_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_CoolantSystemTitle

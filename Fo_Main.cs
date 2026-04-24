@@ -1717,9 +1717,9 @@ namespace OIG_Option
                 la_T64s.SendToBack();
                 pa_GaugeIO2.SendToBack();
                 la_T40Desc.SendToBack();
-                pa_PSW03.SendToBack();
-                la_T100Desc.SendToBack();
+                pa_PSW03.SendToBack();               
                 pa_AutoDoorIO2.SendToBack();
+                la_T100Desc.SendToBack();
                 pa_AutoDoorIO.SendToBack();
                 pa_CoolantSystemIO.SendToBack();
                 pa_WheelCoverIO.SendToBack();
@@ -3115,7 +3115,7 @@ namespace OIG_Option
             int ret_K = -1, ret_T = -1;
             byte K0 = 0, K4 = 0, K15 = 0, K16 = 0, K31 = 0;
 
-            int msT34 = 0, msT36 = 0, msT154 = 0;
+            int msT34 = 0, msT36 = 0, msT152 = 0, msT154 = 0;
             bool bFinish = false;
             Actions.Enqueue(new Action(() =>
             {
@@ -3127,6 +3127,7 @@ namespace OIG_Option
 
                 ret_T = focas.PMC_ReadTimer(34, out msT34);
                 ret_T = focas.PMC_ReadTimer(36, out msT36);
+                ret_T = focas.PMC_ReadTimer(152, out msT152);
                 ret_T = focas.PMC_ReadTimer(154, out msT154);
 
                 bFinish = true;
@@ -3163,6 +3164,7 @@ namespace OIG_Option
             {
                 ucBtn_T34.DisplayText = (msT34 / 1000.0).ToString("F1");
                 ucBtn_T36.DisplayText = (msT36 / 1000.0).ToString("F1");
+                ucBtn_T152.DisplayText = (msT152 / 1000.0).ToString("F1");
                 ucBtn_T154.DisplayText = (msT154 / 1000.0).ToString("F1");
             }
         }
