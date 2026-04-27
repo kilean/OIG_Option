@@ -560,13 +560,15 @@ namespace OIG_Option
                         if (ret != SUCCESS) continue;
                         ret = focas.PMC_ReadByte(PmcAddrType.Y, 2, out byte Y2);
                         if (ret != SUCCESS) continue;
-
+                        ret = focas.PMC_ReadByte(PmcAddrType.E, 2806, out byte E2806);
+                        if (ret != SUCCESS) continue;
                         this.Invoke(new Action(() =>
                         {
                             pic_X1_3.Image = X1.BIT_3() ? imgOn : imgOff;
                             pic_X1_4.Image = X1.BIT_4() ? imgOn : imgOff;
                             pic_Y2_1.Image = Y2.BIT_1() ? imgOn : imgOff;
                             pic_Y2_2.Image = Y2.BIT_2() ? imgOn : imgOff;
+                            pic_E2806_7.Image = E2806.BIT_7() ? imgOn : imgOff;
                         }));
                     }
                     else if (bChuck)
@@ -577,6 +579,8 @@ namespace OIG_Option
                         if (ret != SUCCESS) continue;
                         ret = focas.PMC_ReadByte(PmcAddrType.Y, 0, out byte Y0);
                         if (ret != SUCCESS) continue;
+                        ret = focas.PMC_ReadByte(PmcAddrType.E, 2807, out byte E2807);
+                        if (ret != SUCCESS) continue;
                         this.Invoke(new Action(() =>
                         {
                             pic_X0_1.Image = X0.BIT_1() ? imgOn : imgOff;
@@ -585,7 +589,8 @@ namespace OIG_Option
                             pic_X1_0.Image = X1.BIT_0() ? imgOn : imgOff;
                             pic_Y0_3.Image = Y0.BIT_3() ? imgOn : imgOff;
                             pic_Y0_4.Image = Y0.BIT_4() ? imgOn : imgOff;
-                            
+                            pic_E2807_2.Image = E2807.BIT_2() ? imgOn : imgOff;
+
                         }));
                     }
                     else if (bWorkSpindle)
@@ -596,7 +601,8 @@ namespace OIG_Option
                         if (ret != SUCCESS) continue;
                         ret = focas.PMC_ReadByte(PmcAddrType.Y, 4, out byte Y4);
                         if (ret != SUCCESS) continue;
-                        
+                        ret = focas.PMC_ReadByte(PmcAddrType.E, 2820, out byte E2820);
+                        if (ret != SUCCESS) continue;
                         this.Invoke(new Action(() =>
                         {
                             pic_X4_0.Image = X4.BIT_0() ? imgOn : imgOff;
@@ -605,7 +611,8 @@ namespace OIG_Option
                             pic_Y4_6.Image = Y4.BIT_6() ? imgOn : imgOff;
                             pic_Y4_7.Image = Y4.BIT_7() ? imgOn : imgOff;
                             pic_Y4_0.Image = Y4.BIT_0() ? imgOn : imgOff;
-
+                            pic_E2820_6.Image = E2820.BIT_6() ? imgOn : imgOff;
+                            pic_E2820_7.Image = E2820.BIT_7() ? imgOn : imgOff;
                         }));
                     }
                     else if (bOrientation)
@@ -628,6 +635,8 @@ namespace OIG_Option
                         if (ret != SUCCESS) continue;
                         ret = focas.PMC_ReadByte(PmcAddrType.Y, 5, out byte Y5);
                         if (ret != SUCCESS) continue;
+                        ret = focas.PMC_ReadByte(PmcAddrType.E, 2823, out byte E2823);
+                        if (ret != SUCCESS) continue;
                         this.Invoke(new Action(() =>
                         {
                             pic_X4_2.Image = X4.BIT_2() ? imgOn : imgOff;
@@ -635,6 +644,7 @@ namespace OIG_Option
                             pic_X5_7.Image = X5.BIT_7() ? imgOn : imgOff;
                             
                             pic_Y5_7.Image = Y5.BIT_7() ? imgOn : imgOff;
+                            pic_E2823_0.Image = E2823.BIT_0() ? imgOn : imgOff;
                         }));
                     }
                     else if (bGW2)
@@ -645,6 +655,8 @@ namespace OIG_Option
                         if (ret != SUCCESS) continue;                       
                         ret = focas.PMC_ReadByte(PmcAddrType.Y, 3, out byte Y3);
                         if (ret != SUCCESS) continue;
+                        ret = focas.PMC_ReadByte(PmcAddrType.E, 2823, out byte E2823);
+                        if (ret != SUCCESS) continue;
                         this.Invoke(new Action(() =>
                         {
                             pic_X6_0.Image = X6.BIT_0() ? imgOn : imgOff;
@@ -652,6 +664,7 @@ namespace OIG_Option
                             pic_X5_5.Image = X5.BIT_5() ? imgOn : imgOff;
                             
                             pic_Y3_5.Image = Y3.BIT_5() ? imgOn : imgOff;
+                            pic_E2823_1.Image = E2823.BIT_1() ? imgOn : imgOff;
                         }));
                     }
                     else if (bGauge)
@@ -666,7 +679,8 @@ namespace OIG_Option
                         if (ret != SUCCESS) continue;
                         ret = focas.PMC_ReadByte(PmcAddrType.Y, 4, out byte Y4);
                         if (ret != SUCCESS) continue;
-
+                        ret = focas.PMC_ReadByte(PmcAddrType.E, 2807, out byte E2807);
+                        if (ret != SUCCESS) continue;
                         this.Invoke(new Action(() =>
                         {
                             pic_X4_7.Image = X4.BIT_7() ? imgOn : imgOff;
@@ -677,6 +691,7 @@ namespace OIG_Option
                             pic_Y4_4.Image = Y4.BIT_4() ? imgOn : imgOff;
                             pic_Y2_7.Image = Y2.BIT_7() ? imgOn : imgOff;   
                             pic_Y3_1.Image = Y3.BIT_1() ? imgOn : imgOff;
+                            pic_E2807_3.Image = E2807.BIT_3() ? imgOn : imgOff;
                         }));
                     }
                     else if (bSafetyDoor)
@@ -685,11 +700,13 @@ namespace OIG_Option
                         if (ret != SUCCESS) continue;
                         ret = focas.PMC_ReadByte(PmcAddrType.Y, 2, out byte Y2);
                         if (ret != SUCCESS) continue;
-
+                        ret = focas.PMC_ReadByte(PmcAddrType.E, 2807, out byte E2807);
+                        if (ret != SUCCESS) continue;
                         this.Invoke(new Action(() =>
                         {
                             pic_X3_7.Image = X3.BIT_7() ? imgOn : imgOff;
                             pic_Y2_4.Image = Y2.BIT_4() ? imgOn : imgOff;
+                            pic_E2807_6.Image = E2807.BIT_6() ? imgOn : imgOff;
                         }));
                     }
                     else if (bAutoDoor)
@@ -701,7 +718,8 @@ namespace OIG_Option
                         if (ret != SUCCESS) continue;
                         ret = focas.PMC_ReadByte(PmcAddrType.Y, 4, out byte Y4);
                         if (ret != SUCCESS) continue;
-
+                        ret = focas.PMC_ReadByte(PmcAddrType.E, 2807, out byte E2807);
+                        if (ret != SUCCESS) continue;
                         this.Invoke(new Action(() =>
                         {
                            
@@ -712,6 +730,8 @@ namespace OIG_Option
                             pic_Y0_6.Image = Y0.BIT_6() ? imgOn : imgOff;
                             pic_Y4_1.Image = Y4.BIT_1() ? imgOn : imgOff;
                             pic_Y4_2.Image = Y4.BIT_2() ? imgOn : imgOff;
+                            pic_E2807_5.Image = E2807.BIT_5() ? imgOn : imgOff;
+                            pic_E2807_6.Image = E2807.BIT_6() ? imgOn : imgOff;
                         }));
                     }
                     else if (bAcoustic)
@@ -728,7 +748,8 @@ namespace OIG_Option
                         if (ret != SUCCESS) continue;
                         ret = focas.PMC_ReadByte(PmcAddrType.Y, 5, out byte Y5);
                         if (ret != SUCCESS) continue;
-
+                        ret = focas.PMC_ReadByte(PmcAddrType.E, 2807, out byte E2807);
+                        if (ret != SUCCESS) continue;
                         this.Invoke(new Action(() =>
                         {
                             pic_F122_1.Image = F122.BIT_1() ? imgOn : imgOff;
@@ -740,6 +761,7 @@ namespace OIG_Option
                             pic_Y3_6.Image = Y3.BIT_6() ? imgOn : imgOff;
                             pic_Y3_7.Image = Y3.BIT_7() ? imgOn : imgOff;
                             pic_Y5_4.Image = Y5.BIT_4() ? imgOn : imgOff;
+                            pic_E2807_7.Image = E2807.BIT_7() ? imgOn : imgOff;
                         }));
                     }
                     else if (bOilMistCollect)
@@ -748,11 +770,13 @@ namespace OIG_Option
                         if (ret != SUCCESS) continue;
                         ret = focas.PMC_ReadByte(PmcAddrType.Y, 1, out byte Y1);
                         if (ret != SUCCESS) continue;
-
+                        ret = focas.PMC_ReadByte(PmcAddrType.E, 2807, out byte E2807);
+                        if (ret != SUCCESS) continue;
                         this.Invoke(new Action(() =>
                         {
                             pic_X2_6.Image = X2.BIT_6() ? imgOn : imgOff;
                             pic_Y1_4.Image = Y1.BIT_4() ? imgOn : imgOff;
+                            pic_E2807_4.Image = E2807.BIT_4() ? imgOn : imgOff;
                         }));
                     }
                     else if (bAxisLube)
@@ -784,10 +808,11 @@ namespace OIG_Option
                     {
                         ret = focas.PMC_ReadByte(PmcAddrType.X, 2, out byte X2);
                         if (ret != SUCCESS) continue;
-
+                        
                         this.Invoke(new Action(() =>
                         {
                             pic_X2_1.Image = X2.BIT_1() ? imgOn : imgOff;
+                           
                         }));
                     }
                     else if (bCoolantSystem)
@@ -802,6 +827,8 @@ namespace OIG_Option
                         if (ret != SUCCESS) continue;
                         ret = focas.PMC_ReadByte(PmcAddrType.Y, 1, out byte Y1);
                         if (ret != SUCCESS) continue;
+                        ret = focas.PMC_ReadByte(PmcAddrType.E, 2823, out byte E2823);
+                        if (ret != SUCCESS) continue;
                         this.Invoke(new Action(() =>
                         {
                             pic_X2_0.Image = X2.BIT_0() ? imgOn : imgOff;
@@ -811,6 +838,7 @@ namespace OIG_Option
                             pic_X8_3.Image = X8.BIT_3() ? imgOn : imgOff;
                             pic_Y0_0.Image = Y0.BIT_0() ? imgOn : imgOff;
                             pic_Y1_5.Image = Y1.BIT_5() ? imgOn : imgOff;
+                            pic_E2823_3.Image = E2823.BIT_3() ? imgOn : imgOff;
                         }));
                     }
                     else if (bCoolantGun)
@@ -852,6 +880,8 @@ namespace OIG_Option
                         if (ret != SUCCESS) continue;
                         ret = focas.PMC_ReadByte(PmcAddrType.Y, 2, out byte Y2);
                         if (ret != SUCCESS) continue;
+                        ret = focas.PMC_ReadByte(PmcAddrType.E, 2806, out byte E2806);
+                        if (ret != SUCCESS) continue;
                         this.Invoke(new Action(() =>
                         {
                             pic_X2_3.Image = X2.BIT_3() ? imgOn : imgOff;
@@ -862,6 +892,7 @@ namespace OIG_Option
                             pic_E8_1.Image = E8.BIT_1() ? imgOn : imgOff;
                             pic_Y2_0.Image = Y2.BIT_0() ? imgOn : imgOff;
                             pic_Y1_3.Image = Y1.BIT_3() ? imgOn : imgOff;
+                            pic_E2806_5.Image = E2806.BIT_5() ? imgOn : imgOff;
                         }));
                     }
                     else if (bMaintainDoor)
@@ -929,7 +960,8 @@ namespace OIG_Option
                         if (ret != SUCCESS) continue;
                         ret = focas.PMC_ReadByte(PmcAddrType.Y, 5, out byte Y5);
                         if (ret != SUCCESS) continue;
-
+                        ret = focas.PMC_ReadByte(PmcAddrType.E, 2806, out byte E2806);
+                        if (ret != SUCCESS) continue;
                         this.Invoke(new Action(() =>
                         {
                             // X1.7
@@ -938,6 +970,7 @@ namespace OIG_Option
                             pic_X0_5.Image = X0.BIT_5() ? imgOn : imgOff;
                             pic_Y5_0.Image = Y5.BIT_0() ? imgOn : imgOff;
                             pic_Y5_1.Image = Y5.BIT_1() ? imgOn : imgOff;
+                            pic_E2806_5.Image = E2806.BIT_5() ? imgOn : imgOff;
                         }));
                     }
                     else if (bRoller)
@@ -946,13 +979,16 @@ namespace OIG_Option
                         if (ret != SUCCESS) continue;
                         ret = focas.PMC_ReadByte(PmcAddrType.Y, 5, out byte Y5);
                         if (ret != SUCCESS) continue;
-
+                        ret = focas.PMC_ReadByte(PmcAddrType.E, 2807, out byte E2807);
+                        if (ret != SUCCESS) continue;
                         this.Invoke(new Action(() =>
                         {
                             pic_X6_2.Image = X6.BIT_2() ? imgOn : imgOff;
                             pic_X6_3.Image = X6.BIT_3() ? imgOn : imgOff;
                             pic_Y5_5.Image = Y5.BIT_5() == true ? imgOn : imgOff;
                             pic_Y5_6.Image = Y5.BIT_6() == true ? imgOn : imgOff;
+                            pic_E2807_1.Image = E2807.BIT_1() ? imgOn : imgOff;
+                            pic_E2807_0.Image = E2807.BIT_0() ? imgOn : imgOff;
                         }));
                     }
                     else if (bAirTight)
@@ -1505,6 +1541,7 @@ namespace OIG_Option
                         la_K14_2Desc.Location = new System.Drawing.Point(128, 296);
                         pa_PSW04.Location = new System.Drawing.Point(0, 320);
                         pa_PSW04.Visible = pic_K14_2.Image != null;
+                        pic_E2807_6.Parent = la_E2807_6.Parent = tab_SafetyDoor;
                         break;
                     case "9":
                         TC_Main.SelectedTab = tab_AutoDoor;
@@ -1536,6 +1573,7 @@ namespace OIG_Option
                         pic_K14_2.Location = new System.Drawing.Point(96, 296);
                         la_K14_2Desc.Location = new System.Drawing.Point(128, 296);
                         pa_PSW04.Location = new System.Drawing.Point(0, 320);
+                        pic_E2807_6.Parent = la_E2807_6.Parent = tab_AutoDoor;
                         break;
                     case "10":
                         TC_Main.SelectedTab = tab_Acoustic;
@@ -1623,7 +1661,7 @@ namespace OIG_Option
                         ucBtn_Specific1.Tag = "2510.5";
                         ucBtn_Specific1.Visible = true;
                         ucBtn_Specific2.Visible = false;
-                        
+                        pic_E2806_5.Parent = la_E2806_5.Parent = tab_WheelCover;
                         break;
                     case "19":
                         TC_Main.SelectedTab = tab_MaintainDoor;
@@ -1653,6 +1691,7 @@ namespace OIG_Option
                         ucBtn_Specific1.Tag = "2510.5";
                         ucBtn_Specific1.Visible = true;
                         ucBtn_Specific2.Visible = false;
+                        pic_E2806_5.Parent = la_E2806_5.Parent = tab_OilDressDevice;
                         break;
                     case "23":
                         TC_Main.SelectedTab = tab_Roller;
@@ -1713,14 +1752,18 @@ namespace OIG_Option
                 la_T64Desc.SendToBack();
                 la_T64s.SendToBack();
                 pa_GaugeIO2.SendToBack();
+                la_E2807_3.SendToBack();
                 la_T40Desc.SendToBack();
                 pa_PSW03.SendToBack();               
                 pa_AutoDoorIO2.SendToBack();
+                la_E2807_6.SendToBack();
+                la_E2807_5.SendToBack();
                 la_T100Desc.SendToBack();
                 pa_AutoDoorIO.SendToBack();
                 pa_CoolantSystemIO.SendToBack();
                 pa_WheelCoverIO.SendToBack();
                 la_T82Desc.SendToBack();
+                
                 PrevPage.Clear();
                 PrevPage.Push(TC_Main.SelectedTab);
                 btn_Prev.Visible = false;
@@ -2135,15 +2178,71 @@ namespace OIG_Option
         // 伸出/縮回動作寫入控制器
         private void WritePmcTypeE(ushort address, int bitNum)
         {
-            Actions.Enqueue(new Action(() =>
+            if (TC_Main.SelectedTab == tab_CoolantGun)
             {
-                if (focas.PMC_ReadByte(PmcAddrType.E, address, out byte EAddress) == SUCCESS)
+                if(ucBtn_Specific1.Visible == true)
                 {
-                    focas.PMC_WriteByte(PmcAddrType.E, (short)address, EAddress.SetBit(bitNum, true));
-                    Thread.Sleep(50);
-                    focas.PMC_WriteByte(PmcAddrType.E, (short)address, EAddress.SetBit(bitNum, false));
+                    if(ucBtn_Specific1.Lamp == true)
+                    {
+                        Actions.Enqueue(new Action(() =>
+                        {
+                            if (focas.PMC_ReadByte(PmcAddrType.E, address, out byte EAddress) == SUCCESS)
+                            {
+                                focas.PMC_WriteByte(PmcAddrType.E, (short)address, EAddress.SetBit(bitNum, false));
+                            }
+                        }));
+                        ucBtn_Specific1.Lamp = false;
+                    }
+                    else
+                    {
+                        Actions.Enqueue(new Action(() =>
+                        {
+                            if (focas.PMC_ReadByte(PmcAddrType.E, address, out byte EAddress) == SUCCESS)
+                            {
+                                focas.PMC_WriteByte(PmcAddrType.E, (short)address, EAddress.SetBit(bitNum, true));
+                            }
+                        }));
+                        ucBtn_Specific1.Lamp = true;
+                    }
                 }
-            }));
+                if(ucBtn_Specific2.Visible ==  true)
+                {
+                    if (ucBtn_Specific1.Lamp == true)
+                    {
+                        Actions.Enqueue(new Action(() =>
+                        {
+                            if (focas.PMC_ReadByte(PmcAddrType.E, address, out byte EAddress) == SUCCESS)
+                            {
+                                focas.PMC_WriteByte(PmcAddrType.E, (short)address, EAddress.SetBit(bitNum, false));
+                            }
+                        }));
+                        ucBtn_Specific1.Lamp = false;
+                    }
+                    else
+                    {
+                        Actions.Enqueue(new Action(() =>
+                        {
+                            if (focas.PMC_ReadByte(PmcAddrType.E, address, out byte EAddress) == SUCCESS)
+                            {
+                                focas.PMC_WriteByte(PmcAddrType.E, (short)address, EAddress.SetBit(bitNum, true));
+                            }
+                        }));
+                        ucBtn_Specific1.Lamp = true;
+                    }
+                }
+            }
+            else
+            {
+                Actions.Enqueue(new Action(() =>
+                {
+                    if (focas.PMC_ReadByte(PmcAddrType.E, address, out byte EAddress) == SUCCESS)
+                    {
+                        focas.PMC_WriteByte(PmcAddrType.E, (short)address, EAddress.SetBit(bitNum, true));
+                        Thread.Sleep(50);
+                        focas.PMC_WriteByte(PmcAddrType.E, (short)address, EAddress.SetBit(bitNum, false));
+                    }
+                }));
+            }
         }
 
         // 程式測試
@@ -3345,7 +3444,6 @@ namespace OIG_Option
                 ucBtn_N2085.DisplayText = N2085.ToString();
                 ucBtn_N2185.DisplayText = N2185.ToString();
             }
-
         }
 
         private void ucBtn_Orientation_Click(object sender, EventArgs e)
