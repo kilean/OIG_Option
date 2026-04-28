@@ -1722,7 +1722,7 @@ namespace OIG_Option
                         TC_Main.SelectedTab = tab_LinearScale;
                         ucBtn_Specific1.Visible = false;
                         ucBtn_Specific2.Visible = false;
-                        LinearScaleData(pic_LinearScaleAxis.Tag.ToString());
+                        LinearScaleData(btn_OR_X.Lamp ? "X" : "Z");
                         break;
                 }
 
@@ -1810,18 +1810,7 @@ namespace OIG_Option
                 int ret = -1, msData = 0;
                 bool bFinish = false;
                 bool bLinearScale = TC_Main.SelectedTab != tab_LinearScale;
-                short axis = 0;
-                if (!bLinearScale && pic_LinearScaleAxis.Tag != null)
-                {
-                    if (pic_LinearScaleAxis.Tag.ToString().ToUpper() == "X")
-                    {
-                        axis = 1;
-                    }
-                    if (pic_LinearScaleAxis.Tag.ToString().ToUpper() == "Z")
-                    {
-                        axis = 2;
-                    }
-                }
+                short axis = (short)(btn_OR_X.Lamp ? 1 : 2);
                 Actions.Enqueue(new Action(() =>
                 {
                     if (bNum) // Timer
@@ -1911,29 +1900,9 @@ namespace OIG_Option
 
             if (int.TryParse(combo.Tag.ToString(), out int addr) && val > -1)
             {
-                bool bLinearScale = TC_Main.SelectedTab == tab_LinearScale;
-                short axis = 0;
-                if (bLinearScale && pic_LinearScaleAxis.Tag != null)
-                {
-                    if (pic_LinearScaleAxis.Tag.ToString().ToUpper() == "X")
-                    {
-                        axis = 1;
-                    }
-                    if (pic_LinearScaleAxis.Tag.ToString().ToUpper() == "Z")
-                    {
-                        axis = 2;
-                    }
-                }
                 Actions.Enqueue(new Action(() =>
                 {
-                    if (bLinearScale)
-                    {
-                        focas.Param_WriteByte((short)addr, (byte)val, axis);
-                    }
-                    else if (!bLinearScale)
-                    {
-                        focas.Param_WriteByte((short)addr, (byte)val, 0);
-                    }
+                    focas.Param_WriteByte((short)addr, (byte)val, 0);
                 }));
 
             }
@@ -3412,15 +3381,8 @@ namespace OIG_Option
             short N2024 = 0, N2084 = 0, N2085 = 0, N2185 = 0;
 
             bool bFinish = false;
-            short axis = 0;
-            if (axisName.ToUpper() == "X")
-            {
-                axis = 1;
-            }
-            if (axisName.ToUpper() == "Z")
-            {
-                axis = 2;
-            }
+            short axis = (short)(btn_OR_X.Lamp ? 1 : 2);
+
             Actions.Enqueue(new Action(() =>
             {
                 ret_N = focas.Param_ReadByte(1815, axis, out N1815);
@@ -3435,14 +3397,18 @@ namespace OIG_Option
 
             if (ret_N == SUCCESS)
             {
-                if (N1815 < cb_N1815Select.Items.Count)
-                {
-                    cb_N1815Select.SelectedIndex = N1815;
-                }
+                btn_N1815OFF.Lamp = !N1815.BIT_1();
+                btn_N1815ON.Lamp = N1815.BIT_1();
                 ucBtn_N2024.DisplayText = N2024.ToString();
+                btn_N2024_10000.Lamp = N2024 == 10000;
+                btn_N2024_12500.Lamp = N2024 == 12500;
                 ucBtn_N2084.DisplayText = N2084.ToString();
                 ucBtn_N2085.DisplayText = N2085.ToString();
+                btn_N2085_2.Lamp = N2085 == 2;
+                btn_N2085_20.Lamp = N2085 == 20;
                 ucBtn_N2185.DisplayText = N2185.ToString();
+                btn_N2185_0.Lamp = N2185 == 0;
+                btn_N2185_10.Lamp = N2185 == 10;
             }
         }
 
@@ -3485,25 +3451,57 @@ namespace OIG_Option
                 btn.Lamp = true;
             }
         }
-        private void pic_LinearScaleAxis_Click(object sender, EventArgs e)
+        private void btn_N1815Switch_Click(object sender, EventArgs e)
         {
-            PictureBox pic = (PictureBox)sender;
-            string axisName = "0";
-            if (pic != null && pic.Tag != null)
+            Uc_RoundBtn btn = sender as Uc_RoundBtn;
+            if (btn == null) return;
+            btn_N1815OFF.Lamp = btn == btn_N1815OFF;
+            btn_N1815ON.Lamp = btn == btn_N1815ON;
+
+            int axis = btn_OR_X.Lamp ? 1 : 2;
+            //bool bFinish = false;
+            Actions.Enqueue(new Action(() =>
             {
-                if (pic.Tag.ToString() == "X")
+                if (focas.Param_ReadByte(1815, (short)axis, out byte N1815) == SUCCESS)
                 {
-                    pic.Image = Properties.Resources.BtnRight;
-                    axisName = "Z";
+                    bool flag = !N1815.BIT_1();
+                    N1815 = N1815.SetBit(1, flag);
+                    focas.Param_WriteByte(1815, N1815, (short)axis);
                 }
-                if (pic.Tag.ToString() == "Z")
-                {
-                    pic.Image = Properties.Resources.BtnLeft;
-                    axisName = "X";
-                }
-                pic.Tag = axisName;
-                LinearScaleData(pic.Tag.ToString());
-            }
+                //bFinish = true;
+            }));
+            //NeedWait(ref bFinish);
+            //LinearScaleData(btn == btn_OR_X ? "X" : "Z");
+
+        }
+
+        private void btn_OR_AxisSelect(object sender, EventArgs e)
+        {
+            Uc_RoundBtn btn = sender as Uc_RoundBtn;
+            if (btn == null) return;
+
+            btn_OR_X.Lamp = btn == btn_OR_X;
+            btn_OR_Z.Lamp = btn == btn_OR_Z;
+            LinearScaleData(btn == btn_OR_X ? "X" : "Z");
+        }
+
+        private void btn_NAddress_Click(object sender, EventArgs e)
+        {
+            Uc_RoundBtn btn = sender as Uc_RoundBtn;
+            if (btn == null) return;
+            if (btn.Tag == null) return;
+            string NAddress = btn.Tag.ToString();
+            short.TryParse(NAddress.Substring(1), out short address);
+            short.TryParse(btn.DisplayText, out short value);
+            int axis = btn_OR_X.Lamp ? 1 : 2;
+            bool bFinish = false;
+            Actions.Enqueue(new Action(() =>
+            {
+                focas.Param_WriteWord(address, value, (short)axis);
+                bFinish = true;
+            }));
+            NeedWait(ref bFinish);
+            LinearScaleData(btn == btn_OR_X ? "X" : "Z");
         }
         #endregion
     }

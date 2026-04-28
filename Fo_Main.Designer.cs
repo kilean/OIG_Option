@@ -519,6 +519,8 @@
             this.pic_D70_0 = new System.Windows.Forms.PictureBox();
             this.pic_K11_0 = new System.Windows.Forms.PictureBox();
             this.tab_Acoustic = new System.Windows.Forms.TabPage();
+            this.la_E2807_7 = new System.Windows.Forms.Label();
+            this.pic_E2807_7 = new System.Windows.Forms.PictureBox();
             this.ucBtn_CrashTest = new Uc_RoundBtn();
             this.ucBtn_GapTest = new Uc_RoundBtn();
             this.la_E6_2 = new System.Windows.Forms.Label();
@@ -552,6 +554,8 @@
             this.ucBtn_T20 = new Uc_RoundBtn();
             this.ucBtn_T14 = new Uc_RoundBtn();
             this.tab_OilMistCollect = new System.Windows.Forms.TabPage();
+            this.la_E2807_4 = new System.Windows.Forms.Label();
+            this.pic_E2807_4 = new System.Windows.Forms.PictureBox();
             this.la_Y1_4 = new System.Windows.Forms.Label();
             this.pic_Y1_4 = new System.Windows.Forms.PictureBox();
             this.la_X2_6 = new System.Windows.Forms.Label();
@@ -621,6 +625,8 @@
             this.pic_X2_1 = new System.Windows.Forms.PictureBox();
             this.tab_CoolantSystem = new System.Windows.Forms.TabPage();
             this.pa_CoolantSystemIO = new System.Windows.Forms.Panel();
+            this.la_E2823_3 = new System.Windows.Forms.Label();
+            this.pic_E2823_3 = new System.Windows.Forms.PictureBox();
             this.la_X6_6 = new System.Windows.Forms.Label();
             this.pic_X6_6 = new System.Windows.Forms.PictureBox();
             this.la_X8_3 = new System.Windows.Forms.Label();
@@ -670,6 +676,8 @@
             this.la_LightCurtainTitle = new System.Windows.Forms.Label();
             this.pic_X3_0 = new System.Windows.Forms.PictureBox();
             this.tab_WheelCover = new System.Windows.Forms.TabPage();
+            this.la_E2806_5 = new System.Windows.Forms.Label();
+            this.pic_E2806_5 = new System.Windows.Forms.PictureBox();
             this.pa_WheelCoverIO = new System.Windows.Forms.Panel();
             this.la_E8_1 = new System.Windows.Forms.Label();
             this.pic_E8_1 = new System.Windows.Forms.PictureBox();
@@ -850,6 +858,10 @@
             this.pic_K14_6 = new System.Windows.Forms.PictureBox();
             this.la_OilDressDeviceTitle = new System.Windows.Forms.Label();
             this.tab_Roller = new System.Windows.Forms.TabPage();
+            this.la_E2807_0 = new System.Windows.Forms.Label();
+            this.pic_E2807_0 = new System.Windows.Forms.PictureBox();
+            this.la_E2807_1 = new System.Windows.Forms.Label();
+            this.pic_E2807_1 = new System.Windows.Forms.PictureBox();
             this.la__Y5_6 = new System.Windows.Forms.Label();
             this.pic_Y5_6 = new System.Windows.Forms.PictureBox();
             this.pic_X6_3 = new System.Windows.Forms.PictureBox();
@@ -906,28 +918,34 @@
             this.la_AirPressureTitle = new System.Windows.Forms.Label();
             this.pic_X8_5 = new System.Windows.Forms.PictureBox();
             this.tab_LinearScale = new System.Windows.Forms.TabPage();
-            this.pa_LinearScaleAxis = new System.Windows.Forms.Panel();
-            this.la_LinearScaleZ = new System.Windows.Forms.Label();
-            this.la_LinearScaleX = new System.Windows.Forms.Label();
-            this.pic_LinearScaleAxis = new System.Windows.Forms.PictureBox();
-            this.la_N1815On = new System.Windows.Forms.Label();
-            this.la_N1815Off = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_N2185_10 = new Uc_RoundBtn();
+            this.btn_N2185_0 = new Uc_RoundBtn();
+            this.btn_N2085_2 = new Uc_RoundBtn();
+            this.btn_N2085_20 = new Uc_RoundBtn();
+            this.btn_N2024_10000 = new Uc_RoundBtn();
+            this.btn_N2024_12500 = new Uc_RoundBtn();
+            this.btn_N1815ON = new Uc_RoundBtn();
+            this.btn_N1815OFF = new Uc_RoundBtn();
             this.la_N2185Desc = new System.Windows.Forms.Label();
+            this.ucBtn_N2185 = new Uc_RoundBtn();
             this.la_N2185 = new System.Windows.Forms.Label();
             this.la_N2085Desc = new System.Windows.Forms.Label();
+            this.ucBtn_N2085 = new Uc_RoundBtn();
             this.la_N2085 = new System.Windows.Forms.Label();
             this.la_N2084Desc = new System.Windows.Forms.Label();
+            this.ucBtn_N2084 = new Uc_RoundBtn();
             this.la_N2084 = new System.Windows.Forms.Label();
             this.la_N2024Desc = new System.Windows.Forms.Label();
+            this.ucBtn_N2024 = new Uc_RoundBtn();
             this.la_N2024 = new System.Windows.Forms.Label();
-            this.cb_N1815Select = new System.Windows.Forms.ComboBox();
             this.la_N1815Desc = new System.Windows.Forms.Label();
             this.la_N1815 = new System.Windows.Forms.Label();
+            this.btn_OR_Z = new Uc_RoundBtn();
+            this.btn_OR_X = new Uc_RoundBtn();
+            this.la_N1815On = new System.Windows.Forms.Label();
+            this.la_N1815Off = new System.Windows.Forms.Label();
             this.la_LinearScaleTitle = new System.Windows.Forms.Label();
-            this.ucBtn_N2185 = new Uc_RoundBtn();
-            this.ucBtn_N2085 = new Uc_RoundBtn();
-            this.ucBtn_N2084 = new Uc_RoundBtn();
-            this.ucBtn_N2024 = new Uc_RoundBtn();
             this.tab_Message = new System.Windows.Forms.TabPage();
             this.la_Msg_Help = new System.Windows.Forms.Label();
             this.la_Msg_Message = new System.Windows.Forms.Label();
@@ -993,18 +1011,6 @@
             this.btn_EDIT = new Uc_RoundBtn();
             this.btn_MDI = new Uc_RoundBtn();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.la_E2807_7 = new System.Windows.Forms.Label();
-            this.pic_E2807_7 = new System.Windows.Forms.PictureBox();
-            this.la_E2807_4 = new System.Windows.Forms.Label();
-            this.pic_E2807_4 = new System.Windows.Forms.PictureBox();
-            this.la_E2823_3 = new System.Windows.Forms.Label();
-            this.pic_E2823_3 = new System.Windows.Forms.PictureBox();
-            this.la_E2806_5 = new System.Windows.Forms.Label();
-            this.pic_E2806_5 = new System.Windows.Forms.PictureBox();
-            this.la_E2807_1 = new System.Windows.Forms.Label();
-            this.pic_E2807_1 = new System.Windows.Forms.PictureBox();
-            this.la_E2807_0 = new System.Windows.Forms.Label();
-            this.pic_E2807_0 = new System.Windows.Forms.PictureBox();
             this.pa_Top.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_User)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_FANUC)).BeginInit();
@@ -1143,6 +1149,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_D70_0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K11_0)).BeginInit();
             this.tab_Acoustic.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E2807_7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_E6_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_E7_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_E6_1)).BeginInit();
@@ -1153,6 +1160,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_Y3_7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_F122_1)).BeginInit();
             this.tab_OilMistCollect.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E2807_4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Y1_4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X2_6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K25_6)).BeginInit();
@@ -1175,6 +1183,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_X2_1)).BeginInit();
             this.tab_CoolantSystem.SuspendLayout();
             this.pa_CoolantSystemIO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E2823_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X6_6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X8_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Y1_5)).BeginInit();
@@ -1193,6 +1202,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_K12_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X3_0)).BeginInit();
             this.tab_WheelCover.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E2806_5)).BeginInit();
             this.pa_WheelCoverIO.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_E8_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_E8_0)).BeginInit();
@@ -1249,6 +1259,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_K12_5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K14_6)).BeginInit();
             this.tab_Roller.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E2807_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E2807_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Y5_6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X6_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X6_2)).BeginInit();
@@ -1266,8 +1278,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_K10_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X8_5)).BeginInit();
             this.tab_LinearScale.SuspendLayout();
-            this.pa_LinearScaleAxis.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_LinearScaleAxis)).BeginInit();
+            this.panel1.SuspendLayout();
             this.tab_Message.SuspendLayout();
             this.GB_DEV_MsgHis.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_AlarmHistory)).BeginInit();
@@ -1288,12 +1299,6 @@
             this.tab_UseUI.SuspendLayout();
             this.pa_Bottom.SuspendLayout();
             this.pa_ModeSelect.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_E2807_7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_E2807_4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_E2823_3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_E2806_5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_E2807_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_E2807_0)).BeginInit();
             this.SuspendLayout();
             // 
             // pa_Top
@@ -1453,7 +1458,7 @@
             this.la_Version.Name = "la_Version";
             this.la_Version.Size = new System.Drawing.Size(205, 25);
             this.la_Version.TabIndex = 10;
-            this.la_Version.Text = "Ver : 1.26.0427.1035";
+            this.la_Version.Text = "Ver : 1.26.0428.1050";
             // 
             // pa_Alarm
             // 
@@ -2582,9 +2587,9 @@
             this.tab_Probe.Controls.Add(this.ucBtn_T24);
             this.tab_Probe.Controls.Add(this.ucBtn_T22);
             this.tab_Probe.Controls.Add(this.pic_K5_3);
-            this.tab_Probe.Location = new System.Drawing.Point(4, 25);
+            this.tab_Probe.Location = new System.Drawing.Point(4, 67);
             this.tab_Probe.Name = "tab_Probe";
-            this.tab_Probe.Size = new System.Drawing.Size(936, 603);
+            this.tab_Probe.Size = new System.Drawing.Size(936, 561);
             this.tab_Probe.TabIndex = 38;
             this.tab_Probe.Text = "端面量測";
             this.tab_Probe.UseVisualStyleBackColor = true;
@@ -2598,10 +2603,10 @@
             this.la_E2806_7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.la_E2806_7.Location = new System.Drawing.Point(56, 440);
             this.la_E2806_7.Name = "la_E2806_7";
-            this.la_E2806_7.Size = new System.Drawing.Size(200, 24);
+            this.la_E2806_7.Size = new System.Drawing.Size(144, 24);
             this.la_E2806_7.TabIndex = 378;
             this.la_E2806_7.Tag = "";
-            this.la_E2806_7.Text = "E2806.7燈號";
+            this.la_E2806_7.Text = "E2806.7(端測)";
             this.la_E2806_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pic_E2806_7
@@ -3058,9 +3063,9 @@
             this.tab_Chuck.Controls.Add(this.pic_K38_1);
             this.tab_Chuck.Controls.Add(this.pic_K22_2_1);
             this.tab_Chuck.Controls.Add(this.pic_K22_2_0);
-            this.tab_Chuck.Location = new System.Drawing.Point(4, 25);
+            this.tab_Chuck.Location = new System.Drawing.Point(4, 67);
             this.tab_Chuck.Name = "tab_Chuck";
-            this.tab_Chuck.Size = new System.Drawing.Size(936, 603);
+            this.tab_Chuck.Size = new System.Drawing.Size(936, 561);
             this.tab_Chuck.TabIndex = 41;
             this.tab_Chuck.Text = "主軸夾頭";
             this.tab_Chuck.UseVisualStyleBackColor = true;
@@ -3083,7 +3088,7 @@
             this.pa_ChuckIO.Controls.Add(this.pic_X0_2);
             this.pa_ChuckIO.Controls.Add(this.la_X0_1);
             this.pa_ChuckIO.Controls.Add(this.pic_X0_1);
-            this.pa_ChuckIO.Location = new System.Drawing.Point(0, 440);
+            this.pa_ChuckIO.Location = new System.Drawing.Point(0, 392);
             this.pa_ChuckIO.Name = "pa_ChuckIO";
             this.pa_ChuckIO.Size = new System.Drawing.Size(576, 152);
             this.pa_ChuckIO.TabIndex = 274;
@@ -3094,21 +3099,21 @@
             this.la_E2807_2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_E2807_2.ForeColor = System.Drawing.Color.Black;
             this.la_E2807_2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_E2807_2.Location = new System.Drawing.Point(448, 128);
+            this.la_E2807_2.Location = new System.Drawing.Point(432, 128);
             this.la_E2807_2.Name = "la_E2807_2";
-            this.la_E2807_2.Size = new System.Drawing.Size(136, 24);
+            this.la_E2807_2.Size = new System.Drawing.Size(144, 24);
             this.la_E2807_2.TabIndex = 384;
             this.la_E2807_2.Tag = "";
-            this.la_E2807_2.Text = "E2807.2燈號";
+            this.la_E2807_2.Text = "E2807.2(夾頭)";
             this.la_E2807_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pic_E2807_2
             // 
             this.pic_E2807_2.BackColor = System.Drawing.Color.Transparent;
             this.pic_E2807_2.Image = ((System.Drawing.Image)(resources.GetObject("pic_E2807_2.Image")));
-            this.pic_E2807_2.Location = new System.Drawing.Point(408, 120);
+            this.pic_E2807_2.Location = new System.Drawing.Point(392, 120);
             this.pic_E2807_2.Name = "pic_E2807_2";
-            this.pic_E2807_2.Size = new System.Drawing.Size(32, 32);
+            this.pic_E2807_2.Size = new System.Drawing.Size(40, 32);
             this.pic_E2807_2.TabIndex = 383;
             this.pic_E2807_2.TabStop = false;
             // 
@@ -3950,9 +3955,9 @@
             this.tab_WorkSpindle.Controls.Add(this.pic_K3_3_0);
             this.tab_WorkSpindle.Controls.Add(this.pic_K8_6_1);
             this.tab_WorkSpindle.Controls.Add(this.pic_K8_6_0);
-            this.tab_WorkSpindle.Location = new System.Drawing.Point(4, 25);
+            this.tab_WorkSpindle.Location = new System.Drawing.Point(4, 67);
             this.tab_WorkSpindle.Name = "tab_WorkSpindle";
-            this.tab_WorkSpindle.Size = new System.Drawing.Size(936, 603);
+            this.tab_WorkSpindle.Size = new System.Drawing.Size(936, 561);
             this.tab_WorkSpindle.TabIndex = 42;
             this.tab_WorkSpindle.Text = "工件主軸";
             this.tab_WorkSpindle.UseVisualStyleBackColor = true;
@@ -4883,9 +4888,9 @@
             this.tab_Orientation.Controls.Add(this.ucBtn_D64);
             this.tab_Orientation.Controls.Add(this.ucBtn_D62);
             this.tab_Orientation.Controls.Add(this.pic_K1_2);
-            this.tab_Orientation.Location = new System.Drawing.Point(4, 25);
+            this.tab_Orientation.Location = new System.Drawing.Point(4, 67);
             this.tab_Orientation.Name = "tab_Orientation";
-            this.tab_Orientation.Size = new System.Drawing.Size(936, 603);
+            this.tab_Orientation.Size = new System.Drawing.Size(936, 561);
             this.tab_Orientation.TabIndex = 43;
             this.tab_Orientation.Text = "主軸定位";
             this.tab_Orientation.UseVisualStyleBackColor = true;
@@ -5241,9 +5246,9 @@
             this.tab_GW1.Controls.Add(this.pic_K3_2_0);
             this.tab_GW1.Controls.Add(this.pic_K3_1_1);
             this.tab_GW1.Controls.Add(this.pic_K3_1_0);
-            this.tab_GW1.Location = new System.Drawing.Point(4, 25);
+            this.tab_GW1.Location = new System.Drawing.Point(4, 67);
             this.tab_GW1.Name = "tab_GW1";
-            this.tab_GW1.Size = new System.Drawing.Size(936, 603);
+            this.tab_GW1.Size = new System.Drawing.Size(936, 561);
             this.tab_GW1.TabIndex = 44;
             this.tab_GW1.Text = "砂輪主軸 1";
             this.tab_GW1.UseVisualStyleBackColor = true;
@@ -5257,10 +5262,10 @@
             this.la_E2823_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.la_E2823_0.Location = new System.Drawing.Point(56, 528);
             this.la_E2823_0.Name = "la_E2823_0";
-            this.la_E2823_0.Size = new System.Drawing.Size(176, 24);
+            this.la_E2823_0.Size = new System.Drawing.Size(200, 24);
             this.la_E2823_0.TabIndex = 380;
             this.la_E2823_0.Tag = "";
-            this.la_E2823_0.Text = "E2823.0啟動燈號";
+            this.la_E2823_0.Text = "E2823.0(砂輪1啟動)";
             this.la_E2823_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pic_E2823_0
@@ -5942,10 +5947,10 @@
             this.la_E2823_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.la_E2823_1.Location = new System.Drawing.Point(392, 528);
             this.la_E2823_1.Name = "la_E2823_1";
-            this.la_E2823_1.Size = new System.Drawing.Size(144, 24);
+            this.la_E2823_1.Size = new System.Drawing.Size(200, 24);
             this.la_E2823_1.TabIndex = 382;
             this.la_E2823_1.Tag = "";
-            this.la_E2823_1.Text = "E2823.1啟動";
+            this.la_E2823_1.Text = "E2823.1(砂輪2啟動)";
             this.la_E2823_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pic_E2823_1
@@ -6665,7 +6670,7 @@
             this.la_E2807_3.Size = new System.Drawing.Size(88, 48);
             this.la_E2807_3.TabIndex = 386;
             this.la_E2807_3.Tag = "";
-            this.la_E2807_3.Text = "E2807.3\r\n量測\r\n";
+            this.la_E2807_3.Text = "E2807.3\r\n(量測)";
             this.la_E2807_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pic_E2807_3
@@ -8601,6 +8606,30 @@
             this.tab_Acoustic.UseVisualStyleBackColor = true;
             this.tab_Acoustic.Paint += new System.Windows.Forms.PaintEventHandler(this.tab_Paint);
             // 
+            // la_E2807_7
+            // 
+            this.la_E2807_7.BackColor = System.Drawing.Color.Transparent;
+            this.la_E2807_7.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_E2807_7.ForeColor = System.Drawing.Color.Black;
+            this.la_E2807_7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_E2807_7.Location = new System.Drawing.Point(360, 352);
+            this.la_E2807_7.Name = "la_E2807_7";
+            this.la_E2807_7.Size = new System.Drawing.Size(176, 24);
+            this.la_E2807_7.TabIndex = 402;
+            this.la_E2807_7.Tag = "";
+            this.la_E2807_7.Text = "E2807.7(音頻)";
+            this.la_E2807_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_E2807_7
+            // 
+            this.pic_E2807_7.BackColor = System.Drawing.Color.Transparent;
+            this.pic_E2807_7.Image = ((System.Drawing.Image)(resources.GetObject("pic_E2807_7.Image")));
+            this.pic_E2807_7.Location = new System.Drawing.Point(320, 344);
+            this.pic_E2807_7.Name = "pic_E2807_7";
+            this.pic_E2807_7.Size = new System.Drawing.Size(32, 32);
+            this.pic_E2807_7.TabIndex = 401;
+            this.pic_E2807_7.TabStop = false;
+            // 
             // ucBtn_CrashTest
             // 
             this.ucBtn_CrashTest.BackColor = System.Drawing.Color.Transparent;
@@ -9063,6 +9092,30 @@
             this.tab_OilMistCollect.Text = "油霧回收機";
             this.tab_OilMistCollect.UseVisualStyleBackColor = true;
             this.tab_OilMistCollect.Paint += new System.Windows.Forms.PaintEventHandler(this.tab_Paint);
+            // 
+            // la_E2807_4
+            // 
+            this.la_E2807_4.BackColor = System.Drawing.Color.Transparent;
+            this.la_E2807_4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_E2807_4.ForeColor = System.Drawing.Color.Black;
+            this.la_E2807_4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_E2807_4.Location = new System.Drawing.Point(352, 192);
+            this.la_E2807_4.Name = "la_E2807_4";
+            this.la_E2807_4.Size = new System.Drawing.Size(184, 32);
+            this.la_E2807_4.TabIndex = 396;
+            this.la_E2807_4.Tag = "";
+            this.la_E2807_4.Text = "E2807.4(油霧回收)";
+            this.la_E2807_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_E2807_4
+            // 
+            this.pic_E2807_4.BackColor = System.Drawing.Color.Transparent;
+            this.pic_E2807_4.Image = ((System.Drawing.Image)(resources.GetObject("pic_E2807_4.Image")));
+            this.pic_E2807_4.Location = new System.Drawing.Point(312, 192);
+            this.pic_E2807_4.Name = "pic_E2807_4";
+            this.pic_E2807_4.Size = new System.Drawing.Size(32, 32);
+            this.pic_E2807_4.TabIndex = 395;
+            this.pic_E2807_4.TabStop = false;
             // 
             // la_Y1_4
             // 
@@ -10079,6 +10132,30 @@
             this.pa_CoolantSystemIO.Size = new System.Drawing.Size(648, 200);
             this.pa_CoolantSystemIO.TabIndex = 372;
             // 
+            // la_E2823_3
+            // 
+            this.la_E2823_3.BackColor = System.Drawing.Color.Transparent;
+            this.la_E2823_3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_E2823_3.ForeColor = System.Drawing.Color.Black;
+            this.la_E2823_3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_E2823_3.Location = new System.Drawing.Point(400, 96);
+            this.la_E2823_3.Name = "la_E2823_3";
+            this.la_E2823_3.Size = new System.Drawing.Size(144, 32);
+            this.la_E2823_3.TabIndex = 398;
+            this.la_E2823_3.Tag = "";
+            this.la_E2823_3.Text = "E2823.3(水車)";
+            this.la_E2823_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_E2823_3
+            // 
+            this.pic_E2823_3.BackColor = System.Drawing.Color.Transparent;
+            this.pic_E2823_3.Image = ((System.Drawing.Image)(resources.GetObject("pic_E2823_3.Image")));
+            this.pic_E2823_3.Location = new System.Drawing.Point(360, 96);
+            this.pic_E2823_3.Name = "pic_E2823_3";
+            this.pic_E2823_3.Size = new System.Drawing.Size(32, 32);
+            this.pic_E2823_3.TabIndex = 397;
+            this.pic_E2823_3.TabStop = false;
+            // 
             // la_X6_6
             // 
             this.la_X6_6.BackColor = System.Drawing.Color.Transparent;
@@ -10735,6 +10812,30 @@
             this.tab_WheelCover.UseVisualStyleBackColor = true;
             this.tab_WheelCover.Paint += new System.Windows.Forms.PaintEventHandler(this.tab_Paint);
             // 
+            // la_E2806_5
+            // 
+            this.la_E2806_5.BackColor = System.Drawing.Color.Transparent;
+            this.la_E2806_5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_E2806_5.ForeColor = System.Drawing.Color.Black;
+            this.la_E2806_5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_E2806_5.Location = new System.Drawing.Point(400, 472);
+            this.la_E2806_5.Name = "la_E2806_5";
+            this.la_E2806_5.Size = new System.Drawing.Size(192, 32);
+            this.la_E2806_5.TabIndex = 430;
+            this.la_E2806_5.Tag = "";
+            this.la_E2806_5.Text = "E2806.5(砂輪遮罩)";
+            this.la_E2806_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_E2806_5
+            // 
+            this.pic_E2806_5.BackColor = System.Drawing.Color.Transparent;
+            this.pic_E2806_5.Image = ((System.Drawing.Image)(resources.GetObject("pic_E2806_5.Image")));
+            this.pic_E2806_5.Location = new System.Drawing.Point(360, 472);
+            this.pic_E2806_5.Name = "pic_E2806_5";
+            this.pic_E2806_5.Size = new System.Drawing.Size(32, 32);
+            this.pic_E2806_5.TabIndex = 429;
+            this.pic_E2806_5.TabStop = false;
+            // 
             // pa_WheelCoverIO
             // 
             this.pa_WheelCoverIO.BackColor = System.Drawing.Color.Transparent;
@@ -11377,9 +11478,9 @@
             this.tab_MaintainDoor.Controls.Add(this.pic_K2_3);
             this.tab_MaintainDoor.Controls.Add(this.pic_K2_2);
             this.tab_MaintainDoor.Controls.Add(this.pic_K2_1);
-            this.tab_MaintainDoor.Location = new System.Drawing.Point(4, 46);
+            this.tab_MaintainDoor.Location = new System.Drawing.Point(4, 67);
             this.tab_MaintainDoor.Name = "tab_MaintainDoor";
-            this.tab_MaintainDoor.Size = new System.Drawing.Size(936, 582);
+            this.tab_MaintainDoor.Size = new System.Drawing.Size(936, 561);
             this.tab_MaintainDoor.TabIndex = 60;
             this.tab_MaintainDoor.Text = "維修門";
             this.tab_MaintainDoor.UseVisualStyleBackColor = true;
@@ -11673,9 +11774,9 @@
             this.tab_HydraulicOpt.Controls.Add(this.pic_X9_3);
             this.tab_HydraulicOpt.Controls.Add(this.pic_K30_0);
             this.tab_HydraulicOpt.Controls.Add(this.pic_X2_7);
-            this.tab_HydraulicOpt.Location = new System.Drawing.Point(4, 46);
+            this.tab_HydraulicOpt.Location = new System.Drawing.Point(4, 67);
             this.tab_HydraulicOpt.Name = "tab_HydraulicOpt";
-            this.tab_HydraulicOpt.Size = new System.Drawing.Size(936, 582);
+            this.tab_HydraulicOpt.Size = new System.Drawing.Size(936, 561);
             this.tab_HydraulicOpt.TabIndex = 61;
             this.tab_HydraulicOpt.Text = "油壓馬達";
             this.tab_HydraulicOpt.UseVisualStyleBackColor = true;
@@ -11966,9 +12067,9 @@
             this.tab_GWOilMistLube.Controls.Add(this.pic_K4_1_0);
             this.tab_GWOilMistLube.Controls.Add(this.pic_K15_6);
             this.tab_GWOilMistLube.Controls.Add(this.pic_K0_6);
-            this.tab_GWOilMistLube.Location = new System.Drawing.Point(4, 46);
+            this.tab_GWOilMistLube.Location = new System.Drawing.Point(4, 67);
             this.tab_GWOilMistLube.Name = "tab_GWOilMistLube";
-            this.tab_GWOilMistLube.Size = new System.Drawing.Size(936, 582);
+            this.tab_GWOilMistLube.Size = new System.Drawing.Size(936, 561);
             this.tab_GWOilMistLube.TabIndex = 64;
             this.tab_GWOilMistLube.Text = "砂輪油霧潤滑";
             this.tab_GWOilMistLube.UseVisualStyleBackColor = true;
@@ -13354,6 +13455,54 @@
             this.tab_Roller.UseVisualStyleBackColor = true;
             this.tab_Roller.Paint += new System.Windows.Forms.PaintEventHandler(this.tab_Paint);
             // 
+            // la_E2807_0
+            // 
+            this.la_E2807_0.BackColor = System.Drawing.Color.Transparent;
+            this.la_E2807_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_E2807_0.ForeColor = System.Drawing.Color.Black;
+            this.la_E2807_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_E2807_0.Location = new System.Drawing.Point(360, 472);
+            this.la_E2807_0.Name = "la_E2807_0";
+            this.la_E2807_0.Size = new System.Drawing.Size(176, 32);
+            this.la_E2807_0.TabIndex = 510;
+            this.la_E2807_0.Tag = "";
+            this.la_E2807_0.Text = "E2807.0(反轉)";
+            this.la_E2807_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_E2807_0
+            // 
+            this.pic_E2807_0.BackColor = System.Drawing.Color.Transparent;
+            this.pic_E2807_0.Image = ((System.Drawing.Image)(resources.GetObject("pic_E2807_0.Image")));
+            this.pic_E2807_0.Location = new System.Drawing.Point(320, 472);
+            this.pic_E2807_0.Name = "pic_E2807_0";
+            this.pic_E2807_0.Size = new System.Drawing.Size(32, 32);
+            this.pic_E2807_0.TabIndex = 509;
+            this.pic_E2807_0.TabStop = false;
+            // 
+            // la_E2807_1
+            // 
+            this.la_E2807_1.BackColor = System.Drawing.Color.Transparent;
+            this.la_E2807_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_E2807_1.ForeColor = System.Drawing.Color.Black;
+            this.la_E2807_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_E2807_1.Location = new System.Drawing.Point(360, 416);
+            this.la_E2807_1.Name = "la_E2807_1";
+            this.la_E2807_1.Size = new System.Drawing.Size(176, 32);
+            this.la_E2807_1.TabIndex = 508;
+            this.la_E2807_1.Tag = "";
+            this.la_E2807_1.Text = "E2807.1(正轉)";
+            this.la_E2807_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pic_E2807_1
+            // 
+            this.pic_E2807_1.BackColor = System.Drawing.Color.Transparent;
+            this.pic_E2807_1.Image = ((System.Drawing.Image)(resources.GetObject("pic_E2807_1.Image")));
+            this.pic_E2807_1.Location = new System.Drawing.Point(320, 416);
+            this.pic_E2807_1.Name = "pic_E2807_1";
+            this.pic_E2807_1.Size = new System.Drawing.Size(32, 32);
+            this.pic_E2807_1.TabIndex = 507;
+            this.pic_E2807_1.TabStop = false;
+            // 
             // la__Y5_6
             // 
             this.la__Y5_6.BackColor = System.Drawing.Color.Transparent;
@@ -13848,9 +13997,9 @@
             this.tab_AirTight.Controls.Add(this.pic_K0_0);
             this.tab_AirTight.Controls.Add(this.pic_X9_5);
             this.tab_AirTight.Controls.Add(this.la_AirTightTitle);
-            this.tab_AirTight.Location = new System.Drawing.Point(4, 46);
+            this.tab_AirTight.Location = new System.Drawing.Point(4, 67);
             this.tab_AirTight.Name = "tab_AirTight";
-            this.tab_AirTight.Size = new System.Drawing.Size(936, 582);
+            this.tab_AirTight.Size = new System.Drawing.Size(936, 561);
             this.tab_AirTight.TabIndex = 70;
             this.tab_AirTight.Text = "氣密檢知";
             this.tab_AirTight.UseVisualStyleBackColor = true;
@@ -14116,25 +14265,12 @@
             // 
             // tab_LinearScale
             // 
-            this.tab_LinearScale.Controls.Add(this.pa_LinearScaleAxis);
+            this.tab_LinearScale.Controls.Add(this.panel1);
+            this.tab_LinearScale.Controls.Add(this.btn_OR_Z);
+            this.tab_LinearScale.Controls.Add(this.btn_OR_X);
             this.tab_LinearScale.Controls.Add(this.la_N1815On);
             this.tab_LinearScale.Controls.Add(this.la_N1815Off);
-            this.tab_LinearScale.Controls.Add(this.la_N2185Desc);
-            this.tab_LinearScale.Controls.Add(this.la_N2185);
-            this.tab_LinearScale.Controls.Add(this.la_N2085Desc);
-            this.tab_LinearScale.Controls.Add(this.la_N2085);
-            this.tab_LinearScale.Controls.Add(this.la_N2084Desc);
-            this.tab_LinearScale.Controls.Add(this.la_N2084);
-            this.tab_LinearScale.Controls.Add(this.la_N2024Desc);
-            this.tab_LinearScale.Controls.Add(this.la_N2024);
-            this.tab_LinearScale.Controls.Add(this.cb_N1815Select);
-            this.tab_LinearScale.Controls.Add(this.la_N1815Desc);
-            this.tab_LinearScale.Controls.Add(this.la_N1815);
             this.tab_LinearScale.Controls.Add(this.la_LinearScaleTitle);
-            this.tab_LinearScale.Controls.Add(this.ucBtn_N2185);
-            this.tab_LinearScale.Controls.Add(this.ucBtn_N2085);
-            this.tab_LinearScale.Controls.Add(this.ucBtn_N2084);
-            this.tab_LinearScale.Controls.Add(this.ucBtn_N2024);
             this.tab_LinearScale.Location = new System.Drawing.Point(4, 67);
             this.tab_LinearScale.Name = "tab_LinearScale";
             this.tab_LinearScale.Size = new System.Drawing.Size(936, 561);
@@ -14143,54 +14279,482 @@
             this.tab_LinearScale.UseVisualStyleBackColor = true;
             this.tab_LinearScale.Paint += new System.Windows.Forms.PaintEventHandler(this.tab_Paint);
             // 
-            // pa_LinearScaleAxis
+            // panel1
             // 
-            this.pa_LinearScaleAxis.BackColor = System.Drawing.Color.Transparent;
-            this.pa_LinearScaleAxis.Controls.Add(this.la_LinearScaleZ);
-            this.pa_LinearScaleAxis.Controls.Add(this.la_LinearScaleX);
-            this.pa_LinearScaleAxis.Controls.Add(this.pic_LinearScaleAxis);
-            this.pa_LinearScaleAxis.Location = new System.Drawing.Point(568, 56);
-            this.pa_LinearScaleAxis.Name = "pa_LinearScaleAxis";
-            this.pa_LinearScaleAxis.Size = new System.Drawing.Size(232, 40);
-            this.pa_LinearScaleAxis.TabIndex = 431;
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.btn_N2185_10);
+            this.panel1.Controls.Add(this.btn_N2185_0);
+            this.panel1.Controls.Add(this.btn_N2085_2);
+            this.panel1.Controls.Add(this.btn_N2085_20);
+            this.panel1.Controls.Add(this.btn_N2024_10000);
+            this.panel1.Controls.Add(this.btn_N2024_12500);
+            this.panel1.Controls.Add(this.btn_N1815ON);
+            this.panel1.Controls.Add(this.btn_N1815OFF);
+            this.panel1.Controls.Add(this.la_N2185Desc);
+            this.panel1.Controls.Add(this.ucBtn_N2185);
+            this.panel1.Controls.Add(this.la_N2185);
+            this.panel1.Controls.Add(this.la_N2085Desc);
+            this.panel1.Controls.Add(this.ucBtn_N2085);
+            this.panel1.Controls.Add(this.la_N2085);
+            this.panel1.Controls.Add(this.la_N2084Desc);
+            this.panel1.Controls.Add(this.ucBtn_N2084);
+            this.panel1.Controls.Add(this.la_N2084);
+            this.panel1.Controls.Add(this.la_N2024Desc);
+            this.panel1.Controls.Add(this.ucBtn_N2024);
+            this.panel1.Controls.Add(this.la_N2024);
+            this.panel1.Controls.Add(this.la_N1815Desc);
+            this.panel1.Controls.Add(this.la_N1815);
+            this.panel1.Location = new System.Drawing.Point(8, 96);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(536, 256);
+            this.panel1.TabIndex = 439;
             // 
-            // la_LinearScaleZ
+            // btn_N2185_10
             // 
-            this.la_LinearScaleZ.BackColor = System.Drawing.Color.Transparent;
-            this.la_LinearScaleZ.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_LinearScaleZ.ForeColor = System.Drawing.Color.Black;
-            this.la_LinearScaleZ.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_LinearScaleZ.Location = new System.Drawing.Point(160, 8);
-            this.la_LinearScaleZ.Name = "la_LinearScaleZ";
-            this.la_LinearScaleZ.Size = new System.Drawing.Size(64, 24);
-            this.la_LinearScaleZ.TabIndex = 433;
-            this.la_LinearScaleZ.Text = "Z 軸";
-            this.la_LinearScaleZ.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_N2185_10.BackColor = System.Drawing.Color.Transparent;
+            this.btn_N2185_10.DisplayText = "10";
+            this.btn_N2185_10.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_N2185_10.ForeColor = System.Drawing.Color.White;
+            this.btn_N2185_10.Image = null;
+            this.btn_N2185_10.Lamp = false;
+            this.btn_N2185_10.LampOnImage = ((System.Drawing.Image)(resources.GetObject("btn_N2185_10.LampOnImage")));
+            this.btn_N2185_10.Location = new System.Drawing.Point(448, 200);
+            this.btn_N2185_10.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("btn_N2185_10.MouseDownImage")));
+            this.btn_N2185_10.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("btn_N2185_10.MouseUpImage")));
+            this.btn_N2185_10.Name = "btn_N2185_10";
+            this.btn_N2185_10.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btn_N2185_10.Size = new System.Drawing.Size(80, 40);
+            this.btn_N2185_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.btn_N2185_10.Switch = false;
+            this.btn_N2185_10.TabIndex = 439;
+            this.btn_N2185_10.TabStop = false;
+            this.btn_N2185_10.Tag = "N2185";
+            this.btn_N2185_10.Click += new System.EventHandler(this.btn_NAddress_Click);
             // 
-            // la_LinearScaleX
+            // btn_N2185_0
             // 
-            this.la_LinearScaleX.BackColor = System.Drawing.Color.Transparent;
-            this.la_LinearScaleX.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_LinearScaleX.ForeColor = System.Drawing.Color.Black;
-            this.la_LinearScaleX.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_LinearScaleX.Location = new System.Drawing.Point(8, 8);
-            this.la_LinearScaleX.Name = "la_LinearScaleX";
-            this.la_LinearScaleX.Size = new System.Drawing.Size(64, 24);
-            this.la_LinearScaleX.TabIndex = 432;
-            this.la_LinearScaleX.Text = "X 軸";
-            this.la_LinearScaleX.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_N2185_0.BackColor = System.Drawing.Color.Transparent;
+            this.btn_N2185_0.DisplayText = "0";
+            this.btn_N2185_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_N2185_0.ForeColor = System.Drawing.Color.White;
+            this.btn_N2185_0.Image = null;
+            this.btn_N2185_0.Lamp = false;
+            this.btn_N2185_0.LampOnImage = ((System.Drawing.Image)(resources.GetObject("btn_N2185_0.LampOnImage")));
+            this.btn_N2185_0.Location = new System.Drawing.Point(360, 200);
+            this.btn_N2185_0.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("btn_N2185_0.MouseDownImage")));
+            this.btn_N2185_0.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("btn_N2185_0.MouseUpImage")));
+            this.btn_N2185_0.Name = "btn_N2185_0";
+            this.btn_N2185_0.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btn_N2185_0.Size = new System.Drawing.Size(80, 40);
+            this.btn_N2185_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.btn_N2185_0.Switch = false;
+            this.btn_N2185_0.TabIndex = 438;
+            this.btn_N2185_0.TabStop = false;
+            this.btn_N2185_0.Tag = "N2185";
+            this.btn_N2185_0.Click += new System.EventHandler(this.btn_NAddress_Click);
             // 
-            // pic_LinearScaleAxis
+            // btn_N2085_2
             // 
-            this.pic_LinearScaleAxis.Image = global::OIG_Option.Properties.Resources.BtnLeft;
-            this.pic_LinearScaleAxis.Location = new System.Drawing.Point(80, 0);
-            this.pic_LinearScaleAxis.Name = "pic_LinearScaleAxis";
-            this.pic_LinearScaleAxis.Size = new System.Drawing.Size(76, 40);
-            this.pic_LinearScaleAxis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pic_LinearScaleAxis.TabIndex = 431;
-            this.pic_LinearScaleAxis.TabStop = false;
-            this.pic_LinearScaleAxis.Tag = "X";
-            this.pic_LinearScaleAxis.Click += new System.EventHandler(this.pic_LinearScaleAxis_Click);
+            this.btn_N2085_2.BackColor = System.Drawing.Color.Transparent;
+            this.btn_N2085_2.DisplayText = "2";
+            this.btn_N2085_2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_N2085_2.ForeColor = System.Drawing.Color.White;
+            this.btn_N2085_2.Image = null;
+            this.btn_N2085_2.Lamp = false;
+            this.btn_N2085_2.LampOnImage = ((System.Drawing.Image)(resources.GetObject("btn_N2085_2.LampOnImage")));
+            this.btn_N2085_2.Location = new System.Drawing.Point(448, 152);
+            this.btn_N2085_2.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("btn_N2085_2.MouseDownImage")));
+            this.btn_N2085_2.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("btn_N2085_2.MouseUpImage")));
+            this.btn_N2085_2.Name = "btn_N2085_2";
+            this.btn_N2085_2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btn_N2085_2.Size = new System.Drawing.Size(80, 40);
+            this.btn_N2085_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.btn_N2085_2.Switch = false;
+            this.btn_N2085_2.TabIndex = 437;
+            this.btn_N2085_2.TabStop = false;
+            this.btn_N2085_2.Tag = "N2085";
+            this.btn_N2085_2.Click += new System.EventHandler(this.btn_NAddress_Click);
+            // 
+            // btn_N2085_20
+            // 
+            this.btn_N2085_20.BackColor = System.Drawing.Color.Transparent;
+            this.btn_N2085_20.DisplayText = "20";
+            this.btn_N2085_20.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_N2085_20.ForeColor = System.Drawing.Color.White;
+            this.btn_N2085_20.Image = null;
+            this.btn_N2085_20.Lamp = false;
+            this.btn_N2085_20.LampOnImage = ((System.Drawing.Image)(resources.GetObject("btn_N2085_20.LampOnImage")));
+            this.btn_N2085_20.Location = new System.Drawing.Point(360, 152);
+            this.btn_N2085_20.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("btn_N2085_20.MouseDownImage")));
+            this.btn_N2085_20.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("btn_N2085_20.MouseUpImage")));
+            this.btn_N2085_20.Name = "btn_N2085_20";
+            this.btn_N2085_20.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btn_N2085_20.Size = new System.Drawing.Size(80, 40);
+            this.btn_N2085_20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.btn_N2085_20.Switch = false;
+            this.btn_N2085_20.TabIndex = 436;
+            this.btn_N2085_20.TabStop = false;
+            this.btn_N2085_20.Tag = "N2085";
+            this.btn_N2085_20.Click += new System.EventHandler(this.btn_NAddress_Click);
+            // 
+            // btn_N2024_10000
+            // 
+            this.btn_N2024_10000.BackColor = System.Drawing.Color.Transparent;
+            this.btn_N2024_10000.DisplayText = "10000";
+            this.btn_N2024_10000.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_N2024_10000.ForeColor = System.Drawing.Color.White;
+            this.btn_N2024_10000.Image = null;
+            this.btn_N2024_10000.Lamp = false;
+            this.btn_N2024_10000.LampOnImage = ((System.Drawing.Image)(resources.GetObject("btn_N2024_10000.LampOnImage")));
+            this.btn_N2024_10000.Location = new System.Drawing.Point(448, 56);
+            this.btn_N2024_10000.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("btn_N2024_10000.MouseDownImage")));
+            this.btn_N2024_10000.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("btn_N2024_10000.MouseUpImage")));
+            this.btn_N2024_10000.Name = "btn_N2024_10000";
+            this.btn_N2024_10000.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btn_N2024_10000.Size = new System.Drawing.Size(80, 40);
+            this.btn_N2024_10000.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.btn_N2024_10000.Switch = false;
+            this.btn_N2024_10000.TabIndex = 435;
+            this.btn_N2024_10000.TabStop = false;
+            this.btn_N2024_10000.Tag = "N2024";
+            this.btn_N2024_10000.Click += new System.EventHandler(this.btn_NAddress_Click);
+            // 
+            // btn_N2024_12500
+            // 
+            this.btn_N2024_12500.BackColor = System.Drawing.Color.Transparent;
+            this.btn_N2024_12500.DisplayText = "12500";
+            this.btn_N2024_12500.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_N2024_12500.ForeColor = System.Drawing.Color.White;
+            this.btn_N2024_12500.Image = null;
+            this.btn_N2024_12500.Lamp = false;
+            this.btn_N2024_12500.LampOnImage = ((System.Drawing.Image)(resources.GetObject("btn_N2024_12500.LampOnImage")));
+            this.btn_N2024_12500.Location = new System.Drawing.Point(360, 56);
+            this.btn_N2024_12500.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("btn_N2024_12500.MouseDownImage")));
+            this.btn_N2024_12500.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("btn_N2024_12500.MouseUpImage")));
+            this.btn_N2024_12500.Name = "btn_N2024_12500";
+            this.btn_N2024_12500.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btn_N2024_12500.Size = new System.Drawing.Size(80, 40);
+            this.btn_N2024_12500.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.btn_N2024_12500.Switch = false;
+            this.btn_N2024_12500.TabIndex = 434;
+            this.btn_N2024_12500.TabStop = false;
+            this.btn_N2024_12500.Tag = "N2024";
+            this.btn_N2024_12500.Click += new System.EventHandler(this.btn_NAddress_Click);
+            // 
+            // btn_N1815ON
+            // 
+            this.btn_N1815ON.BackColor = System.Drawing.Color.Transparent;
+            this.btn_N1815ON.DisplayText = "ON";
+            this.btn_N1815ON.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_N1815ON.ForeColor = System.Drawing.Color.White;
+            this.btn_N1815ON.Image = null;
+            this.btn_N1815ON.Lamp = false;
+            this.btn_N1815ON.LampOnImage = ((System.Drawing.Image)(resources.GetObject("btn_N1815ON.LampOnImage")));
+            this.btn_N1815ON.Location = new System.Drawing.Point(448, 8);
+            this.btn_N1815ON.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("btn_N1815ON.MouseDownImage")));
+            this.btn_N1815ON.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("btn_N1815ON.MouseUpImage")));
+            this.btn_N1815ON.Name = "btn_N1815ON";
+            this.btn_N1815ON.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btn_N1815ON.Size = new System.Drawing.Size(80, 40);
+            this.btn_N1815ON.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.btn_N1815ON.Switch = false;
+            this.btn_N1815ON.TabIndex = 433;
+            this.btn_N1815ON.TabStop = false;
+            this.btn_N1815ON.Tag = "N2024";
+            this.btn_N1815ON.Click += new System.EventHandler(this.btn_N1815Switch_Click);
+            // 
+            // btn_N1815OFF
+            // 
+            this.btn_N1815OFF.BackColor = System.Drawing.Color.Transparent;
+            this.btn_N1815OFF.DisplayText = "OFF";
+            this.btn_N1815OFF.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_N1815OFF.ForeColor = System.Drawing.Color.White;
+            this.btn_N1815OFF.Image = null;
+            this.btn_N1815OFF.Lamp = false;
+            this.btn_N1815OFF.LampOnImage = ((System.Drawing.Image)(resources.GetObject("btn_N1815OFF.LampOnImage")));
+            this.btn_N1815OFF.Location = new System.Drawing.Point(360, 8);
+            this.btn_N1815OFF.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("btn_N1815OFF.MouseDownImage")));
+            this.btn_N1815OFF.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("btn_N1815OFF.MouseUpImage")));
+            this.btn_N1815OFF.Name = "btn_N1815OFF";
+            this.btn_N1815OFF.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btn_N1815OFF.Size = new System.Drawing.Size(80, 40);
+            this.btn_N1815OFF.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.btn_N1815OFF.Switch = false;
+            this.btn_N1815OFF.TabIndex = 432;
+            this.btn_N1815OFF.TabStop = false;
+            this.btn_N1815OFF.Tag = "N2024";
+            this.btn_N1815OFF.Click += new System.EventHandler(this.btn_N1815Switch_Click);
+            // 
+            // la_N2185Desc
+            // 
+            this.la_N2185Desc.BackColor = System.Drawing.Color.Transparent;
+            this.la_N2185Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_N2185Desc.ForeColor = System.Drawing.Color.Black;
+            this.la_N2185Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_N2185Desc.Location = new System.Drawing.Point(8, 216);
+            this.la_N2185Desc.Name = "la_N2185Desc";
+            this.la_N2185Desc.Size = new System.Drawing.Size(168, 24);
+            this.la_N2185Desc.TabIndex = 425;
+            this.la_N2185Desc.Tag = "";
+            this.la_N2185Desc.Text = "位置脈衝變換係數";
+            this.la_N2185Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // ucBtn_N2185
+            // 
+            this.ucBtn_N2185.BackColor = System.Drawing.Color.Transparent;
+            this.ucBtn_N2185.DisplayText = "0";
+            this.ucBtn_N2185.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.ucBtn_N2185.ForeColor = System.Drawing.Color.Black;
+            this.ucBtn_N2185.Image = null;
+            this.ucBtn_N2185.Lamp = false;
+            this.ucBtn_N2185.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2185.LampOnImage")));
+            this.ucBtn_N2185.Location = new System.Drawing.Point(184, 200);
+            this.ucBtn_N2185.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2185.MouseDownImage")));
+            this.ucBtn_N2185.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2185.MouseUpImage")));
+            this.ucBtn_N2185.Name = "ucBtn_N2185";
+            this.ucBtn_N2185.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ucBtn_N2185.Size = new System.Drawing.Size(168, 40);
+            this.ucBtn_N2185.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.ucBtn_N2185.Switch = false;
+            this.ucBtn_N2185.TabIndex = 424;
+            this.ucBtn_N2185.TabStop = false;
+            this.ucBtn_N2185.Tag = "N2185";
+            this.ucBtn_N2185.Click += new System.EventHandler(this.ucBtn_InputData_Click);
+            // 
+            // la_N2185
+            // 
+            this.la_N2185.BackColor = System.Drawing.Color.Transparent;
+            this.la_N2185.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_N2185.ForeColor = System.Drawing.Color.Black;
+            this.la_N2185.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_N2185.Location = new System.Drawing.Point(8, 200);
+            this.la_N2185.Name = "la_N2185";
+            this.la_N2185.Size = new System.Drawing.Size(168, 16);
+            this.la_N2185.TabIndex = 423;
+            this.la_N2185.Tag = "";
+            this.la_N2185.Text = "N2185 PPLS_c";
+            this.la_N2185.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // la_N2085Desc
+            // 
+            this.la_N2085Desc.BackColor = System.Drawing.Color.Transparent;
+            this.la_N2085Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_N2085Desc.ForeColor = System.Drawing.Color.Black;
+            this.la_N2085Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_N2085Desc.Location = new System.Drawing.Point(8, 168);
+            this.la_N2085Desc.Name = "la_N2085Desc";
+            this.la_N2085Desc.Size = new System.Drawing.Size(168, 24);
+            this.la_N2085Desc.TabIndex = 422;
+            this.la_N2085Desc.Tag = "";
+            this.la_N2085Desc.Text = "柔性進給裝置(分母)";
+            this.la_N2085Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // ucBtn_N2085
+            // 
+            this.ucBtn_N2085.BackColor = System.Drawing.Color.Transparent;
+            this.ucBtn_N2085.DisplayText = "0";
+            this.ucBtn_N2085.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.ucBtn_N2085.ForeColor = System.Drawing.Color.Black;
+            this.ucBtn_N2085.Image = null;
+            this.ucBtn_N2085.Lamp = false;
+            this.ucBtn_N2085.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2085.LampOnImage")));
+            this.ucBtn_N2085.Location = new System.Drawing.Point(184, 152);
+            this.ucBtn_N2085.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2085.MouseDownImage")));
+            this.ucBtn_N2085.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2085.MouseUpImage")));
+            this.ucBtn_N2085.Name = "ucBtn_N2085";
+            this.ucBtn_N2085.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ucBtn_N2085.Size = new System.Drawing.Size(168, 40);
+            this.ucBtn_N2085.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.ucBtn_N2085.Switch = false;
+            this.ucBtn_N2085.TabIndex = 421;
+            this.ucBtn_N2085.TabStop = false;
+            this.ucBtn_N2085.Tag = "N2085";
+            this.ucBtn_N2085.Click += new System.EventHandler(this.ucBtn_InputData_Click);
+            // 
+            // la_N2085
+            // 
+            this.la_N2085.BackColor = System.Drawing.Color.Transparent;
+            this.la_N2085.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_N2085.ForeColor = System.Drawing.Color.Black;
+            this.la_N2085.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_N2085.Location = new System.Drawing.Point(8, 152);
+            this.la_N2085.Name = "la_N2085";
+            this.la_N2085.Size = new System.Drawing.Size(168, 16);
+            this.la_N2085.TabIndex = 420;
+            this.la_N2085.Tag = "";
+            this.la_N2085.Text = "N2085 SDMR2";
+            this.la_N2085.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // la_N2084Desc
+            // 
+            this.la_N2084Desc.BackColor = System.Drawing.Color.Transparent;
+            this.la_N2084Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_N2084Desc.ForeColor = System.Drawing.Color.Black;
+            this.la_N2084Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_N2084Desc.Location = new System.Drawing.Point(8, 120);
+            this.la_N2084Desc.Name = "la_N2084Desc";
+            this.la_N2084Desc.Size = new System.Drawing.Size(168, 24);
+            this.la_N2084Desc.TabIndex = 418;
+            this.la_N2084Desc.Tag = "";
+            this.la_N2084Desc.Text = "柔性進給裝置(分子)";
+            this.la_N2084Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // ucBtn_N2084
+            // 
+            this.ucBtn_N2084.BackColor = System.Drawing.Color.Transparent;
+            this.ucBtn_N2084.DisplayText = "0";
+            this.ucBtn_N2084.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.ucBtn_N2084.ForeColor = System.Drawing.Color.Black;
+            this.ucBtn_N2084.Image = null;
+            this.ucBtn_N2084.Lamp = false;
+            this.ucBtn_N2084.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2084.LampOnImage")));
+            this.ucBtn_N2084.Location = new System.Drawing.Point(184, 104);
+            this.ucBtn_N2084.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2084.MouseDownImage")));
+            this.ucBtn_N2084.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2084.MouseUpImage")));
+            this.ucBtn_N2084.Name = "ucBtn_N2084";
+            this.ucBtn_N2084.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ucBtn_N2084.Size = new System.Drawing.Size(168, 40);
+            this.ucBtn_N2084.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.ucBtn_N2084.Switch = false;
+            this.ucBtn_N2084.TabIndex = 417;
+            this.ucBtn_N2084.TabStop = false;
+            this.ucBtn_N2084.Tag = "N2084";
+            this.ucBtn_N2084.Click += new System.EventHandler(this.ucBtn_InputData_Click);
+            // 
+            // la_N2084
+            // 
+            this.la_N2084.BackColor = System.Drawing.Color.Transparent;
+            this.la_N2084.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_N2084.ForeColor = System.Drawing.Color.Black;
+            this.la_N2084.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_N2084.Location = new System.Drawing.Point(8, 104);
+            this.la_N2084.Name = "la_N2084";
+            this.la_N2084.Size = new System.Drawing.Size(168, 16);
+            this.la_N2084.TabIndex = 416;
+            this.la_N2084.Tag = "";
+            this.la_N2084.Text = "N2084 SDMR1";
+            this.la_N2084.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // la_N2024Desc
+            // 
+            this.la_N2024Desc.BackColor = System.Drawing.Color.Transparent;
+            this.la_N2024Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_N2024Desc.ForeColor = System.Drawing.Color.Black;
+            this.la_N2024Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_N2024Desc.Location = new System.Drawing.Point(8, 72);
+            this.la_N2024Desc.Name = "la_N2024Desc";
+            this.la_N2024Desc.Size = new System.Drawing.Size(168, 24);
+            this.la_N2024Desc.TabIndex = 415;
+            this.la_N2024Desc.Tag = "";
+            this.la_N2024Desc.Text = "位置脈衝數";
+            this.la_N2024Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // ucBtn_N2024
+            // 
+            this.ucBtn_N2024.BackColor = System.Drawing.Color.Transparent;
+            this.ucBtn_N2024.DisplayText = "0";
+            this.ucBtn_N2024.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.ucBtn_N2024.ForeColor = System.Drawing.Color.Black;
+            this.ucBtn_N2024.Image = null;
+            this.ucBtn_N2024.Lamp = false;
+            this.ucBtn_N2024.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2024.LampOnImage")));
+            this.ucBtn_N2024.Location = new System.Drawing.Point(184, 56);
+            this.ucBtn_N2024.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2024.MouseDownImage")));
+            this.ucBtn_N2024.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2024.MouseUpImage")));
+            this.ucBtn_N2024.Name = "ucBtn_N2024";
+            this.ucBtn_N2024.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ucBtn_N2024.Size = new System.Drawing.Size(168, 40);
+            this.ucBtn_N2024.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.ucBtn_N2024.Switch = false;
+            this.ucBtn_N2024.TabIndex = 414;
+            this.ucBtn_N2024.TabStop = false;
+            this.ucBtn_N2024.Tag = "N2024";
+            this.ucBtn_N2024.Click += new System.EventHandler(this.ucBtn_InputData_Click);
+            // 
+            // la_N2024
+            // 
+            this.la_N2024.BackColor = System.Drawing.Color.Transparent;
+            this.la_N2024.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_N2024.ForeColor = System.Drawing.Color.Black;
+            this.la_N2024.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_N2024.Location = new System.Drawing.Point(8, 56);
+            this.la_N2024.Name = "la_N2024";
+            this.la_N2024.Size = new System.Drawing.Size(168, 16);
+            this.la_N2024.TabIndex = 413;
+            this.la_N2024.Tag = "";
+            this.la_N2024.Text = "N2024 PPLS";
+            this.la_N2024.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // la_N1815Desc
+            // 
+            this.la_N1815Desc.BackColor = System.Drawing.Color.Transparent;
+            this.la_N1815Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_N1815Desc.ForeColor = System.Drawing.Color.Black;
+            this.la_N1815Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_N1815Desc.Location = new System.Drawing.Point(8, 24);
+            this.la_N1815Desc.Name = "la_N1815Desc";
+            this.la_N1815Desc.Size = new System.Drawing.Size(168, 24);
+            this.la_N1815Desc.TabIndex = 411;
+            this.la_N1815Desc.Text = "光學尺";
+            this.la_N1815Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // la_N1815
+            // 
+            this.la_N1815.BackColor = System.Drawing.Color.Transparent;
+            this.la_N1815.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.la_N1815.ForeColor = System.Drawing.Color.Black;
+            this.la_N1815.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.la_N1815.Location = new System.Drawing.Point(8, 8);
+            this.la_N1815.Name = "la_N1815";
+            this.la_N1815.Size = new System.Drawing.Size(168, 16);
+            this.la_N1815.TabIndex = 410;
+            this.la_N1815.Text = "N1815#1 (OPT)";
+            this.la_N1815.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // btn_OR_Z
+            // 
+            this.btn_OR_Z.BackColor = System.Drawing.Color.Transparent;
+            this.btn_OR_Z.DisplayText = "Z";
+            this.btn_OR_Z.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_OR_Z.ForeColor = System.Drawing.Color.White;
+            this.btn_OR_Z.Image = null;
+            this.btn_OR_Z.Lamp = false;
+            this.btn_OR_Z.LampOnImage = global::OIG_Option.Properties.Resources.Btn_S4_136x60_G;
+            this.btn_OR_Z.Location = new System.Drawing.Point(88, 56);
+            this.btn_OR_Z.MouseDownImage = global::OIG_Option.Properties.Resources.Btn_S4_136x60_BL;
+            this.btn_OR_Z.MouseUpImage = global::OIG_Option.Properties.Resources.Btn_S4_136x60_B;
+            this.btn_OR_Z.Name = "btn_OR_Z";
+            this.btn_OR_Z.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btn_OR_Z.Size = new System.Drawing.Size(80, 40);
+            this.btn_OR_Z.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.btn_OR_Z.Switch = false;
+            this.btn_OR_Z.TabIndex = 438;
+            this.btn_OR_Z.TabStop = false;
+            this.btn_OR_Z.Tag = "";
+            this.btn_OR_Z.Click += new System.EventHandler(this.btn_OR_AxisSelect);
+            // 
+            // btn_OR_X
+            // 
+            this.btn_OR_X.BackColor = System.Drawing.Color.Transparent;
+            this.btn_OR_X.DisplayText = "X";
+            this.btn_OR_X.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_OR_X.ForeColor = System.Drawing.Color.White;
+            this.btn_OR_X.Image = null;
+            this.btn_OR_X.Lamp = true;
+            this.btn_OR_X.LampOnImage = global::OIG_Option.Properties.Resources.Btn_S4_136x60_G;
+            this.btn_OR_X.Location = new System.Drawing.Point(8, 56);
+            this.btn_OR_X.MouseDownImage = global::OIG_Option.Properties.Resources.Btn_S4_136x60_BL;
+            this.btn_OR_X.MouseUpImage = global::OIG_Option.Properties.Resources.Btn_S4_136x60_B;
+            this.btn_OR_X.Name = "btn_OR_X";
+            this.btn_OR_X.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btn_OR_X.Size = new System.Drawing.Size(80, 40);
+            this.btn_OR_X.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
+            this.btn_OR_X.Switch = false;
+            this.btn_OR_X.TabIndex = 437;
+            this.btn_OR_X.TabStop = false;
+            this.btn_OR_X.Tag = "";
+            this.btn_OR_X.Click += new System.EventHandler(this.btn_OR_AxisSelect);
             // 
             // la_N1815On
             // 
@@ -14198,7 +14762,7 @@
             this.la_N1815On.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_N1815On.ForeColor = System.Drawing.Color.Black;
             this.la_N1815On.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_N1815On.Location = new System.Drawing.Point(304, 304);
+            this.la_N1815On.Location = new System.Drawing.Point(304, 368);
             this.la_N1815On.Name = "la_N1815On";
             this.la_N1815On.Size = new System.Drawing.Size(256, 160);
             this.la_N1815On.TabIndex = 427;
@@ -14211,166 +14775,12 @@
             this.la_N1815Off.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.la_N1815Off.ForeColor = System.Drawing.Color.Black;
             this.la_N1815Off.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_N1815Off.Location = new System.Drawing.Point(16, 304);
+            this.la_N1815Off.Location = new System.Drawing.Point(16, 368);
             this.la_N1815Off.Name = "la_N1815Off";
             this.la_N1815Off.Size = new System.Drawing.Size(256, 160);
             this.la_N1815Off.TabIndex = 426;
             this.la_N1815Off.Tag = "";
             this.la_N1815Off.Text = "光學尺通常關閉參數：\r\nN1815#1=0\r\nN2024  =12500\r\nN2084  =1\r\nN2085  =20\r\nN2185  =0";
-            // 
-            // la_N2185Desc
-            // 
-            this.la_N2185Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_N2185Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_N2185Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_N2185Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_N2185Desc.Location = new System.Drawing.Point(376, 248);
-            this.la_N2185Desc.Name = "la_N2185Desc";
-            this.la_N2185Desc.Size = new System.Drawing.Size(184, 24);
-            this.la_N2185Desc.TabIndex = 425;
-            this.la_N2185Desc.Tag = "";
-            this.la_N2185Desc.Text = "位置脈衝變換係數";
-            this.la_N2185Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // la_N2185
-            // 
-            this.la_N2185.BackColor = System.Drawing.Color.Transparent;
-            this.la_N2185.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_N2185.ForeColor = System.Drawing.Color.Black;
-            this.la_N2185.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_N2185.Location = new System.Drawing.Point(8, 248);
-            this.la_N2185.Name = "la_N2185";
-            this.la_N2185.Size = new System.Drawing.Size(176, 24);
-            this.la_N2185.TabIndex = 423;
-            this.la_N2185.Tag = "";
-            this.la_N2185.Text = "N2185 PPLS_c";
-            this.la_N2185.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // la_N2085Desc
-            // 
-            this.la_N2085Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_N2085Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_N2085Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_N2085Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_N2085Desc.Location = new System.Drawing.Point(376, 200);
-            this.la_N2085Desc.Name = "la_N2085Desc";
-            this.la_N2085Desc.Size = new System.Drawing.Size(208, 24);
-            this.la_N2085Desc.TabIndex = 422;
-            this.la_N2085Desc.Tag = "";
-            this.la_N2085Desc.Text = "柔性進給裝置(分母)";
-            this.la_N2085Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // la_N2085
-            // 
-            this.la_N2085.BackColor = System.Drawing.Color.Transparent;
-            this.la_N2085.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_N2085.ForeColor = System.Drawing.Color.Black;
-            this.la_N2085.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_N2085.Location = new System.Drawing.Point(8, 200);
-            this.la_N2085.Name = "la_N2085";
-            this.la_N2085.Size = new System.Drawing.Size(184, 24);
-            this.la_N2085.TabIndex = 420;
-            this.la_N2085.Tag = "";
-            this.la_N2085.Text = "N2085 SDMR2";
-            this.la_N2085.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // la_N2084Desc
-            // 
-            this.la_N2084Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_N2084Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_N2084Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_N2084Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_N2084Desc.Location = new System.Drawing.Point(376, 152);
-            this.la_N2084Desc.Name = "la_N2084Desc";
-            this.la_N2084Desc.Size = new System.Drawing.Size(208, 24);
-            this.la_N2084Desc.TabIndex = 418;
-            this.la_N2084Desc.Tag = "";
-            this.la_N2084Desc.Text = "柔性進給裝置(分子)";
-            this.la_N2084Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // la_N2084
-            // 
-            this.la_N2084.BackColor = System.Drawing.Color.Transparent;
-            this.la_N2084.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_N2084.ForeColor = System.Drawing.Color.Black;
-            this.la_N2084.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_N2084.Location = new System.Drawing.Point(8, 152);
-            this.la_N2084.Name = "la_N2084";
-            this.la_N2084.Size = new System.Drawing.Size(184, 24);
-            this.la_N2084.TabIndex = 416;
-            this.la_N2084.Tag = "";
-            this.la_N2084.Text = "N2084 SDMR1";
-            this.la_N2084.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // la_N2024Desc
-            // 
-            this.la_N2024Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_N2024Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_N2024Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_N2024Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_N2024Desc.Location = new System.Drawing.Point(376, 104);
-            this.la_N2024Desc.Name = "la_N2024Desc";
-            this.la_N2024Desc.Size = new System.Drawing.Size(136, 24);
-            this.la_N2024Desc.TabIndex = 415;
-            this.la_N2024Desc.Tag = "";
-            this.la_N2024Desc.Text = "位置脈衝數";
-            this.la_N2024Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // la_N2024
-            // 
-            this.la_N2024.BackColor = System.Drawing.Color.Transparent;
-            this.la_N2024.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_N2024.ForeColor = System.Drawing.Color.Black;
-            this.la_N2024.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_N2024.Location = new System.Drawing.Point(8, 104);
-            this.la_N2024.Name = "la_N2024";
-            this.la_N2024.Size = new System.Drawing.Size(160, 24);
-            this.la_N2024.TabIndex = 413;
-            this.la_N2024.Tag = "";
-            this.la_N2024.Text = "N2024 PPLS";
-            this.la_N2024.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // cb_N1815Select
-            // 
-            this.cb_N1815Select.BackColor = System.Drawing.SystemColors.Window;
-            this.cb_N1815Select.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cb_N1815Select.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.cb_N1815Select.FormattingEnabled = true;
-            this.cb_N1815Select.Items.AddRange(new object[] {
-            "Off",
-            "On"});
-            this.cb_N1815Select.Location = new System.Drawing.Point(200, 56);
-            this.cb_N1815Select.Name = "cb_N1815Select";
-            this.cb_N1815Select.Size = new System.Drawing.Size(160, 33);
-            this.cb_N1815Select.TabIndex = 412;
-            this.cb_N1815Select.Tag = "1815";
-            this.cb_N1815Select.SelectedIndexChanged += new System.EventHandler(this.cb_ParameterSelect_SelectedIndexChanged);
-            // 
-            // la_N1815Desc
-            // 
-            this.la_N1815Desc.BackColor = System.Drawing.Color.Transparent;
-            this.la_N1815Desc.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_N1815Desc.ForeColor = System.Drawing.Color.Black;
-            this.la_N1815Desc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_N1815Desc.Location = new System.Drawing.Point(376, 64);
-            this.la_N1815Desc.Name = "la_N1815Desc";
-            this.la_N1815Desc.Size = new System.Drawing.Size(160, 24);
-            this.la_N1815Desc.TabIndex = 411;
-            this.la_N1815Desc.Text = "光學尺開啓";
-            this.la_N1815Desc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // la_N1815
-            // 
-            this.la_N1815.BackColor = System.Drawing.Color.Transparent;
-            this.la_N1815.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_N1815.ForeColor = System.Drawing.Color.Black;
-            this.la_N1815.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_N1815.Location = new System.Drawing.Point(8, 64);
-            this.la_N1815.Name = "la_N1815";
-            this.la_N1815.Size = new System.Drawing.Size(168, 24);
-            this.la_N1815.TabIndex = 410;
-            this.la_N1815.Text = "N1815 (OPT)";
-            this.la_N1815.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // la_LinearScaleTitle
             // 
@@ -14384,94 +14794,6 @@
             this.la_LinearScaleTitle.TabIndex = 408;
             this.la_LinearScaleTitle.Text = "光學尺";
             this.la_LinearScaleTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // ucBtn_N2185
-            // 
-            this.ucBtn_N2185.BackColor = System.Drawing.Color.Transparent;
-            this.ucBtn_N2185.DisplayText = "0";
-            this.ucBtn_N2185.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.ucBtn_N2185.ForeColor = System.Drawing.Color.Black;
-            this.ucBtn_N2185.Image = null;
-            this.ucBtn_N2185.Lamp = false;
-            this.ucBtn_N2185.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2185.LampOnImage")));
-            this.ucBtn_N2185.Location = new System.Drawing.Point(200, 240);
-            this.ucBtn_N2185.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2185.MouseDownImage")));
-            this.ucBtn_N2185.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2185.MouseUpImage")));
-            this.ucBtn_N2185.Name = "ucBtn_N2185";
-            this.ucBtn_N2185.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.ucBtn_N2185.Size = new System.Drawing.Size(160, 40);
-            this.ucBtn_N2185.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
-            this.ucBtn_N2185.Switch = false;
-            this.ucBtn_N2185.TabIndex = 424;
-            this.ucBtn_N2185.TabStop = false;
-            this.ucBtn_N2185.Tag = "N2185";
-            this.ucBtn_N2185.Click += new System.EventHandler(this.ucBtn_InputData_Click);
-            // 
-            // ucBtn_N2085
-            // 
-            this.ucBtn_N2085.BackColor = System.Drawing.Color.Transparent;
-            this.ucBtn_N2085.DisplayText = "0";
-            this.ucBtn_N2085.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.ucBtn_N2085.ForeColor = System.Drawing.Color.Black;
-            this.ucBtn_N2085.Image = null;
-            this.ucBtn_N2085.Lamp = false;
-            this.ucBtn_N2085.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2085.LampOnImage")));
-            this.ucBtn_N2085.Location = new System.Drawing.Point(200, 192);
-            this.ucBtn_N2085.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2085.MouseDownImage")));
-            this.ucBtn_N2085.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2085.MouseUpImage")));
-            this.ucBtn_N2085.Name = "ucBtn_N2085";
-            this.ucBtn_N2085.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.ucBtn_N2085.Size = new System.Drawing.Size(160, 40);
-            this.ucBtn_N2085.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
-            this.ucBtn_N2085.Switch = false;
-            this.ucBtn_N2085.TabIndex = 421;
-            this.ucBtn_N2085.TabStop = false;
-            this.ucBtn_N2085.Tag = "N2085";
-            this.ucBtn_N2085.Click += new System.EventHandler(this.ucBtn_InputData_Click);
-            // 
-            // ucBtn_N2084
-            // 
-            this.ucBtn_N2084.BackColor = System.Drawing.Color.Transparent;
-            this.ucBtn_N2084.DisplayText = "0";
-            this.ucBtn_N2084.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.ucBtn_N2084.ForeColor = System.Drawing.Color.Black;
-            this.ucBtn_N2084.Image = null;
-            this.ucBtn_N2084.Lamp = false;
-            this.ucBtn_N2084.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2084.LampOnImage")));
-            this.ucBtn_N2084.Location = new System.Drawing.Point(200, 144);
-            this.ucBtn_N2084.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2084.MouseDownImage")));
-            this.ucBtn_N2084.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2084.MouseUpImage")));
-            this.ucBtn_N2084.Name = "ucBtn_N2084";
-            this.ucBtn_N2084.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.ucBtn_N2084.Size = new System.Drawing.Size(160, 40);
-            this.ucBtn_N2084.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
-            this.ucBtn_N2084.Switch = false;
-            this.ucBtn_N2084.TabIndex = 417;
-            this.ucBtn_N2084.TabStop = false;
-            this.ucBtn_N2084.Tag = "N2084";
-            this.ucBtn_N2084.Click += new System.EventHandler(this.ucBtn_InputData_Click);
-            // 
-            // ucBtn_N2024
-            // 
-            this.ucBtn_N2024.BackColor = System.Drawing.Color.Transparent;
-            this.ucBtn_N2024.DisplayText = "0";
-            this.ucBtn_N2024.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.ucBtn_N2024.ForeColor = System.Drawing.Color.Black;
-            this.ucBtn_N2024.Image = null;
-            this.ucBtn_N2024.Lamp = false;
-            this.ucBtn_N2024.LampOnImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2024.LampOnImage")));
-            this.ucBtn_N2024.Location = new System.Drawing.Point(200, 96);
-            this.ucBtn_N2024.MouseDownImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2024.MouseDownImage")));
-            this.ucBtn_N2024.MouseUpImage = ((System.Drawing.Image)(resources.GetObject("ucBtn_N2024.MouseUpImage")));
-            this.ucBtn_N2024.Name = "ucBtn_N2024";
-            this.ucBtn_N2024.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.ucBtn_N2024.Size = new System.Drawing.Size(160, 40);
-            this.ucBtn_N2024.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Normal;
-            this.ucBtn_N2024.Switch = false;
-            this.ucBtn_N2024.TabIndex = 414;
-            this.ucBtn_N2024.TabStop = false;
-            this.ucBtn_N2024.Tag = "N2024";
-            this.ucBtn_N2024.Click += new System.EventHandler(this.ucBtn_InputData_Click);
             // 
             // tab_Message
             // 
@@ -15429,150 +15751,6 @@
             this.timer2.Interval = 250;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
-            // la_E2807_7
-            // 
-            this.la_E2807_7.BackColor = System.Drawing.Color.Transparent;
-            this.la_E2807_7.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_E2807_7.ForeColor = System.Drawing.Color.Black;
-            this.la_E2807_7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_E2807_7.Location = new System.Drawing.Point(360, 352);
-            this.la_E2807_7.Name = "la_E2807_7";
-            this.la_E2807_7.Size = new System.Drawing.Size(176, 24);
-            this.la_E2807_7.TabIndex = 402;
-            this.la_E2807_7.Tag = "";
-            this.la_E2807_7.Text = "E2807.7燈號";
-            this.la_E2807_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pic_E2807_7
-            // 
-            this.pic_E2807_7.BackColor = System.Drawing.Color.Transparent;
-            this.pic_E2807_7.Image = ((System.Drawing.Image)(resources.GetObject("pic_E2807_7.Image")));
-            this.pic_E2807_7.Location = new System.Drawing.Point(320, 344);
-            this.pic_E2807_7.Name = "pic_E2807_7";
-            this.pic_E2807_7.Size = new System.Drawing.Size(32, 32);
-            this.pic_E2807_7.TabIndex = 401;
-            this.pic_E2807_7.TabStop = false;
-            // 
-            // la_E2807_4
-            // 
-            this.la_E2807_4.BackColor = System.Drawing.Color.Transparent;
-            this.la_E2807_4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_E2807_4.ForeColor = System.Drawing.Color.Black;
-            this.la_E2807_4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_E2807_4.Location = new System.Drawing.Point(352, 192);
-            this.la_E2807_4.Name = "la_E2807_4";
-            this.la_E2807_4.Size = new System.Drawing.Size(176, 32);
-            this.la_E2807_4.TabIndex = 396;
-            this.la_E2807_4.Tag = "";
-            this.la_E2807_4.Text = "E2807.4燈號";
-            this.la_E2807_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pic_E2807_4
-            // 
-            this.pic_E2807_4.BackColor = System.Drawing.Color.Transparent;
-            this.pic_E2807_4.Image = ((System.Drawing.Image)(resources.GetObject("pic_E2807_4.Image")));
-            this.pic_E2807_4.Location = new System.Drawing.Point(312, 192);
-            this.pic_E2807_4.Name = "pic_E2807_4";
-            this.pic_E2807_4.Size = new System.Drawing.Size(32, 32);
-            this.pic_E2807_4.TabIndex = 395;
-            this.pic_E2807_4.TabStop = false;
-            // 
-            // la_E2823_3
-            // 
-            this.la_E2823_3.BackColor = System.Drawing.Color.Transparent;
-            this.la_E2823_3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_E2823_3.ForeColor = System.Drawing.Color.Black;
-            this.la_E2823_3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_E2823_3.Location = new System.Drawing.Point(400, 96);
-            this.la_E2823_3.Name = "la_E2823_3";
-            this.la_E2823_3.Size = new System.Drawing.Size(176, 32);
-            this.la_E2823_3.TabIndex = 398;
-            this.la_E2823_3.Tag = "";
-            this.la_E2823_3.Text = "E2823.3燈號";
-            this.la_E2823_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pic_E2823_3
-            // 
-            this.pic_E2823_3.BackColor = System.Drawing.Color.Transparent;
-            this.pic_E2823_3.Image = ((System.Drawing.Image)(resources.GetObject("pic_E2823_3.Image")));
-            this.pic_E2823_3.Location = new System.Drawing.Point(360, 96);
-            this.pic_E2823_3.Name = "pic_E2823_3";
-            this.pic_E2823_3.Size = new System.Drawing.Size(32, 32);
-            this.pic_E2823_3.TabIndex = 397;
-            this.pic_E2823_3.TabStop = false;
-            // 
-            // la_E2806_5
-            // 
-            this.la_E2806_5.BackColor = System.Drawing.Color.Transparent;
-            this.la_E2806_5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_E2806_5.ForeColor = System.Drawing.Color.Black;
-            this.la_E2806_5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_E2806_5.Location = new System.Drawing.Point(400, 472);
-            this.la_E2806_5.Name = "la_E2806_5";
-            this.la_E2806_5.Size = new System.Drawing.Size(176, 32);
-            this.la_E2806_5.TabIndex = 430;
-            this.la_E2806_5.Tag = "";
-            this.la_E2806_5.Text = "E2806.5燈號";
-            this.la_E2806_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pic_E2806_5
-            // 
-            this.pic_E2806_5.BackColor = System.Drawing.Color.Transparent;
-            this.pic_E2806_5.Image = ((System.Drawing.Image)(resources.GetObject("pic_E2806_5.Image")));
-            this.pic_E2806_5.Location = new System.Drawing.Point(360, 472);
-            this.pic_E2806_5.Name = "pic_E2806_5";
-            this.pic_E2806_5.Size = new System.Drawing.Size(32, 32);
-            this.pic_E2806_5.TabIndex = 429;
-            this.pic_E2806_5.TabStop = false;
-            // 
-            // la_E2807_1
-            // 
-            this.la_E2807_1.BackColor = System.Drawing.Color.Transparent;
-            this.la_E2807_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_E2807_1.ForeColor = System.Drawing.Color.Black;
-            this.la_E2807_1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_E2807_1.Location = new System.Drawing.Point(360, 416);
-            this.la_E2807_1.Name = "la_E2807_1";
-            this.la_E2807_1.Size = new System.Drawing.Size(176, 32);
-            this.la_E2807_1.TabIndex = 508;
-            this.la_E2807_1.Tag = "";
-            this.la_E2807_1.Text = "E2807.1燈號";
-            this.la_E2807_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pic_E2807_1
-            // 
-            this.pic_E2807_1.BackColor = System.Drawing.Color.Transparent;
-            this.pic_E2807_1.Image = ((System.Drawing.Image)(resources.GetObject("pic_E2807_1.Image")));
-            this.pic_E2807_1.Location = new System.Drawing.Point(320, 416);
-            this.pic_E2807_1.Name = "pic_E2807_1";
-            this.pic_E2807_1.Size = new System.Drawing.Size(32, 32);
-            this.pic_E2807_1.TabIndex = 507;
-            this.pic_E2807_1.TabStop = false;
-            // 
-            // la_E2807_0
-            // 
-            this.la_E2807_0.BackColor = System.Drawing.Color.Transparent;
-            this.la_E2807_0.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.la_E2807_0.ForeColor = System.Drawing.Color.Black;
-            this.la_E2807_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.la_E2807_0.Location = new System.Drawing.Point(360, 472);
-            this.la_E2807_0.Name = "la_E2807_0";
-            this.la_E2807_0.Size = new System.Drawing.Size(176, 32);
-            this.la_E2807_0.TabIndex = 510;
-            this.la_E2807_0.Tag = "";
-            this.la_E2807_0.Text = "E2807.0燈號";
-            this.la_E2807_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pic_E2807_0
-            // 
-            this.pic_E2807_0.BackColor = System.Drawing.Color.Transparent;
-            this.pic_E2807_0.Image = ((System.Drawing.Image)(resources.GetObject("pic_E2807_0.Image")));
-            this.pic_E2807_0.Location = new System.Drawing.Point(320, 472);
-            this.pic_E2807_0.Name = "pic_E2807_0";
-            this.pic_E2807_0.Size = new System.Drawing.Size(32, 32);
-            this.pic_E2807_0.TabIndex = 509;
-            this.pic_E2807_0.TabStop = false;
-            // 
             // Fo_Main
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -15728,6 +15906,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_D70_0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K11_0)).EndInit();
             this.tab_Acoustic.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E2807_7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_E6_2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_E7_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_E6_1)).EndInit();
@@ -15738,6 +15917,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_Y3_7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_F122_1)).EndInit();
             this.tab_OilMistCollect.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E2807_4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Y1_4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X2_6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K25_6)).EndInit();
@@ -15760,6 +15940,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_X2_1)).EndInit();
             this.tab_CoolantSystem.ResumeLayout(false);
             this.pa_CoolantSystemIO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E2823_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X6_6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X8_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Y1_5)).EndInit();
@@ -15778,6 +15959,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_K12_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X3_0)).EndInit();
             this.tab_WheelCover.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E2806_5)).EndInit();
             this.pa_WheelCoverIO.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pic_E8_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_E8_0)).EndInit();
@@ -15834,6 +16016,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_K12_5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_K14_6)).EndInit();
             this.tab_Roller.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E2807_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_E2807_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Y5_6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X6_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X6_2)).EndInit();
@@ -15851,8 +16035,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_K10_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_X8_5)).EndInit();
             this.tab_LinearScale.ResumeLayout(false);
-            this.pa_LinearScaleAxis.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pic_LinearScaleAxis)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.tab_Message.ResumeLayout(false);
             this.tab_Message.PerformLayout();
             this.GB_DEV_MsgHis.ResumeLayout(false);
@@ -15875,12 +16058,6 @@
             this.tab_UseUI.PerformLayout();
             this.pa_Bottom.ResumeLayout(false);
             this.pa_ModeSelect.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pic_E2807_7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_E2807_4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_E2823_3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_E2806_5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_E2807_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_E2807_0)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -16437,27 +16614,8 @@
         public System.Windows.Forms.Label la_AirPressureTitle;
         private System.Windows.Forms.PictureBox pic_X8_5;
         private System.Windows.Forms.TabPage tab_LinearScale;
-        private System.Windows.Forms.Panel pa_LinearScaleAxis;
-        private System.Windows.Forms.Label la_LinearScaleZ;
-        private System.Windows.Forms.Label la_LinearScaleX;
-        private System.Windows.Forms.PictureBox pic_LinearScaleAxis;
         private System.Windows.Forms.Label la_N1815On;
         private System.Windows.Forms.Label la_N1815Off;
-        private System.Windows.Forms.Label la_N2185Desc;
-        private Uc_RoundBtn ucBtn_N2185;
-        private System.Windows.Forms.Label la_N2185;
-        private System.Windows.Forms.Label la_N2085Desc;
-        private Uc_RoundBtn ucBtn_N2085;
-        private System.Windows.Forms.Label la_N2085;
-        private System.Windows.Forms.Label la_N2084Desc;
-        private Uc_RoundBtn ucBtn_N2084;
-        private System.Windows.Forms.Label la_N2084;
-        private System.Windows.Forms.Label la_N2024Desc;
-        private Uc_RoundBtn ucBtn_N2024;
-        private System.Windows.Forms.Label la_N2024;
-        private System.Windows.Forms.ComboBox cb_N1815Select;
-        private System.Windows.Forms.Label la_N1815Desc;
-        private System.Windows.Forms.Label la_N1815;
         public System.Windows.Forms.Label la_LinearScaleTitle;
         private System.Windows.Forms.TabPage tab_Message;
         private System.Windows.Forms.Label la_Msg_Help;
@@ -16862,6 +17020,31 @@
         private System.Windows.Forms.PictureBox pic_E2807_0;
         private System.Windows.Forms.Label la_E2807_1;
         private System.Windows.Forms.PictureBox pic_E2807_1;
+        private System.Windows.Forms.Panel panel1;
+        private Uc_RoundBtn btn_N2185_10;
+        private Uc_RoundBtn btn_N2185_0;
+        private Uc_RoundBtn btn_N2085_2;
+        private Uc_RoundBtn btn_N2085_20;
+        private Uc_RoundBtn btn_N2024_10000;
+        private Uc_RoundBtn btn_N2024_12500;
+        private Uc_RoundBtn btn_N1815ON;
+        private Uc_RoundBtn btn_N1815OFF;
+        private System.Windows.Forms.Label la_N2185Desc;
+        private Uc_RoundBtn ucBtn_N2185;
+        private System.Windows.Forms.Label la_N2185;
+        private System.Windows.Forms.Label la_N2085Desc;
+        private Uc_RoundBtn ucBtn_N2085;
+        private System.Windows.Forms.Label la_N2085;
+        private System.Windows.Forms.Label la_N2084Desc;
+        private Uc_RoundBtn ucBtn_N2084;
+        private System.Windows.Forms.Label la_N2084;
+        private System.Windows.Forms.Label la_N2024Desc;
+        private Uc_RoundBtn ucBtn_N2024;
+        private System.Windows.Forms.Label la_N2024;
+        private System.Windows.Forms.Label la_N1815Desc;
+        private System.Windows.Forms.Label la_N1815;
+        private Uc_RoundBtn btn_OR_Z;
+        private Uc_RoundBtn btn_OR_X;
     }
 }
 
